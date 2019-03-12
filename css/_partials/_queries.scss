@@ -1,0 +1,70 @@
+
+/*------------------------------------*\
+	$MEDIA QUERIES
+\*------------------------------------*/
+
+//1280px
+@media screen and (min-width: $bp-xlarge)  {
+
+}
+
+//1080px
+@media screen and (max-width: 1080px)  {
+
+}
+
+//960px
+@media screen and (max-width: $bp-large) {
+	header .site-logo {
+	    display: inline-block;
+	    float: none;
+	}
+}
+
+
+// custom sizes to fix mobiles
+
+
+//750px iphone 6+ landscape
+@media screen and (max-width: 1000px) {
+.wrapper { padding: 0 10px; }
+header { margin: 34px 0 64px; }
+}
+
+//600px
+@media screen and (max-width: 600px) {
+.wrapper { padding: 0 10px; }
+
+.alpha {
+	@include font-rempx(26);
+    text-transform: none;
+    padding-bottom: calc-em(0);
+}
+.beta{
+	@include font-rempx(30);
+	font-weight: 300;
+}
+
+.gamma{
+	@include font-rempx(30);
+	font-weight: 700;
+	margin: 0px 0 54px;
+}
+
+ h1,
+ .h1 {
+ 	@include font-rempx(32);
+ 	padding-top: .2em;
+ 	font-weight: 700;
+ 	margin-bottom: 58px;
+ }
+ h3,
+ .h3 {
+ 	@include font-rempx(24);
+ 	font-weight: 700;
+ 	text-transform: uppercase;
+ 	margin-bottom: 30px;
+ }
+
+
+}

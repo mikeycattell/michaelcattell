@@ -1,0 +1,63 @@
+
+/*------------------------------------*\
+	$TYPE
+\*------------------------------------*/
+
+/*--type variables--*/
+
+
+/* rem sizing function */
+@function findrem($base, $pixel){
+	@return $pixel $base;
+}
+
+@mixin font-rempx ($value) {
+	font-size: findrem($font-size, $value)rem;
+	font-size: #{$value}px;
+}
+
+body{
+	color: $color-black;
+	font-family: $font-primary;
+	font-weight: $font-weight;
+	line-height: 1.5rem;
+}
+
+
+/*--- HEADINGS ---*/
+.alpha {
+	@include font-rempx(40);
+    text-transform: none;
+    padding-bottom: calc-em(0);
+}
+.beta{
+	@include font-rempx(50);
+	font-weight: 300;
+	.greyincluder { @include font-rempx(16); font-weight: 300; color: grey; }
+}
+.gamma{
+	@include font-rempx(40);
+	font-weight: 700;
+	margin: 16px 0 54px;
+}
+.delta{
+	font-weight: 700;
+	@include font-rempx(40);
+	margin-bottom: 0px;
+}
+.epsilon{
+	@include font-rempx(102);
+	margin:0; padding: 0;
+}
+h6,.zeta{
+	@include font-rempx(48);
+	padding:0; margin: 0;
+}
+
+
+
+/*--- LISTS ---*/
+li > ul,
+li > ol{
+	margin-bottom:0;
+}

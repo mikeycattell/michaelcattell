@@ -1,0 +1,67 @@
+---
+layout: index-page
+title: Michael Cattell – A highly experienced Senior interaction designer, UI developer, and team player based in Leeds, UK.
+date: '2018-12-31 19:00:00'
+---
+<h1>Senior interaction designer, UI developer, and team player based in Leeds, UK.</h1>
+
+<h3>WHAT I DO</h3>
+<p class="alpha"> Working alongside heroes in teams and organisations to design and make things that people want to use and can use. I mentor, talk and make terrible jokes.<br>
+<span class="text-small"><a href="work">Come on, just show me the work!</a></span></p>
+<div class="marginbottom--xl"></div>
+
+<div class="grid-six-tenths col">
+  <div class="beta">
+    <div class="marginbottom--l"></div>
+    <p><span class="greyincluder">01.</span> Research</p>
+    <p><span class="greyincluder">02.</span> User Interaction</p>
+    <p><span class="greyincluder">03.</span> Development</p>
+    <p><span class="greyincluder">04.</span> Validation</p>
+  </div>
+  <p>Previous roles, I have: helped as Interaction Designer at DWP Digital on the Report benefit fraud project, led design at British Airways, Argos, ITV, and built plenty at Jet2, Ahoy, Open Path, and Spectrum Brands.</p>
+
+</div>
+
+<div class="grid-four-tenths">
+  <img src="assets/2019--me.jpg">
+</div>
+<div class="grid-three-fourths col">
+  <h2>I have 15 years of experience working with public services, big and small companies and creative agencies.</h2>
+</div>
+
+<div class="marginbottom--xxxl"></div>
+
+{% include work_stripped.html %}
+
+<div class="clearfix"></div>
+  <h3>Things I do:</h3>
+
+  <ol>
+    <li><strong>Let's learn things</strong><br>Join a group of eager learners who want to widen their knowledge of any field they wish (design, development, copywriting etc) with help from myself. This is open to all - irregardless of experience, gender, age or location.</li>
+    <li><strong>Two Dads Do Digital</strong><br>Honest talk from two dads, both based in digital jobs (design and marketing), soap-boxing about what excites, motivates or grinds their gears. Also, about being a parent in a fast world - it’s never easy!</li>
+    
+  </ol>
+</p>
+
+<hr>
+
+<h3>Get in touch and links</h3>
+
+<p>
+  My contact details are <a href="/contact">here</a>.
+</p>
+<p>
+  You can also find me on <a href="https://www.instagram.com/idlesi/">Instagram</a>, <a href="https://speakerdeck.com/idlesi">Speakerdeck</a>, <a href="https://github.com/ermlikeyeah">Github</a>, <a href="https://www.goodreads.com/user/show/4156043-si-wilson">Goodreads</a>, and <a href="https://www.imdb.com/user/ur25681432/ratings">Internet Movie Database</a>.
+</p>
+
+
+<hr>
+
+<h3>Recent posts on my blog</h3>
+  {% for post in site.posts limit: 5 %}
+  <p>
+    <div class="page-meta">{{ post.date | date: "%-d %B %Y" }}</div>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </p>
+  {% endfor %}
+<p><a href="/all-posts" class="more-link">View all blog posts &rarr;</a></p>

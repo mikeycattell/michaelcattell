@@ -1,0 +1,17 @@
+---
+layout: page
+title: Blog
+---
+
+<div class="wrapper">
+
+  <div class="grid-full col">
+  {% for post in site.posts %}
+    <p>
+      <div class="page-meta">{{ post.date |  date: "%-d %B %Y" }}</div>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </p>
+
+    {% endfor %}
+   </div>
+</div>

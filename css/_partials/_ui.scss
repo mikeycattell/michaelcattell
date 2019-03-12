@@ -1,0 +1,268 @@
+/* Ui layout only */
+
+body{ height: 0; background: #fff; color: color-gray-dark; margin: 0;}
+
+.col { display: block; float: left; }
+.wrapper { max-width: 1100px; margin: 0 auto; padding: 0 10px;
+	@extend %clearfix;
+}
+
+.page-content { max-width: 700px; margin: 0 auto; }
+ul li { margin-left: 21px; }
+
+/*--- LINKS ---*/
+
+a,
+a:visited { color: $color-primary; text-decoration: none; word-wrap: break-word; border-bottom: 2px solid #2F75C5; }
+
+a:focus,
+a:active { color: $color-primary; text-decoration: none; }
+
+a:hover { color: #4A89DC!important; border-color: #4A89DC!important; text-decoration: none; }
+
+
+
+header { margin: 64px 0 140px;
+	.site-logo { float: left; font-weight: 700; font-size: 24px; 
+        a { color: #000; text-decoration: none; border: 0;  }
+    }
+    .site-nav-main { font-size: 16px; float: right; display: inline-block;
+        a { font-weight: 700; color: #000; text-decoration: none; border: 0;  margin-left: 16px; 
+        }
+    }
+ }
+
+footer { background: #FAFAFA; margin: 72px 0 0; padding: 48px 0 ; }
+
+header.site-header { margin: 64px 0 0px; }
+
+
+/* shame fixes - we all do it */
+
+.clearfix { content: ""; display: table; clear: both; }
+.col { padding-left: 0; padding-right: 10px; }
+
+
+
+
+/* misc */
+
+.marginbottom--xs { height: 8px; clear: both; }
+.marginbottom--s { height: 16px; clear: both; }
+.marginbottom--m { height: 24px; clear: both; }
+.marginbottom--l { height: 32px; clear: both; }
+.marginbottom--xl { height: 40px; clear: both; }
+.marginbottom--xxl { height: 48px; clear: both; }
+.marginbottom--xxxl { height: 56px; clear: both; }
+
+.fontgrey { color: #F6F6F6; }
+.fontwhite { color: white; }
+
+
+
+.animate_steps1 { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
+.animate_steps2 { -webkit-animation-delay: 1s; animation-delay: 1s;}
+.animate_steps3 { -webkit-animation-delay: 1.5s; animation-delay:  1.5s; }
+.animate_steps4 { -webkit-animation-delay: 2s; animation-delay: 2s ; }
+.animate_steps5 { -webkit-animation-delay: 2.5s; animation-delay: 2.5s ; }
+.animate_steps6 { -webkit-animation-delay: 3s; animation-delay: 3s ; }
+.animate_steps7 { -webkit-animation-delay: 3.5s; animation-delay: 3.5s ; }
+.animate_steps8 { -webkit-animation-delay: 4s; animation-delay: 4s ; }
+
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* Button styling */
+.menu-toggle {
+  display: inline-block;
+  padding: .75em 0px;
+  line-height: 1em;
+  font-size: 1em;
+  color: #333;
+  cursor: pointer;
+}
+
+.menu-toggle:hover,
+#main-menu-checkbox:focus ~ header .menu-toggle {
+  color: #c00;
+  outline: auto;
+  border: 0;
+}
+
+#main-menu-checkbox {
+  position: absolute;
+  left: -100vw; /* get it off the screen */
+}
+
+/*
+ Default styles + Mobile first
+ Offscreen menu style
+*/
+.main-menu {
+  position: absolute;
+  left: -280px;
+  top: 0;
+  height: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+    transition: left 0.3s ease,
+                      box-shadow 0.3s ease;
+    z-index: 999;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 2.5em 0 0;
+  /* Hide shadow w/ -8px while 'closed' */
+  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+          box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  min-height: 100%;
+  width: 280px;
+  background: #fff;
+  float: right;
+}
+
+.main-menu a,
+.main-menu .menu-close {
+  display: block;
+  padding: 6px 15px 26px 0;
+  line-height: 24px;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 0px solid #d6d6d6;
+}
+
+.main-menu li:first-child a {
+  border-top: 0px solid #383838;
+}
+
+.main-menu a:hover,
+.main-menu a:focus,
+.main-menu .menu-close:hover,
+#main-menu-checkbox:focus ~ header .menu-close {
+  background: #333;
+  text-decoration: underline;
+}
+
+.main-menu .menu-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+/*
+ On small devices, allow it to toggle...
+*/
+/*
+ :target for non-JavaScript
+ aria-expanded="true/false" will be for JavaScript
+*/
+#main-menu-checkbox:checked ~ header .main-menu,
+.main-menu[aria-expanded="true"] {
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+#main-menu-checkbox:checked ~ header .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+#main-menu-checkbox:checked ~ header .main-menu ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+/* 
+ We could us `.main-menu:target:after`, but
+ it wouldn't be clickable.
+*/
+#main-menu-checkbox:checked ~ header .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop {
+  position: absolute;
+  display: block;  
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.85);
+  cursor: default;
+}
+
+.fa-times { font-size: 30px; }
+
+@supports (position: fixed) {
+  .main-menu,
+  #main-menu-checkbox:checked ~ header .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop {
+    position: fixed;
+  }
+}
+
+/*
+ Larger screen styling
+ Horizontal menu
+*/
+@media (min-width: 954px) {
+  .menu-toggle,
+  .main-menu .menu-close,
+  #main-menu-checkbox {
+    display: none;
+  }
+  
+  /* Undo positioning of off-canvas menu */
+  .main-menu {
+    position: relative;
+        left: auto;
+        top: auto;
+        height: auto;
+    overflow-y: auto; /* fix dumb MS Edge scrollbar issue */
+  }
+  
+  .main-menu ul {
+    display: flex;
+    
+    /* Undo off-canvas styling */
+    padding: 0;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+  
+  .main-menu a {
+    color: #000;
+    font-weight: 700;
+    border: 0 !important; /* Remove borders from off-canvas styling */
+  }
+  
+  .main-menu a:hover,
+  .main-menu a:focus {
+    background: none; /* Remove background from off-canvas styling */
+    color: #c00;
+  }
+  .main-menu a, .main-menu .menu-close { padding: 6px 15px 0 0; }
+}
