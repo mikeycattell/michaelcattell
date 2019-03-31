@@ -843,6 +843,9 @@ header.site-header {
   padding-left: 0;
   padding-right: 10px; }
 
+.cs--logo {
+  padding-top: 250px; }
+
 /* misc */
 .marginbottom--xs {
   height: 8px;
@@ -1320,7 +1323,9 @@ header.site-header {
   .wrapper {
     padding: 0 10px; }
   header {
-    margin: 34px 0 64px; } }
+    margin: 34px 0 64px; }
+  .cs--logo {
+    padding-top: 50px; } }
 
 @media screen and (max-width: 600px) {
   .wrapper {
