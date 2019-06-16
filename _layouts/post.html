@@ -19,9 +19,9 @@ layout: default-post
 
   <p>
     {% if page.tags %}
-  This post tagged with:<br />
-  {% for tag in page.tags %}
-  		<a href="/tags/#{{ tag }}">{{ tag }}</a>
+  Post tagged with: 
+  {% for tag in page.tags %} <a href="/tags.html/#{{ tag }}">{{ tag }}</a>
+      <br><br>
   {% endfor %}
   {% endif %}
 </p>

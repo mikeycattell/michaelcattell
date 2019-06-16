@@ -7,6 +7,11 @@ title: Posts by tag
 
 
 {% for tag in sortedtags %}
+
+<div class="wrapper">
+
+  <div class="grid-full col">
+
   <p><a name="{{ tag }}"></a><h3>{{ tag }}</h3>
     {% for post in site.tags[tag] %}
     <p>
@@ -15,5 +20,7 @@ title: Posts by tag
     </p>
     {% endfor %}
     </p>
+   </div>
+ </div>
 
 {% endfor %}
