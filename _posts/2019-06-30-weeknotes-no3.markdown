@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weeknotes No.3
-date: '2019-06-30 18:38:00'
+date: '2019-06-30 18:38:00' 
 ---
 Wednesday was a great day - to see all the hard work the team has put in and the users using the process they and we have all worked together on (and it appeared to work)!<br>
 Tough week saying goodbye to my old bud Si, but he's left the team in such a strong state and will be forever appreciated, really great experience working with him. <br>
