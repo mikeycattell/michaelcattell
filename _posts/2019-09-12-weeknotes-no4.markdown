@@ -1,14 +1,9 @@
 ---
 layout: post
 title: Weeknotes No.4
-date: '2019-07-12 11:10:00'
+date: '2019-07-15 11:10:00'
 ---
----
-layout: post
-title: Weeknotes No.4
-date: '2019-07-12 11:10:00'
----
-A really good week where I felt my place was cemented in the team and finally had that “da-da” moent of feeling really valuable and "in". Full of highs - including watching my daughter score a goal on Wednesday which led to daydreaming for the rest of the week for her to make the World Cup Final in 20 years time.
+A really good week where I felt my place was cemented in the team and finally had that “tada” moment of feeling really valuable and "in". Full of highs - including watching my daughter score a goal on Wednesday which led to daydreaming for the rest of the week for her to make the World Cup Final in 20 years time.
 
 <strong>Monday</strong><br>
 Attended a huge team meeting, which spreads across Manchester, London and Leeds, using the biggest tv I’ve ever seen, web cameras and other incredible technology things – which was a little rocky at the start but was great to be part of and really gives the feeling of “one team”.
@@ -39,7 +34,7 @@ Having flexitime is blinking brilliant and being able to actually use it is a hu
 Working together with the content design and user researcher was great – a very good 2 hours of working.
 
 <strong>Difficulties</strong><br>
-Seeing the Design team having issues with knowledge of “what designers do”, this ranges from content, UR as well as interaction designers. I have lived through this before, and will share my history of getting “buy in” from the wider team.
+Seeing the design team having issues with “what do designers do?” outside of the design-community, this ranges from content, UR as well as interaction designers. I have lived through this before, and will share my history of getting “buy in” from the wider team.
 
 <strong>Achievements</strong><br>
 Being the go-to person for design related questions happened this week in the team, and it felt great!
