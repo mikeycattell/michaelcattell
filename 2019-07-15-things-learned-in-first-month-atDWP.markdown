@@ -31,6 +31,6 @@ In the team(s) I am in, this will be easy to do-on-job as there is not a pressur
 
 Design team based: Focusing on my past experience at DWP and Sky Bet, the want to share and educate the value and need of design (and to just assist in understanding of what-we-do) seems to always be required and I am more than happy to help here - be it within a workshop setting or "doing-alongside" the team.
 
-In short - its an interesting environment, but one where I am fully motivated to assist in and become a valued member of the comnmunity and overall team.
+In short - its an interesting and progressive environment, one where I am fully motivated to assist in and become a valued member of the comnmunity and overall team and to really help grow the brand of design and it's value.
 
 If you have any questions about what I'm doing here, or if you are interested in joining the team - I'm available via twitter @mikeycattell or email.
