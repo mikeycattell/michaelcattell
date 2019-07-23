@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Things I’ve learned in my first month at DWP
-date: '2019-07-15 10:30:00'
+date: '2019-07-17 10:30:00'
 ---
 
 On the bus home, I realised it's been a month since my first day - a lot has happened in that time.
@@ -24,13 +24,13 @@ The challenges vary, but as everywhere else it boils down to how do people work 
 
 One thing I noticed upon my first week here was the amount of intelligence that is in each meeting, this blew me away when I took a step back to listen to what people were saying and sharing their experience, this has validated my decision to join and really makes me want to up my game and share more about my (design) opinions whilst hopefully adding value to the team.
 
-**My motivations**
+<h2>My motivations:</h2>
 Squad based: are to work on relationships with stakeholders, work on designing-with-the-team and in the open (loudly), always improving communication skills and finding my place/niche/brand in the team.
 
 In the team(s) I am in, this will be easy to do-on-job as there is not a pressure to know the answers or deliver constantly.
 
 Design team based: Focusing on my past experience at DWP and Sky Bet, the want to share and educate the value and need of design (and to just assist in understanding of what-we-do) seems to always be required and I am more than happy to help here - be it within a workshop setting or "doing-alongside" the team.
 
-In short - its an interesting and progressive environment, one where I am fully motivated to assist in and become a valued member of the comnmunity and overall team and to really help grow the brand of design and it's value.
+In short - its an interesting and progressive environment, one where I am fully motivated to assist in and become a valued member of the community and overall team and to really help grow the brand of design and it's value.
 
-If you have any questions about what I'm doing here, or if you are interested in joining the team - I'm available via twitter @mikeycattell or email.
+If you have any questions about what I'm doing here, or if you are interested in joining the team - I'm available via twitter <a href="https://twitter.com/mikeycattell" title="ask me on twitter">@mikeycattell</a> or <a href="/contact.html" title="get in touch">get in touch</a>!
