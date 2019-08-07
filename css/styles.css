@@ -786,6 +786,9 @@ body {
 ul li {
   margin-left: 21px; }
 
+ul.posts {
+  margin-left: 0px; }
+
 /*--- LINKS ---*/
 a,
 a:visited {
