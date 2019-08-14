@@ -4,11 +4,10 @@ title: Weeknotes No.7
 date: '2019-08-07 19:00:00'
 ---
 Wednesday was an eye-opening experience (as most UR sessions are), which changed everything for me, and really had notched my passion to "getting things done right" to another level.
-Also, during sprint planning - we allocated time for design work (sharing design and UR findings shows this approach works!).
 
 <strong>Monday</strong><br>
 Workshop session for roadmap planning - vision setting, goal driven and reminding the team what the point of the pilot is (not scale driven but whether we are doign it right).
-Pre-planning meeting - design work tasks a plenty! Lets go!
+Pre-planning meeting - design work tasks a plenty, what a difference working alongside the team makes! Lets go!
 
 <strong>Tuesday</strong><br>
 User testing a very early version of a "calc", a very busy process to get to the end - will be reviewing my notes (whilst chatting to the user) and presenting back to the team what I believe needs to be done - in a cheap and timely manner.<br>
@@ -25,7 +24,7 @@ Think these tweets explain it more:
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">The biggest difference (work wise) to other positions I’ve worked in - today I won’t be giving feedback on the product, but the service. <br>It’s taken me getting here to realise the product is such a small (but so valuable) detail, the service includes everything and everyone.</p>&mdash; Mikey Cattell (@mikeycattell) <a href="https://twitter.com/mikeycattell/status/1156833178038034432?ref_src=twsrc%5Etfw">August 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Splitting the two has allowed me to get more into “who is this going to touch”, not just those with computers, but (for example) workers, the strain of dealing face to face, time for calls, emotional support etc.<br><br>To fix this is a great task, but when it’s done - ooofff 🔥👌👍😍</p>&mdash; Mikey Cattell (@mikeycattell) <a href="https://twitter.com/mikeycattell/status/1156833802456641537?ref_src=twsrc%5Etfw">August 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<br>
 <strong>Thursday</strong><br>
 Morning de-brief on the findings from yesterday, the team has escalated the findings and I'm excited for the team to fix these issues, and also grateful as I know the end-users will really appreciate the support and feeling of "being heard".
 
@@ -42,6 +41,7 @@ Wednesday was the best / most interesting User Research session I've ever been p
 Back to Wednesday, it is always great to be reminded that I am part of designing a service, not just a product. This is why I joined, I wanted to design more than just things on a screen, and that is most certainly my role here!
 
 <strong>Difficulties</strong><br>
-
+Back to Wednesday again, it was so tough seeing the users struggle with the "unseen" part of the service, but knowing we will fix it is a good feeling.
 
 <strong>Achievements</strong><br>
+Leading on from last week, and my <a href="https://michaelcattell.com/2019/08/04/having-a-wobble.html" title="read my previous post about my wobble">previous post</a>, this week was so different - having the team watch the users in action, and hear our feedback has changed the complete dynamic and I could not be more proud of this situation (and the team).
