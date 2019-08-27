@@ -8,30 +8,30 @@ body{ height: 0; background: #fff; color: color-gray-dark; margin: 0;}
 }
 
 .page-content { max-width: 700px; margin: 0 auto; }
-ul li { margin-left: 21px; }
+ul li { margin-left: 5px; }
 
-ul.posts { margin-left: 0px; }
+ul { margin-left: 18px; }
 
 
 
 /*--- LINKS ---*/
 
 a,
-a:visited { color: $color-primary; text-decoration: none; word-wrap: break-word; border-bottom: 2px solid #2F75C5; }
+a:visited { color: $color-primary; text-decoration: none; word-wrap: break-word; border-bottom: 2px solid #0A1186; }
 
 a:focus,
 a:active { color: $color-primary; text-decoration: none; }
 
-a:hover { color: #4A89DC!important; border-color: #4A89DC!important; text-decoration: none; }
+a:hover { color: #5459AD!important; border-color: #5459AD!important; text-decoration: none; }
 
 
 
-header { margin: 64px 0 140px;
-	.site-logo { float: left; font-weight: 700; font-size: 24px; 
+header { margin: 64px 0 80px;
+	.site-logo { float: left; font-weight: 700; font-size: 24px;
         a { color: #000; text-decoration: none; border: 0;  }
     }
     .site-nav-main { font-size: 16px; float: right; display: inline-block;
-        a { font-weight: 700; color: #000; text-decoration: none; border: 0;  margin-left: 16px; 
+        a { font-weight: 700; color: #000; text-decoration: none; border: 0;  margin-left: 16px;
         }
     }
  }
@@ -62,7 +62,7 @@ header.site-header { margin: 64px 0 0px; }
 .fontgrey { color: #F6F6F6; }
 .fontwhite { color: white; }
 
-
+.post-link { margin-bottom: 16px; }
 
 .animate_steps1 { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
 .animate_steps2 { -webkit-animation-delay: 1s; animation-delay: 1s;}
@@ -195,14 +195,14 @@ header.site-header { margin: 64px 0 0px; }
   z-index: 1000;
 }
 
-/* 
+/*
  We could us `.main-menu:target:after`, but
  it wouldn't be clickable.
 */
 #main-menu-checkbox:checked ~ header .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop {
   position: absolute;
-  display: block;  
+  display: block;
   content: "";
   left: 0;
   top: 0;
@@ -234,7 +234,7 @@ header.site-header { margin: 64px 0 0px; }
   #main-menu-checkbox {
     display: none;
   }
-  
+
   /* Undo positioning of off-canvas menu */
   .main-menu {
     position: relative;
@@ -243,10 +243,10 @@ header.site-header { margin: 64px 0 0px; }
         height: auto;
     overflow-y: auto; /* fix dumb MS Edge scrollbar issue */
   }
-  
+
   .main-menu ul {
     display: flex;
-    
+
     /* Undo off-canvas styling */
     padding: 0;
     -webkit-box-shadow: none;
@@ -256,13 +256,13 @@ header.site-header { margin: 64px 0 0px; }
     width: auto;
     background: none;
   }
-  
+
   .main-menu a {
     color: #000;
     font-weight: 700;
     border: 0 !important; /* Remove borders from off-canvas styling */
   }
-  
+
   .main-menu a:hover,
   .main-menu a:focus {
     background: none; /* Remove background from off-canvas styling */

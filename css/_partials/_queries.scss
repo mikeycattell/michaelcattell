@@ -37,6 +37,18 @@ header { margin: 34px 0 64px; }
 @media screen and (max-width: 600px) {
 .wrapper { padding: 0 10px; }
 
+.ralph {
+	margin-top: -140px;
+	margin-left: 0;
+	margin-bottom: 60px;
+	@include font-rempx(46);
+}
+.robyn {
+	margin-top: 0;
+	margin-left: 0px;
+	margin-bottom: 60px;
+	@include font-rempx(46);
+}
 .alpha {
 	@include font-rempx(26);
     text-transform: none;
