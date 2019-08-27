@@ -3,11 +3,12 @@ layout: post
 title: Weeknotes No.9
 date: '2019-08-20 18:00:00'
 ---
-The team feels so different since the product has gone live, we are presenting more and designing together around a table (this includes all of U.C. Leeds).<br>
+The team feels so different since the product has gone live, we are presenting more - designing together around a table (this includes all of U.C. Leeds).<br>
 Also, design / user needs have taken a top seat at the table, first to be thought by P.Os and others – interesting change for the team, one they really seem to be enjoying 👍.
 
 <strong>Monday</strong><br>
-Usual morning stand up with Universial Credit designers (but with huge technology fails (human led obvious.. maybe I led it.. maybe..)).<br>
+Usual morning stand up with Universial Credit designers (but with huge technology fails (human led obvious.. maybe I led it.. maybe..).<br>
+
 Afternoon session with "my other team", doing a roadmap - loads of exciting stuff to work on over the next period. I certainly wont be moaning of being not busy!
 
 <strong>Tuesday</strong><br>
