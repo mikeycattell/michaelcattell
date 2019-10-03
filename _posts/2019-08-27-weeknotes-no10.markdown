@@ -8,10 +8,9 @@ Not an average week.
 
 <strong>Monday</strong><br>
 Morning routine starts with a Design stand up with the wider team, aims of the week are:<br>
-- rebuild prototype
-- plan scenarios to assist with testing
-- Plan a hypothesis board and possible whiteboard for tickets (design exclusive)
-- Sit down with content designer to discuss some much requested design work.
+- rebuild prototype (including scenarios to assist with testing)
+- plan a hypothesis board and possible whiteboard for tickets
+- sit down with the content designer to discuss some much requested design work.
 
 Later on in the day we have a workshop, running through the ideas for the next period of the year (P8) - coming up with ideas that we want to all concentrate on (pushing towards the idea that helps all teams and squads have the shared aim of all being UCD).
 
