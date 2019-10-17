@@ -5,9 +5,78 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Oct 2019 22:46:25 +0100</pubDate>
-    <lastBuildDate>Tue, 08 Oct 2019 22:46:25 +0100</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2019 08:43:01 +0100</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2019 08:43:01 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Weeknotes No.17</title>
+        <description>&lt;p&gt;Sad week, losing a really strong and clever Delivery Manager but he has given a lot of education to the team which we shall keep using and take us forward.
+&lt;br /&gt;&lt;br /&gt;
+Really enjoyed this week again, loads of “doing” and team working.
+We’ve really worked well together, a healthy discussion on taking the service forward and a good understanding of what each role does. It’s less about stepping on toes, as more to understanding what-we-do.
+&lt;br /&gt;
+Lovely stuff!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
+Stand-ups a plenty, standard Monday.
+Running through initial “edit user” information page, following on from the team’s design session with the B.A and content design to sense check.
+Upon running through, it did not really fit the service needs, this is exactly the design feedback I require and ways of working to improve myself and more importantly, the user’s service experience.&lt;/p&gt;
+
+&lt;p&gt;The afternoon was spent sketching user flows, and going through what patterns suit this page. Was great to do this, as initial planning is my favourite task of the design process!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Quiet day today, running through the prototype and sketching up user flows to help the team understand the issues of what we initially planned.&lt;/p&gt;
+
+&lt;p&gt;Always the way - you run away from a design workshop thinking you have all the answers, get to your desk and find out the questions do not align with the answers!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+Early kick-off meeting - running through all the content feedback and design patterns check. Loads of little minor amends, but will add so much to the user experience - quick wins with huge value.&lt;/p&gt;
+
+&lt;p&gt;Finally - after 4 months of waiting… i’ve picked up all of my hardware to be a fully-fledged DWP worker!&lt;br /&gt;
+I CAN SEE MY PAYSLIPS EASILY!&lt;br /&gt;
+This pick up of hardware did mean a 2 hour tutorial on how to use the Surface Pro, which I’m maybe a tad late to learn this as its basically a windows machine - BUT parts of the meeting were about how to use the internal system which I 100% need to learn!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+ The bus ran late - standard, so soon as I arrived it was Sprint Planning, but this team is so smooth now and we are in the days of bug fixing and automation - the planning is done in half the time.
+&lt;br /&gt;&lt;br /&gt;
+As if coincidence, the Delivery Manager’s last week here, he has been a breath of fresh air - he has controlled the room during retros etc, and also provided a level of trust that is often overlooked as a DM. A role that is often missed is the role of keeping the team as happy as possible - whether it be work-wise or team personality clashes.. he has managed to do that very well.
+&lt;br /&gt;&lt;br /&gt;
+Be hugely missed, but I did get his locker - so… win some lose some.
+&lt;br /&gt;&lt;br /&gt;
+Last hour of the day - ran through the prototype with the content designer (Izzy), and we nailed it - we landed the big one! Did a very simple sketch of the user journey, Izzy changed one thing and saved a wasted page.
+&lt;br /&gt;&lt;br /&gt;
+The power of doing good content eh?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+As normal, quiet in the office.
+Stand up to confirm the prototype is ready to be written up properly in tickets on Jira (the developers know what’s coming from the previous meeting), will be doing a run-through Monday or Tuesday.&lt;/p&gt;
+
+&lt;p&gt;Great way to end the day by finishing the sprint task, and having many more lined up!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
+Realising you are wrong, and willing to fix it from other people’s ideas.
+This is a secret power that all designers should have, many people over the years have crossed my work out and come up with something much more clever - DWP has this in spades and something I try to promote and get everyone thinking!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
+How powerful is good content on a page?&lt;br /&gt;
+It saved me trying to mangle a user-flow into a longer journey, a simple phase from Izzy and the page vastly improved and cut down so much more work for both design, dev and more importantly - the user.&lt;br /&gt;
+Great content makes my job so so much easier - value content more!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
+Understanding services is tough - there is not an easy way to get “it”, but have time and confidence to ask the easy or hard questions makes my job a lot easier and a lot more comfortable. This is a huge credit to the team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
+As a team - we did a thing that will be a great time saver for the users, AND they get what they wanted!&lt;br /&gt;
+So many wins, from designing as a team to making the users happy, to avoiding user risk.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 Oct 2019 19:56:00 +0100</pubDate>
+        <link>http://localhost:4000/2019/10/14/weeknotes-no17.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/14/weeknotes-no17.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Perfecting the pitch</title>
@@ -578,45 +647,6 @@ Not work related - but I worked Flexi-time on Friday afternoon, and had the best
         <pubDate>Tue, 27 Aug 2019 18:00:00 +0100</pubDate>
         <link>http://localhost:4000/2019/08/27/weeknotes-no10.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/08/27/weeknotes-no10.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Be a troublemaker</title>
-        <description>&lt;p&gt;Ever since I can remember, I’ve always had an opinion, the unwritten benefit of having cockney parents means I’m very ok to communicate my disapproval or if I disagree with everything.&lt;br /&gt;
-I class this as a skill, a gift - the ability to have the confidence and comfort of speaking my thoughts and challenging on what I believe to be wrong or right.&lt;/p&gt;
-
-&lt;p&gt;In all honestly, this confidence has not always been there, this happened and evolved over time - learning when to speak, when to listen and when to support.&lt;/p&gt;
-
-&lt;p&gt;Getting to this point meant breaking it all down into simple chunks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When to listen:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;If there is a skill I always teach, it’s this one. &lt;/p&gt;
-
-&lt;blockquote&gt;Just stop talking.&lt;/blockquote&gt;
-
-&lt;p&gt;During my time at Sky Bet, it was important that I listened as much as possible to people who were not designers, letting them have the power of the room, empowering them to have opinions on something they don’t have much knowledge on and allowing the sense of comfort in the room.&lt;br /&gt;
-This (right) approach means fantastic decisions can be made by the non-designers who are just-as creative - which is where I always want the teams I work in to be, and do everything in my skillset to get them there.
-Getting this trust is not an easy task, you need to be a different type of designer, one that is not precious about design, one that is approachable and more importantly one that educates. &lt;br /&gt;Personally opinion alert: this skillset splits up the good designers to the brilliant designers.&lt;br /&gt;&lt;br /&gt;
-Here at DWP, it’s no different - the need to hear the SME’s, or PM’s, BA’s, PTO’s (I made that last one up) is so important to learn what the actual problem is and to put distance between the problem and the solution.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How did I/we get the team to this point?&lt;/strong&gt;&lt;br /&gt;
-I have found so many techniques; giving each person a sharpie and a handful of post its is a big step for many designers, at first only a handful will speak and the rest will resort to writing it down - but eventually, a domino effect will happen and before you know it everyone is speaking, challenging and finding solutions that a single designer would never have thought of.&lt;/p&gt;
-
-&lt;p&gt;Some rules to this:&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;I have never &quot;picked on&quot; the quietest person in the room - this is not a fair approach and its unfair to assume they have anything to add to the meeting (or want to).&lt;/li&gt;
-	&lt;li&gt;I have never told anyone to stop talking - unless they have spoken over others or are going off the script.&lt;/li&gt;
-	&lt;li&gt;I have never started a workshop or meeting without putting down &lt;em&gt;room-rules&lt;/em&gt;, things like take turns to talk or (depending on numbers) hands up, write everything down, don't be a dick (work this one correctly to the tone of the room!), you have to stress its a safe-place - once you have simple rules in place - everything should and will flow better.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Support:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Aug 2019 08:22:00 +0100</pubDate>
-        <link>http://localhost:4000/2019/08/25/be-a-troublemaker.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/08/25/be-a-troublemaker.html</guid>
         
         
       </item>
