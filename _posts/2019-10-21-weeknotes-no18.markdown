@@ -52,7 +52,7 @@ Morning used to dial into the morning stand up with the team - worked really wel
 Preparation for the afternoon's meeting, running through the team's requirements of a User Researcher (we are running a team without one) with the Lead UR of my department.
 Meeting went so well, really liked her opinion and approach and certainly feel supported in our next steps!
 
-My aim next week is to forge a working relationship with the team in London, and hopefully share work and get their answers (if you know me.. you'll know I believe in "if the work has done before.. dont re-invent the wheel".
+My aim next week is to forge a working relationship with the team in London, and hopefully share work and get their answers (if you know me.. you'll know I believe in "if the work has done before.. dont re-invent the wheel").
 
 <strong>Good things</strong><br>
 Finishing the prototype and everyone being on board with it proved that the process we have decided on (so far) works, and works well. It led from user feedback, hard questions of "is this the best thing we can do" to "I'm unsure about this design" to "lets whack this into a prototype!" to finally everyone agreeing its good to go.
