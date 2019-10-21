@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Michael Cattell
+email: hello@michaelcattell.com
+description: > # this means to ignore newlines until "baseurl:"
+  Mikey Cattell - A highly experienced Senior interaction designer, UI developer, and team player based in Leeds, UK.
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /:title
+permalink: /:title/
+
+url: "https://www.michaelcattell.com/" # the base hostname & protocol for your site
+
+# Accounts elsewhere usernames to link to
+twitter_username: mikeycattell
+linkedin_username: michaelcattell
+instagram_username: mikeycattell
+github_username:  mikeycattell
+
+
+# Build settings
+markdown: kramdown
+
+# Gems
+# gems: [jekyll-paginate]
