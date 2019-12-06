@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ego or Self Esteem?
-date: '2019-08-25 08:22:00'
+date: '2019-10-24 21:20:00'
 ---
 I use to be ok describing myself as “having a big ego”, it felt it was the right description to share how I felt, and it’s taken a good number of years to realise it’s not ego, it’s self-esteem.
 
@@ -33,14 +33,16 @@ I’ve mentored for the past 10 years, and line managed for vast amounts of my c
 Combating this mentality is tough, if you can manage to differentiate the two, you can teach it forward.
 
 I break it down to these two (hopefully simple) points:
-Ego is a comparison tool - you compare yourself to them and either justifying your growth via someone else’s failure or your ability to get the praise you need.
+
+<strong>Ego is a comparison tool</strong> - you compare yourself to them and either justifying your growth via someone else’s failure or your ability to get the praise you need.<br>
 Simple comments such as “I launched a business and sold out in days” is a statement you should be proud of, but it’s also a comparison statement.
 
-Self-esteem is also a comparison tool, but so different, it compares yourself to yourself. It compares you to a previous milestone “this time last year I wanted to start a business, well I did it” or
+
+<strong>Self-esteem is also a comparison tool, but so different,</strong> it compares yourself to yourself. It compares you to a previous milestone “this time last year I wanted to start a business, well I did it” or
 “I started a business and I can’t believe it compared to where I was last year”.
 
 The difference is huge and quite obvious. Having a competitive edge against yourself is far easier to track, and it’s 100% honest and more importantly - a lot healthier.
 
 If you find yourself unsure which side you are on - try a day of writing up “what you did” in bullets, and see which points stand out and what the feeling was behind them. Was it a positive “thing” that built up everyone else or yourself, or did it affect others in a negative way?
 
-Let me know if this post was useful by getting in touch <a href="">@mikeycattell</a>.
+Let me know if this post was useful by getting in touch <a href="https://twitter.com/mikeycattell" title="follow me on twitter at mikeycattell">@mikeycattell</a>.
