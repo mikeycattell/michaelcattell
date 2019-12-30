@@ -36,6 +36,8 @@ header { margin: 34px 0 64px; }
 //600px
 @media screen and (max-width: 600px) {
 .wrapper { padding: 0 10px; }
+header.site-header { margin: 0 0 0px; }
+
 
 .ralph {
 	margin-top: -140px;

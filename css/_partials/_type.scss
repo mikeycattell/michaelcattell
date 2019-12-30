@@ -31,10 +31,11 @@ body{
     padding-bottom: calc-em(0);
 }
 .ralph {
-	margin-top: -380px;
-	margin-left: 207px;
+	margin-top: -0;
+	margin-left: 0;
 	margin-bottom: 60px;
-	@include font-rempx(96);
+	@include font-rempx(72);
+	font-weight: bold;
 }
 .robyn {
 	margin-top: 0;
