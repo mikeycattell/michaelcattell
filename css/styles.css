@@ -299,11 +299,12 @@ body {
   padding-bottom: 0em; }
 
 .ralph {
-  margin-top: -380px;
-  margin-left: 207px;
+  margin-top: -0;
+  margin-left: 0;
   margin-bottom: 60px;
-  font-size: 96 24px rem;
-  font-size: 96px; }
+  font-size: 72 24px rem;
+  font-size: 72px;
+  font-weight: bold; }
 
 .robyn {
   margin-top: 0;
@@ -1364,6 +1365,8 @@ header.site-header {
 @media screen and (max-width: 600px) {
   .wrapper {
     padding: 0 10px; }
+  header.site-header {
+    margin: 0 0 0px; }
   .ralph {
     margin-top: -140px;
     margin-left: 0;

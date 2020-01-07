@@ -5,9 +5,39 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Nov 2019 22:12:03 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Nov 2019 22:12:03 +0000</lastBuildDate>
+    <pubDate>Mon, 30 Dec 2019 10:03:16 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Dec 2019 10:03:16 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Weeknotes No.20 - the missing weeks</title>
+        <description>&lt;p&gt;It’s been a while since I last wrote, I took Purdah as a chance to recharge my batteries, read over my past notes and see where I was, where I am and where I wish to go and do a 2019 review.&lt;/p&gt;
+
+&lt;p&gt;It’s been a wild one, over the year my daughter turned 4, my wife upped her business to another level and I changed jobs.&lt;/p&gt;
+
+&lt;p&gt;Work:
+In May, I decided to leave Sky Bet - quite possibly one of my favourite places of work (when Perm) to move to another favourite place of work - Department for Work and Pensions (when Contracting), I expected the change of workplace to really challenge me and push me to my limits.&lt;/p&gt;
+
+&lt;p&gt;I certainly wasn’t disappointed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Daughter Update:&lt;/strong&gt;
+2019 has been a whacky year, watching my daughter grow up into a strong(er), indepedant person who has her own ideas, sayings and jokes whilst being so eager to learn and listen.
+Every week, she does something which inspires me to push myself further, either its her asking a question about “why am i grumpy after work?”, or “why do I need to leave the house so much?” to her managing to learn something which seems impossible at the start - but she still carries on and keeps going. Even if she gets upset, she tries again and again.&lt;/p&gt;
+
+&lt;p&gt;Having a child has changed me&lt;/p&gt;
+
+&lt;p&gt;The positives feedback I received in Sky Bet I took with me, involving:
+speaking out more (confidently) about work,
+supporting colleagues,
+share design workings,
+work together to gain a process we all buy into to,&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Nov 2019 21:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2019/11/05/weeknotes-no20-the-missing-weeks.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/11/05/weeknotes-no20-the-missing-weeks.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.19</title>
@@ -580,67 +610,6 @@ I honestly would love to hear how you have changed and what you said to yourself
         <pubDate>Sun, 22 Sep 2019 12:04:00 +0100</pubDate>
         <link>http://localhost:4000/2019/09/22/breaking-confidence.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/09/22/breaking-confidence.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.13</title>
-        <description>&lt;p&gt;A really heavy week of meetings - planning for the future, and being open and transparent as possible.&lt;br /&gt;
-I enjoy these type of weeks, everyone wanting to improve (as I do), and this means only one thing - motivation, which is brilliant.
-&lt;br /&gt;&lt;br /&gt;
-I don’t believe there is a lot to do - improving communications is key, and I fully believe this would of happened organically, but having these meetings means it’ll happen quicker and be more open and share responsibility.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-First thing is a pre-planning where we run through what we expect/want in the next sprint.&lt;br /&gt;
-Heavily discussed was the previously broken-communication issue amongst one project, the best ways of working and going forward.&lt;br /&gt;
-I fully believe no one wants to be in this situation, and with the support of everyone we can learn a lot from this and will. We have a very strong team of people - one im very proud to be amongst, and I don’t doubt for a second that the reasons for doing the work were for the right reasons, we just didn’t let them know the “proper” process of doing this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-9am meeting (without coffee) was a open table meeting with “team two” to discuss the best ways of working. It’s impressive that this was instigated by non-designers and their need for a smooth process and also their trust in trying out something that might be wrong is inspiring.&lt;br /&gt;
-Two boards together - one is current “flight” board and on the left side is tickets “in prep” - which can be design, bugs etc - tickets to work on to be ready for “whatever sprint in the future”.&lt;br /&gt;
-The output will be a constant “check in”, talking throughout the process to see if everyone is on-board with the design process.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Seems to make sense - will be interesting to work this way, as it feels it could really make design a talking point during stand-up.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-Stand up in the morning where we get straight into testing the design area of the board - seemed to be really nice to talk about design and allowed others to have a say. More of this, please!
-&lt;br /&gt;&lt;br /&gt;
-A full day of sprint reviews, retros, and planning - for the retro I HAD to mention how I really love how the chair move (designers sitting with good developers and good QAs) and how it will work out (and already showing signs of it being the best decision).
-&lt;br /&gt;
-Also, today is Show and Tell, since joining DWP, these have improved, but this week was the best one I’ve attended - it was clear with a great direction with good questions and even better answers.
-&lt;br /&gt;
-Quick note: discussions on prototype future - should we keep doing them etc, a good decision but one that will have to be cleared up eventually (but not a great rush at the moment).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
-Another sprint planning session, but this time with the “team two” team - plenty to work on for the future and a concentration on improving things for the user “life improvements”. Really excited to work on these things - as I know from speaking to the users directly they will love the soon-to-be-done fixes.
-&lt;br /&gt;&lt;br /&gt;
-In the afternoon, 1:1 catch up with one of two line manager, always good to catch up and provide updates whilst getting feedback on improving it for the week after.
-&lt;br /&gt;
-Followed by a leaving-do for a special person who was one of the two User Researchers in the team I worked in. A really funny and good person who helped support me during my early days.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-Morning - Sprint retro. Great to run through these again - honest feedback, loads of good conversations on taking the team further and it’s completely open.
-Retro’s like this remind me of how important they are, facilitated well and working with a team that is good at communicating and comfortable knowing whatever is said in the room is for the good of the team and more importantly - is a safe room.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
-Having a team as open as the two I’m in, makes me feel really excited for the future. Nothing can’t be said (within reason), and it feels like we are all going in the right direction.
-&lt;br /&gt;&lt;br /&gt;
-I also want to give a shout out to the PO and DM calling a “ways of working” meeting, we spend 1 hour 30 minutes to discuss how can we work as a design team better (including Devs, BAs, QAs etc) - this happened, went well and I’m VERY excited by this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
-How great is a place of work when the team wants to be better? Every sprint we strive to be better than the last - it not only makes us better as a team but it drags me along and makes me chomp at the bit to be better.&lt;br /&gt;THIS is amazing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
-Finding time to work. Every two weeks the week includes a day that is pure meetings - sometimes its busy and other times its a great reminder of the work we’ve done. I must remember that it’s actually a good thing to enjoy the end-of-sprint moment, showing off our work, celebrating all work done and getting together in a room to, as mentioned before improve and cheer each other on!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
-I had to think about my past experience to discuss how I wish our design-process to be, and I didn’t use any of it - instead of making the team work together and discuss how they want to work with the design team then working back.
-I love getting the answer by including everyone in it - I’m not at my best working silo, so getting everyone involved is good.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Sep 2019 21:08:00 +0100</pubDate>
-        <link>http://localhost:4000/2019/09/16/weeknotes-no13.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/16/weeknotes-no13.html</guid>
         
         
       </item>
