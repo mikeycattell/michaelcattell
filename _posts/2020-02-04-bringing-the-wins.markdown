@@ -1,73 +1,36 @@
 ---
 layout: post
-title: Celebrating the wins
-date: '2020-02-04 21:00:00'
+title: Giving the power back
+date: '2020-02-25 21:00:00'
 ---
-Ask yourself - when did you last celebrate a win?
+I sat in a meeting, in fact I’ve sat in many meetings where it’s been said 
+“Right, that’s decided.. and you’ll design that later” and I’ve been ok with it, I did design it later and it did succeeded.
 
-I don’t mean your favourite sports team winning, I don’t mean when you decide you’re having a takeaway tonight, I mean when you’ve achieved something, maybe when your squad/team has launched something or when a loved one achieved something special.
+It garnered the figures they needed, it ticked the boxes and I delivered something good.
 
-In the past couple of years, I’ve noticed a trend, it’s pretty daunting – I don’t see or hear the wins.
+Something good, but not something great.
+It answered the “now” problem, it did what they needed, it answered the issues for the next 3 months but a year later it was outdated and not fit for purpose.
 
-Since working alongside my wife - assisting in the web/marketing content of both the <a href="https://www.etsy.com/uk/shop/bobbinandbumblebaby" title="check bobbin and bumble's shop on etsy">Etsy shop and <a href="https://www.etsy.com/uk/shop/bobbinandbumblebaby" title="check bobbin and bumble's website">website</a>, before I got near any work I had to dig into my personal rule book and set some rules.
+<strong>So I did well, what’s the problem?</strong>
 
-<strong>Why?</strong>
+I didn’t answer the problem, it was the thing I see so often - “the conveyer belt of design”, it was passed down and I was expected to deliver the creative juice.
 
-Before we joined forces, Emma was aiming for the stars, she wanted success - she's been doing this since 2015 and she has been very successful - since 2015 (December to be exact), she has run her own company, been a full time mother - she has somehow managed to do all of this in the same 24 hours that I went to work, came home, put my daughter to bed and moan I didn't have time to watch football.
+I see this happen so many times, private and public services - a designer holds a key to the mystery box of design and that approach, has put us in this space that we don’t want to be in.
+We disappear into that “yes” job, not early enough to say no, not early enough to do creative thinking or worse - miss the product strategy conversations and that key co-design sessions are what makes a product and team tick.
 
-<strong>Sounds great doesn't it?</strong>
+<strong>Design is complex, but we’ve made design a mystery, where there is no mystery.</strong>
 
-Not really, now our daughter is at school Emma wants more success, she wants her products to rush off the electronic shelves and be sold out in hours instead of days or weeks.
-This disappointment could lead to days of un-motivation, lack of great ideas or worse - closing the company down and giving in.
+Design is a team sport, UX is everyone’s job, no one wants to deliver a bad service or experience - along the way there a lot of gatekeepers, and design is one of them, but to be a silo key holder is anti co-design.
 
-So what did we change? What difference could we make to this process, to the business and to her and my success?
+Opening the room gives you more voices, more choices, more opportunities.
 
-We simply made some rules:
+This is scary for most designers, some are precious about design, some are just scared if feedback, some think non-designers should be designing, whether it’s a service map, or wireframes or even straight to hi-res mocks, we need to give back, we need to allow others in, and in return we must be involved in other disciplines. 
+Imagine sharing the burden and weight of designing something special, a clear brief, clear boundaries and impressively no one questioning your design when/if you insist on the big firework”show and tell” presentation of your majestic work.
 
-We made goals<br>
-We spelled out the wins<br>
-We called out the failures.
+Rolling back to my example, I remember it like yesterday, it’s a reminder tool that I use often when telling the price of co-design, I also know a certain PM I worked with who will also share this terrible tale of silo work which lead to nothing, a shot, a stamp of a pretty visual but not much substance.
 
-<strong>What did we do? </strong>
+<strong>So what did we change next time I can imagine you shouting at the screen?</strong>
 
-Agreeing on mini goals:<br>
-It's worth reminding yourself - setting goals, especially big goals is all about getting what we want, but if we set goals that are too large we are talking about the far future - you do need to set these, but sometimes you can loose heart if you do not achieve these quickly. Smaller goals, mini goals are easier to set, quicker to land and even better - quicker to learn from.
+We talked, we spent time together to find the real problem, the real thing THEY - the user, the stakeholder wanted - a problem / opportunity statement. We ran workshops, we planned roadmaps, we got brains in a room and made such brilliant magic we enabled a dream to become reality and that is when REAL design happens.
 
-Setting goals is great, it helps set out the landscape - expectations, direction and the truth.<br>
-To set goals you need to think about: launch day, 1st week, 2nd week, 1 month, 3 months to 6 months and so on. What do you want to achieve in those?<br>
-Emma and I decided on setting goals for just the launch, 1st week and 1 month - that way we could quickly change direction if needed.
-
-Launch was the toughest to set - during this process I had to share my learnings and best ways of working - these included being as simple as possible, using the RAG rating system (a personal favourite) and just being open about what we want to achieve or find out.
-
-It's as basic as (not in any order):<br>
-- agree on logo<br>
-- set launch date<br>
-- research competitors<br>
-- finalise designs and export<br>
-- discuss with the manufacturer about processing designs<br>
-- update all social media accounts with new branding<br>
-
-We used Google sheets so we both could access and amend, this helped Emma keep focus, and work through a list at speed - whilst waiting on one thing she could action the next.
-
-I won't discuss too much on how to set goals (that’s potentially another post), but I also set goals to start a habit, like "post to Instagram every day", "research keywords for *insert product* - 1 product per week", "spend an hour per week reviewing stats on Etsy and website" and finally "celebrate your first sale with a treat!".
-
-
-<strong>Celebrate the wins:</strong>
-
-Feeding on from the goals we set - we needed to celebrate the wins, Emma has never done this before (where as I celebrate everything, as I know the knock-on effect of it) - every "done" was a moment, a huge moment for her.
-
-For example, when she sent her first order to the manufacturer, we celebrated with a meal, this meant a lot of things, it meant she had signed off her designs, she trusted someone with her designs, she was ready to start selling. It didn't need to be as big as this, but just something to announce "you did this, and you did it well".
-
-Personally, I make sure the team celebrates the good, and sometimes the bad. I tend to call out the winners during Retros (however good a Retro is, I don't always use this to announce people who did good things as its also a moment where we are saying what went wrong with a time limit), so maybe it can be during a stand-up, or the answer to "has anyone got anything else to add?" in another meeting - either way its nice to call someone out and let them know we have noticed their effort.
-
-<strong>Final thoughts:</strong>
-
-Dream big and get those small wins.<br>
-
-If I could write this down on everyone's desk and remind them of this every hour I would.
-
-Since working with Emma, and doing a lot of back-ground hunting, researching and digging into the data I could get my hands on - I've realised that success is not linked to good luck - obviously that can play a part in it, but it's a lot down to the effort and how well you allocate time - working out what are the quick wins, the big wins and the expensive possible-might-work are key to a successful launch and first couple of months.
-
-It's always a learning curve, but having your work planned out with value and then celebrating when completion of the bigger or tricky items has led to keeping us motivated.
-
-Basically, be kind to yourself when you are working - notice when you have a win and celebrate yourself, small wins are all part of the plan for the "big" win.
+So, I challenge you to include as many into your process as possible and see what happens, remove the secretive cycle and allow others to pick up a pen and scribble, they might just surprise you.
