@@ -1,0 +1,31 @@
+<section>
+    <div class="wrapper">
+        <div class="grid-full">
+            <h3 class="emma">Blog posts, social accounts and projects.</h3>
+        </div>
+        <div class="grid-half">
+            <h4 class="mikey">RECENT POSTS</h4>
+            <ul class="blogposts">
+                {% for post in site.posts limit: 5 %}
+                <li>
+                    <p><span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">- {{ post.title }}</a></p>
+                </li>
+                {% endfor %}
+            </ul>
+            <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
+        </div>
+
+        <div class="grid-half">
+            <h4 class="mikey">WHERE TO FIND ME</h4>
+            <p>Dribbble:<br><a href="">/mikeycattell</a></p>
+            <p>LinkedIn:<br><a href="">/mikeycattell</a></p>
+            <p>Instagram:<br><a href="">/mikeycattell</a></p>
+        </div>
+
+        <div class="grid-full">
+            <h4 class="mikey">WHAT ELSE I'M WORKING ON</h4>
+            <p>Bobbin and Bumble<br><a href="">/www.bobbinandbumble.com</a></p>
+        </div>
+    </div>
+</section>

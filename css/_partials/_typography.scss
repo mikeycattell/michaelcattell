@@ -124,50 +124,7 @@ dt {
 }
 
 
-/**
- * Heading styling for h1 through h6 elements.
- * Heading class lets you use one heading type for semantics, but style it as another heading type.
- */
 
- h1, h2, h3, h4, h5, h6 {
- 	line-height: 1.2;
- 	font-weight: normal;
- 	margin-bottom: 1em;
- 	padding-top: 1em;
- 	word-wrap: break-word;
- }
-
- h1,
- .h1 {
- 	@include font-rempx(54);
- 	padding-top: .5em;
- 	font-weight: 700;
- 	margin-bottom: 88px;
- }
-
- h2,
- .h2 {
- 	@include font-rempx(32);
- 	font-weight: 500;
- }
-
- h3,
- .h3 {
- 	@include font-rempx(24);
- 	font-weight: 700;
- 	text-transform: uppercase;
- 	margin-bottom: 62px;
- }
-
- h4, h5, h6,
- .h4, .h5, .h6 {
- 	font-size: calc-em(15px);
- }
-
- h4,
- .h4 {
- 	text-transform: uppercase;
- }
 
 /**
  * Lines, Quotes and Emphasis

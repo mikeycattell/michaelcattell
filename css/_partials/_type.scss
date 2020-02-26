@@ -31,47 +31,95 @@ body{
     padding-bottom: calc-em(0);
 }
 .ralph {
-	margin-top: -0;
+	margin-top: 0;
 	margin-left: 0;
 	margin-bottom: 60px;
-	@include font-rempx(72);
-	font-weight: bold;
+	@include font-rempx(114);
+	line-height: 118px;
+	z-index: 2;
+	font-weight: normal;
+	position: relative;
 }
 .robyn {
 	margin-top: 0;
 	margin-left: 0px;
 	margin-bottom: 60px;
-	@include font-rempx(96);
-	text-align: right;
+	@include font-rempx(144);
+	line-height: 148px;
 }
-.beta{
-	@include font-rempx(50);
-	font-weight: 300;
-	.greyincluder { @include font-rempx(16); font-weight: 300; color: grey; }
-}
-.gamma{
+.emma {
+	margin-top: 0;
+	margin-left: 0px;
+	margin-bottom: 34px;
 	@include font-rempx(40);
-	font-weight: 700;
-	margin: 16px 0 54px;
+	line-height: 50px;
+	font-family: 'sourcebold';
 }
-.delta{
-	font-weight: 700;
-	@include font-rempx(40);
-	margin-bottom: 0px;
+.mikey {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 16px;
+	@include font-rempx(22);
+	line-height: 30px;
+	font-family: 'sourcebold';	
 }
-.epsilon{
-	@include font-rempx(102);
-	margin:0; padding: 0;
+.subheader--home {
+	font-size: 48px; margin-bottom: 0px; padding-bottom: 0;
 }
-h6,.zeta{
-	@include font-rempx(48);
-	padding:0; margin: 0;
-}
+
+h1, h2, h3, h4, h5, h6 {
+ 	font-weight: normal;
+ 	margin-bottom: 1em;
+ 	word-wrap: break-word;
+ }
+
+ h1,
+ .h1 {
+ 	 	
+ }
+
+ h2,
+ .h2 {
+ 	font-size: 32px;
+ }
+
+ h3,
+ .h3 {
+ 	font-size: 20px;
+ }
+
+ h4, h5, h6,
+ .h4, .h5, .h6 {
+ 	font-size: 15px;
+ }
+
+ h4,
+ .h4 {
+ 	text-transform: uppercase;
+ }
 
 .font32 {  @include font-rempx(32); }
 .font24 {  @include font-rempx(24); }
 
 .page-meta {  @include font-rempx(18); color: #777; }
+
+@font-face {
+    font-family: 'sourcebold';
+    src: url('../assets/fonts/SourceSansPro-Bold.woff2') format('woff2'),
+        url('../assets/fonts/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sourcereg';
+    src: url('../assets/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 /*--- LISTS ---*/

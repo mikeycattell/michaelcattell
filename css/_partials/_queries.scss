@@ -8,9 +8,16 @@
 
 }
 
-//1080px
-@media screen and (max-width: 1080px)  {
+//over970
+@media screen and (min-width: 970px)  {
+	.hidefordesktop { display: none; }	
+}
 
+//under970
+@media screen and (max-width: 970px)  {
+	.hideformobile, .header-socials { display: none; }
+	.hidefordesktop { display: block; }
+	.site-header { margin: 22px 0 20px!important; }
 }
 
 //960px
@@ -43,13 +50,16 @@ header.site-header { margin: 0 0 0px; }
 	margin-top: -50px;
 	margin-left: 0;
 	margin-bottom: 60px;
-	@include font-rempx(46);
+	@include font-rempx(54);
+	line-height: 63px;
 }
 .robyn {
 	margin-top: 0;
 	margin-left: 0px;
 	margin-bottom: 60px;
-	@include font-rempx(46);
+	@include font-rempx(67);
+	line-height: 73px;
+
 }
 .alpha {
 	@include font-rempx(26);
@@ -66,6 +76,8 @@ header.site-header { margin: 0 0 0px; }
 	font-weight: 700;
 	margin: 0px 0 54px;
 }
+.subheader--home
+ {font-size: 32px; margin-bottom: 1em;}
 
  h1,
  .h1 {
@@ -74,13 +86,7 @@ header.site-header { margin: 0 0 0px; }
  	font-weight: 700;
  	margin-bottom: 58px;
  }
- h3,
- .h3 {
- 	@include font-rempx(24);
- 	font-weight: 700;
- 	text-transform: uppercase;
- 	margin-bottom: 30px;
- }
+ 
 
 
 }

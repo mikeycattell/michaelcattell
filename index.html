@@ -4,91 +4,274 @@ title: Michael Cattell – A highly experienced Senior interaction designer, UI 
 date: '2019-22-08 19:00:00'
 ---
 
-<h1 class="ralph">Hello! I’m Mikey👋. I help create impactful websites and services for people.</h1>
+<div class="marginbottom--xxxl"></div>
+<div class="grey-background"></div>
 
-<div class="grid-three-fourths col offset-fifth">
-    <p>I am a Senior interaction designer, UI developer, and team player. <br>Working alongside my heroes at Department for Work and Pensions, helping everyone have an easier life by providing a simple way of using online and offline services.</p>
-    <p>I mentor, write, talk and make terrible jokes.</p>
+<div class="wrapper">
+    <div class="grid-ninety">
+        <p class="subheader--home">Hello! I’m Mikey 👋.</p>
+        <h1 class="ralph" style="">I help create impactful services and websites for people.</h1>
+    </div>
 </div>
 
-<div class="grid-three-fourths col offset-fifth">
-    <br>
-    <p><a href="about.html" title="read more about me on my about page">More about me</a></p>
-    <p><a href="work.html" title="see my work by clicking here">See my work</a></p>
-    <br>
-</div>
+<section>
+    <div class="wrapper">
+        <div class="grid-ninety">
+            <p>I am an experienced designer and design thinker who thrives on building relationships, solving design problems, clarifying the design teams’ vision, defining and improving culture and visualising the future</p>
+
+            <p>I draw on whiteboards, sketch out service maps, <a href="work.html">create designs</a>, <a href="work.html">code</a>, mentor, <a href="blog.html">write</a>, talk and make terrible jokes.</p>
+
+        </div>
+    </div>
+</section>
 
 <div class="clearfix"></div>
 
-<div class="grid-half col">
-    <img src="assets/2019--home--me.jpg">
-</div>
+<section style="width: 100%; margin: 40px 0 40px; display: inline-block;">
+    <div class="index-sections">
+        
+        <div class="collections">
+            <div class="collections--single wow fadeIn">
+                <div>
+                    <a href="super6-2020.html" title="click here to view more about super 6"><img src="../assets/super6-home.png">
+                        <div class="category-button">
+                            <h3><a href="super6-2020.html" title="click here to view more about super 6">Sky Sports Super 6</a></h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                <div class="collections--single wow fadeIn" data-wow-delay="0.5s">
+                    <div>
+                        <a href="russellhobbs-2020.html"><img src="../assets/russellhobbs-home.png">
+                            <div class="category-button">
+                                <h3><a href="russellhobbs-2020.html">Russell Hobbs</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="collections--single wow fadeIn" data-wow-delay="1s">
+                    <div>
+                        <a href="benefitfraud.html"><img src="../assets/govuk-home.png">
+                            <div class="category-button">
+                                <h3><a href="benefitfraud.html">GOV.UK</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="collections--single wow fadeIn" data-wow-delay="1.5s">
+                    <div>
+                        <a href="fantasyfootball-2020.html"><img src="../assets/fantasyfootball-home.png">
+                            <div class="category-button">
+                                <h3><a href="antasyfootball-2020.html">Sky Sports Fantasy Football</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+</section>
 
-<div class="grid-half col">
-    <p>In previous roles, I have worked with:</p>
-    <img src="assets/2019--home--logos.jpg">
-</div>
+<div class="clearfix"></div>
+
+<section>
+    <div class="wrapper">
+        <div class="grid-half">
+            <h3 class="emma">Main Skills.</h3>
+            <ul>
+                <li>I’m an experienced service and interaction designer</li>
+                <li>I deliver critical projects on-time and within budget</li>
+                <li>I can oversee a team of designers, using techniques like coaching or mentoring to allow natural growth of skills and confidence</li>
+                <li>I know how to implement brand and creative strategy across digital products and marketing</li>
+                <li>I can help support service plans within discovery to launch</li>
+                <li>I have a history of growing knowledge and generating buy-in of the design vision and strategy across all teams and stakeholders</li>
+                <li>A long career in innovation</li>
+            </ul>
+        </div>
+        <div class="grid-half">
+            <h3 class="emma">Past Work.</h3>
+            <ul>
+                <li>Instigated a design process at Sky Bet and lead the team through growth and big changes</li>
+                <li>Led design to push Sky Sports Super 6 to top of the iPhone download charts</li>
+                <li>Lead designer and front-end developer at Premier Food Safety</li>
+                <li>Helped the team at Jet2 to re-design Jet2.com and Jet2holidays</li>
+                <li>Brought into many leading agencies to act as design lead on multiple projects</li>
+                <li>Previous experience include projects for Department for Work and Pensions, Remington, Jet2.com, British Airways, Argos, Regatta amongst others</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 <div class="marginbottom--xl"></div>
 
-<!--
-<h2>Recent posts<span style="font-size: 18px">asdasd</span></h2>
+{% include blogandsocial.html %}
 
-<div class="grid-three-fourths col offset-fifth">
-    <h3>Recent posts on my blog</h3>
-    <ul>
-    {% for post in site.posts limit: 2 %}
-    <li>
-        <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-        <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-    </li>
-    {% endfor %}
-    </ul>
-    <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
-</div>
+{% include whoworkedwith.html %}       
+
+<style>
 
 
 
+    .home-piece:nth-child(1) { width: 19%; margin-top: 40px; float: left; margin-right: 40px; }
+    .home-piece:nth-child(2) { width: 26%; float: left; margin-right: 40px; margin-top: 10px; }
+    .home-piece:nth-child(3) { width: 20%; float: left; margin-right: 40px;margin-top: 50px; }
+    .home-piece:nth-child(4) { width: 25%; float: left; }
+
+    @media screen and (max-width: 650px) {
+        #front-4 #work-grid {
+            width: 100%;
+            margin: 3rem auto;
+        }
+        #front-4 .work-item {
+            width: 33.33%;
+        }
+        #front-4 .work-item:last-of-type {
+            margin: 0 auto;
+        }
+
+    }
 
 
-<div class="grid-two-thirds col offset-third">
-    <p class="font24" style="margin-bottom: 80px;">Designing in the open and making things better at <strong>Department for Work and Pensions</strong> in Leeds, UK.</p>
-</div>
+    .green-circle-wrapper {
+        position: absolute;
+        left: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 1100px;
+        height: 100%;
+        z-index: 1;
+    }
+    .green-circle {
+        left: auto;
+        top: -110px;
+        right: -12%;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 100%;
+        background-color: #ecf5ee;
+    }
+    .green-circle, .grid-container, .grid-container.content.connect-page {
+        position: relative;
+    }
 
-<div class="grid-six-tenths col offset-fifth">
-    <p class="font32"> Working alongside heroes in teams and organisations to design and make things that people want to use and can use. I mentor, talk and make terrible jokes.</p>
-</div>
-<div class="marginbottom--xl"></div>
+    .grey-background {
+        position: absolute;
+        left: auto;
+        top: 140%;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 90%;
+        height: 170%;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        background-color: #F2F2F2;
+    }
+
+    section { z-index: 2; position: relative; }
 
 
-</div>
-<img src="assets/2019--home--wide.png">
 
--->
+    .collections {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5px;
+      padding: 0px 55px 0;
+  }
 
-<div class="grid-three-fourths col offset-fifth">
-    <h3>Recent posts on my blog</h3>
-    <ul>
-    {% for post in site.posts limit: 5 %}
-    <li>
-        <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-        <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-    </li>
-    {% endfor %}
-    </ul>
-    <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
-</div>
+  .collections--single>div {
+      margin: 25px;
+  }
 
-<div class="marginbottom--xl"></div>
+  .collections--single>div h3, .h3 {
+    margin-top: 16px;
+    font-size: 20px;
+    font-family: sourcereg;
+}
 
-<div class="grid-three-fourths col offset-fifth">
-    <p class="font24" style="margin-top: 80px;margin-bottom: 20px;">In previous roles, I have:</p>
-    <ul>
-        <li>help lead design and develop high quality services and websites for DWP, Sky Bet, Sky, Remington, Jet2.com, British Airways, Argos, Regatta</li>
-        <li>lead workshops and facilitate the design process.</li>
-        <li>work with senior stakeholders, product owners, and developers to explore complex design solutions and to maintain relationships with design</li>
-        <li>pitching or presenting to stakeholders or future clients, advising and providing solutions to their needs</li>
-        <li>oversee designers, assisting in growth of skills and instill motivation to drive forward innovative</li>
-        <li>be an active leader internally to instigate a design community</li>
-    </ul>
+.shopify-section--bordered>.Section--spacingNormal {
+  padding: 0px 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 
-</div>
+.collections--single>div>a>img
+{ vertical-align: middle; }
+
+
+
+
+.main-content {
+  padding-top: 30px;
+}
+.index-sections .shopify-section {
+    margin-top: 0px;
+}
+
+
+/*------------------------------------*\
+  $MEDIA QUERIES
+  \*------------------------------------*/
+  @media screen and (max-width: 2500px) {
+      .collections {
+        padding: 0 0px 0;
+    }
+
+
+    .collections--single:nth-child(1) { width: 18%; margin-top: 40px; } 
+    .collections--single:nth-child(2) { width: 32%;  margin-top: 10px; }
+    .collections--single:nth-child(3) { width: 24%; margin-top: 50px; } 
+    .collections--single:nth-child(4) { width: 26%;  }   
+
+}
+
+@media screen and (max-width: 640px) {
+  .collections {
+    padding: 0 0px 0;
+}
+.collections--single {
+    width: 50%;
+}
+
+.collections--single:nth-child(1) { width: 50%; margin-top: 0; }
+.collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
+.collections--single:nth-child(3) { width: 50%; margin-top: 0; }
+.collections--single:nth-child(4) { width: 50%;  }    
+.collections--single>div {
+    margin: 20px;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .main-content {
+    padding-top: 10px;
+}
+
+
+
+}
+@media screen and (min-width: 1008px) {
+    .shopify-section--bordered>.Section--spacingNormal {
+      padding: 20px 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .grid .product-single { margin-top: 83px; }
+    .shopify-section-collection-template { margin-top: 83px; }
+
+}
+
+
+
+</style>

@@ -21,6 +21,9 @@
 
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
   <link rel="canonical" href="http://localhost:4000/">
   
   <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
@@ -46,156 +49,483 @@
   <body>
 
     <header class="site-header">
-
     <div class="wrapper">
-
-        <input id="main-menu-checkbox" type="checkbox">
-
-        <header>
-            <label for="main-menu-checkbox" class="menu-toggle">
-                <span class="sr-only">Open main menu</span>
-                <span class="fa fa-bars" aria-hidden="true"></span>
-            </label>
+        <div class="grid-three-fourths">
+                
             <div class="site-logo"><a href="/">&nbsp;Mikey Cattell</a></div>
+            <div class="hideformobile" style="float: right;">
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/work.html">Work</a></li>
+                        <li><a href="/all-posts.html">Blog</a></li>
+                        <li><a href="/contact.html">Get in touch</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-            <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
-                <label for="main-menu-checkbox" class="menu-close">
-                    <span class="sr-only">Close main menu</span>
-                    <span class="fas fa-times" aria-hidden="true"></span>
-                </label>
-                <ul>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/work.html">Work</a></li>
-                    <li><a href="/all-posts.html">Blog</a></li>
-                    <li><a href="/contact.html">Get in touch</a></li>
-                </ul>
-            </nav>
-            <label for="main-menu-checkbox" class="backdrop" tabindex="-1" aria-hidden="true" hidden></label>
-        </header>
+        <div class="grid-fourth">
+            <div class="header-socials">
+                <a href="http://instagram.com/mikeycattell/" style="padding: 0 20px;"><svg width="20" height="20" viewBox="0 0 17 17"><title>glyph-logo_May2016</title><defs><path id="a" d="M0 16.998h16.995V.005H0z"></path></defs><g fill="none" fill-rule="evenodd" opacity=".9"><g><mask id="b" fill="#fff"><use xlink:href="#a"></use></mask><path d="M8.497.005C6.19.005 5.9.015 4.994.056 4.089.098 3.472.241 2.93.451a4.165 4.165 0 0 0-1.505.98 4.165 4.165 0 0 0-.98 1.506c-.21.54-.354 1.158-.395 2.062C.01 5.906 0 6.195 0 8.503c0 2.307.01 2.597.051 3.503.041.905.185 1.522.395 2.063.217.559.508 1.032.98 1.505.473.472.946.763 1.505.98.54.21 1.158.354 2.063.395C5.9 16.99 6.19 17 8.497 17c2.308 0 2.597-.01 3.504-.051.904-.041 1.522-.185 2.062-.395a4.166 4.166 0 0 0 1.505-.98c.473-.473.763-.946.98-1.505.21-.54.354-1.158.396-2.063.04-.906.05-1.196.05-3.503 0-2.308-.01-2.597-.05-3.504-.042-.904-.185-1.522-.395-2.062a4.166 4.166 0 0 0-.98-1.505 4.165 4.165 0 0 0-1.506-.98c-.54-.21-1.158-.354-2.062-.396-.907-.04-1.196-.05-3.504-.05zm0 1.531c2.27 0 2.538.01 3.434.05.828.038 1.278.176 1.578.293.396.154.68.338.977.635.297.298.481.58.635.977.117.3.255.75.293 1.578.04.896.05 1.165.05 3.434s-.01 2.537-.05 3.433c-.038.829-.176 1.279-.293 1.578-.154.397-.338.68-.635.977-.298.298-.58.482-.977.636-.3.116-.75.255-1.578.292-.896.041-1.165.05-3.434.05s-2.537-.009-3.433-.05c-.829-.037-1.279-.176-1.578-.292a2.632 2.632 0 0 1-.977-.636 2.633 2.633 0 0 1-.636-.977c-.116-.3-.255-.75-.292-1.578-.041-.896-.05-1.164-.05-3.433 0-2.27.009-2.538.05-3.434.037-.828.176-1.278.292-1.578.154-.396.338-.68.636-.977.297-.297.58-.481.977-.635.3-.117.75-.255 1.578-.293.896-.04 1.164-.05 3.433-.05z" fill="currentColor" mask="url(#b)"></path></g><path d="M8.5 11.421a2.921 2.921 0 1 1 0-5.842 2.921 2.921 0 0 1 0 5.842zM8.5 4a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM14 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0" fill="currentColor"></path></g></svg></a><a href="http://twitter.com/mikeycattell"><svg width="20" height="20" viewBox="0 0 20 16"><title>path22</title><path d="M20 1.894a8.306 8.306 0 0 1-2.356.636A4.065 4.065 0 0 0 19.447.295a8.283 8.283 0 0 1-2.605.98A4.127 4.127 0 0 0 13.847 0c-2.266 0-4.103 1.808-4.103 4.04 0 .316.036.624.107.92A11.71 11.71 0 0 1 1.393.74a3.97 3.97 0 0 0-.555 2.03c0 1.401.724 2.637 1.825 3.362a4.13 4.13 0 0 1-1.858-.505v.05c0 1.958 1.414 3.59 3.29 3.961a4.164 4.164 0 0 1-1.852.07 4.1 4.1 0 0 0 3.833 2.805 8.32 8.32 0 0 1-5.097 1.729c-.33 0-.658-.02-.979-.057A11.75 11.75 0 0 0 6.29 16c7.547 0 11.674-6.155 11.674-11.493 0-.175-.005-.349-.012-.522a8.284 8.284 0 0 0 2.047-2.091" fill="currentColor" fill-rule="evenodd"></path></svg></a></div>
+        </div>
+                
+                <!-- mobile nav-->
+                <div class="button_container hidefordesktop" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+                <div class="overlay" id="overlay">
+                  <nav class="overlay-menu">
+                    <ul>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/work.html">Work</a></li>
+                        <li><a href="/all-posts.html">Blog</a></li>
+                        <li><a href="/contact.html">Get in touch</a></li>
+                    <h3 class="mikey">RECENT POST</h3>
+                    <ul>
+                    
+                        <li>
+                            <p style="font-size: 16px;"><a class="post-link" href="/2020/02/04/bringing-the-wins.html">Celebrating the wins</a></p>
+                        </li>
+                    
+                    </ul>                        
+                    </ul>
+
+                  </nav>
+
+                    
+                </div>
     </div>
 
 </header>
 
+<script type="text/javascript">
+    $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+
+</script>
+
     <article class="post">
 
-  <div class="wrapper">
+  
     
-      <h1 class="ralph">Hello! I’m Mikey👋. I help create impactful websites and services for people.</h1>
+      <div class="marginbottom--xxxl"></div>
+<div class="grey-background"></div>
 
-<div class="grid-three-fourths col offset-fifth">
-    <p>I am a Senior interaction designer, UI developer, and team player. <br>Working alongside my heroes at Department for Work and Pensions, helping everyone have an easier life by providing a simple way of using online and offline services.</p>
-    <p>I mentor, write, talk and make terrible jokes.</p>
+<div class="wrapper">
+    <div class="grid-ninety">
+        <p class="subheader--home">Hello! I’m Mikey 👋.</p>
+        <h1 class="ralph" style="">I help create impactful services and websites for people.</h1>
+    </div>
 </div>
 
-<div class="grid-three-fourths col offset-fifth">
-    <br>
-    <p><a href="about.html" title="read more about me on my about page">More about me</a></p>
-    <p><a href="work.html" title="see my work by clicking here">See my work</a></p>
-    <br>
-</div>
+<section>
+    <div class="wrapper">
+        <div class="grid-ninety">
+            <p>I am an experienced designer and design thinker who thrives on building relationships, solving design problems, clarifying the design teams’ vision, defining and improving culture and visualising the future</p>
+
+            <p>I draw on whiteboards, sketch out service maps, <a href="work.html">create designs</a>, <a href="work.html">code</a>, mentor, <a href="blog.html">write</a>, talk and make terrible jokes.</p>
+
+        </div>
+    </div>
+</section>
 
 <div class="clearfix"></div>
 
-<div class="grid-half col">
-    <img src="assets/2019--home--me.jpg">
-</div>
+<section style="width: 100%; margin: 40px 0 40px; display: inline-block;">
+    <div class="index-sections">
+        
+        <div class="collections">
+            <div class="collections--single wow fadeIn">
+                <div>
+                    <a href="super6-2020.html" title="click here to view more about super 6"><img src="../assets/super6-home.png">
+                        <div class="category-button">
+                            <h3><a href="super6-2020.html" title="click here to view more about super 6">Sky Sports Super 6</a></h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                <div class="collections--single wow fadeIn" data-wow-delay="0.5s">
+                    <div>
+                        <a href="russellhobbs-2020.html"><img src="../assets/russellhobbs-home.png">
+                            <div class="category-button">
+                                <h3><a href="russellhobbs-2020.html">Russell Hobbs</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="collections--single wow fadeIn" data-wow-delay="1s">
+                    <div>
+                        <a href="benefitfraud.html"><img src="../assets/govuk-home.png">
+                            <div class="category-button">
+                                <h3><a href="benefitfraud.html">GOV.UK</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="collections--single wow fadeIn" data-wow-delay="1.5s">
+                    <div>
+                        <a href="fantasyfootball-2020.html"><img src="../assets/fantasyfootball-home.png">
+                            <div class="category-button">
+                                <h3><a href="antasyfootball-2020.html">Sky Sports Fantasy Football</a></h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+</section>
 
-<div class="grid-half col">
-    <p>In previous roles, I have worked with:</p>
-    <img src="assets/2019--home--logos.jpg">
-</div>
-<div class="marginbottom--xl"></div>
+<div class="clearfix"></div>
 
-<!--
-<h2>Recent posts<span style="font-size: 18px">asdasd</span></h2>
-
-<div class="grid-three-fourths col offset-fifth">
-    <h3>Recent posts on my blog</h3>
-    <ul>
-    
-    <li>
-        <span class="page-meta">4 February 2020</span>
-        <p><a class="post-link" href="/2020/02/04/bringing-the-wins.html">Celebrating the wins</a></p>
-    </li>
-    
-    <li>
-        <span class="page-meta">31 January 2020</span>
-        <p><a class="post-link" href="/2020/01/31/celebrating-the-wins.html">Celebrating the wins</a></p>
-    </li>
-    
-    </ul>
-    <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
-</div>
-
-
-
-
-
-<div class="grid-two-thirds col offset-third">
-    <p class="font24" style="margin-bottom: 80px;">Designing in the open and making things better at <strong>Department for Work and Pensions</strong> in Leeds, UK.</p>
-</div>
-
-<div class="grid-six-tenths col offset-fifth">
-    <p class="font32"> Working alongside heroes in teams and organisations to design and make things that people want to use and can use. I mentor, talk and make terrible jokes.</p>
-</div>
-<div class="marginbottom--xl"></div>
-
-
-</div>
-<img src="assets/2019--home--wide.png">
-
--->
-
-<div class="grid-three-fourths col offset-fifth">
-    <h3>Recent posts on my blog</h3>
-    <ul>
-    
-    <li>
-        <span class="page-meta">4 February 2020</span>
-        <p><a class="post-link" href="/2020/02/04/bringing-the-wins.html">Celebrating the wins</a></p>
-    </li>
-    
-    <li>
-        <span class="page-meta">31 January 2020</span>
-        <p><a class="post-link" href="/2020/01/31/celebrating-the-wins.html">Celebrating the wins</a></p>
-    </li>
-    
-    <li>
-        <span class="page-meta">29 January 2020</span>
-        <p><a class="post-link" href="/2020/01/29/weeknotes-no23.html">Weeknotes No.23</a></p>
-    </li>
-    
-    <li>
-        <span class="page-meta">25 January 2020</span>
-        <p><a class="post-link" href="/2020/01/25/weeknotes-no22.html">Weeknotes No.22</a></p>
-    </li>
-    
-    <li>
-        <span class="page-meta">15 January 2020</span>
-        <p><a class="post-link" href="/2020/01/15/weeknotes-no21.html">Weeknotes No.21</a></p>
-    </li>
-    
-    </ul>
-    <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
-</div>
+<section>
+    <div class="wrapper">
+        <div class="grid-half">
+            <h3 class="emma">Main Skills.</h3>
+            <ul>
+                <li>I’m an experienced service and interaction designer</li>
+                <li>I deliver critical projects on-time and within budget</li>
+                <li>I can oversee a team of designers, using techniques like coaching or mentoring to allow natural growth of skills and confidence</li>
+                <li>I know how to implement brand and creative strategy across digital products and marketing</li>
+                <li>I can help support service plans within discovery to launch</li>
+                <li>I have a history of growing knowledge and generating buy-in of the design vision and strategy across all teams and stakeholders</li>
+                <li>A long career in innovation</li>
+            </ul>
+        </div>
+        <div class="grid-half">
+            <h3 class="emma">Past Work.</h3>
+            <ul>
+                <li>Instigated a design process at Sky Bet and lead the team through growth and big changes</li>
+                <li>Led design to push Sky Sports Super 6 to top of the iPhone download charts</li>
+                <li>Lead designer and front-end developer at Premier Food Safety</li>
+                <li>Helped the team at Jet2 to re-design Jet2.com and Jet2holidays</li>
+                <li>Brought into many leading agencies to act as design lead on multiple projects</li>
+                <li>Previous experience include projects for Department for Work and Pensions, Remington, Jet2.com, British Airways, Argos, Regatta amongst others</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 <div class="marginbottom--xl"></div>
 
-<div class="grid-three-fourths col offset-fifth">
-    <p class="font24" style="margin-top: 80px;margin-bottom: 20px;">In previous roles, I have:</p>
-    <ul>
-        <li>help lead design and develop high quality services and websites for DWP, Sky Bet, Sky, Remington, Jet2.com, British Airways, Argos, Regatta</li>
-        <li>lead workshops and facilitate the design process.</li>
-        <li>work with senior stakeholders, product owners, and developers to explore complex design solutions and to maintain relationships with design</li>
-        <li>pitching or presenting to stakeholders or future clients, advising and providing solutions to their needs</li>
-        <li>oversee designers, assisting in growth of skills and instill motivation to drive forward innovative</li>
-        <li>be an active leader internally to instigate a design community</li>
-    </ul>
+<section>
+    <div class="wrapper">
+        <div class="grid-full">
+            <h3 class="emma">Blog posts, social accounts and projects.</h3>
+        </div>
+        <div class="grid-half">
+            <h4 class="mikey">RECENT POSTS</h4>
+            <ul class="blogposts">
+                
+                <li>
+                    <p><span class="page-meta">4 February 2020</span>
+                        <a class="post-link" href="/2020/02/04/bringing-the-wins.html">- Celebrating the wins</a></p>
+                </li>
+                
+                <li>
+                    <p><span class="page-meta">29 January 2020</span>
+                        <a class="post-link" href="/2020/01/29/weeknotes-no23.html">- Weeknotes No.23</a></p>
+                </li>
+                
+                <li>
+                    <p><span class="page-meta">25 January 2020</span>
+                        <a class="post-link" href="/2020/01/25/weeknotes-no22.html">- Weeknotes No.22</a></p>
+                </li>
+                
+                <li>
+                    <p><span class="page-meta">15 January 2020</span>
+                        <a class="post-link" href="/2020/01/15/weeknotes-no21.html">- Weeknotes No.21</a></p>
+                </li>
+                
+                <li>
+                    <p><span class="page-meta">9 January 2020</span>
+                        <a class="post-link" href="/2020/01/09/weeknotes-no20-the-2019-review.html">- Weeknotes No.20 - the 2019 review</a></p>
+                </li>
+                
+            </ul>
+            <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
+        </div>
 
-</div>
+        <div class="grid-half">
+            <h4 class="mikey">WHERE TO FIND ME</h4>
+            <p>Dribbble:<br><a href="">/mikeycattell</a></p>
+            <p>LinkedIn:<br><a href="">/mikeycattell</a></p>
+            <p>Instagram:<br><a href="">/mikeycattell</a></p>
+        </div>
 
-    
+        <div class="grid-full">
+            <h4 class="mikey">WHAT ELSE I'M WORKING ON</h4>
+            <p>Bobbin and Bumble<br><a href="">/www.bobbinandbumble.com</a></p>
+        </div>
+    </div>
+</section>
+
+<section id="front-4">
+  <div class="wrapper">
+  <h3 class="emma">I’ve worked with...</h3>
+
+    <div id="work-grid">
+      <div class="work-item">
+        <img src="assets/logos/govuk--logo.jpg" alt="gov.">
+      </div>
+        <div class="work-item">
+        <img src="assets/logos/argos--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/mcfc--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/skysports--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/jet2--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/itv--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/remington--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/russellhobbs--logo.jpg" alt="gov.">
+      </div>     
+      <div class="work-item">
+        <img src="assets/logos/premierfoodsafety--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/skybet--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/britishairways--logo.jpg" alt="gov.">
+      </div>
+      <div class="work-item">
+        <img src="assets/logos/emble--logo.jpg" alt="gov.">
+      </div>                                          
+        
+    </div>
   </div>
+</section>
+
+<style type="text/css">
+        #front-4 {
+        margin: 40px 0;
+    }
+    #front-4 #work-grid {     width: 75%;
+        margin: 0rem auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }      
+
+    #front-4 .work-item {
+        width: 25%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+    @media screen and (max-width: 650px) {
+        #front-4 #work-grid {
+            width: 100%;
+            margin: 3rem auto;
+        }
+        #front-4 .work-item {
+            width: 33.33%;
+        }
+        #front-4 .work-item:last-of-type {
+            margin: 0 auto;
+        }
+
+    }    
+
+</style>       
+
+<style>
+
+
+
+    .home-piece:nth-child(1) { width: 19%; margin-top: 40px; float: left; margin-right: 40px; }
+    .home-piece:nth-child(2) { width: 26%; float: left; margin-right: 40px; margin-top: 10px; }
+    .home-piece:nth-child(3) { width: 20%; float: left; margin-right: 40px;margin-top: 50px; }
+    .home-piece:nth-child(4) { width: 25%; float: left; }
+
+    @media screen and (max-width: 650px) {
+        #front-4 #work-grid {
+            width: 100%;
+            margin: 3rem auto;
+        }
+        #front-4 .work-item {
+            width: 33.33%;
+        }
+        #front-4 .work-item:last-of-type {
+            margin: 0 auto;
+        }
+
+    }
+
+
+    .green-circle-wrapper {
+        position: absolute;
+        left: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 1100px;
+        height: 100%;
+        z-index: 1;
+    }
+    .green-circle {
+        left: auto;
+        top: -110px;
+        right: -12%;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 100%;
+        background-color: #ecf5ee;
+    }
+    .green-circle, .grid-container, .grid-container.content.connect-page {
+        position: relative;
+    }
+
+    .grey-background {
+        position: absolute;
+        left: auto;
+        top: 140%;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 90%;
+        height: 170%;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        background-color: #F2F2F2;
+    }
+
+    section { z-index: 2; position: relative; }
+
+
+
+    .collections {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5px;
+      padding: 0px 55px 0;
+  }
+
+  .collections--single>div {
+      margin: 25px;
+  }
+
+  .collections--single>div h3, .h3 {
+    margin-top: 16px;
+    font-size: 20px;
+    font-family: sourcereg;
+}
+
+.shopify-section--bordered>.Section--spacingNormal {
+  padding: 0px 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.collections--single>div>a>img
+{ vertical-align: middle; }
+
+
+
+
+.main-content {
+  padding-top: 30px;
+}
+.index-sections .shopify-section {
+    margin-top: 0px;
+}
+
+
+/*------------------------------------*\
+  $MEDIA QUERIES
+  \*------------------------------------*/
+  @media screen and (max-width: 2500px) {
+      .collections {
+        padding: 0 0px 0;
+    }
+
+
+    .collections--single:nth-child(1) { width: 18%; margin-top: 40px; } 
+    .collections--single:nth-child(2) { width: 32%;  margin-top: 10px; }
+    .collections--single:nth-child(3) { width: 24%; margin-top: 50px; } 
+    .collections--single:nth-child(4) { width: 26%;  }   
+
+}
+
+@media screen and (max-width: 640px) {
+  .collections {
+    padding: 0 0px 0;
+}
+.collections--single {
+    width: 50%;
+}
+
+.collections--single:nth-child(1) { width: 50%; margin-top: 0; }
+.collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
+.collections--single:nth-child(3) { width: 50%; margin-top: 0; }
+.collections--single:nth-child(4) { width: 50%;  }    
+.collections--single>div {
+    margin: 20px;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .main-content {
+    padding-top: 10px;
+}
+
+
+
+}
+@media screen and (min-width: 1008px) {
+    .shopify-section--bordered>.Section--spacingNormal {
+      padding: 20px 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .grid .product-single { margin-top: 83px; }
+    .shopify-section-collection-template { margin-top: 83px; }
+
+}
+
+
+
+</style>
+    
 
 </article>
 
@@ -219,5 +549,9 @@
 
 
   </body>
+              <script src="assets/js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </html>
