@@ -1,6 +1,6 @@
 ---
 layout: index-page
-title: Michael Cattell – A highly experienced Senior interaction designer, UI developer, and team player based in Leeds, UK.
+title: Michael Cattell – A highly experienced Senior interaction designer, UI developer, and design thinker based in Leeds, UK.
 date: '2019-22-08 19:00:00'
 ---
 
@@ -19,7 +19,17 @@ date: '2019-22-08 19:00:00'
         <div class="grid-ninety">
             <p>I am an experienced designer and design thinker who thrives on building relationships, solving design problems, clarifying the design teams’ vision, defining and improving culture and visualising the future</p>
 
-            <p>I draw on whiteboards, sketch out service maps, <a href="work.html">create designs</a>, <a href="work.html">code</a>, mentor, <a href="blog.html">write</a>, talk and make terrible jokes.</p>
+            <p>I draw on whiteboards, sketch out service maps, <a href="work.html">create designs</a>, <a href="work.html">code</a>, mentor, <a href="all-posts.html">write</a>, talk and make terrible jokes.</p>
+            <div class="marginbottom--s"></div>
+            <h4 class="mikey">my latest post</h4>
+            <ul class="blogposts">
+                {% for post in site.posts limit: 1 %}
+                <li>
+                    <p><span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span><br>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                </li>
+                {% endfor %}
+            </ul>
 
         </div>
     </div>
@@ -30,8 +40,8 @@ date: '2019-22-08 19:00:00'
 <section style="width: 100%; margin: 40px 0 40px; display: inline-block;">
     <div class="index-sections">
         
-        <div class="collections">
-            <div class="collections--single wow fadeIn">
+        <div class="home-collections">
+            <div class="home-collections--single wow fadeIn">
                 <div>
                     <a href="super6-2020.html" title="click here to view more about super 6"><img src="../assets/super6-home.png">
                         <div class="category-button">
@@ -40,7 +50,7 @@ date: '2019-22-08 19:00:00'
                     </a>
                 </div>
             </div>
-                <div class="collections--single wow fadeIn" data-wow-delay="0.5s">
+                <div class="home-collections--single wow fadeIn" data-wow-delay="0.5s">
                     <div>
                         <a href="russellhobbs-2020.html"><img src="../assets/russellhobbs-home.png">
                             <div class="category-button">
@@ -49,7 +59,7 @@ date: '2019-22-08 19:00:00'
                         </a>
                     </div>
                 </div>
-                <div class="collections--single wow fadeIn" data-wow-delay="1s">
+                <div class="home-collections--single wow fadeIn" data-wow-delay="1s">
                     <div>
                         <a href="benefitfraud.html"><img src="../assets/govuk-home.png">
                             <div class="category-button">
@@ -58,7 +68,7 @@ date: '2019-22-08 19:00:00'
                         </a>
                     </div>
                 </div>
-                <div class="collections--single wow fadeIn" data-wow-delay="1.5s">
+                <div class="home-collections--single wow fadeIn" data-wow-delay="1.5s">
                     <div>
                         <a href="fantasyfootball-2020.html"><img src="../assets/fantasyfootball-home.png">
                             <div class="category-button">
@@ -107,171 +117,3 @@ date: '2019-22-08 19:00:00'
 {% include blogandsocial.html %}
 
 {% include whoworkedwith.html %}       
-
-<style>
-
-
-
-    .home-piece:nth-child(1) { width: 19%; margin-top: 40px; float: left; margin-right: 40px; }
-    .home-piece:nth-child(2) { width: 26%; float: left; margin-right: 40px; margin-top: 10px; }
-    .home-piece:nth-child(3) { width: 20%; float: left; margin-right: 40px;margin-top: 50px; }
-    .home-piece:nth-child(4) { width: 25%; float: left; }
-
-    @media screen and (max-width: 650px) {
-        #front-4 #work-grid {
-            width: 100%;
-            margin: 3rem auto;
-        }
-        #front-4 .work-item {
-            width: 33.33%;
-        }
-        #front-4 .work-item:last-of-type {
-            margin: 0 auto;
-        }
-
-    }
-
-
-    .green-circle-wrapper {
-        position: absolute;
-        left: auto;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 1100px;
-        height: 100%;
-        z-index: 1;
-    }
-    .green-circle {
-        left: auto;
-        top: -110px;
-        right: -12%;
-        bottom: 0;
-        z-index: 1;
-        width: 100%;
-        padding-top: 100%;
-        border-radius: 100%;
-        background-color: #ecf5ee;
-    }
-    .green-circle, .grid-container, .grid-container.content.connect-page {
-        position: relative;
-    }
-
-    .grey-background {
-        position: absolute;
-        left: auto;
-        top: 140%;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-        width: 90%;
-        height: 170%;
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-        background-color: #F2F2F2;
-    }
-
-    section { z-index: 2; position: relative; }
-
-
-
-    .collections {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 5px;
-      padding: 0px 55px 0;
-  }
-
-  .collections--single>div {
-      margin: 25px;
-  }
-
-  .collections--single>div h3, .h3 {
-    margin-top: 16px;
-    font-size: 20px;
-    font-family: sourcereg;
-}
-
-.shopify-section--bordered>.Section--spacingNormal {
-  padding: 0px 0;
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-
-.collections--single>div>a>img
-{ vertical-align: middle; }
-
-
-
-
-.main-content {
-  padding-top: 30px;
-}
-.index-sections .shopify-section {
-    margin-top: 0px;
-}
-
-
-/*------------------------------------*\
-  $MEDIA QUERIES
-  \*------------------------------------*/
-  @media screen and (max-width: 2500px) {
-      .collections {
-        padding: 0 0px 0;
-    }
-
-
-    .collections--single:nth-child(1) { width: 18%; margin-top: 40px; } 
-    .collections--single:nth-child(2) { width: 32%;  margin-top: 10px; }
-    .collections--single:nth-child(3) { width: 24%; margin-top: 50px; } 
-    .collections--single:nth-child(4) { width: 26%;  }   
-
-}
-
-@media screen and (max-width: 640px) {
-  .collections {
-    padding: 0 0px 0;
-}
-.collections--single {
-    width: 50%;
-}
-
-.collections--single:nth-child(1) { width: 50%; margin-top: 0; }
-.collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
-.collections--single:nth-child(3) { width: 50%; margin-top: 0; }
-.collections--single:nth-child(4) { width: 50%;  }    
-.collections--single>div {
-    margin: 20px;
-    text-align: center;
-}
-}
-
-@media screen and (max-width: 640px) {
-  .main-content {
-    padding-top: 10px;
-}
-
-
-
-}
-@media screen and (min-width: 1008px) {
-    .shopify-section--bordered>.Section--spacingNormal {
-      padding: 20px 0;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .grid .product-single { margin-top: 83px; }
-    .shopify-section-collection-template { margin-top: 83px; }
-
-}
-
-
-
-</style>

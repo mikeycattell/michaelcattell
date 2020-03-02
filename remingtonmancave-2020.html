@@ -1,0 +1,60 @@
+---
+layout: work-page
+title: Senior Interaction Designer, a case study for Remington Mancave
+date: '2018-12-31 19:00:00'
+---
+
+<h1 class="gamma">Remington Mancave</h1>
+
+<div class="marginbottom--m"></div>
+
+<div class="grid-full">
+    <img src="assets/2020-mancave-work1.jpg">
+</div>
+<div class="marginbottom--l"></div>
+<div class="grid-half">
+    <h3 class="emma">The Problem</h3>
+    <p>Mentioned on <a href="remingtonyourstyle-2020.html" title="click here to see yourstyle case study">Yourstyle</a> and <a href="russellhobbs-2020.html" title="view my russell hobbs case study">Russell Hobbs</a> case studies, I was connected to work on another piece for Remington. This one needed to aim almost exclusively for men, selling their "all in one shaver", the only restriction was to showcase the shaver off as best as possible.</p>
+</div>
+
+<div ccclass="grid-half">
+    <h3 class="emma">The Solution</h3>
+    <p>We went for the "mancave" approach, aiming to show how much money you could save using this shaver rather than going to a hairdressers, whilst trying to be witty at the same time. Visually, we used branding, great photography and a "mancave" vibe, one of my favourite projects I've completed.</p> 
+</div>
+
+<div class="grid-full">
+    <h3 class="emma">My Responsibilites</h3>
+    <p>Design, regular feedback sessions with client and account manager, design iterations, development (static html), presentating to stakeholders.
+    <h3 class="emma">Site Link</h3>
+    <p>Unfortunately, totally offline.</p>    
+    
+    <div class="marginbottom--m"></div>
+    <img src="assets/2020-mancave-work2.jpg">
+    <div class="marginbottom--m"></div>
+    <img src="assets/2020-mancave-work3.jpg">
+</div>
+<div class="marginbottom--xl"></div>
+
+<div class="grid-full">
+  <div class="CrossPageNavigation">
+    <div class="grid-half col">
+      <div class="CrossPageNavigationPrevious">
+        <strong>Next case study</strong><br />
+          <a href="">link</a>
+      </div>
+    </div>
+    <div class="grid-half">
+      <div class="CrossPageNavigationNext">
+        <strong>Previous post</strong><br />
+            <ul>
+                {% for post in site.posts limit: 1 %}
+                <li>
+                    <p><span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">- {{ post.title }}</a></p>
+                </li>
+                {% endfor %}
+            </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -42,51 +42,83 @@ header { margin: 34px 0 64px; }
 
 //600px
 @media screen and (max-width: 600px) {
-.wrapper { padding: 0 10px; }
-header.site-header { margin: 0 0 0px; }
+	.wrapper { padding: 0 10px; }
+	header.site-header { margin: 0 0 0px; }
 
 
-.ralph {
-	margin-top: -50px;
-	margin-left: 0;
-	margin-bottom: 60px;
-	@include font-rempx(54);
-	line-height: 63px;
-}
-.robyn {
-	margin-top: 0;
-	margin-left: 0px;
-	margin-bottom: 60px;
-	@include font-rempx(67);
-	line-height: 73px;
+	.ralph {
+		margin-top: -50px;
+		margin-left: 0;
+		margin-bottom: 60px;
+		@include font-rempx(54);
+		line-height: 63px;
+	}
+	.robyn {
+		margin-top: 0;
+		margin-left: 0px;
+		margin-bottom: 60px;
+		@include font-rempx(67);
+		line-height: 73px;
 
-}
-.alpha {
-	@include font-rempx(26);
-    text-transform: none;
-    padding-bottom: calc-em(0);
-}
-.beta{
-	@include font-rempx(30);
-	font-weight: 300;
-}
+	}
+	.alpha {
+		@include font-rempx(26);
+	    text-transform: none;
+	    padding-bottom: calc-em(0);
+	}
+	.beta{
+		@include font-rempx(30);
+		font-weight: 300;
+	}
 
-.gamma{
-	@include font-rempx(30);
-	font-weight: 700;
-	margin: 0px 0 54px;
-}
-.subheader--home
- {font-size: 32px; margin-bottom: 1em;}
+	.gamma{
+		@include font-rempx(30);
+		font-weight: 700;
+		margin: 0px 0 54px;
+	}
+	.subheader--home
+	 {font-size: 32px; margin-bottom: 1em;}
 
- h1,
- .h1 {
- 	@include font-rempx(32);
- 	padding-top: .2em;
- 	font-weight: 700;
- 	margin-bottom: 58px;
- }
+	 h1,
+	 .h1 {
+	 	@include font-rempx(32);
+	 	padding-top: .2em;
+	 	font-weight: 700;
+	 	margin-bottom: 58px;
+	 }
  
+}
 
+@media screen and (max-width: 780px) {
+    .home-collections { padding: 0 0px 0; }
+    .home-collections--single { width: 50%; }
+    .home-collections--single:nth-child(1) { width: 50%; margin-top: 0; }
+    .home-collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
+    .home-collections--single:nth-child(3) { width: 50%; margin-top: 0; }
+    .home-collections--single:nth-child(4) { width: 50%;  }    
+    .home-collections--single>div { margin: 20px; text-align: center; }
+
+  .collections { padding: 0 0px 0; }
+  .collections--single { width: 50%; }
+  .collections--single:nth-child(1) { width: 50%; margin-top: 0; }
+  .collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
+  .collections--single:nth-child(3) { width: 50%; margin-top: 0; }
+  .collections--single:nth-child(4) { width: 50%;  }    
+  .collections--single>div { margin: 20px; text-align: center; }
+
+	#whoworkedwith #work-grid {
+    	width: 100%;
+    	margin: 3rem auto;
+	}
+	#whoworkedwith .work-item {
+    	width: 33.33%;
+	}
+	#whoworkedwith .work-item:last-of-type {
+    	margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .grid .product-single { margin-top: 83px; }
 
 }

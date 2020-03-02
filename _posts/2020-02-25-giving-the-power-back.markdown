@@ -4,12 +4,12 @@ title: Giving the power back
 date: '2020-02-25 21:00:00'
 ---
 I sat in a meeting, in fact I’ve sat in many meetings where it’s been said 
-“Right, that’s decided.. and you’ll design that later” and I’ve been ok with it, I did design it later and it did succeeded.
+“Right, that’s decided.. and you’ll design that later” and I’ve been ok with it, I did design it later and it did succeed.
 
-It garnered the figures they needed, it ticked the boxes and I delivered something good.
+It gained the figures they needed, it ticked the boxes and I delivered something good.
 
 Something good, but not something great.
-It answered the “now” problem, it did what they needed, it answered the issues for the next 3 months but a year later it was outdated and not fit for purpose.
+It answered the "now" problem, it did what they needed, it answered the issues for the next 3 months but a year later it was outdated and not fit for purpose.
 
 <strong>So I did well, what’s the problem?</strong>
 
@@ -32,5 +32,7 @@ Rolling back to my example, I remember it like yesterday, it’s a reminder tool
 <strong>So what did we change next time I can imagine you shouting at the screen?</strong>
 
 We talked, we spent time together to find the real problem, the real thing THEY - the user, the stakeholder wanted - a problem / opportunity statement. We ran workshops, we planned roadmaps, we got brains in a room and made such brilliant magic we enabled a dream to become reality and that is when REAL design happens.
+
+Communicating with the team was the best gift I gave myself, sharing the pressure of delivering design freed and still frees me of any constraints and limits of my own ability. I am the best designer in the room (best being - I’m the paid designer, it’s officially my job), no one can challenge that, BUT I’m not the most knowledgable of the problem, and that is something to keep remembering - you aren’t handing over your job keys, you are opening your job and delivering something that is better, and that is most certainly going to be nearer to the solution quicker than I could possibly deliver. 
 
 So, I challenge you to include as many into your process as possible and see what happens, remove the secretive cycle and allow others to pick up a pen and scribble, they might just surprise you.

@@ -8,8 +8,8 @@
             <ul class="blogposts">
                 {% for post in site.posts limit: 5 %}
                 <li>
-                    <p><span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">- {{ post.title }}</a></p>
+                    <p><span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span><br>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                 </li>
                 {% endfor %}
             </ul>
@@ -18,14 +18,14 @@
 
         <div class="grid-half">
             <h4 class="mikey">WHERE TO FIND ME</h4>
-            <p>Dribbble:<br><a href="">/mikeycattell</a></p>
-            <p>LinkedIn:<br><a href="">/mikeycattell</a></p>
-            <p>Instagram:<br><a href="">/mikeycattell</a></p>
+            <p>Dribbble:<br><a href="https://dribbble.com/mikeycattell">/mikeycattell</a></p>
+            <p>LinkedIn:<br><a href="https://www.linkedin.com/in/michaelcattell/">/mikeycattell</a></p>
+            <p>Instagram:<br><a href="https://www.instagram.com/mikeycattell/">/mikeycattell</a></p>
         </div>
 
         <div class="grid-full">
             <h4 class="mikey">WHAT ELSE I'M WORKING ON</h4>
-            <p>Bobbin and Bumble<br><a href="">/www.bobbinandbumble.com</a></p>
+            <p>Bobbin and Bumble<br><a href="https://www.bobbinandbumble.com/" title="click here to view bobbin and bumble website">www.bobbinandbumble.com</a></p>
         </div>
     </div>
 </section>
