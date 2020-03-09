@@ -5,9 +5,64 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Mar 2020 21:23:58 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Mar 2020 21:23:58 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Mar 2020 20:07:49 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Mar 2020 20:07:49 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Weeknotes No.25</title>
+        <description>&lt;p&gt;This week I found really tough, we found a situation (it’s not an issue… just an interesting development) that was pretty major to users, but was overlooked due to miscommunication. This really made me reassess our (design) process and something I did take personally, but also worth noting that once we realised, we quickly pivoted to explore, address and “fix”, calling in outside teams with experience and similar learnings.&lt;br /&gt;
+Huge takeaway from this week: talk more, talk amongst your colleagues and do regular catch-ups with similar products.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
+Presented for 40 minutes today which was fun to do, would have liked to have a little more time to prepare for it but to think on my feet is a nice feeling to have - so I can learn from it and do it again and again.&lt;br /&gt;
+Presenting the work I’ve done so far on this project, some great feedback from the presentation - especially around “setting the scene”, and also an education to assume not everyone knew what I was talking about (but I thought they did), so that’s huge learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+My team’s retro today, a great 30-minute session to really find the issues, the positives, and the fixes. I love a good retro, its a place where we can celebrate and fix anything that has proved to be difficult over the past 2 weeks. The ease at which this team will discuss struggles and issues is a positive, even if it is very negative - we strive together to be the best we can be and to fix/swarm around any issues.&lt;br /&gt;
+The joys of a tight team.&lt;/p&gt;
+
+&lt;p&gt;Today was a day of 2 emotions,&lt;br /&gt;
+The good: I mentor a colleague in the team and I couldn’t be more proud of her when she ran a user-stories workshop.&lt;br /&gt;
+In this project, it was noticed we were short of user-stories, so we swarmed around to fix this, gaining knowledge from experts and those on “the shop front”, I also stress this is the kind of knowledge we should be sharing and knowing from previous working products and forever will bang this drum.&lt;br /&gt;
+The bad: Within this workshop, something came out that got me interested, a process that wasn’t planned or discussed and was overlooked, I picked this up (design instinct and experience!) and the team realised that we NEED to review this section and urgently.&lt;br /&gt;
+Since this day, we have reviewed and put a plan in place, but this shows that every team requires a designer (of sorts) and a need and opportunity to call things out as soon as you feel things aren’t right.&lt;br /&gt;
+We did this, we are in the process of fixing this, and it will be fine.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+Important meetings today discussing future plans of design tasks (wider team) which took up most of the day.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bobbin and Bumble update:&lt;/strong&gt;
+Digging through the tons of data that Emma has accrued on her &lt;a href=&quot;https://www.etsy.com/uk/shop/bobbinandbumblebaby&quot; title=&quot;visit Bobbin and Bumble on etsy&quot;&gt;Etsy shop&lt;/a&gt; to improve, change and also fuel updates on a website which is miles behind the actual reality of her shop.&lt;br /&gt;
+Quite a drastic update is required as the photos, products are not working the best for the website, but Google rankings are working, as we are getting regular traffic to the site (and sales), which is interesting considering the amount of effort we have done with it.&lt;/p&gt;
+
+&lt;p&gt;Another update required: Emma needs to update her LinkedIn account… so keep an eye out for this!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+ Discussed the issues found from the Workshop on Tuesday, a good team meeting and a lot of fears were calmed (if any), a lot of actions to take and learnings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+WFH day, a well earned out of office day that was needed to get headspace in reviewing what happened within the 2 weeks since returning from New York.&lt;br /&gt;
+Managed to work a lot on the Service View of the product, working closely with other teams to try to get a “joined-up design” view and learn as much as possible when its “free knowledge”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
+Seeing the team swarm around problems is what co-design is all about, we saw the issue, and worked to fix it as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
+Remembering that the design view of the project doesn’t fail and revolves around me is a great learning and a timely reminder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
+Finding out we missed a step was something I struggled to get over and I did find myself getting frustrated. It’s been a testing week, but hopefully, one we can learn from.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
+Two weeks in a row I’m proud of someone I’m helping to find their feet and more importantly - their confidence. They did so well, they made the room “work hard” and “team-up” on an issue.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Mar 2020 19:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2020/03/09/weeknotes-no25.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/09/weeknotes-no25.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.24</title>
@@ -650,81 +705,6 @@ Simple comments such as “I launched a business and sold out in days” is a st
         <pubDate>Thu, 24 Oct 2019 21:20:00 +0100</pubDate>
         <link>http://localhost:4000/2019/10/24/ego-or-self-esteem.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/10/24/ego-or-self-esteem.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.18</title>
-        <description>&lt;p&gt;I’ve said this before, but I have really landed on my feet with the team I’m in. Being able to lead on the design, and the bit that excites me the most - lead on how we “do” design is so much fun and where I see my strengths.
-Along the way, the team has learned that we all have a “design say”, and you should not be scared of getting involved in designing with me, after all they play a huge part in the overall User Experience of the service.&lt;/p&gt;
-
-&lt;p&gt;This week has really felt great and handing over my first “big” design piece went so smooth, no shocks, no surprises and certainly no friction.&lt;/p&gt;
-
-&lt;p&gt;Roll on next week!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-Morning stand-up with the rest of the wider team - technology means we can discuss the weeks work with teams from London, Manchester, and obv including us Leeds.&lt;/p&gt;
-
-&lt;p&gt;A thing we never discuss is how many e-learning courses you HAVE to do upon joining a new company. This morning to the afternoon was a complete write-off due to learning about Health and Safety.
-E-learning done in flash? YES PLEASE.&lt;/p&gt;
-
-&lt;p&gt;Afternoons on Monday are reserved for show and tells, we managed to show off one of the projects I’ve worked very lightly on. It’s a project I’ve been amongst, seeing it climb heights and hit lows - but the consistency has been a great design team behind it.
-A big discussion point from the show and tell was unexpected - a Design System issue, is it up to date? are we using the correct one? do we need to work closer together and get it updated?&lt;/p&gt;
-
-&lt;p&gt;I personally believe our design system is a good one, and you can use styles and patterns from either of them (if they work.. they work), but consistency is important and I’m unsure we talk enough about using it in that way.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-Worked from home in the morning, i’m sure i’ll look back at today and think this seemed so long ago but.. I will ask this question over and over again:
-“WHY IS IT SO HARD TO GET A NEW KITCHEN PUT IN A HOUSE?”&lt;/p&gt;
-
-&lt;p&gt;Back to work.. in the afternoon I returned to the office to handover the prototype Izzy and myself have been working on. The meeting involved Product Owner, Business Analysis and a Developer / QA.
-Started off with the “why we are doing it”, followed by current implemenation, to a sketch of user-flow and finally showing the world (avoiding at all cost the “real estate tour”), explaining why we did this pattern etc.&lt;/p&gt;
-
-&lt;p&gt;The prototype didn’t surprise anyone due to us all designing the flow, and pages together - so it was a piece of cake. Minor amends to parts of the page needing to be elsewhere (It was a misunderstanding on my part).
-Out of this meeting, my actions were:
-Finish prototype with minor amends, update Jira ticket and.. job done!&lt;/p&gt;
-
-&lt;p&gt;That is how design should be done, i’m sure there will be harder pieces of work but it was a brilliant issue to pick as the teams first design walk-through and really showed the value of team designing, and also letting me “do my thing”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-A busy day finishing off the prototype, which is a lot easier than I ever expected.
-Handover to the developers will be a piece of cake too, as they have no surprises coming - they helped design it!&lt;/p&gt;
-
-&lt;p&gt;Handing over the prototype means, discussing (a lot) with the Product Owner and Business Analysis on how to write up tickets, if we can split any user flows up and what outcomes need to be viewed and accounted for.
-Lots of Jira stuff, that I always try and hide away from.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
- On leave.
-Spent the day with my daughter going pumpkin picking and going to a farm with tons of Halloween activities!
-Heck of a muddy day, but a fun fun day.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-WFH today, working heavily on the future of the product I am on.
-Morning used to dial into the morning stand up with the team - worked really well and reminded me of my Sky Bet days!
-Preparation for the afternoon’s meeting, running through the team’s requirements of a User Researcher (we are running a team without one) with the Lead UR of my department.
-Meeting went so well, really liked her opinion and approach and certainly feel supported in our next steps!&lt;/p&gt;
-
-&lt;p&gt;My aim next week is to forge a working relationship with the team in London, and hopefully share work and get their answers (if you know me.. you’ll know I believe in “if the work has done before.. dont re-invent the wheel”).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
-Finishing the prototype and everyone being on board with it proved that the process we have decided on (so far) works, and works well. It led from user feedback, hard questions of “is this the best thing we can do” to “I’m unsure about this design” to “lets whack this into a prototype!” to finally everyone agreeing its good to go.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
-I believe, as a team we have learned together we can improve the service so much more by working together. We are such a close-knit team that any issues, or even “feelings” that the service isnt as good as it should be - it shouted out and tackled together.&lt;br /&gt;
-This is how design should be.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
-Finding User Research resource! I enjoy having a UR on my team, so speaking to the Lead User Resarch on Friday was amazing and allows myself and the Product Owner to feel supported and it was just an ace meeting.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
-I promise i’ll stop talking about it.. but as a team we did a thing, it went well, and we will be launching the changes soon.&lt;br /&gt;
-This is ace.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 18 Oct 2019 09:56:00 +0100</pubDate>
-        <link>http://localhost:4000/2019/10/18/weeknotes-no18.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/18/weeknotes-no18.html</guid>
         
         
       </item>
