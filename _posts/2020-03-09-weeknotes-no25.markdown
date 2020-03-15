@@ -41,10 +41,10 @@ Managed to work a lot on the Service View of the product, working closely with o
 Seeing the team swarm around problems is what co-design is all about, we saw the issue, and worked to fix it as soon as possible.
 
 <strong>Learned things</strong><br>
-Remembering that the design view of the project doesn't fail and revolves around me is a great learning and a timely reminder.
+Remembering that the design view of the project doesn't fail and revolve around me is a great learning and a timely reminder.
 
 <strong>Difficulties</strong><br>
-Finding out we missed a step was something I struggled to get over and I did find myself getting frustrated. It's been a testing week, but hopefully, one we can learn from.
+Finding out we missed a step was something I struggled to get over and I did find myself getting frustrated. It's been a testing week, but hopefully one we can learn from.
 
 <strong>Achievements</strong><br>
 Two weeks in a row I'm proud of someone I'm helping to find their feet and more importantly - their confidence. They did so well, they made the room "work hard" and "team-up" on an issue.
