@@ -53,6 +53,14 @@ header { margin: 34px 0 64px; }
 		@include font-rempx(54);
 		line-height: 63px;
 	}
+
+	.ralphpuppy {
+		margin-top: -50px;
+		margin-left: 0;
+		margin-bottom: 60px;
+		@include font-rempx(54);
+		line-height: 63px;
+	}
 	.robyn {
 		margin-top: 0;
 		margin-left: 0px;

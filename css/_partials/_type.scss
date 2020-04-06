@@ -34,8 +34,18 @@ body{
 	margin-top: 0;
 	margin-left: 0;
 	margin-bottom: 60px;
-	@include font-rempx(114);
+	@include font-rempx(112);
 	line-height: 118px;
+	z-index: 2;
+	font-weight: normal;
+	position: relative;
+}
+.ralphpuppy {
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 60px;
+	@include font-rempx(80);
+	line-height: 90px;
 	z-index: 2;
 	font-weight: normal;
 	position: relative;
@@ -54,6 +64,14 @@ body{
 	@include font-rempx(40);
 	line-height: 50px;
 	font-family: 'sourcebold';
+}
+.emmamini {
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-bottom: 34px;
+	@include font-rempx(40);
+	line-height: 50px;
+	font-family: 'sourcereg';
 }
 .mikey {
 	margin-top: 20px;
@@ -95,16 +113,17 @@ h1, h2, h3, h4, h5, h6 {
 
  h4,
  .h4 {
- 	text-transform: uppercase;
+ 	
  }
 
 .font32 {  @include font-rempx(32); }
+.font30 {  @include font-rempx(30); }
 .font24 {  @include font-rempx(24); }
 
 .page-meta {  @include font-rempx(18); color: #777; }
 
 @font-face {
-    font-family: 'sourcebold';
+    font-family: 'sourcebold'; 
     src: url('../assets/fonts/SourceSansPro-Bold.woff2') format('woff2'),
         url('../assets/fonts/SourceSansPro-Bold.woff') format('woff');
     font-weight: bold;
@@ -119,7 +138,29 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'senbold';
+    src: url('../assets/fonts/sen-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/sen-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'senextrabold';
+    src: url('../assets/fonts/sen-extrabold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/sen-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'senregular';
+    src: url('../assets/fonts/sen-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/sen-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /*--- LISTS ---*/

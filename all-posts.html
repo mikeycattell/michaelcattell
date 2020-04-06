@@ -6,13 +6,18 @@ title: Blog
 <div class="wrapper">
 
   <div class="grid-three-fourths col offset-fifth">
-<h1 class="gamma">Latest posts</h1>
-  {% for post in site.posts %}
-    <p>
-      <div class="page-meta">{{ post.date |  date: "%-d %B %Y" }}</div>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </p>
+<h1 class="emma">Latest posts</h1>
 
-    {% endfor %}
+            <ul class="blogposts">
+                {% for post in site.posts %}
+                <li>
+                    <p>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+                        <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+                    </p>
+                </li>
+                {% endfor %}
+            </ul>
+
    </div>
 </div>

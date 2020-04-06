@@ -3,13 +3,14 @@
         <div class="grid-full">
             <h3 class="emma">Blog posts, social accounts and projects.</h3>
         </div>
-        <div class="grid-half">
-            <h4 class="mikey">RECENT POSTS</h4>
+        <div class="grid-full">
             <ul class="blogposts">
                 {% for post in site.posts limit: 5 %}
                 <li>
-                    <p><span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span><br>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                    <p>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+                        <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+                    </p>
                 </li>
                 {% endfor %}
             </ul>
@@ -17,14 +18,14 @@
         </div>
 
         <div class="grid-half">
-            <h4 class="mikey">WHERE TO FIND ME</h4>
-            <p>Dribbble:<br><a href="https://dribbble.com/mikeycattell">/mikeycattell</a></p>
-            <p>LinkedIn:<br><a href="https://www.linkedin.com/in/michaelcattell/">/michaelcattell</a></p>
-            <p>Instagram:<br><a href="https://www.instagram.com/mikeycattell/">/mikeycattell</a></p>
+            <h4 class="mikey">Where to find me</h4>
+            <p>Dribbble: <a href="https://dribbble.com/mikeycattell">/mikeycattell</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/michaelcattell/">/michaelcattell</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/mikeycattell/">/mikeycattell</a></p>
         </div>
 
-        <div class="grid-full">
-            <h4 class="mikey">WHAT ELSE I'M WORKING ON</h4>
+        <div class="grid-half">
+            <h4 class="mikey">What else I'm working on</h4>
             <p>Bobbin and Bumble<br><a href="https://www.bobbinandbumble.com/" title="click here to view bobbin and bumble website">www.bobbinandbumble.com</a></p>
         </div>
     </div>
