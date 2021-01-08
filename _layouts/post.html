@@ -1,6 +1,7 @@
 ---
 layout: default-post
 ---
+
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="wrapper">
@@ -16,17 +17,6 @@ layout: default-post
   {{ content }}
 
   <hr>
-
-  <p style="display: none;">
-    {% if page.tags %}
-  Post tagged with: 
-  {% for tag in page.tags %} <a href="tags.html/#{{ tag }}">{{ tag }}</a>
-      <br><br>
-  {% endfor %}
-  {% endif %}
-</p>
-
- 
 
 
 

@@ -5,6 +5,7 @@
 
 //1280px
 @media screen and (min-width: $bp-xlarge)  {
+	#warped {position: absolute; left: 40%; }
 
 }
 
@@ -17,7 +18,10 @@
 @media screen and (max-width: 970px)  {
 	.hideformobile, .header-socials { display: none; }
 	.hidefordesktop { display: block; }
-	.site-header { margin: 22px 0 20px!important; }
+	
+	#warped {overflow: hidden; position: absolute; left: 1%; top: 25%; z-index: 10; display: block; width:350px; height:439px;}
+	.shapesone { padding-top: 0px; }
+.shapestwo { padding-top: 0px; }
 }
 
 //960px
@@ -26,16 +30,11 @@
 	    display: inline-block;
 	    float: none;
 	}
+	.workingpizza { padding-top: 20px; }
 }
 
-
-// custom sizes to fix mobiles
-
-
-//750px iphone 6+ landscape
 @media screen and (max-width: 1000px) {
 .wrapper { padding: 0 10px; }
-header { margin: 34px 0 64px; }
 
 .cs--logo { padding-top: 50px; }
 }
@@ -45,21 +44,27 @@ header { margin: 34px 0 64px; }
 	.wrapper { padding: 0 10px; }
 	header.site-header { margin: 0 0 0px; }
 
+	.leftpusher { padding-left: 0%; }
+
+	.home--openingpara { font-size: 26px; padding: 40px 0 0;}
+	.home--secondpara { padding: 0 0px; }
 
 	.ralph {
-		margin-top: -50px;
+		margin-top: 0px;
 		margin-left: 0;
-		margin-bottom: 60px;
-		@include font-rempx(54);
-		line-height: 63px;
+		margin-bottom: 0px;
+		@include font-rempx(32);
+		line-height: 48px;
+		padding-left: 0; 
+		position: relative;
 	}
 
 	.ralphpuppy {
-		margin-top: -50px;
+		margin-top: 0px;
 		margin-left: 0;
 		margin-bottom: 60px;
-		@include font-rempx(54);
-		line-height: 63px;
+		@include font-rempx(44);
+		line-height: 53px;
 	}
 	.robyn {
 		margin-top: 0;
@@ -91,40 +96,44 @@ header { margin: 34px 0 64px; }
 	 .h1 {
 	 	@include font-rempx(32);
 	 	padding-top: .2em;
-	 	font-weight: 700;
 	 	margin-bottom: 58px;
 	 }
+
+	 h3.biggerheader { 
+	 	font-size: 26px;
+	  }
+
+	  .work--showcase h3 {
+	  	font-size: 34px; line-height: 48px;
+	  }
+
+	  .testimonials p { font-size: 20px; }
+	  
+	  .subheading--home { text-align: left; font-size: 14px; text-transform: uppercase; padding-top: 6px;  }
+	  .subheading--home-alt { text-align: left; font-size: 14px; text-transform: uppercase; padding-top: 6px;  }
+
+	  .leftpusher30 { padding-left: 0px;  }
+	  .paddingtop-80 { padding-top: 40px; }
  
 }
 
 @media screen and (max-width: 780px) {
-    .home-collections { padding: 0 0px 0; }
-    .home-collections--single { width: 50%; }
-    .home-collections--single:nth-child(1) { width: 50%; margin-top: 0; }
-    .home-collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
-    .home-collections--single:nth-child(3) { width: 50%; margin-top: 0; }
-    .home-collections--single:nth-child(4) { width: 50%;  }    
-    .home-collections--single>div { margin: 20px; text-align: center; }
+	header { padding: 34px 0 30px; }
+	.work--topworkings { margin-top: 0; }
 
-  .collections { padding: 0 0px 0; }
-  .collections--single { width: 50%; }
-  .collections--single:nth-child(1) { width: 50%; margin-top: 0; }
-  .collections--single:nth-child(2) { width: 50%;  margin-top: 0; }
-  .collections--single:nth-child(3) { width: 50%; margin-top: 0; }
-  .collections--single:nth-child(4) { width: 50%;  }    
-  .collections--single>div { margin: 20px; text-align: center; }
+	#whoworkedwith #work-grid {width: 100%; margin: 3rem auto; }
+	#whoworkedwith .work-item { width: 33.33%; }
+	#whoworkedwith .work-item:last-of-type { margin: 0 auto; }
+	.testimonials { padding: 30px; }
+	.workingpizza { width: 25%; }
+	.myworld { margin-bottom: 20px; }
+	.hideformobile { display: none; }
+	.bigtosmall { font-size: 30px; line-height: 40px; }
+	.home--openingpara { position: relative; text-align: left; width: 100%; }
 
-	#whoworkedwith #work-grid {
-    	width: 100%;
-    	margin: 3rem auto;
-	}
-	#whoworkedwith .work-item {
-    	width: 33.33%;
-	}
-	#whoworkedwith .work-item:last-of-type {
-    	margin: 0 auto;
-	}
-	.testimonials { padding: 30px 40px 30px; }
+	.workingheader { font-size: 36px; line-height: 58px; }
+
+	.about--me { margin-top: 0; }
 }
 
 @media screen and (max-width: 600px) {

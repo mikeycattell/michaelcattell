@@ -17,10 +17,7 @@
 }
 
 body{
-	color: $color-black;
-	font-family: $font-primary;
-	font-weight: $font-weight;
-	line-height: 1.5rem;
+
 }
 
 
@@ -31,22 +28,16 @@ body{
     padding-bottom: calc-em(0);
 }
 .ralph {
-	margin-top: 0;
-	margin-left: 0;
-	margin-bottom: 60px;
-	@include font-rempx(112);
-	line-height: 118px;
-	z-index: 2;
-	font-weight: normal;
-	position: relative;
+	font-size: 64px; line-height: 77px;margin-bottom: 0; padding-left: 0%;margin-top: 20px; position: relative; top: 0px; padding-left: 0px; max-width: 1030px;
 }
 .ralphpuppy {
 	margin-top: 0;
 	margin-left: 0;
-	margin-bottom: 60px;
-	@include font-rempx(80);
-	line-height: 90px;
+ 	margin-bottom: 0px;
+	@include font-rempx(70);
+	line-height: 80px;
 	z-index: 2;
+	text-align: right;
 	font-weight: normal;
 	position: relative;
 }
@@ -60,10 +51,10 @@ body{
 .emma {
 	margin-top: 0;
 	margin-left: 0px;
-	margin-bottom: 34px;
-	@include font-rempx(40);
+	margin-bottom: 26px;
+	@include font-rempx(34);
 	line-height: 50px;
-	font-family: 'sourcebold';
+	font-family: 'sen-bold';
 }
 .emmamini {
 	margin-top: 10px;
@@ -71,7 +62,6 @@ body{
 	margin-bottom: 34px;
 	@include font-rempx(40);
 	line-height: 50px;
-	font-family: 'sourcereg';
 }
 .mikey {
 	margin-top: 20px;
@@ -79,11 +69,16 @@ body{
 	margin-bottom: 16px;
 	@include font-rempx(22);
 	line-height: 30px;
-	font-family: 'sourcebold';	
+	font-family: 'sen-bold';	
+}
+
+.workingheader {
+	font-size: 50px; line-height: 68px;
 }
 .subheader--home {
 	font-size: 48px; margin-bottom: 0px; padding-bottom: 0;
 }
+.bigtosmall { padding: 0px 0 80px; font-size: 40px; line-height: 54px; position: relative;z-index: 15; }
 
 h1, h2, h3, h4, h5, h6 {
  	font-weight: normal;
@@ -93,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
  h1,
  .h1 {
- 	 	
+ 	 	z-index: 2; position: relative;
  }
 
  h2,
@@ -116,50 +111,42 @@ h1, h2, h3, h4, h5, h6 {
  	
  }
 
+.font16 {  @include font-rempx(16); }
+.font18 {  @include font-rempx(18); }
+.font20 {  @include font-rempx(20); }
+.font24 {  @include font-rempx(24); line-height: 40px; }
 .font32 {  @include font-rempx(32); }
 .font30 {  @include font-rempx(30); }
 .font24 {  @include font-rempx(24); }
 
-.page-meta {  @include font-rempx(18); color: #777; }
+.page-meta {  @include font-rempx(18); color: #000; }
+
 
 @font-face {
-    font-family: 'sourcebold'; 
-    src: url('../assets/fonts/SourceSansPro-Bold.woff2') format('woff2'),
-        url('../assets/fonts/SourceSansPro-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'sen-bold';
+    src: url('../assets/fonts/sen-bold.woff') format('woff2'),
+         url('../assets/fonts/sen-bold.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'sourcereg';
-    src: url('../assets/fonts/SourceSansPro-Regular.woff2') format('woff2'),
-        url('../assets/fonts/SourceSansPro-Regular.woff') format('woff');
+    font-family: 'sen-regular';
+    src: url('../assets/fonts/sen-regular.woff') format('woff2'),
+         url('../assets/fonts/sen-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'senbold';
-    src: url('../assets/fonts/sen-bold-webfont.woff2') format('woff2'),
-         url('../assets/fonts/sen-bold-webfont.woff') format('woff');
+    font-family: 'Cormorant-SemiBold';
+    src: url('../assets/fonts/Cormorant-SemiBold.woff') format('woff2'),
+         url('../assets/fonts/Cormorant-SemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
-@font-face {
-    font-family: 'senextrabold';
-    src: url('../assets/fonts/sen-extrabold-webfont.woff2') format('woff2'),
-         url('../assets/fonts/sen-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'senregular';
-    src: url('../assets/fonts/sen-regular-webfont.woff2') format('woff2'),
-         url('../assets/fonts/sen-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 
@@ -168,3 +155,7 @@ li > ul,
 li > ol{
 	margin-bottom:0;
 }
+
+
+.fontsize16 { font-size: 16px; }
+.fontsize20 { font-size: 20px; }

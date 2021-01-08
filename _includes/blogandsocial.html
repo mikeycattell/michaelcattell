@@ -1,11 +1,11 @@
 <section>
     <div class="wrapper">
         <div class="grid-full">
-            <h3 class="emma">Blog posts, social accounts and projects.</h3>
+            <h3 class="emma">Latest posts</h3>
         </div>
         <div class="grid-full">
             <ul class="blogposts">
-                {% for post in site.posts limit: 5 %}
+                {% for post in site.posts limit: 3 %}
                 <li>
                     <p>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
@@ -16,7 +16,7 @@
             </ul>
             <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
         </div>
-
+<!--
         <div class="grid-half">
             <h4 class="mikey">Where to find me</h4>
             <p>Dribbble: <a href="https://dribbble.com/mikeycattell">/mikeycattell</a></p>
@@ -28,5 +28,6 @@
             <h4 class="mikey">What else I'm working on</h4>
             <p>Bobbin and Bumble<br><a href="https://www.bobbinandbumble.com/" title="click here to view bobbin and bumble website">www.bobbinandbumble.com</a></p>
         </div>
+-->
     </div>
 </section>

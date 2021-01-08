@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header--colour.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+              <script src="assets/js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<script type="text/javascript">
+    $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+
+</script>
+
+</html>

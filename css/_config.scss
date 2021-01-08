@@ -36,12 +36,12 @@ $color-warning: $color-yellow; // Yellow
 
 
 // Font Stacks
-$font-primary: "senregular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-primary: "sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-header: "Helvetica", Arial;
-$font-bold: "senbold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-bold: "sen-bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-monospace: Menlo, Monaco, "Courier New", monospace;
 
-$font-size: 24px;
+$font-size: 20px;
 $font-weight: 300;
 $text-color: $color-white;
 
@@ -67,6 +67,7 @@ $container-width: 88%;
 // Grid
 $grid-margins: 1.4%;
 $grid-sizes: ( // name: width
+	tenth: 10%,
 	fifth: 20%,
 	fourth: 25%,
 	third: 33.33333333333%,
