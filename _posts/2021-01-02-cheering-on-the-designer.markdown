@@ -8,7 +8,7 @@ This past year was the year I started teaching, it was the year I learned more a
 I've spoken to people from Dubai, to San Francisco to Leeds and more and the lessons I’ve learned have been one of the best in my career and personally.
 But this post isn’t about me, that’s for another time - what I wanted to share was my process of teaching and how I learned to talk to a room of designers and make everyone feel like they were the only one, or how I empowered them to feel at ease at feeling silly, asking that question without the preface “this is probably a silly question..” and feel confident in presenting work.
 
-<strong>I <em>cheered</em> for the designer.</strong>
+<strong>I cheered for the designer.</strong>
 
 It all started back in 2010, working in America - I was the lead designer of a company, and enjoying it - I had more work than I could handle, the work I was doing was interesting and helped companies and people provide a service. BUT I needed help, I was working on 3 companies all within a parent company - whilst they weren't 100%, they needed some love and care.
 This is where it all changed for me, my line manager came up with the idea of hiring 1-2 students to work alongside me, as well as promote internally a person to work as a junior designer, this would serve two purposes - one to help work "get done", and secondary - it would grow my skill set managing and the students.

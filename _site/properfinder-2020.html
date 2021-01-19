@@ -48,15 +48,11 @@
 
   <body>
 
-    <article class="post">
-
-    <div class="">
-
-            <header class="site-header" style="background: #F4F0EC">
+        <header class="site-header">
         <div class="wrapper">
             <div class="grid-three-fourths">
 
-                <div class="site-logo"><a href="/">Hello, I’m Mikey<div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a></div>                
+                <div class="site-logo" name="top"><a href="https://michaelcattell.com/" title="take me to the home page">Hello, I’m <strong>Mikey</strong><div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a></div>
                     <div class="hideformobile" style="float: right;">
                         <nav class="main-menu">
                             <ul>
@@ -79,15 +75,15 @@
                     <div class="overlay" id="overlay">
                       <nav class="overlay-menu">
                         <ul>
-                            <li><a href="/about.html">About</a></li>
-                            <li><a href="/work.html">Work</a></li>
-                            <li><a href="/all-posts.html">Blog</a></li>
-                            <li><a href="/contact.html">Get in touch</a></li>
+                            <li><a class="noborder" href="/about.html">About</a></li>
+                            <li><a class="noborder" href="/work.html">Work</a></li>
+                            <li><a class="noborder" href="/all-posts.html">Blog</a></li>
+                            <li><a class="noborder" href="/contact.html">Get in touch</a></li>
                             <h3 class="mikey">RECENT POST</h3>
                             <ul>
                                 
                                 <li>
-                                    <p class="font16"><a class="post-link" href="/2021/01/02/cheering-on-the-designer.html">Cheering the designer</a></p>
+                                    <p class="font16"><a class="noborder post-link" href="/2021/01/02/cheering-on-the-designer.html">Cheering the designer</a></p>
                                 </li>
                                 
 
@@ -102,7 +98,11 @@
 
         </header>
 
-<section style="background: #F4F0EC">
+    <article class="post">
+
+  
+    
+      <section>
     <div class="wrapper">
         <div class="grid-full">
 
@@ -155,8 +155,7 @@
 </div>
 </div>
 </section>
-
-    </div>
+    
 
 </article>
 
@@ -164,13 +163,13 @@
     <footer class="site-bookend site-footer">
 
     <div class="wrapper">
-        <div class="grid-third col">
-            <p><a href="">Up</a></p>
+        <div class="grid-third">
+            <p><a href="#top" title="take me to the top of the page">Wanna ride to the top?</a></p>
         </div>
-        <div class="grid-third col">
-            <p><a href="/">Home</a><br><a href="about.html">About</a><br><a href="work.html">Work</a><br><a href="contact.html">Contact</a></p>
+        <div class="grid-third">
+            <p><a href="/" title="take me to the home page">Home</a><br><a href="about.html" title="click here to read more about me">About</a><br><a href="work.html" title="click here to see my work">Work</a><br><a href="contact.html" title="want to get in touch? click here">Contact</a></p>
         </div>
-        <div class="grid-third col">
+        <div class="grid-third">
             <p> &copy; Michael Cattell. Providing web design, front-end development and laughter to the stars, small or large.</p>
         </div>                
         <div class="clearfix"></div>
@@ -178,12 +177,6 @@
 
 </footer>
 
-
-  </body>
-              <script src="assets/js/wow.js"></script>
-              <script>
-              new WOW().init();
-              </script>
 <script type="text/javascript">
     $('#toggle').click(function() {
    $(this).toggleClass('active');
@@ -191,5 +184,8 @@
   });
 
 </script>
+
+
+  </body>
 
 </html>

@@ -44,7 +44,7 @@
 	.wrapper { padding: 0 10px; }
 	header.site-header { margin: 0 0 0px; }
 
-	.leftpusher { padding-left: 0%; }
+	.leftpusher { padding-left: 1.4%; }
 
 	.home--openingpara { font-size: 26px; padding: 40px 0 0;}
 	.home--secondpara { padding: 0 0px; }
@@ -62,7 +62,7 @@
 	.ralphpuppy {
 		margin-top: 0px;
 		margin-left: 0;
-		margin-bottom: 60px;
+		margin-bottom: 0px;
 		@include font-rempx(44);
 		line-height: 53px;
 	}
@@ -121,9 +121,6 @@
 	header { padding: 34px 0 30px; }
 	.work--topworkings { margin-top: 0; }
 
-	#whoworkedwith #work-grid {width: 100%; margin: 3rem auto; }
-	#whoworkedwith .work-item { width: 33.33%; }
-	#whoworkedwith .work-item:last-of-type { margin: 0 auto; }
 	.testimonials { padding: 30px; }
 	.workingpizza { width: 25%; }
 	.myworld { margin-bottom: 20px; }
@@ -139,4 +136,25 @@
 @media screen and (max-width: 600px) {
     .grid .product-single { margin-top: 83px; }
 
+    .client-logo {
+    float: left;
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+	}
 }
+
+@media screen and (min-width: 640px) {
+	.hidefor640 { display: block; }
+	.showfor640 { display: none; }
+}
+
+@media screen and (max-width: 640px) {
+	.hidefor640 { display: none; }
+	.showfor640 { display: block; }
+	.paddingleft100 { padding-left: 10px; }
+}
+
+

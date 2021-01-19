@@ -1,18 +1,18 @@
 ---
-layout: default-post
+layout: index-page
 title: Blog
 ---
 
 <div class="wrapper">
 
-  <div class="grid-three-fourths col offset-fifth">
+  <div class="grid-half">
 <h1 class="emma">Latest posts</h1>
 
             <ul class="blogposts">
                 {% for post in site.posts %}
                 <li>
                     <p>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl.blog }}">{{ post.title }}</a><br>
                         <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
                     </p>
                 </li>

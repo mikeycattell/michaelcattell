@@ -2,7 +2,7 @@
         <div class="wrapper">
             <div class="grid-three-fourths">
 
-                <div class="site-logo"><a href="https://michaelcattell.com/" title="take me to the home page">Hello, I’m Mikey<div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a></div>
+                <div class="site-logo" name="top"><a href="https://michaelcattell.com/" title="take me to the home page">Hello, I’m <strong>Mikey</strong><div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a></div>
                     <div class="hideformobile" style="float: right;">
                         <nav class="main-menu">
                             <ul>
@@ -25,15 +25,15 @@
                     <div class="overlay" id="overlay">
                       <nav class="overlay-menu">
                         <ul>
-                            <li><a href="/about.html">About</a></li>
-                            <li><a href="/work.html">Work</a></li>
-                            <li><a href="/all-posts.html">Blog</a></li>
-                            <li><a href="/contact.html">Get in touch</a></li>
+                            <li><a class="noborder" href="/about.html">About</a></li>
+                            <li><a class="noborder" href="/work.html">Work</a></li>
+                            <li><a class="noborder" href="/all-posts.html">Blog</a></li>
+                            <li><a class="noborder" href="/contact.html">Get in touch</a></li>
                             <h3 class="mikey">RECENT POST</h3>
                             <ul>
                                 {% for post in site.posts limit: 1 %}
                                 <li>
-                                    <p class="font16"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                                    <p class="font16"><a class="noborder post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                                 </li>
                                 {% endfor %}
 

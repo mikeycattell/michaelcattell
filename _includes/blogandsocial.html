@@ -1,33 +1,16 @@
-<section>
-    <div class="wrapper">
-        <div class="grid-full">
-            <h3 class="emma">Latest posts</h3>
-        </div>
-        <div class="grid-full">
-            <ul class="blogposts">
-                {% for post in site.posts limit: 3 %}
-                <li>
-                    <p>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
-                        <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-                    </p>
-                </li>
-                {% endfor %}
-            </ul>
-            <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
-        </div>
-<!--
-        <div class="grid-half">
-            <h4 class="mikey">Where to find me</h4>
-            <p>Dribbble: <a href="https://dribbble.com/mikeycattell">/mikeycattell</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/michaelcattell/">/michaelcattell</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/mikeycattell/">/mikeycattell</a></p>
-        </div>
-
-        <div class="grid-half">
-            <h4 class="mikey">What else I'm working on</h4>
-            <p>Bobbin and Bumble<br><a href="https://www.bobbinandbumble.com/" title="click here to view bobbin and bumble website">www.bobbinandbumble.com</a></p>
-        </div>
--->
+<div class="grid-half leftpusher">
+    <div">
+    <h3 class="mikey">My recent blog posts, where I like to share things I’ve learned, talk about my past week, or share what the heck I've eaten this week.</h3>
+    <ul class="blogposts">
+        {% for post in site.posts limit: 5 %}
+        <li>
+            <p>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+                <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+    <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
     </div>
-</section>
+</div>

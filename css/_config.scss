@@ -17,7 +17,7 @@ $color-primary-light: #0A1186;
 $color-secondary: #59c2e2;
 $color-secondary-light: #edf2f4;
 $color-highlight: #d5e63f;
-$color-black: #151515;
+$color-black: #2B2B2B;
 $color-white: #ffffff;
 $color-code: #dd1144;
 
@@ -36,14 +36,14 @@ $color-warning: $color-yellow; // Yellow
 
 
 // Font Stacks
-$font-primary: "sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-primary: "objectsans-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-header: "Helvetica", Arial;
-$font-bold: "sen-bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-bold: "objectsans-bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-monospace: Menlo, Monaco, "Courier New", monospace;
 
-$font-size: 20px;
-$font-weight: 300;
-$text-color: $color-white;
+$font-size: 17px;
+$font-weight: normal;
+$text-color: $color-black;
 
 // Breakpoints
 $bp-xsmall: 20em; //320px
@@ -70,9 +70,12 @@ $grid-sizes: ( // name: width
 	tenth: 10%,
 	fifth: 20%,
 	fourth: 25%,
+	thirty: 30%,
 	third: 33.33333333333%,
 	four-tenths: 40%,
+	forty-two: 42%,
 	half: 50%,
+	fifty-eight: 58%,
 	six-tenths: 60%,
 	two-thirds: 66.666666666667%,
 	three-fourths: 75%,

@@ -16,61 +16,52 @@
 	font-size: #{$value}px;
 }
 
-body{
-
-}
-
 
 /*--- HEADINGS ---*/
-.alpha {
-	@include font-rempx(40);
-    text-transform: none;
-    padding-bottom: calc-em(0);
-}
 .ralph {
-	font-size: 64px; line-height: 77px;margin-bottom: 0; padding-left: 0%;margin-top: 20px; position: relative; top: 0px; padding-left: 0px; max-width: 1030px;
+	font-size: 64px; line-height: 77px;margin-bottom: 0; padding-left: 0%;margin-top: 20px; position: relative; top: 0px; padding-left: 0px; max-width: 900px; font-family: 'objectsans-bold';
 }
 .ralphpuppy {
 	margin-top: 0;
 	margin-left: 0;
  	margin-bottom: 0px;
-	@include font-rempx(70);
-	line-height: 80px;
-	z-index: 2;
-	text-align: right;
-	font-weight: normal;
-	position: relative;
+	@include font-rempx(54);
+	line-height: 67px;
+	font-family: 'objectsans-bold';
 }
 .robyn {
 	margin-top: 0;
 	margin-left: 0px;
-	margin-bottom: 60px;
-	@include font-rempx(144);
-	line-height: 148px;
+	margin-bottom: 0px;
+	@include font-rempx(34);
+	line-height: 47px;
 }
 .emma {
 	margin-top: 0;
 	margin-left: 0px;
 	margin-bottom: 26px;
-	@include font-rempx(34);
-	line-height: 50px;
-	font-family: 'sen-bold';
-}
-.emmamini {
-	margin-top: 10px;
-	margin-left: 0px;
-	margin-bottom: 34px;
 	@include font-rempx(40);
-	line-height: 50px;
+	line-height: 53px;
+	font-family: 'objectsans-bold';
 }
 .mikey {
 	margin-top: 20px;
 	margin-left: 0px;
 	margin-bottom: 16px;
-	@include font-rempx(22);
+	@include font-rempx(20);
 	line-height: 30px;
-	font-family: 'sen-bold';	
+	font-family: 'objectsans-bold';
 }
+
+.heavyslanted-mikey {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 16px;
+	@include font-rempx(20);
+	line-height: 30px;
+	font-family: 'objectsans-heavyslanted';
+}
+
 
 .workingheader {
 	font-size: 50px; line-height: 68px;
@@ -123,27 +114,36 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @font-face {
-    font-family: 'sen-bold';
-    src: url('../assets/fonts/sen-bold.woff') format('woff2'),
-         url('../assets/fonts/sen-bold.woff') format('woff');
+    font-family: 'objectsans-bold';
+    src: url('../assets/fonts/objectsans-heavy-webfont.woff') format('woff2'),
+         url('../assets/fonts/objectsans-heavy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'sen-regular';
-    src: url('../assets/fonts/sen-regular.woff') format('woff2'),
-         url('../assets/fonts/sen-regular.woff') format('woff');
+    font-family: 'objectsans-regular';
+    src: url('../assets/fonts/objectsans-regular-webfont.woff') format('woff2'),
+         url('../assets/fonts/objectsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Cormorant-SemiBold';
-    src: url('../assets/fonts/Cormorant-SemiBold.woff') format('woff2'),
-         url('../assets/fonts/Cormorant-SemiBold.woff') format('woff');
+    font-family: 'objectsans-slant';
+    src: url('../assets/fonts/objectsans-slanted-webfont.woff') format('woff2'),
+         url('../assets/fonts/objectsans-slanted-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'objectsans-heavyslanted';
+    src: url('../assets/fonts/objectsans-heavyslanted-webfont.woff') format('woff2'),
+         url('../assets/fonts/objectsans-heavyslanted-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -158,4 +158,4 @@ li > ol{
 
 
 .fontsize16 { font-size: 16px; }
-.fontsize20 { font-size: 20px; }
+.fontsize20 { font-size: 20px; line-height: 30px }
