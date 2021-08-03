@@ -19,7 +19,7 @@
 
 /*--- HEADINGS ---*/
 .ralph {
-	font-size: 64px; line-height: 77px;margin-bottom: 0; padding-left: 0%;margin-top: 20px; position: relative; top: 0px; padding-left: 0px; max-width: 900px; font-family: 'objectsans-bold';
+	font-size: 55px; line-height: 75px;margin-bottom: 0; padding-left: 0%;margin-top: 20px; position: relative; top: 0px; padding-left: 0px; max-width: 900px; font-family: 'objectsans-bold';
 }
 .ralphpuppy {
 	margin-top: 0;
@@ -60,6 +60,15 @@
 	@include font-rempx(20);
 	line-height: 30px;
 	font-family: 'objectsans-heavyslanted';
+}
+
+.jasper {
+	margin-top: 00px;
+	margin-left: 0px;
+	margin-bottom: 16px;
+	@include font-rempx(20);
+	line-height: 30px;
+	font-family: 'objectsans-bold';
 }
 
 

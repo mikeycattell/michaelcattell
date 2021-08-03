@@ -1,6 +1,6 @@
 /* Ui layout only */
 
-body{ background: #f2f2f2;  }
+body{ background: #fff;  }
 
 .col { display: block; float: left; }
 .wrapper { max-width: 1100px; margin: 0 auto; padding: 0 10px;
@@ -67,9 +67,10 @@ footer { position: relative; }
 header.site-header {  }
 
 
-
+.leftpushno { padding-left: 0%; }
 .leftpusher { padding-left: 6%; }
 .leftpusher30 { padding-left: 30px; }
+.leftpusherhalf { padding-left: 30%; }
 
 .paddingtop-80 { padding-top: 50px; }
 
@@ -106,6 +107,10 @@ header.site-header {  }
 
 
 .work-references { text-align: center; max-width: 420px; margin: 0 auto; }
+
+.experience--list {  margin-top: 40px;font-size: 16px;
+  .dates { display: block;font-size: 13px; color: #737373; margin-bottom: 40px; }
+}
 
 /* shame fixes - we all do it */
 

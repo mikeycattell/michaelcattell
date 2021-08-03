@@ -5,9 +5,118 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jan 2021 08:35:20 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2021 08:35:20 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Aug 2021 10:31:09 +0100</pubDate>
+    <lastBuildDate>Tue, 03 Aug 2021 10:31:09 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Weeknotes No.29</title>
+        <description>&lt;p&gt;It’s back… my long-awaited week notes return.&lt;br /&gt;
+Now felt a good time than any to write again, hopefully kickstart my writing again as it’s taken a huge slip recently, whilst I have plenty to say I also have little motivation to write it but since working on the Design System at DWP I’ve become incredibly heavy with design thoughts and wanting to write (missing out on the time due to other duties (see the 2 kids, &lt;a href=&quot;https://www.bobbinandbumble.com/&quot; title=&quot;visit bobbin and bumble website&quot;&gt;wife’s business&lt;/a&gt; and a constant battle against the weeds in the garden)).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
+This morning we had our usual stand up, but I decided that I needed to discuss my distaste for getting served crepes when I was originally offered pancakes (this was heavily linked to me cooking breakfast pancakes for my daughter).&lt;br /&gt;
+But back to work - today is the day we have agreed on the design of the “new” design system for DWP, something more streamlined and catered to provide more of an easier service to the users.&lt;/p&gt;
+
+&lt;p&gt;I am starting the journey of getting more interaction between the design system and the design community - we all want the same thing and I have a great relationship with the team so I don’t see many challenges, the joys of having a prior relationships with the wider team eh!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Evaluating the outcomes from the brilliant Design System’s day that GDS ran last week. Whilst, I feel we were on top of quite a lot (thanks to the team’s prior knowledge and know-how before I joined) I still took away quite a lot, especially around community things.&lt;/p&gt;
+
+&lt;p&gt;I am looking into running sessions that will unite, bridge and help us get talking freely - less about work and more about THE work, specific work that helps us all.&lt;br /&gt;
+There is always a need around showcasing the work we do, the design doesn’t automatically come with a value output, and always promoting and showing the point of the work we and I are doing is key and showing it’s totally worthless without working for them, my users.&lt;/p&gt;
+
+&lt;p&gt;With the community vibe in mind, I decided to trial the following:&lt;br /&gt;
+&lt;strong&gt;Office hours&lt;/strong&gt; - where we share an hour of the week/month and explain what we did (i guess its similar to design community show and tell)&lt;br /&gt;
+&lt;strong&gt;Power hour&lt;/strong&gt; - where we open a slack channel for drop-in calls, and discuss their patterns and talk openly (a show and tell for them, lead by them)&lt;br /&gt;
+&lt;strong&gt;Brown bag&lt;/strong&gt; - we get folks who do not want high-level talk but a deep dive (optional attendance) into a pattern - bring your lunch!&lt;br /&gt;
+&lt;strong&gt;A survey&lt;/strong&gt; - find out how to find how the design system is working for you&lt;/p&gt;
+
+&lt;p&gt;It’ll be an interesting test to see which sinks or which come through as a shining light - plenty of work to do in this area but, all projects have challenges and all projects need the work, I’m just glad it’s this kind of work where I can control and have a lot of input in the outcomes (whilst trying new things and learning).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+This morning, we ran through the design and future planning of the design system site. The dev-lead has really smashed through the design we agreed on (it’s a light build and MVP) and is running at parity with the design team (there is 2 of us!) and it’s good to work at pace and just get-stuff-done for launch and testing.&lt;/p&gt;
+
+&lt;p&gt;I have also implemented a mural board (a whiteboarding tool) where we track designs, versions, conversations against versions and feedback (post-it note heavy stuff) - somewhere to document decisions, reasons and all that stuff that we often don’t do as designers that slips through the cracks.. or worse ends up on a jira ticket!&lt;/p&gt;
+
+&lt;p&gt;We also have a mural board of truth - within my first week I ran a workshop to discuss who are the users, what are their needs, how we measure success (this also includes KPI’s which is often missed within public sector), then I will often revisit this board to check we have hit the needs, and challenge the team to align to the needs and see if we are still doing the right thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+ 11 am meeting to run through a much needed contribute model - even if only to make it clearer for senior stakeholders. It’s been said many times, and I will keep repeating this - design systems live and die with the contribution, we need to find out what’s working or dying on its feet within the current process - we use GitHub issues at current but more recently we’ve moved to use GitHub discussions with a small testing group and it has been brilliant. &lt;br /&gt;
+To initially kick off a pattern, we don’t need much - its more of an eye, an awareness of the work, this means screengrabs, a paragraph on why you went for it, how and did it test/work well and what team you are on (we ask team/service so if needed we reach out for more info to get a wider understanding not just interaction design but content, UR, PM, business needs - you name it we want it).&lt;/p&gt;
+
+&lt;p&gt;Sound simple eh? Anyone who worked on a design system knows it isn’t - I need to get the community to feel it’s part of their role, their need, and to find time to provide us with the goods - I also need to remember this is key in solving any contributing issues, many Systems in the past fall into the styleguide where it becomes one person leading the charge and making decisions - I see myself as the person who puts the jigsaw together, not the jigsaw maker.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+Working on learning “stuff” today, reading blog post after blog post to see what others did - but there is still a whiff of design systems still not being crystal clear in the how-we-do-the-do or getting it into a team sport.
+I’d love any help on this - so get in touch if you can talk through what you did (good or bad!).
+Ran through the current version of the design-to-developed site and ripped it apart in Mural as a team, all agreed changes were not to big but incredibly valuable.&lt;/p&gt;
+
+&lt;p&gt;Also - &lt;a href=&quot;https://www.bobbinandbumble.com&quot; title=&quot;visit bobbin and bumble&quot;&gt;Bobbin and Bumble&lt;/a&gt; update, today we (re)launched our brilliant new &lt;a href=&quot;https://www.bobbinandbumble.com/collections/ikea-klammig-pyttig-antilop-high-chair-wipeable-cushion-covers&quot; title=&quot;bobbin and bumble's new line and designs of ikea highchair covers&quot;&gt;Ikea highchair cushion covers&lt;/a&gt; - these items were our original sellers and have been so popular and I couldn’t be as proud of Emma as I am.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful links this week:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://designdetails.fm/episodes/292309&quot; title=&quot;click here to listen to a podcast on designdetails.fm&quot;&gt;https://designdetails.fm/episodes/292309&lt;/a&gt; - Linzi Berry, a manager on Lyft’s design system talking about the design system, the struggles and I found some gems in here.&lt;br /&gt;
+&lt;a href=&quot;https://www.bobbinandbumble.com/collections/ikea-klammig-pyttig-antilop-high-chair-wipeable-cushion-covers&quot; title=&quot;view bobbin and bumble's new launch of ikea highchair covers&quot;&gt;https://www.bobbinandbumble.com/collections/ikea-klammig-pyttig-antilop-high-chair-wipeable-cushion-covers&lt;/a&gt; - Our chair covers are made for the IKEA highchair, these help your baby during those fun moments of mess-free-weaning (I know far more about baby products now than I could ever dream of).&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Aug 2021 11:33:00 +0100</pubDate>
+        <link>http://localhost:4000/2021/08/02/weeknotes-no29.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/02/weeknotes-no29.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Life update 2021</title>
+        <description>&lt;p&gt;Well, it’s been a while since I wrote on my website - life has certainly been busy in the past 3-6 months.&lt;/p&gt;
+
+&lt;p&gt;A lot has changed and I guess that’s the point of this post - to act as a reminder to myself in a year of where I was and hopefully where I am going.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The big one:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I got a haircut - thank the fine lords I got a haircut.&lt;br /&gt;
+JUST JOKING!&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;My family got bigger&lt;/strong&gt;, it grew by one and it grew with a little boy called Jasper. He is all I wanted without knowing what I wanted, we, again decided to not find out the gender and it was put upon me to deliver the news to my wife during the birth… whilst compared to her role it’s barely anything, but this time I wanted to tell her (last time with my daughter Robyn I couldn’t speak), during all of the pregnancy we, for some unknown reason decided we were having a girl, so it was a little bit of a shock. Having this assumption caused issues - such as not concentrating on names for boys, or getting clothes for boys (leaning more the “neutral girls” if that’s possible) so when I said:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Emma…. you won’t believe this… IT’S A BOY”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s when it all changed. 
+Whilst Robyn looks just like her mother, poor Jasper looks like his dad - blue eyes for bonus points but THAT look on his face still makes me laugh.&lt;/p&gt;
+
+&lt;p&gt;So, that’s the big reveal, that’s the life-changing moment to add to the current list of big life moves (all happening in the backdrop of a bloody pandemic).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Job Update:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Something I’ve never really openly said - but my past year or so I’ve been heavily involved in supporting the Government’s program of welfare reform, where my role was to drive forward a key part of one of the biggest and highest-profile digital transformation programs in the world.&lt;/p&gt;
+
+&lt;p&gt;With the current climate, this role has changed a lot, I was in a lot of teams, almost exclusively consulting on design, presenting to very high-up stakeholders and upskilling at speed. I designed, I persuaded and I levelled up my communication skills as well as leading design and its value through a wider reach. 
+It was enjoyable, testing and satisfying but an opportunity came to move to another team and a team I’ve often been earmarked for so many times - I can’t tell you the names but very often people have told me point-blank&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“You are IDEAL for this role as it needs working on and it’s screaming out for you”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This new role needs leadership and a voice from an Interaction designer point of view and this feels like a challenge that I could not turn down.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I decided to join the Design System for DWP.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I took on their advice, I listened to them and myself, the need to help other designers grow and we, as a Government department deliver something as best we can, within time, within budget and, from my own first-hand experience, see improvements in accessibility, performance, and shared knowledge across the team.
+I want to provide and show there is value in these tools, these processes and I want designers to feel in control of THE design process but still with the ability to make situational decisions.&lt;/p&gt;
+
+&lt;p&gt;It will not be easy, we have a lot of work and hurdles ahead, it might not even be sexy - but it’s the right side of challenge and the rewards will be massive for us, as a department but also for my self-worth, a legency piece (if you will) - just having an impact is the driver.&lt;/p&gt;
+
+&lt;p&gt;This new role also allows more time to mentor designers within the organisation, which is what gets me out of bed on a morning - this is massive to me and I hope I can show value in doing this and hopefully inspire others to do the same.&lt;/p&gt;
+
+&lt;p&gt;It’s been a heck of a month or two, I haven’t even touched on my wife and her brilliance, whilst having a baby and being a brilliant mother to two kids, Emma is also doing better than we could ever imagine with the family business down at &lt;a href=&quot;https://www.bobbinandbumble.com/&quot; title=&quot;see more products at bobbin and bumble&quot;&gt;Bobbin and Bumble&lt;/a&gt; - but that’s another post!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Last note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I have also decided to start posting more on my &lt;a href=&quot;https://dribbble.com/mikeycattell&quot;&gt;Dribbble&lt;/a&gt; account, as I’m starting to design more emailers, leaflets, websites etc all around my wife’s growing business, I have a vast amount of design work that feels like it might end up lost - so keep an eye out for that!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 May 2021 10:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2021/05/07/life-update-2021.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/05/07/life-update-2021.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cheering the designer</title>
@@ -86,8 +195,8 @@ A strange day of catch-ups before everyone goes off on leave during Christmas ti
 &lt;p&gt;Well earned weekend again!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Dec 2020 11:33:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/12/21/weeknotes-no28.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/12/21/weeknotes-no28.html</guid>
+        <link>http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</guid>
         
         
       </item>
@@ -439,128 +548,6 @@ She has incredible potential, and I’m excited to help her to move forward in h
         <pubDate>Mon, 02 Mar 2020 21:00:00 +0000</pubDate>
         <link>http://localhost:4000/2020/03/02/weeknotes-no24.html</link>
         <guid isPermaLink="true">http://localhost:4000/2020/03/02/weeknotes-no24.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Giving the power back</title>
-        <description>&lt;p&gt;I sat in a meeting, in fact I’ve sat in many meetings where it’s been said 
-“Right, that’s decided.. and you’ll design that later” and I’ve been ok with it, I did design it later and it did succeed.&lt;/p&gt;
-
-&lt;p&gt;It gained the figures they needed, it ticked the boxes and I delivered something good.&lt;/p&gt;
-
-&lt;p&gt;Something good, but not something great.
-It answered the “now” problem, it did what they needed, it answered the issues for the next 3 months but a year later it was outdated and not fit for purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;So I did well, what’s the problem?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I didn’t answer the problem, it was the thing I see so often - “the conveyer belt of design”, it was passed down and I was expected to deliver the creative juice.&lt;/p&gt;
-
-&lt;p&gt;I see this happen so many times, private and public services - a designer holds a key to the mystery box of design and that approach, has put us in this space that we don’t want to be in.
-We disappear into that “yes” job, not early enough to say no, not early enough to do creative thinking or worse - miss the product strategy conversations and that key co-design sessions are what makes a product and team tick.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Design is complex, but we’ve made design a mystery, where there is no mystery.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Design is a team sport, UX is everyone’s job, no one wants to deliver a bad service or experience - along the way there a lot of gatekeepers, and design is one of them, but to be a silo key holder is anti co-design.&lt;/p&gt;
-
-&lt;p&gt;Opening the room gives you more voices, more choices, more opportunities.&lt;/p&gt;
-
-&lt;p&gt;This is scary for most designers, some are precious about design, some are just scared if feedback, some think non-designers should be designing, whether it’s a service map, or wireframes or even straight to hi-res mocks, we need to give back, we need to allow others in, and in return we must be involved in other disciplines. 
-Imagine sharing the burden and weight of designing something special, a clear brief, clear boundaries and impressively no one questioning your design when/if you insist on the big firework”show and tell” presentation of your majestic work.&lt;/p&gt;
-
-&lt;p&gt;Rolling back to my example, I remember it like yesterday, it’s a reminder tool that I use often when telling the price of co-design, I also know a certain PM I worked with who will also share this terrible tale of silo work which lead to nothing, a shot, a stamp of a pretty visual but not much substance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;So what did we change next time I can imagine you shouting at the screen?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We talked, we spent time together to find the real problem, the real thing THEY - the user, the stakeholder wanted - a problem / opportunity statement. We ran workshops, we planned roadmaps, we got brains in a room and made such brilliant magic we enabled a dream to become reality and that is when REAL design happens.&lt;/p&gt;
-
-&lt;p&gt;Communicating with the team was the best gift I gave myself, sharing the pressure of delivering design freed and still frees me of any constraints and limits of my own ability. I am the best designer in the room (best being - I’m the paid designer, it’s officially my job), no one can challenge that, BUT I’m not the most knowledgable of the problem, and that is something to keep remembering - you aren’t handing over your job keys, you are opening your job and delivering something that is better, and that is most certainly going to be nearer to the solution quicker than I could possibly deliver.&lt;/p&gt;
-
-&lt;p&gt;So, I challenge you to include as many into your process as possible and see what happens, remove the secretive cycle and allow others to pick up a pen and scribble, they might just surprise you.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Feb 2020 21:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/02/25/giving-the-power-back.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/02/25/giving-the-power-back.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Celebrating the wins</title>
-        <description>&lt;p&gt;Ask yourself - when did you last celebrate a win?&lt;/p&gt;
-
-&lt;p&gt;I don’t mean your favourite sports team winning, I don’t mean when you decide you’re having a takeaway tonight, I mean when you’ve achieved something, maybe when your squad/team has launched something or when a loved one achieved something special.&lt;/p&gt;
-
-&lt;p&gt;In the past couple of years, I’ve noticed a trend, it’s pretty daunting – I don’t see or hear the wins.&lt;/p&gt;
-
-&lt;p&gt;Since working alongside my wife - assisting in the web/marketing content of both the &lt;a href=&quot;https://www.etsy.com/uk/shop/bobbinandbumblebaby&quot; title=&quot;check bobbin and bumble's shop on etsy&quot;&gt;Etsy shop&lt;/a&gt; and &lt;a href=&quot;https://www.etsy.com/uk/shop/bobbinandbumblebaby&quot; title=&quot;check bobbin and bumble's website&quot;&gt;website&lt;/a&gt;, before I got near any work I had to dig into my personal rule book and set some rules.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Before we joined forces, Emma was aiming for the stars, she wanted success - she’s been doing this since 2015 and she has been very successful - since 2015 (December to be exact), she has run her own company, been a full time mother - she has somehow managed to do all of this in the same 24 hours that I went to work, came home, put my daughter to bed and moan I didn’t have time to watch football.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sounds great doesn’t it?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Not really, now our daughter is at school Emma wants more success, she wants her products to rush off the electronic shelves and be sold out in hours instead of days or weeks.
-This disappointment could lead to days of un-motivation, lack of great ideas or worse - closing the company down and giving in.&lt;/p&gt;
-
-&lt;p&gt;So what did we change? What difference could we make to this process, to the business and to her and my success?&lt;/p&gt;
-
-&lt;p&gt;We simply made some rules:&lt;/p&gt;
-
-&lt;p&gt;We made goals&lt;br /&gt;
-We spelled out the wins&lt;br /&gt;
-We called out the failures.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What did we do? &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Agreeing on mini goals:&lt;br /&gt;
-It’s worth reminding yourself - setting goals, especially big goals is all about getting what we want, but if we set goals that are too large we are talking about the far future - you do need to set these, but sometimes you can loose heart if you do not achieve these quickly. Smaller goals, mini goals are easier to set, quicker to land and even better - quicker to learn from.&lt;/p&gt;
-
-&lt;p&gt;Setting goals is great, it helps set out the landscape - expectations, direction and the truth.&lt;br /&gt;
-To set goals you need to think about: launch day, 1st week, 2nd week, 1 month, 3 months to 6 months and so on. What do you want to achieve in those?&lt;br /&gt;
-Emma and I decided on setting goals for just the launch, 1st week and 1 month - that way we could quickly change direction if needed.&lt;/p&gt;
-
-&lt;p&gt;Launch was the toughest to set - during this process I had to share my learnings and best ways of working - these included being as simple as possible, using the RAG rating system (a personal favourite) and just being open about what we want to achieve or find out.&lt;/p&gt;
-
-&lt;p&gt;It’s as basic as (not in any order):&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;agree on logo&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;set launch date&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;research competitors&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;finalise designs and export&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;discuss with the manufacturer about processing designs&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;update all social media accounts with new branding&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We used Google sheets so we both could access and amend, this helped Emma keep focus, and work through a list at speed - whilst waiting on one thing she could action the next.&lt;/p&gt;
-
-&lt;p&gt;I won’t discuss too much on how to set goals (that’s potentially another post), but I also set goals to start a habit, like “post to Instagram every day”, “research keywords for &lt;em&gt;insert product&lt;/em&gt; - 1 product per week”, “spend an hour per week reviewing stats on Etsy and website” and finally “celebrate your first sale with a treat!”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Celebrate the wins:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Feeding on from the goals we set - we needed to celebrate the wins, Emma has never done this before (where as I celebrate everything, as I know the knock-on effect of it) - every “done” was a moment, a huge moment for her.&lt;/p&gt;
-
-&lt;p&gt;For example, when she sent her first order to the manufacturer, we celebrated with a meal, this meant a lot of things, it meant she had signed off her designs, she trusted someone with her designs, she was ready to start selling. It didn’t need to be as big as this, but just something to announce “you did this, and you did it well”.&lt;/p&gt;
-
-&lt;p&gt;Personally, I make sure the team celebrates the good, and sometimes the bad. I tend to call out the winners during Retros (however good a Retro is, I don’t always use this to announce people who did good things as its also a moment where we are saying what went wrong with a time limit), so maybe it can be during a stand-up, or the answer to “has anyone got anything else to add?” in another meeting - either way its nice to call someone out and let them know we have noticed their effort.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Final thoughts:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Dream big and get those small wins.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;If I could write this down on everyone’s desk and remind them of this every hour I would.&lt;/p&gt;
-
-&lt;p&gt;Since working with Emma, and doing a lot of back-ground hunting, researching and digging into the data I could get my hands on - I’ve realised that success is not linked to good luck - obviously that can play a part in it, but it’s a lot down to the effort and how well you allocate time - working out what are the quick wins, the big wins and the expensive possible-might-work are key to a successful launch and first couple of months.&lt;/p&gt;
-
-&lt;p&gt;It’s always a learning curve, but having your work planned out with value and then celebrating when completion of the bigger or tricky items has led to keeping us motivated.&lt;/p&gt;
-
-&lt;p&gt;Basically, be kind to yourself when you are working - notice when you have a win and celebrate yourself, small wins are all part of the plan for the “big” win.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 04 Feb 2020 21:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/02/04/celebrating-the-wins.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/02/04/celebrating-the-wins.html</guid>
         
         
       </item>

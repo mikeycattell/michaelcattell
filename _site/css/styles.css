@@ -327,8 +327,8 @@ a:active {
 /* rem sizing function */
 /*--- HEADINGS ---*/
 .ralph {
-  font-size: 64px;
-  line-height: 77px;
+  font-size: 55px;
+  line-height: 75px;
   margin-bottom: 0;
   padding-left: 0%;
   margin-top: 20px;
@@ -381,6 +381,15 @@ a:active {
   font-size: 20px;
   line-height: 30px;
   font-family: 'objectsans-heavyslanted'; }
+
+.jasper {
+  margin-top: 00px;
+  margin-left: 0px;
+  margin-bottom: 16px;
+  font-size: 20 17px rem;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'objectsans-bold'; }
 
 .workingheader {
   font-size: 50px;
@@ -497,14 +506,14 @@ li > ol {
 body {
   font-family: "objectsans-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 17px;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #2B2B2B;
   background: #ffffff;
   height: 0;
   margin: 0; }
   @media (min-width: 40em) {
     body {
-      line-height: 1.5625; } }
+      line-height: 1.7; } }
 p {
   margin-bottom: 1em; }
 
@@ -875,7 +884,7 @@ input.btn {
 
 /* Ui layout only */
 body {
-  background: #f2f2f2; }
+  background: #fff; }
 
 .col {
   display: block;
@@ -1014,11 +1023,17 @@ footer {
 footer {
   position: relative; }
 
+.leftpushno {
+  padding-left: 0%; }
+
 .leftpusher {
   padding-left: 6%; }
 
 .leftpusher30 {
   padding-left: 30px; }
+
+.leftpusherhalf {
+  padding-left: 30%; }
 
 .paddingtop-80 {
   padding-top: 50px; }
@@ -1051,6 +1066,15 @@ footer {
   text-align: center;
   max-width: 420px;
   margin: 0 auto; }
+
+.experience--list {
+  margin-top: 40px;
+  font-size: 16px; }
+  .experience--list .dates {
+    display: block;
+    font-size: 13px;
+    color: #737373;
+    margin-bottom: 40px; }
 
 /* shame fixes - we all do it */
 .clearfix {
@@ -1701,6 +1725,8 @@ footer {
     text-transform: uppercase;
     padding-top: 6px; }
   .leftpusher30 {
+    padding-left: 0px; }
+  .leftpusherhalf {
     padding-left: 0px; }
   .paddingtop-80 {
     padding-top: 40px; } }
