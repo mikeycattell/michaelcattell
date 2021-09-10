@@ -3,11 +3,107 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Aug 2021 10:31:09 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Aug 2021 10:31:09 +0100</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Sep 2021 21:04:26 +0100</pubDate>
+    <lastBuildDate>Wed, 08 Sep 2021 21:04:26 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Weeknotes No.31</title>
+        <description>&lt;p&gt;&lt;em&gt;(for the week of 31st August)&lt;/em&gt;&lt;br /&gt;
+Mannnnn a weird weekend, turns out my perfect little dog has diabetes which is tough to handle and was incredibly tough to hear - but then real life kicks in and we just have to accept it and manage it. Tough.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Discussed the final amends to the design system re-vamp, really light stuff like content etc, and today I will be sending it out for testing and feedback. Looking forward to this so we can see exactly what’s what - I’ve kept a ton in the loop but we finally have a prototype of sorts to show off that isn’t sketches or conversations.&lt;br /&gt;
+A day of admin (again) and doing the small stuff that I’ve not looked at for a while, painful but needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+Online training day, decided to help out DWP with the hiring process properly by taking the sifting course (this is where we read cv’s etc) and being on the panel in interviews, that’ll help me get more insight into the process properly and also if needed, help me hone my interview skills for the future.&lt;/p&gt;
+
+&lt;p&gt;Volunteered to speak at the Content Community day, having a 15-20minute slot to discuss all things design patterns and content patterns, I’ll be covering off my favourite - contribution but also going for investment from the community into future patterns and seeing if there are blockers to providing feedback (every presentation needs a workshop right?), excited for this one!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+ Today’s work is lead by the presentation to the community, which goes side by side with my work in leading the change of contribution model - we have outlined a skeleton shape to the presentation and now the fun bit, working out the words stuff…&lt;br /&gt;
+Collating feedback on the design system from approx 20 people ranging from differing roles within DWP, really excited to see the feedback and amend, we are using and trialling Github discussions still, as there were hints people were nervous about using GitHub issues - but so far people seem to be fluent and fast in using it.&lt;/p&gt;
+
+&lt;p&gt;Took some time out today to take the kids swimming midday, was so much fun to break the day up with this and a nice and welcome break from a hectic work week. And also, who doesn’t love dunking their kid?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+Arranging a gathering of work colleagues finally, this feels good to be seeing people I work with and having a quiet (..yeah right) drink sometime next week, it’s been so long since I’ve been in a public place with a group of people so fingers crossed my social skills are as terrible as ever.&lt;/p&gt;
+
+&lt;p&gt;Washy week this one, prob my most boring set of week notes tbh, but it’s all the admin/must do work at the moment (I’m sure you don’t want to know all the digging I’m doing in confluence!).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful links this week:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://mega-mentor.com/&quot;&gt;https://mega-mentor.com/&lt;/a&gt;  - This website doesn’t need an introduction, if you are looking above your level and want a design lead to help motivate, advise and help you on the next step, this is the place.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Sep 2021 09:20:00 +0100</pubDate>
+        <link>/2021/09/08/weeknotes-no31.html</link>
+        <guid isPermaLink="true">/2021/09/08/weeknotes-no31.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weeknotes No.30</title>
+        <description>&lt;p&gt;&lt;em&gt;(for the week of 23rd August)&lt;/em&gt;&lt;br /&gt;
+A new fresh week at work after a nice weekend of playing with the kids, having a lovely dinner out with my wife and brill nippers and terrible weather!&lt;/p&gt;
+
+&lt;p&gt;If you haven’t, I would recommend you read this &lt;a href=&quot;https://stamanfar.medium.com/just-say-it-3c43a83c1ea9&quot;&gt;brilliant blog post&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/stamanfar?lang=en&quot;&gt;@stamanfar&lt;/a&gt;, written with such honesty that many of us face sometime in our career - in her words: A blog about flunking, maybe, and new beginnings. This post alone has made me turn up AGAIN and do week notes, it was really impactful and I’m so glad it was written.&lt;/p&gt;
+
+&lt;p&gt;On other news, I also returned from holiday - a week on a farm is this family best holiday and since lockdown has been here and gone, we’ve holidayed around England a lot and… wow this country has got some beautiful gems that I might have missed in the past but making up for it now!&lt;br /&gt;
+A timely break for us all, work has been hectic - both home life (&lt;a href=&quot;https://www.bobbinandbumble.com/&quot; title=&quot;visit bobbin and bumble&quot;&gt;Bobbin and Bumble&lt;/a&gt;) and work work, but it’s nice to turn the MacBook off, recharge, re-assess thoughts and energize again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
+We’ve been busy updating the &lt;a href=&quot;https://design-system.dwp.gov.uk/index&quot;&gt;DWP’s first design system website&lt;/a&gt; over the last week (at the time of writing this is not updated), really feeding off user needs that we collected (first hand) from our users, things around updating them on what we are working on, what’s in the backlog and also providing a clearer understanding of what we are doing and why.&lt;/p&gt;
+
+&lt;p&gt;I will also be working alongside this launch presenting back to the different communities within DWP to provoke a discussion around contribution to the design system, allowing much more freedom and “chat” around patterns and, I guess - getting them to do the work alongside us (the way it should be).&lt;/p&gt;
+
+&lt;p&gt;Today was around fixing issues and bugs that I’ve noticed within the design system site, easy lists (light work to get back into the swing of things).
+Then straight onto working on our backlog item (today was &lt;strong&gt;toggle welsh&lt;/strong&gt; and &lt;strong&gt;keybar details&lt;/strong&gt;), gathering as much data as possible and speaking to those who have given us information using GitHub discussions.&lt;/p&gt;
+
+&lt;p&gt;The hard work when making patterns is certainly the start - knowing where to start feels different for each pattern depending on what arrives, how it arrives and what the users want first. As we are short in numbers of staff members, it means having to lean into User Research areas and not letting personal opinion kick in (I’ve used the patterns I’m gathering before so forgetting bias is always a tricky thing).&lt;/p&gt;
+
+&lt;p&gt;I have huge questions around how we agree on a pattern and launching it - whilst I certainly don’t want to wait around pleasing everyone, I certainly don’t want to launch something just because I think it is ready - I think its key to have a group of people to ask “Is this what you want/good enough” and if not - tell me why with data.
+The afternoon meeting was to support a community-led pattern exploration piece, I’m super excited to see this in action.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+This morning I am trying to be a lot more productive and focused, as the last couple of days / and week has been a rush of getting the work done as quick as possible (due to our deadlines), whilst I’ve enjoyed it a lot, I need to get my focus back now the rush is over. The easiest way to do this is to target THREE things I want to do today, I usually do TWO workpieces and ONE for me.&lt;/p&gt;
+
+&lt;p&gt;Helping to arrange the workshop the community are running by giving some tips on making it as effective as possible, but remember I shall be taking a back seat here, and letting them work their magic.&lt;/p&gt;
+
+&lt;p&gt;Also, I was invited to speak to the Content Community, centring around gaining a level understanding of the value, purpose and shared vision of the design system, so discussed my presentation with the organiser, and anyone who knows when I do a presentation - I always want to get something from it - selfishly for the project I am on - an interactive presentation, so I’m squeezing in a mini-workshop.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+Today’s hectic, poor Ralph isn’t too well so taking part of my lunch hour to visit the vets and doing dad duties in the morning with my other boy, he’s 5 months old now and has found out how to wave!&lt;br /&gt;
+Also, today is the planned community workshop (which I have to miss due to Ralph) but I know it’s in safe hands.&lt;/p&gt;
+
+&lt;p&gt;Ran through content and design ideas with Helen (content designer on the design system) to nail down what we could do even more to improve the process of providing feedback to a pattern/component and also discuss bloody terminal commands!&lt;br /&gt;
+I’m pleased and proud of the team as to what we will deliver, it will answer a lot of the questions to user needs and also provide a level of transparency that wasn’t there before, and set us up for a strong future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+ Work work workkkkkk, loads on with finishing the build and fixing mishaps that we find (of course it’s perfect first time…).&lt;br /&gt;
+Tying up a lot of ends that will align parts of entry for the design system is consistent and very much up to date.&lt;/p&gt;
+
+&lt;p&gt;Ran through the feedback from the workshop yesterday, due to missing it, it was nice to see something happening that was led by want and need and not by must.&lt;/p&gt;
+
+&lt;p&gt;Nothing really to update but doing admin work, and loads of it 🤦‍♂️&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+How did it get to Friday this fast? Is this the day we launch the new design system? Fingers crossed we are near… but it is at that point of, there could be a bug or content error anywhere.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful links this week:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://medium.com/leading-service-design/asking-the-right-questions-to-frame-the-problem-4df95a317983&quot;&gt;https://designdetails.fm/episodes/292309&lt;/a&gt; - Revisiting Ben’s brilliant post about “asking the right questions to frame the problem”.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UkvOlE8qDB0&amp;amp;list=PLMC49V9zeXbGQwEM-my5XLiTWzy4-vf7j&amp;amp;index=67&amp;amp;t=1663s&quot;&gt;Slopes Game Room - KickScammers: The VEGA+ Scandal&lt;/a&gt; - I am massively into retro-gaming, and this documentary about the Spectrum Vega+ has me gripped from start to finish, usual brilliance from Slopes.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 02 Sep 2021 09:20:00 +0100</pubDate>
+        <link>/2021/09/02/weeknotes-no30.html</link>
+        <guid isPermaLink="true">/2021/09/02/weeknotes-no30.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.29</title>
@@ -60,8 +156,8 @@ Ran through the current version of the design-to-developed site and ripped it ap
 
 </description>
         <pubDate>Mon, 02 Aug 2021 11:33:00 +0100</pubDate>
-        <link>http://localhost:4000/2021/08/02/weeknotes-no29.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/08/02/weeknotes-no29.html</guid>
+        <link>/2021/08/02/weeknotes-no29.html</link>
+        <guid isPermaLink="true">/2021/08/02/weeknotes-no29.html</guid>
         
         
       </item>
@@ -112,8 +208,8 @@ I want to provide and show there is value in these tools, these processes and I 
 &lt;p&gt;I have also decided to start posting more on my &lt;a href=&quot;https://dribbble.com/mikeycattell&quot;&gt;Dribbble&lt;/a&gt; account, as I’m starting to design more emailers, leaflets, websites etc all around my wife’s growing business, I have a vast amount of design work that feels like it might end up lost - so keep an eye out for that!&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 May 2021 10:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2021/05/07/life-update-2021.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/05/07/life-update-2021.html</guid>
+        <link>/2021/05/07/life-update-2021.html</link>
+        <guid isPermaLink="true">/2021/05/07/life-update-2021.html</guid>
         
         
       </item>
@@ -151,8 +247,8 @@ Calling them out would ruin their confidence to ever-present work again (which i
 &lt;p&gt;The more we empower other designers, the more they can pass it on and make our jobs a lot easier by making other designers around us better and feel more confident and safe to “just” design.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jan 2021 10:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2021/01/02/cheering-on-the-designer.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/01/02/cheering-on-the-designer.html</guid>
+        <link>/2021/01/02/cheering-on-the-designer.html</link>
+        <guid isPermaLink="true">/2021/01/02/cheering-on-the-designer.html</guid>
         
         
       </item>
@@ -195,8 +291,8 @@ A strange day of catch-ups before everyone goes off on leave during Christmas ti
 &lt;p&gt;Well earned weekend again!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Dec 2020 11:33:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</guid>
+        <link>/2020/12/21/weeknotes-no28-copy.html</link>
+        <guid isPermaLink="true">/2020/12/21/weeknotes-no28-copy.html</guid>
         
         
       </item>
@@ -245,8 +341,8 @@ The rest of the day is to discuss some design changes to a team I’m working on
 Friday evening is to discuss the launch of a &lt;a href=&quot;https://www.bobbinandbumble.com/products/adjustable-ikea-highchair-footrest-bamboo-timber&quot; title=&quot;introducing bobbin and bumble's IKEA Highchair footrest&quot;&gt;wicked new product&lt;/a&gt; (that I can link now its live) for the IKEA highchair which helps your little one eat a lot better and be less wriggly - something I can promise you is a thing (hence the invention of the splash mat!).&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Oct 2020 11:33:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/10/03/weeknotes-no27.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/10/03/weeknotes-no27.html</guid>
+        <link>/2020/10/03/weeknotes-no27.html</link>
+        <guid isPermaLink="true">/2020/10/03/weeknotes-no27.html</guid>
         
         
       </item>
@@ -305,8 +401,8 @@ The power of having GOOD people around you - whether to take work off you or peo
 Feeling relieved my workload has halved and now I have time to think, to recover, and spend time with my family in the sun!&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2020 11:33:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/05/07/weeknotes-no26.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/05/07/weeknotes-no26.html</guid>
+        <link>/2020/05/07/weeknotes-no26.html</link>
+        <guid isPermaLink="true">/2020/05/07/weeknotes-no26.html</guid>
         
         
       </item>
@@ -350,8 +446,8 @@ People telling me I should whip up another skill during this time, heck yeah let
 &lt;p&gt;Stay safe, it’s ok to be overwhelmed and it’s also ok to struggle or thrive.&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Apr 2020 09:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/04/20/living-and-working-at-home.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/20/living-and-working-at-home.html</guid>
+        <link>/2020/04/20/living-and-working-at-home.html</link>
+        <guid isPermaLink="true">/2020/04/20/living-and-working-at-home.html</guid>
         
         
       </item>
@@ -405,149 +501,8 @@ If you have started using a mentor and it feels a little lapse, try to arrange a
 
 </description>
         <pubDate>Thu, 19 Mar 2020 10:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/03/19/what-to-look-for-in-a-mentor.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/19/what-to-look-for-in-a-mentor.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.25</title>
-        <description>&lt;p&gt;This week I found really tough, we found a situation (it’s not an issue… just an interesting development) that was pretty major to users, but was overlooked due to miscommunication. This really made me reassess our (design) process and something I did take personally, but also worth noting that once we realised, we quickly pivoted to explore, address and “fix”, calling in outside teams with experience and similar learnings.&lt;br /&gt;
-Huge takeaway from this week: talk more, talk amongst your colleagues and do regular catch-ups with similar products.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-Presented for 40 minutes today which was fun to do, would have liked to have a little more time to prepare for it but to think on my feet is a nice feeling to have - so I can learn from it and do it again and again.&lt;br /&gt;
-Presenting the work I’ve done so far on this project, some great feedback from the presentation - especially around “setting the scene”, and also an education to assume not everyone knew what I was talking about (but I thought they did), so that’s huge learning.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-My team’s retro today, a great 30-minute session to really find the issues, the positives, and the fixes. I love a good retro, its a place where we can celebrate and fix anything that has proved to be difficult over the past 2 weeks. The ease at which this team will discuss struggles and issues is a positive, even if it is very negative - we strive together to be the best we can be and to fix/swarm around any issues.&lt;br /&gt;
-The joys of a tight team.&lt;/p&gt;
-
-&lt;p&gt;Today was a day of 2 emotions,&lt;br /&gt;
-The good: I mentor a colleague in the team and I couldn’t be more proud of her when she ran a user-stories workshop.&lt;br /&gt;
-In this project, it was noticed we were short of user-stories, so we swarmed around to fix this, gaining knowledge from experts and those on “the shop front”, I also stress this is the kind of knowledge we should be sharing and knowing from previous working products and forever will bang this drum.&lt;br /&gt;
-The bad: Within this workshop, something came out that got me interested, a process that wasn’t planned or discussed and was overlooked, I picked this up (design instinct and experience!) and the team realised that we NEED to review this section and urgently.&lt;br /&gt;
-Since this day, we have reviewed and put a plan in place, but this shows that every team requires a designer (of sorts) and a need and opportunity to call things out as soon as you feel things aren’t right.&lt;br /&gt;
-We did this, we are in the process of fixing this, and it will be fine.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-Important meetings today discussing future plans of design tasks (wider team) which took up most of the day.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bobbin and Bumble update:&lt;/strong&gt;
-Digging through the tons of data that Emma has accrued on her &lt;a href=&quot;https://www.etsy.com/uk/shop/bobbinandbumblebaby&quot; title=&quot;visit Bobbin and Bumble on etsy&quot;&gt;Etsy shop&lt;/a&gt; to improve, change and also fuel updates on a website which is miles behind the actual reality of her shop.&lt;br /&gt;
-Quite a drastic update is required as the photos, products are not working the best for the website, but Google rankings are working, as we are getting regular traffic to the site (and sales), which is interesting considering the amount of effort we have done with it.&lt;/p&gt;
-
-&lt;p&gt;Another update required: Emma needs to update her LinkedIn account… so keep an eye out for this!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
- Discussed the issues found from the Workshop on Tuesday, a good team meeting and a lot of fears were calmed (if any), a lot of actions to take and learnings.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-WFH day, a well earned out of office day that was needed to get headspace in reviewing what happened within the 2 weeks since returning from New York.&lt;br /&gt;
-Managed to work a lot on the Service View of the product, working closely with other teams to try to get a “joined-up design” view and learn as much as possible when its “free knowledge”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
-Seeing the team swarm around problems is what co-design is all about, we saw the issue, and worked to fix it as soon as possible.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
-Remembering that the design view of the project doesn’t fail and revolve around me is a great learning and a timely reminder.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
-Finding out we missed a step was something I struggled to get over and I did find myself getting frustrated. It’s been a testing week, but hopefully one we can learn from.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
-Two weeks in a row I’m proud of someone I’m helping to find their feet and more importantly - their confidence. They did so well, they made the room “work hard” and “team-up” on an issue.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Mar 2020 19:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/03/09/weeknotes-no25.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/09/weeknotes-no25.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.24</title>
-        <description>&lt;p&gt;It’s good to be back, having that week off has meant I have come back fully rested (enough as you possibly could be walking 30k each day in New York), but this also means the teams I work with have had to endure questions about everything, from things they’ve done to everything I’ve done.&lt;br /&gt;
-Sometimes/always its good to take that time out to reevaluate everything done, especially as this project is one of the most important ones in the country (and incredibly.. topical).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-The snow has arrived and totally broken my bus, meaning its a WFH day.&lt;br /&gt;
-This gives me time to catch up and arrange (more) meetings to see how some-very-important-meetings went during my week off, I never fear anything with this team though!&lt;br /&gt;
-A couple of heavy meetings today, running through priorities for this “period of work/year”, which is important in building direction and togetherness, sharing our issues and seeing if we can put them to the front of the queue to “fix”.&lt;br /&gt;
-But first…. stand-ups.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bobbin and Bumble update:&lt;/strong&gt;&lt;br /&gt;
-Emma is now working from a regular daily to-do list, which is helping her manage her workload and anxiety of having tons to do, she is attending and has a stall at MamaMeets in York, so there is a lot to get ready before then - designing, planning and sorting out the things I would forget (like how to take money from a card..) and finally.. update all the &lt;a href=&quot;https://www.etsy.com/uk/shop/bobbinandbumblebaby&quot; title=&quot;see bobbin and bumble's products&quot;&gt;products&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-Back, amongst the people physically after a week and a bit away. Loads has been done and done so well.&lt;br /&gt;
-A catch up about a Workshop I missed last week, discussing the outcomes and review of the Service Map with the external partner and today is just meetings and catch-ups and supporting colleagues in 1:1s and performance review write-ups.&lt;/p&gt;
-
-&lt;p&gt;Reviewing the Service Map and some minor parts of the process after a week off has been interesting, a lot more questions (new ones) and challenges to feed back to the team - showing and reminding me of the power of having that time “out” to help work on the return.&lt;/p&gt;
-
-&lt;p&gt;1:1 meeting after a while, good to catch up.&lt;/p&gt;
-
-&lt;p&gt;Also, in the evening I wrote a &lt;a href=&quot;https://michaelcattell.com/2020/02/25/giving-the-power-back.html&quot; title=&quot;read my blog post about giving the power back&quot;&gt;blog post&lt;/a&gt; about “giving the power back”, it is something that I often remind people in the design industry and something I am quite passionate about.&lt;/p&gt;
-
-&lt;blockquote&gt;Design is complex, but we’ve made design a mystery, where there is no mystery.&lt;/blockquote&gt;
-&lt;p&gt;Give it a &lt;a href=&quot;https://michaelcattell.com/2020/02/25/giving-the-power-back.html&quot; title=&quot;read my blog post about giving the power back&quot;&gt;read&lt;/a&gt; and let me know your thoughts&amp;lt;/a&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-Wider Interaction meeting in the morning - working with differing locations means technology is stretched, but this morning we got lucky and it worked.&lt;br /&gt;
-I presented, sharing an introduction into the “new” team I’ve joined, the purpose and goals of the team, my role, how I ran the co-design workshop and finally whats next. &lt;br /&gt;
-I also asked a question about working together - content and interaction and how to make it an easier ride (was a general question, the content designer I work with is ace, a little mad but ace).&lt;/p&gt;
-
-&lt;p&gt;Speaking of content, I ran her through the process map and purpose of the team as shes newly joined (the team not DWP), and sold the dream, as expected and loved - she asked 105 questions and within 20 minutes provided vast value by just questioning things. 
-Working in a safe environment works!&lt;/p&gt;
-
-&lt;p&gt;The latter part of the day - working on user needs, this is often something that can be misused as (business) assumption led and often “desire to understand”. 
-Wish me luck!&lt;/p&gt;
-
-&lt;p&gt;Also, I was approached by a colleague to mentor them, which is great!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
- First meeting with my new mentee - enjoyed getting to know her, she’s really interesting and motivated to learn as much as possible. 
-This is where I asked one question and then listened, listened as much as possible to her sharing her journey, her wants and where she’d like to be in the future.&lt;/p&gt;
-
-&lt;p&gt;Shared my thoughts on the user needs, swaying the team away from thinking user requirements as the same as user needs, and there is a plan for a workshop for a “proper” session. I am also mentoring another person in the team, she will be leading the workshop, which I am incredibly excited to see how she will do (which will be incredible).
-We have discussed the goals, purpose and outputs required from the workshop, this will help the team hugely during the discovery phase, get us back on track and allow us to find “the truth” in all needs and requirements to shape and size against the current MVP process.&lt;/p&gt;
-
-&lt;p&gt;Also worth a mention was the design community meet up which happens weekly, hosted by the new Lead Content Designer - Sir &lt;a href=&quot;https://twitter.com/Andy_D_Long&quot; title=&quot;check out Andy Long on twitter&quot;&gt;Andy Long&lt;/a&gt;. I have long supported Andy, and I couldn’t be happier knowing he’s at the helm of content designers and I can see his skillset, influence and management skills a great fit for DWP.&lt;/p&gt;
-
-&lt;p&gt;It was a great meeting discussing accessibility with another great - &lt;a href=&quot;https://twitter.com/CaleiSmith&quot; title=&quot;check out Calei on twitter&quot;&gt;Calei Smith&lt;/a&gt;, another one who got a well deserved promotion.&lt;br /&gt; Loads of GOOD opinions, in a totally safe environment with all levels and differing job types representing.&lt;br /&gt;
-More of this please, in fact, loads more of this, please.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-Half day flexi - yessss!&lt;br /&gt;
-First thing, helping out a colleague with a CSS fix - it was around moving one prototype to another, quickly. I have to stress this often to many who get stuck - a prototype is never production level (and if it is.. you aren’t doing it right), so I just bodged it to the highest level of a pure bodge. It worked the first time and I didn’t know what to do with the rest of the meeting.. nothing ever works first time! It’s really great that people come to me now, asking for help, support and advice - I feel incredibly valued and I also know I can provide help and support, but more importantly they know if I don’t know the answer I will go get it and don’t mind looking stupid finding it.&lt;/p&gt;
-
-&lt;p&gt;I also had a meeting with all Senior Designers within DWP, this is my first since joining (technology escapes me so much..), I loved this, knowing most of the people in the meeting meant I could crack the odd joke whilst updating the team on my progress, issues and get updates of their progress too. &lt;br /&gt;
-&lt;em&gt;Obviously, knowing this… I opened up with “all right fam”. &lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Good week, loads done, loads to chew over and LOADS of co-designing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
-Returning back to find the team has upped themselves and really covered a lot of ground in a week and totally smashed it. It’s an interesting time, and it can also be incredibly testing on morale, but we seem to really support each other and that has to be more important than any output at the moment.&lt;br /&gt;
-I know the workload will eventually be too much, but the feeling of working out of my comfort zone is really pushing me to learn more and it feels a good place for my career.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
-As ever, taking that step back and looking from the outside makes things so much clearer.&lt;br /&gt;
-Working with Emma means I can’t just say “oh you should do this” when I don’t have the bigger picture AND I’m not on the “shop floor”. This is a move which I’ve seen a lot and it is a terrible habit to get into and claim to be a hero. &lt;br /&gt;
-Judging before having the full picture is something I need to learn, will learn and will keep reminding myself.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
-Finding my pace, the pace of the team always changes and I have struggled this week with jetlag, finding the latest update and also trying to pull the team back from running away with “progress”.&lt;br /&gt; 
-I think it’s important to review where we are, and where we are heading instead of going silo just to get things done. I did disagree with somethings that were done, and upon me explaining my views they did too - we quickly realised, and will now quickly fix with a workshop.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
-Having a “cold” email from a colleague whom I have spoken to once before, asking if I could mentor her. Word of mouth and recommendations has led her to myself, which I’m incredibly proud of and I really do enjoy mentoring.&lt;br /&gt;
-She has incredible potential, and I’m excited to help her to move forward in her career (if possible) and let her grow however she wishes.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 02 Mar 2020 21:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/03/02/weeknotes-no24.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/02/weeknotes-no24.html</guid>
+        <link>/2020/03/19/what-to-look-for-in-a-mentor.html</link>
+        <guid isPermaLink="true">/2020/03/19/what-to-look-for-in-a-mentor.html</guid>
         
         
       </item>
