@@ -36,14 +36,14 @@ $color-warning: $color-yellow; // Yellow
 
 
 // Font Stacks
-$font-primary: "objectsans-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-primary: "Sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-header: "Helvetica", Arial;
-$font-bold: "objectsans-bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-bold: "Sen-bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-monospace: Menlo, Monaco, "Courier New", monospace;
 
-$font-size: 17px;
+$font-size: 26px;
 $font-weight: normal;
-$text-color: $color-black;
+$text-color: #242424;
 
 // Breakpoints
 $bp-xsmall: 20em; //320px
@@ -59,13 +59,13 @@ $bp-nav-step3: 61.3125em; // 981px
 // Sizing
 $font-base: 100%;
 $font-xlarge-screens: 100%;
-$spacing: 1em;
+$spacing: 2em;
 $container-max: 70rem;
 $container-width: 88%;
 
 
 // Grid
-$grid-margins: 1.4%;
+$grid-margins: 2.6%;
 $grid-sizes: ( // name: width
 	tenth: 10%,
 	fifth: 20%,
@@ -74,7 +74,9 @@ $grid-sizes: ( // name: width
 	third: 33.33333333333%,
 	four-tenths: 40%,
 	forty-two: 42%,
+	half-four: 45%,
 	half: 50%,
+	half-five: 55%,
 	fifty-eight: 58%,
 	six-tenths: 60%,
 	two-thirds: 66.666666666667%,

@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Sep 2021 21:04:26 +0100</pubDate>
-    <lastBuildDate>Wed, 08 Sep 2021 21:04:26 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Dec 2022 15:26:14 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2022 15:26:14 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -38,8 +38,8 @@ Arranging a gathering of work colleagues finally, this feels good to be seeing p
 &lt;a href=&quot;https://mega-mentor.com/&quot;&gt;https://mega-mentor.com/&lt;/a&gt;  - This website doesn’t need an introduction, if you are looking above your level and want a design lead to help motivate, advise and help you on the next step, this is the place.&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Sep 2021 09:20:00 +0100</pubDate>
-        <link>/2021/09/08/weeknotes-no31.html</link>
-        <guid isPermaLink="true">/2021/09/08/weeknotes-no31.html</guid>
+        <link>http://localhost:4000/2021/09/08/weeknotes-no31.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/08/weeknotes-no31.html</guid>
         
         
       </item>
@@ -99,8 +99,8 @@ How did it get to Friday this fast? Is this the day we launch the new design sys
 
 </description>
         <pubDate>Thu, 02 Sep 2021 09:20:00 +0100</pubDate>
-        <link>/2021/09/02/weeknotes-no30.html</link>
-        <guid isPermaLink="true">/2021/09/02/weeknotes-no30.html</guid>
+        <link>http://localhost:4000/2021/09/02/weeknotes-no30.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/02/weeknotes-no30.html</guid>
         
         
       </item>
@@ -156,8 +156,8 @@ Ran through the current version of the design-to-developed site and ripped it ap
 
 </description>
         <pubDate>Mon, 02 Aug 2021 11:33:00 +0100</pubDate>
-        <link>/2021/08/02/weeknotes-no29.html</link>
-        <guid isPermaLink="true">/2021/08/02/weeknotes-no29.html</guid>
+        <link>http://localhost:4000/2021/08/02/weeknotes-no29.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/02/weeknotes-no29.html</guid>
         
         
       </item>
@@ -208,8 +208,8 @@ I want to provide and show there is value in these tools, these processes and I 
 &lt;p&gt;I have also decided to start posting more on my &lt;a href=&quot;https://dribbble.com/mikeycattell&quot;&gt;Dribbble&lt;/a&gt; account, as I’m starting to design more emailers, leaflets, websites etc all around my wife’s growing business, I have a vast amount of design work that feels like it might end up lost - so keep an eye out for that!&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 May 2021 10:00:00 +0100</pubDate>
-        <link>/2021/05/07/life-update-2021.html</link>
-        <guid isPermaLink="true">/2021/05/07/life-update-2021.html</guid>
+        <link>http://localhost:4000/2021/05/07/life-update-2021.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/05/07/life-update-2021.html</guid>
         
         
       </item>
@@ -247,8 +247,8 @@ Calling them out would ruin their confidence to ever-present work again (which i
 &lt;p&gt;The more we empower other designers, the more they can pass it on and make our jobs a lot easier by making other designers around us better and feel more confident and safe to “just” design.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jan 2021 10:00:00 +0000</pubDate>
-        <link>/2021/01/02/cheering-on-the-designer.html</link>
-        <guid isPermaLink="true">/2021/01/02/cheering-on-the-designer.html</guid>
+        <link>http://localhost:4000/2021/01/02/cheering-on-the-designer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/01/02/cheering-on-the-designer.html</guid>
         
         
       </item>
@@ -291,8 +291,8 @@ A strange day of catch-ups before everyone goes off on leave during Christmas ti
 &lt;p&gt;Well earned weekend again!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Dec 2020 11:33:00 +0000</pubDate>
-        <link>/2020/12/21/weeknotes-no28-copy.html</link>
-        <guid isPermaLink="true">/2020/12/21/weeknotes-no28-copy.html</guid>
+        <link>http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</guid>
         
         
       </item>
@@ -341,8 +341,8 @@ The rest of the day is to discuss some design changes to a team I’m working on
 Friday evening is to discuss the launch of a &lt;a href=&quot;https://www.bobbinandbumble.com/products/adjustable-ikea-highchair-footrest-bamboo-timber&quot; title=&quot;introducing bobbin and bumble's IKEA Highchair footrest&quot;&gt;wicked new product&lt;/a&gt; (that I can link now its live) for the IKEA highchair which helps your little one eat a lot better and be less wriggly - something I can promise you is a thing (hence the invention of the splash mat!).&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Oct 2020 11:33:00 +0100</pubDate>
-        <link>/2020/10/03/weeknotes-no27.html</link>
-        <guid isPermaLink="true">/2020/10/03/weeknotes-no27.html</guid>
+        <link>http://localhost:4000/2020/10/03/weeknotes-no27.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/10/03/weeknotes-no27.html</guid>
         
         
       </item>
@@ -401,8 +401,8 @@ The power of having GOOD people around you - whether to take work off you or peo
 Feeling relieved my workload has halved and now I have time to think, to recover, and spend time with my family in the sun!&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2020 11:33:00 +0100</pubDate>
-        <link>/2020/05/07/weeknotes-no26.html</link>
-        <guid isPermaLink="true">/2020/05/07/weeknotes-no26.html</guid>
+        <link>http://localhost:4000/2020/05/07/weeknotes-no26.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/05/07/weeknotes-no26.html</guid>
         
         
       </item>
@@ -446,8 +446,8 @@ People telling me I should whip up another skill during this time, heck yeah let
 &lt;p&gt;Stay safe, it’s ok to be overwhelmed and it’s also ok to struggle or thrive.&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Apr 2020 09:00:00 +0100</pubDate>
-        <link>/2020/04/20/living-and-working-at-home.html</link>
-        <guid isPermaLink="true">/2020/04/20/living-and-working-at-home.html</guid>
+        <link>http://localhost:4000/2020/04/20/living-and-working-at-home.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/04/20/living-and-working-at-home.html</guid>
         
         
       </item>
@@ -501,8 +501,8 @@ If you have started using a mentor and it feels a little lapse, try to arrange a
 
 </description>
         <pubDate>Thu, 19 Mar 2020 10:00:00 +0000</pubDate>
-        <link>/2020/03/19/what-to-look-for-in-a-mentor.html</link>
-        <guid isPermaLink="true">/2020/03/19/what-to-look-for-in-a-mentor.html</guid>
+        <link>http://localhost:4000/2020/03/19/what-to-look-for-in-a-mentor.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/19/what-to-look-for-in-a-mentor.html</guid>
         
         
       </item>

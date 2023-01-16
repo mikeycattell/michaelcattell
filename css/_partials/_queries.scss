@@ -9,15 +9,22 @@
 
 }
 
+@media screen and (max-width: 1165px)  {
+	.hideformobile-nav { display: none; }
+	.hidefordesktop-nav	 { display: block; }
+}
+
 //over970
 @media screen and (min-width: 970px)  {
 	.hidefordesktop { display: none; }	
+
 }
 
 //under970
 @media screen and (max-width: 970px)  {
 	.hideformobile, .header-socials { display: none; }
 	.hidefordesktop { display: block; }
+	.leftpusher10  { margin-left: 0; }
 	
 	#warped {overflow: hidden; position: absolute; left: 1%; top: 25%; z-index: 10; display: block; width:350px; height:439px;}
 	.shapesone { padding-top: 0px; }
@@ -41,20 +48,26 @@
 
 //600px
 @media screen and (max-width: 600px) {
+
+	body { font-size: 20px; }
+
 	.wrapper { padding: 0 10px; }
 	header.site-header { margin: 0 0 0px; }
 
 	.leftpusher { padding-left: 1.4%; }
+	
 
 	.home--openingpara { font-size: 26px; padding: 40px 0 0;}
 	.home--secondpara { padding: 0 0px; }
+
+	header .getintouch { float: left; }
 
 	.ralph {
 		margin-top: 0px;
 		margin-left: 0;
 		margin-bottom: 0px;
-		@include font-rempx(32);
-		line-height: 48px;
+		@include font-rempx(44);
+		line-height: 58px;
 		padding-left: 0; 
 		position: relative;
 	}
@@ -70,8 +83,8 @@
 		margin-top: 0;
 		margin-left: 0px;
 		margin-bottom: 60px;
-		@include font-rempx(67);
-		line-height: 73px;
+		@include font-rempx(46);
+		line-height: 60px;
 
 	}
 	.alpha {
@@ -89,6 +102,16 @@
 		font-weight: 700;
 		margin: 0px 0 54px;
 	}
+
+.jelly {
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.font30 { 
+	line-height: 38px; 
+}
+
 	.subheader--home
 	 {font-size: 32px; margin-bottom: 1em;}
 
@@ -98,6 +121,11 @@
 	 	padding-top: .2em;
 	 	margin-bottom: 58px;
 	 }
+
+	 h2,
+	 .h2 {
+	 	@include font-rempx(26);
+	 }	 
 
 	 h3.biggerheader { 
 	 	font-size: 26px;
@@ -115,6 +143,7 @@
 	  .leftpusher30 { padding-left: 0px;  }
 	  .leftpusherhalf { padding-left: 0px;  }
 	  .paddingtop-80 { padding-top: 40px; }
+
  
 }
 
@@ -132,6 +161,8 @@
 	.workingheader { font-size: 36px; line-height: 58px; }
 
 	.about--me { margin-top: 0; }
+
+	.text-right { text-align: left; }
 }
 
 @media screen and (max-width: 600px) {
@@ -155,7 +186,7 @@
 @media screen and (max-width: 640px) {
 	.hidefor640 { display: none; }
 	.showfor640 { display: block; }
-	.paddingleft100 { padding-left: 10px; }
+	.paddingleft100 { padding-left: 0px; }
 }
 
 

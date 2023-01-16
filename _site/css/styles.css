@@ -52,7 +52,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "objectsans-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -156,14 +156,14 @@ a:active {
   margin-right: auto; }
 
 .row {
-  margin-left: -1.4%;
-  margin-right: -1.4%; }
+  margin-left: -2.6%;
+  margin-right: -2.6%; }
 
-.grid-full, .grid-ninety, .grid-four-fifths, .grid-three-fourths, .grid-two-thirds, .grid-six-tenths, .grid-fifty-eight, .grid-half, .grid-forty-two, .grid-four-tenths, .grid-third, .grid-thirty, .grid-fourth, .grid-fifth, .grid-tenth {
+.grid-full, .grid-ninety, .grid-four-fifths, .grid-three-fourths, .grid-two-thirds, .grid-six-tenths, .grid-fifty-eight, .grid-half-five, .grid-half, .grid-half-four, .grid-forty-two, .grid-four-tenths, .grid-third, .grid-thirty, .grid-fourth, .grid-fifth, .grid-tenth {
   float: left;
   width: 100%;
-  padding-left: 1.4%;
-  padding-right: 1.4%; }
+  padding-left: 2.6%;
+  padding-right: 2.6%; }
 
 /**
  * Reverses order of grid for content choreography
@@ -193,8 +193,12 @@ a:active {
     width: 40%; }
   .row-start-xsmall .grid-forty-two {
     width: 42%; }
+  .row-start-xsmall .grid-half-four {
+    width: 45%; }
   .row-start-xsmall .grid-half {
     width: 50%; }
+  .row-start-xsmall .grid-half-five {
+    width: 55%; }
   .row-start-xsmall .grid-fifty-eight {
     width: 58%; }
   .row-start-xsmall .grid-six-tenths {
@@ -225,8 +229,12 @@ a:active {
     width: 40%; }
   .row-start-small .grid-forty-two {
     width: 42%; }
+  .row-start-small .grid-half-four {
+    width: 45%; }
   .row-start-small .grid-half {
     width: 50%; }
+  .row-start-small .grid-half-five {
+    width: 55%; }
   .row-start-small .grid-fifty-eight {
     width: 58%; }
   .row-start-small .grid-six-tenths {
@@ -257,8 +265,12 @@ a:active {
     width: 40%; }
   .grid-forty-two {
     width: 42%; }
+  .grid-half-four {
+    width: 45%; }
   .grid-half {
     width: 50%; }
+  .grid-half-five {
+    width: 55%; }
   .grid-fifty-eight {
     width: 58%; }
   .grid-six-tenths {
@@ -287,8 +299,12 @@ a:active {
     margin-left: 40%; }
   .offset-forty-two {
     margin-left: 42%; }
+  .offset-half-four {
+    margin-left: 45%; }
   .offset-half {
     margin-left: 50%; }
+  .offset-half-five {
+    margin-left: 55%; }
   .offset-fifty-eight {
     margin-left: 58%; }
   .offset-six-tenths {
@@ -327,57 +343,67 @@ a:active {
 /* rem sizing function */
 /*--- HEADINGS ---*/
 .ralph {
-  font-size: 55px;
-  line-height: 75px;
+  font-size: 80px;
+  line-height: 90px;
   margin-bottom: 0;
   padding-left: 0%;
-  margin-top: 20px;
+  margin-top: 0px;
   position: relative;
   top: 0px;
   padding-left: 0px;
-  max-width: 900px;
-  font-family: 'objectsans-bold'; }
+  font-family: 'SangBleu sunrise'; }
 
 .ralphpuppy {
   margin-top: 0;
   margin-left: 0;
   margin-bottom: 0px;
-  font-size: 54 17px rem;
+  font-size: 54 26px rem;
   font-size: 54px;
   line-height: 67px;
-  font-family: 'objectsans-bold'; }
+  font-family: 'Sen-bold'; }
 
 .robyn {
-  margin-top: 0;
+  max-width: 937px;
+  margin-top: 20;
   margin-left: 0px;
-  margin-bottom: 0px;
-  font-size: 34 17px rem;
-  font-size: 34px;
-  line-height: 47px; }
+  margin-bottom: 20px;
+  font-size: 63 26px rem;
+  font-size: 63px;
+  line-height: 80px;
+  font-family: 'Sen-bold'; }
 
 .emma {
   margin-top: 0;
   margin-left: 0px;
   margin-bottom: 26px;
-  font-size: 40 17px rem;
-  font-size: 40px;
-  line-height: 53px;
-  font-family: 'objectsans-bold'; }
+  font-size: 20 26px rem;
+  font-size: 20px;
+  line-height: 34px;
+  font-family: 'Sen-bold'; }
+
+.emmajnr {
+  margin-top: 0;
+  margin-left: 0px;
+  margin-bottom: 26px;
+  font-size: 63 26px rem;
+  font-size: 63px;
+  line-height: 80px;
+  font-family: 'Sen-bold'; }
 
 .mikey {
   margin-top: 20px;
   margin-left: 0px;
   margin-bottom: 16px;
-  font-size: 20 17px rem;
+  font-size: 20 26px rem;
   font-size: 20px;
   line-height: 30px;
-  font-family: 'objectsans-bold'; }
+  font-family: 'Sen-bold'; }
 
 .heavyslanted-mikey {
   margin-top: 20px;
   margin-left: 0px;
   margin-bottom: 16px;
-  font-size: 20 17px rem;
+  font-size: 20 26px rem;
   font-size: 20px;
   line-height: 30px;
   font-family: 'objectsans-heavyslanted'; }
@@ -386,14 +412,33 @@ a:active {
   margin-top: 00px;
   margin-left: 0px;
   margin-bottom: 16px;
-  font-size: 20 17px rem;
+  font-size: 20 26px rem;
   font-size: 20px;
   line-height: 30px;
-  font-family: 'objectsans-bold'; }
+  font-family: 'Sen-bold'; }
+
+.intro-mikey {
+  padding-top: 70px;
+  font-size: 36px;
+  line-height: 46px; }
+
+.jelly {
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: normal; }
+
+.intro {
+  font-size: 30px;
+  line-height: 46px;
+  margin-top: 24px; }
 
 .workingheader {
-  font-size: 50px;
-  line-height: 68px; }
+  font-size: 38px;
+  line-height: 60px; }
+
+.homeworkingheader {
+  font-size: 28px;
+  line-height: 40px; }
 
 .subheader--home {
   font-size: 48px;
@@ -407,6 +452,9 @@ a:active {
   position: relative;
   z-index: 15; }
 
+.dark-font {
+  color: black; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin-bottom: 1em;
@@ -419,7 +467,8 @@ h1,
 
 h2,
 .h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  margin-bottom: 0; }
 
 h3,
 .h3 {
@@ -429,61 +478,62 @@ h4, h5, h6,
 .h4, .h5, .h6 {
   font-size: 15px; }
 
+h4,
+.h4 {
+  font-size: 20px;
+  font-family: 'Sen-bold'; }
+
 .font16 {
-  font-size: 16 17px rem;
+  font-size: 16 26px rem;
   font-size: 16px; }
 
 .font18 {
-  font-size: 18 17px rem;
+  font-size: 18 26px rem;
   font-size: 18px; }
 
 .font20 {
-  font-size: 20 17px rem;
-  font-size: 20px; }
+  font-size: 20 26px rem;
+  font-size: 20px;
+  line-height: 28px; }
 
 .font24 {
-  font-size: 24 17px rem;
+  font-size: 24 26px rem;
   font-size: 24px;
   line-height: 40px; }
 
 .font32 {
-  font-size: 32 17px rem;
+  font-size: 32 26px rem;
   font-size: 32px; }
 
 .font30 {
-  font-size: 30 17px rem;
-  font-size: 30px; }
+  font-size: 30 26px rem;
+  font-size: 30px;
+  line-height: 38px; }
 
 .font24 {
-  font-size: 24 17px rem;
+  font-size: 24 26px rem;
   font-size: 24px; }
 
 .page-meta {
-  font-size: 18 17px rem;
+  font-size: 18 26px rem;
   font-size: 18px;
   color: #000; }
 
 @font-face {
-  font-family: 'objectsans-bold';
-  src: url("../assets/fonts/objectsans-heavy-webfont.woff") format("woff2"), url("../assets/fonts/objectsans-heavy-webfont.woff") format("woff");
+  font-family: 'Sen-extrabold';
+  src: url("../assets/fonts/Sen-ExtraBold.woff") format("woff2"), url("../assets/fonts/Sen-ExtraBold.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'objectsans-regular';
-  src: url("../assets/fonts/objectsans-regular-webfont.woff") format("woff2"), url("../assets/fonts/objectsans-regular-webfont.woff") format("woff");
+  font-family: 'Sen-bold';
+  src: url("../assets/fonts/Sen-Bold.woff") format("woff2"), url("../assets/fonts/Sen-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'objectsans-slant';
-  src: url("../assets/fonts/objectsans-slanted-webfont.woff") format("woff2"), url("../assets/fonts/objectsans-slanted-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'objectsans-heavyslanted';
-  src: url("../assets/fonts/objectsans-heavyslanted-webfont.woff") format("woff2"), url("../assets/fonts/objectsans-heavyslanted-webfont.woff") format("woff");
+  font-family: 'Sen-regular';
+  src: url("../assets/fonts/Sen-Regular.woff") format("woff2"), url("../assets/fonts/Sen-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -504,24 +554,24 @@ li > ol {
  * Sets font styles for entire site
  */
 body {
-  font-family: "objectsans-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 17px;
+  font-family: "Sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 26px;
   line-height: 1.7;
-  color: #2B2B2B;
-  background: #ffffff;
+  color: #242424;
+  background: #FEF9F7;
   height: 0;
   margin: 0; }
   @media (min-width: 40em) {
     body {
       line-height: 1.7; } }
 p {
-  margin-bottom: 1em; }
+  margin-bottom: 2em; }
 
 /**
  * Sizes for smaller and larger text
  */
 .text-small {
-  font-size: 24 17px rem;
+  font-size: 24 26px rem;
   font-size: 24px; }
 
 .text-tall {
@@ -559,7 +609,7 @@ a:hover img {
 ul,
 ol,
 dl {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-left: 2em; }
 
 ul ul,
@@ -637,9 +687,9 @@ sub {
  */
 blockquote {
   border-left: 0.25em solid #f5f5f5;
-  margin-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em; }
+  margin-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em; }
 
 blockquote, q {
   quotes: none; }
@@ -668,7 +718,7 @@ code {
 
 pre {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   line-height: 1.5;
   background-color: white;
   padding: 0.8125em;
@@ -689,7 +739,7 @@ pre code {
  */
 form,
 fieldset {
-  margin-bottom: 1em; }
+  margin-bottom: 2em; }
 
 legend,
 label {
@@ -708,7 +758,7 @@ select {
   border-radius: 0;
   font-weight: 300;
   border: none;
-  font-size: 14 17px rem;
+  font-size: 14 26px rem;
   font-size: 14px; }
   @media (min-width: 40em) {
     input,
@@ -770,8 +820,8 @@ select:focus {
 /* Buttons layout only */
 .btn {
   display: inline-block;
-  font-family: "objectsans-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 18 17px rem;
+  font-family: "Sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18 26px rem;
   font-size: 18px;
   padding: 18px 80px;
   line-height: 1.2;
@@ -823,7 +873,7 @@ a .btn-secondary:active,
   color: #ffffff !important; }
 
 .btn-small {
-  font-size: 20 17px rem;
+  font-size: 20 26px rem;
   font-size: 20px;
   padding: 12px 50px; }
 
@@ -884,14 +934,17 @@ input.btn {
 
 /* Ui layout only */
 body {
-  background: #fff; }
+  background: #FEF9F7; }
+
+#mains {
+  border: 10px white solid; }
 
 .col {
   display: block;
   float: left; }
 
 .wrapper {
-  max-width: 1100px;
+  max-width: 1330px;
   margin: 0 auto;
   padding: 0 10px; }
 
@@ -926,7 +979,6 @@ ul.blogposts {
 
 ul.blogposts li {
   margin-left: 0;
-  font-size: 20px;
   padding-bottom: 5px; }
 
 ul.capabilities {
@@ -948,10 +1000,7 @@ ul.worklists li {
   font-size: 20px; }
 
 strong {
-  font-family: 'objectsans-bold'; }
-
-em {
-  font-family: 'objectsans-slant'; }
+  font-family: 'Sen-bold'; }
 
 .testimonials {
   padding: 30px 30px 20px;
@@ -964,10 +1013,13 @@ em {
   .testimonials .name {
     font-size: 18px; }
 
+.grid-content-maxwidth {
+  max-width: 794px; }
+
 /*--- LINKS ---*/
 a,
 a:visited {
-  font-family: objectsans-bold;
+  font-family: Sen-bold;
   color: #000;
   text-decoration: none;
   word-wrap: break-word;
@@ -989,11 +1041,9 @@ header {
   padding: 64px 0 30px; }
   header .site-logo {
     float: left;
-    font-family: objectsans-regular;
     font-size: 24px; }
     header .site-logo a {
-      color: #000;
-      font-family: objectsans-regular;
+      color: #fff;
       text-decoration: none;
       border: 0;
       box-shadow: inset 0 0px 0 0 #F9CE21; }
@@ -1003,10 +1053,12 @@ header {
     display: inline-block; }
     header .site-nav-main a {
       font-weight: 700;
-      color: #000;
+      color: #062CEF;
       text-decoration: none;
       border: 0;
       margin-left: 16px; }
+  header .getintouch {
+    float: right; }
 
 .header-socials {
   float: right; }
@@ -1014,6 +1066,22 @@ header {
 .header-socials a {
   box-shadow: inset 0 0 0px 0 #F9CE21;
   border-bottom: 0; }
+
+.gradient-topbottom {
+  background: #4d4791;
+  background: linear-gradient(189deg, #4d4791 0%, #d192a5 100%);
+  color: white; }
+  .gradient-topbottom a {
+    color: white;
+    border-bottom: 1px solid white; }
+
+.gradient-bottomtop {
+  background: #d192a5;
+  background: linear-gradient(189deg, #d192a5 0%, #4d4791 100%);
+  color: white; }
+  .gradient-bottomtop a {
+    color: white;
+    border-bottom: 1px solid white; }
 
 footer {
   background: #FAFAFA;
@@ -1029,6 +1097,9 @@ footer {
 .leftpusher {
   padding-left: 6%; }
 
+.leftpusher10 {
+  margin-left: 10%; }
+
 .leftpusher30 {
   padding-left: 30px; }
 
@@ -1037,6 +1108,9 @@ footer {
 
 .paddingtop-80 {
   padding-top: 50px; }
+
+.paddingtop-60 {
+  padding-top: 60px; }
 
 .client-logos {
   margin-bottom: .5rem; }
@@ -1047,7 +1121,8 @@ footer {
   position: relative;
   min-height: 1px;
   padding-left: 12px;
-  padding-right: 12px; }
+  padding-right: 12px;
+  text-align: center; }
 
 .client-logos {
   margin-left: -12px;
@@ -1062,10 +1137,35 @@ footer {
   height: auto;
   margin-bottom: 1.5rem; }
 
-.work-references {
-  text-align: center;
-  max-width: 420px;
-  margin: 0 auto; }
+.client-logo .gov-logo {
+  padding-top: 72px; }
+
+.client-logo .nhs-logo {
+  padding-top: 62px; }
+
+.client-logo .sky-logo {
+  padding-top: 38px; }
+
+.client-logo .britishairways-logo {
+  padding-top: 70px; }
+
+.client-logo .itv-logo {
+  padding-top: 30px; }
+
+.client-logo .skybet-logo {
+  padding-top: 40px; }
+
+.client-logo .argos-logo {
+  padding-top: 40px; }
+
+blockquote {
+  margin: 0 auto;
+  border-left: 3px solid #D091A4;
+  padding-left: 30px;
+  font-size: 17px;
+  line-height: 27px; }
+  blockquote p {
+    color: black; }
 
 .experience--list {
   margin-top: 40px;
@@ -1075,6 +1175,16 @@ footer {
     font-size: 13px;
     color: #737373;
     margin-bottom: 40px; }
+
+.logo--holder {
+  background: #FEF2EF;
+  padding: 50px 30px;
+  -webkit-box-shadow: 0px 0px 33px 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 33px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 33px 16px rgba(0, 0, 0, 0.1); }
+  .logo--holder img {
+    text-align: center;
+    padding: 30px 0; }
 
 /* shame fixes - we all do it */
 .clearfix {
@@ -1174,6 +1284,28 @@ footer {
   -webkit-animation-delay: 4s;
   animation-delay: 4s; }
 
+.workingplaces {
+  border-bottom: 0px solid #F4EFED;
+  margin: 0 0px 20px; }
+  .workingplaces .font30 {
+    margin-bottom: 5px; }
+  .workingplaces .font20 {
+    line-height: 28px; }
+
+.privatesector {
+  background: #4F4796;
+  padding: 10px;
+  font-weight: bold;
+  color: white; }
+
+.publicsector {
+  background: #E9C9D2;
+  padding: 10px;
+  font-weight: bold; }
+
+.hidefordesktop-nav {
+  display: none; }
+
 .main-menu {
   position: relative;
   left: auto;
@@ -1183,28 +1315,28 @@ footer {
   text-align: right; }
 
 .main-menu a, .main-menu .menu-close {
-  padding: 6px 15px 0 0;
+  padding: 6px 12px 0 0;
   border-bottom: 0px; }
 
 .main-menu a {
   color: #000;
   font-weight: 700;
-  box-shadow: inset 0 0px 0 0 #F9CE21;
+  box-shadow: inset 0 0px 0 0 #062CEF;
   border-bottom: 0px; }
 
 .main-menu a.select {
-  color: #000;
+  color: #fff;
   font-weight: 700;
-  border-bottom: 4px solid #000; }
+  border-bottom: 4px solid #062CEF; }
 
 .main-menu a, .main-menu .menu-close {
   display: block;
-  padding: 6px 15px 0 0;
+  padding: 6px 20px 0 0;
   line-height: 24px;
-  font-size: 18px;
-  color: #000;
+  font-size: 20px;
+  color: #fff;
   text-decoration: none;
-  border-bottom: 0px solid #d6d6d6; }
+  border-bottom: 0px solid #062CEF; }
 
 .main-menu ul {
   display: flex;
@@ -1214,7 +1346,8 @@ footer {
   box-shadow: none;
   height: auto;
   width: auto;
-  background: none; }
+  background: none;
+  margin-left: 0; }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -1300,7 +1433,7 @@ footer {
 
 .overlay {
   position: fixed;
-  background: #F9CE21;
+  background: #062CEF;
   top: 0;
   left: 0;
   width: 100%;
@@ -1356,7 +1489,7 @@ footer {
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   overflow: hidden; }
 
@@ -1384,6 +1517,11 @@ footer {
   100% {
     opacity: 1;
     left: 0; } }
+
+.clean {
+  color: black; }
+  .clean a {
+    color: black !important; }
 
 /**
  * @section Alignment, Spacing, & Visibility
@@ -1613,6 +1751,12 @@ footer {
     position: absolute;
     left: 40%; } }
 
+@media screen and (max-width: 1165px) {
+  .hideformobile-nav {
+    display: none; }
+  .hidefordesktop-nav {
+    display: block; } }
+
 @media screen and (min-width: 970px) {
   .hidefordesktop {
     display: none; } }
@@ -1622,6 +1766,8 @@ footer {
     display: none; }
   .hidefordesktop {
     display: block; }
+  .leftpusher10 {
+    margin-left: 0; }
   #warped {
     overflow: hidden;
     position: absolute;
@@ -1650,6 +1796,8 @@ footer {
     padding-top: 50px; } }
 
 @media screen and (max-width: 600px) {
+  body {
+    font-size: 20px; }
   .wrapper {
     padding: 0 10px; }
   header.site-header {
@@ -1661,52 +1809,63 @@ footer {
     padding: 40px 0 0; }
   .home--secondpara {
     padding: 0 0px; }
+  header .getintouch {
+    float: left; }
   .ralph {
     margin-top: 0px;
     margin-left: 0;
     margin-bottom: 0px;
-    font-size: 32 17px rem;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 44 26px rem;
+    font-size: 44px;
+    line-height: 58px;
     padding-left: 0;
     position: relative; }
   .ralphpuppy {
     margin-top: 0px;
     margin-left: 0;
     margin-bottom: 0px;
-    font-size: 44 17px rem;
+    font-size: 44 26px rem;
     font-size: 44px;
     line-height: 53px; }
   .robyn {
     margin-top: 0;
     margin-left: 0px;
     margin-bottom: 60px;
-    font-size: 67 17px rem;
-    font-size: 67px;
-    line-height: 73px; }
+    font-size: 46 26px rem;
+    font-size: 46px;
+    line-height: 60px; }
   .alpha {
-    font-size: 26 17px rem;
+    font-size: 26 26px rem;
     font-size: 26px;
     text-transform: none;
     padding-bottom: 0em; }
   .beta {
-    font-size: 30 17px rem;
+    font-size: 30 26px rem;
     font-size: 30px;
     font-weight: 300; }
   .gamma {
-    font-size: 30 17px rem;
+    font-size: 30 26px rem;
     font-size: 30px;
     font-weight: 700;
     margin: 0px 0 54px; }
+  .jelly {
+    font-size: 30px;
+    line-height: 46px; }
+  .font30 {
+    line-height: 38px; }
   .subheader--home {
     font-size: 32px;
     margin-bottom: 1em; }
   h1,
   .h1 {
-    font-size: 32 17px rem;
+    font-size: 32 26px rem;
     font-size: 32px;
     padding-top: .2em;
     margin-bottom: 58px; }
+  h2,
+  .h2 {
+    font-size: 26 26px rem;
+    font-size: 26px; }
   h3.biggerheader {
     font-size: 26px; }
   .work--showcase h3 {
@@ -1755,7 +1914,9 @@ footer {
     font-size: 36px;
     line-height: 58px; }
   .about--me {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .text-right {
+    text-align: left; } }
 
 @media screen and (max-width: 600px) {
   .grid .product-single {
@@ -1780,4 +1941,4 @@ footer {
   .showfor640 {
     display: block; }
   .paddingleft100 {
-    padding-left: 10px; } }
+    padding-left: 0px; } }

@@ -18,8 +18,7 @@
 
 
 /*--- HEADINGS ---*/
-.ralph {
-	font-size: 55px; line-height: 75px;margin-bottom: 0; padding-left: 0%;margin-top: 20px; position: relative; top: 0px; padding-left: 0px; max-width: 900px; font-family: 'objectsans-bold';
+.ralph { font-size: 80px; line-height: 90px;margin-bottom: 0; padding-left: 0%;margin-top: 0px; position: relative; top: 0px; padding-left: 0px; font-family: 'SangBleu sunrise';
 }
 .ralphpuppy {
 	margin-top: 0;
@@ -27,22 +26,33 @@
  	margin-bottom: 0px;
 	@include font-rempx(54);
 	line-height: 67px;
-	font-family: 'objectsans-bold';
+	font-family: 'Sen-bold';
 }
 .robyn {
-	margin-top: 0;
+	max-width: 937px;
+	margin-top: 20;
 	margin-left: 0px;
-	margin-bottom: 0px;
-	@include font-rempx(34);
-	line-height: 47px;
+	margin-bottom: 20px;
+	@include font-rempx(63);
+	line-height: 80px;
+	font-family: 'Sen-bold';
 }
 .emma {
 	margin-top: 0;
 	margin-left: 0px;
 	margin-bottom: 26px;
-	@include font-rempx(40);
-	line-height: 53px;
-	font-family: 'objectsans-bold';
+	@include font-rempx(20);
+	line-height: 34px;
+	font-family: 'Sen-bold';
+}
+
+.emmajnr {
+	margin-top: 0;
+	margin-left: 0px;
+	margin-bottom: 26px;
+	@include font-rempx(63);
+	line-height: 80px;
+	font-family: 'Sen-bold';
 }
 .mikey {
 	margin-top: 20px;
@@ -50,7 +60,7 @@
 	margin-bottom: 16px;
 	@include font-rempx(20);
 	line-height: 30px;
-	font-family: 'objectsans-bold';
+	font-family: 'Sen-bold';
 }
 
 .heavyslanted-mikey {
@@ -68,18 +78,22 @@
 	margin-bottom: 16px;
 	@include font-rempx(20);
 	line-height: 30px;
-	font-family: 'objectsans-bold';
+	font-family: 'Sen-bold';
 }
 
+.intro-mikey { padding-top: 70px; font-size: 36px; line-height: 46px; }
 
-.workingheader {
-	font-size: 50px; line-height: 68px;
-}
+.jelly { font-size: 46px; line-height: 56px; font-weight: normal;}
+
+.intro { font-size: 30px; line-height: 46px; margin-top: 24px; }
+
+.workingheader { font-size: 38px; line-height: 60px; }
+.homeworkingheader { font-size: 28px; line-height: 40px; }
 .subheader--home {
 	font-size: 48px; margin-bottom: 0px; padding-bottom: 0;
 }
 .bigtosmall { padding: 0px 0 80px; font-size: 40px; line-height: 54px; position: relative;z-index: 15; }
-
+.dark-font { color: black; }
 h1, h2, h3, h4, h5, h6 {
  	font-weight: normal;
  	margin-bottom: 1em;
@@ -94,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
  h2,
  .h2 {
  	font-size: 32px;
+ 	margin-bottom: 0;
  }
 
  h3,
@@ -108,51 +123,43 @@ h1, h2, h3, h4, h5, h6 {
 
  h4,
  .h4 {
- 	
+ 	font-size: 20px;
+ 	font-family: 'Sen-bold';
  }
+
 
 .font16 {  @include font-rempx(16); }
 .font18 {  @include font-rempx(18); }
-.font20 {  @include font-rempx(20); }
+.font20 {  @include font-rempx(20); line-height: 28px; }
 .font24 {  @include font-rempx(24); line-height: 40px; }
 .font32 {  @include font-rempx(32); }
-.font30 {  @include font-rempx(30); }
+.font30 {  @include font-rempx(30); line-height: 38px; } 
 .font24 {  @include font-rempx(24); }
 
 .page-meta {  @include font-rempx(18); color: #000; }
 
-
 @font-face {
-    font-family: 'objectsans-bold';
-    src: url('../assets/fonts/objectsans-heavy-webfont.woff') format('woff2'),
-         url('../assets/fonts/objectsans-heavy-webfont.woff') format('woff');
+    font-family: 'Sen-extrabold';
+    src: url('../assets/fonts/Sen-ExtraBold.woff') format('woff2'),
+         url('../assets/fonts/Sen-ExtraBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'objectsans-regular';
-    src: url('../assets/fonts/objectsans-regular-webfont.woff') format('woff2'),
-         url('../assets/fonts/objectsans-regular-webfont.woff') format('woff');
+    font-family: 'Sen-bold';
+    src: url('../assets/fonts/Sen-Bold.woff') format('woff2'),
+         url('../assets/fonts/Sen-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'objectsans-slant';
-    src: url('../assets/fonts/objectsans-slanted-webfont.woff') format('woff2'),
-         url('../assets/fonts/objectsans-slanted-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'objectsans-heavyslanted';
-    src: url('../assets/fonts/objectsans-heavyslanted-webfont.woff') format('woff2'),
-         url('../assets/fonts/objectsans-heavyslanted-webfont.woff') format('woff');
+    font-family: 'Sen-regular';
+    src: url('../assets/fonts/Sen-Regular.woff') format('woff2'),
+         url('../assets/fonts/Sen-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

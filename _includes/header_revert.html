@@ -1,0 +1,74 @@
+<div class="gradient-bottomtop">  
+
+    <header class="site-header">
+        <div class="wrapper">
+            
+            <div class="grid-third">
+                <div class="site-logo" name="top"  style="font-size: 20px;">
+                    <a href="https://michaelcattell.com/" title="take me to the home page"><strong>Mikey Cattell</strong>
+                    <div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a>
+                </div>
+            </div>
+
+            <!--<div class="grid-fourth">
+                <p style="font-size: 20px;">Currently Principal UX<br>at Hippo Digital</p>
+            </div>-->
+
+            <div class="grid-third">
+                <div class="hideformobile-nav">
+                    <nav class="main-menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/work.html">Work</a></li>
+                            <li><a href="/cv.html">CV</a></li>
+                            <li><a href="/all-posts.html">Blog</a></li>
+                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="grid-third">
+                <p style="font-size: 20px;"><a href="www">hello@michaelcattell.com</a></p>
+            </div>            
+
+                <!--<div class="grid-half">
+                    <a class="getintouch" href="https://michaelcattell.com/" title="take me to the home page">Hello@michaelcattell.com</a>
+                    <div class="marginbottom--m"></div>
+                    <div class="header-socials">
+                        <a href="http://instagram.com/mikeycattell/">Instagram</a> | <a href="https://twitter.com/mikeycattell">Twitter</a> | <a href="https://mikeycattell.dribbble.com/">Dribbble</a> | <a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a>
+                    </div>  
+                -->                  
+
+                    <!-- mobile nav-->
+                    <div class="button_container hidefordesktop-nav" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                        <ul>
+                            <li><a class="noborder" href="/about.html">About</a></li>
+                            <li><a class="noborder" href="/work.html">Work</a></li>
+                            <li><a href="/cv.html">CV</a></li>
+                            <li><a class="noborder" href="/all-posts.html">Blog</a></li>
+                            <li><a class="noborder" href="/contact.html">Get in touch</a></li>
+                            <h3 class="mikey">RECENT POST</h3>
+                            <ul>
+                                {% for post in site.posts limit: 1 %}
+                                <li>
+                                    <p class="font16"><a class="noborder post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                                </li>
+                                {% endfor %}
+
+                            </ul>                        
+                        </ul>
+
+                        </nav>
+                    
+                    </div>
+
+                    <!--<div class="grid-full">
+                        <p><span style="background: white; padding: 10px; font-size: 18px; color: black;">Currently on contract at <strong>Hippo Digital</strong> as Principal UX designer</span></p>
+                    </div>-->
+
+            </div>
+        </header>        
