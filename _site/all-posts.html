@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -17,10 +17,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Blog - Mikey Cattell</title>
-  <meta name="description" content="">
+  <meta name="description" content="Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds.">
 
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
   <link rel="canonical" href="http://localhost:4000/all-posts.html">
   
   <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
@@ -29,13 +32,13 @@
   <meta property="og:site_name" content="Mikey Cattell" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Blog" />
-  <meta property="og:description" content="
+  <meta property="og:description" content="Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds.
 " />
   <meta name="og:image" content="http://www.michaelcattell.com/mikeycattell.jpg" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Blog" />
-  <meta name="twitter:description" content="
+  <meta name="twitter:description" content="Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds.
 " />
   <meta name="twitter:image" content="http://www.michaelcattell.com/mikeycattell.jpg"" />
 
@@ -45,302 +48,497 @@
 
   <body>
 
-    <header class="site-header">
+        <header class="site-header">
+        <div class="wrapper">
+            
+            <div class="grid-third">
+                <div class="site-logo clean" name="top"  style="font-size: 20px;">
+                    <a href="https://michaelcattell.com/" title="take me to the home page"><strong>Mikey Cattell</strong>
+                    <div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a>
+                    <p style="font-size: 20px;"><a href="www">hello@michaelcattell.com</a></p>
+                </div>
+            </div>
 
-    <div class="wrapper">
+            <!--<div class="grid-fourth">
+                <p style="font-size: 20px;">Currently Principal UX<br>at Hippo Digital</p>
+            </div>-->
 
-        <input id="main-menu-checkbox" type="checkbox">
+            <div class="grid-third">
+                <div class="hideformobile-nav">
+                    <nav class="main-menu clean">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/work.html">Work</a></li>
+                            <li><a href="/current-cv.html">CV</a></li>
+                            <li><a href="/all-posts.html">Blog</a></li>
+                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
-        <header>
-            <label for="main-menu-checkbox" class="menu-toggle">
-                <span class="sr-only">Open main menu</span>
-                <span class="fa fa-bars" aria-hidden="true"></span>
-            </label>
-            <div class="site-logo"><a href="/">&nbsp;Mikey Cattell</a></div>
+            <div class="grid-third">
+                <p style="text-align: right; font-size: 20px;"><a href="/contact.html">Get in touch</a></p>
 
-            <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
-                <label for="main-menu-checkbox" class="menu-close">
-                    <span class="sr-only">Close main menu</span>
-                    <span class="fas fa-times" aria-hidden="true"></span>
-                </label>
-                <ul>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/work.html">Work</a></li>
-                    <li><a href="/all-posts.html">Blog</a></li>
-                    <li><a href="/contact.html">Get in touch</a></li>
-                </ul>
-            </nav>
-            <label for="main-menu-checkbox" class="backdrop" tabindex="-1" aria-hidden="true" hidden></label>
-        </header>
-    </div>
+            </div>            
 
-</header>
+                <!--<div class="grid-half">
+                    <a class="getintouch" href="https://michaelcattell.com/" title="take me to the home page">Hello@michaelcattell.com</a>
+                    <div class="marginbottom--m"></div>
+                    <div class="header-socials">
+                        <a href="http://instagram.com/mikeycattell/">Instagram</a> | <a href="https://twitter.com/mikeycattell">Twitter</a> | <a href="https://mikeycattell.dribbble.com/">Dribbble</a> | <a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a>
+                    </div>  
+                -->                  
+
+                    <!-- mobile nav-->
+                    <div class="button_container hidefordesktop-nav" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                        <ul>
+                            <li><a class="noborder" href="/about.html">About</a></li>
+                            <li><a class="noborder" href="/work.html">Work</a></li>
+                            <li><a href="/current-cv.html">CV</a></li>
+                            <li><a class="noborder" href="/all-posts.html">Blog</a></li>
+                            <li><a class="noborder" href="/contact.html">Get in touch</a></li>
+                            <h3 class="mikey">RECENT POST</h3>
+                            <ul>
+                                
+                                <li>
+                                    <p class="font16"><a class="noborder post-link" href="/2023/01/25/weeknotes-no32.html">Weeknotes No.32</a></p>
+                                </li>
+                                
+
+                            </ul>                        
+                        </ul>
+
+                        </nav>
+                    
+                    </div>
+
+                    <!--<div class="grid-full">
+                        <p><span style="background: white; padding: 10px; font-size: 18px; color: black;">Currently on contract at <strong>Hippo Digital</strong> as Principal UX designer</span></p>
+                    </div>-->
+
+            </div>
+        </header>        
 
     <article class="post">
 
+  
+    
       <div class="wrapper">
 
-  <div class="grid-three-fourths col offset-fifth">
-<h1 class="gamma">Latest posts</h1>
-  
-    <p>
-      <div class="page-meta">4 February 2020</div>
-        <a href="/2020/02/04/bringing-the-wins.html">Celebrating the wins</a>
-    </p>
+  <div class="grid-half">
+<h1 class="emma">Latest posts</h1>
 
-    
-    <p>
-      <div class="page-meta">29 January 2020</div>
-        <a href="/2020/01/29/weeknotes-no23.html">Weeknotes No.23</a>
-    </p>
+            <ul class="blogposts">
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2023/01/25/weeknotes-no32.html">Weeknotes No.32</a><br>
+                        <span class="page-meta">25 January 2023</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2021/09/08/weeknotes-no31.html">Weeknotes No.31</a><br>
+                        <span class="page-meta">8 September 2021</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2021/09/02/weeknotes-no30.html">Weeknotes No.30</a><br>
+                        <span class="page-meta">2 September 2021</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2021/08/02/weeknotes-no29.html">Weeknotes No.29</a><br>
+                        <span class="page-meta">2 August 2021</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2021/05/07/life-update-2021.html">Life update 2021</a><br>
+                        <span class="page-meta">7 May 2021</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2021/01/02/cheering-on-the-designer.html">Cheering the designer</a><br>
+                        <span class="page-meta">2 January 2021</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/12/21/weeknotes-no28-copy.html">Weeknotes No.28</a><br>
+                        <span class="page-meta">21 December 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/10/03/weeknotes-no27.html">Weeknotes No.27</a><br>
+                        <span class="page-meta">3 October 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/05/07/weeknotes-no26.html">Weeknotes No.26</a><br>
+                        <span class="page-meta">7 May 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/04/20/living-and-working-at-home.html">Living (and working) at home</a><br>
+                        <span class="page-meta">20 April 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/03/19/what-to-look-for-in-a-mentor.html">What to look for in a mentor</a><br>
+                        <span class="page-meta">19 March 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/03/09/weeknotes-no25.html">Weeknotes No.25</a><br>
+                        <span class="page-meta">9 March 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/03/02/weeknotes-no24.html">Weeknotes No.24</a><br>
+                        <span class="page-meta">2 March 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/02/25/giving-the-power-back.html">Giving the power back</a><br>
+                        <span class="page-meta">25 February 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/02/04/celebrating-the-wins.html">Celebrating the wins</a><br>
+                        <span class="page-meta">4 February 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/01/29/weeknotes-no23.html">Weeknotes No.23</a><br>
+                        <span class="page-meta">29 January 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/01/25/weeknotes-no22.html">Weeknotes No.22</a><br>
+                        <span class="page-meta">25 January 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/01/15/weeknotes-no21.html">Weeknotes No.21</a><br>
+                        <span class="page-meta">15 January 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2020/01/09/weeknotes-no20-the-2019-review.html">Weeknotes No.20 - the 2019 review</a><br>
+                        <span class="page-meta">9 January 2020</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/11/05/weeknotes-no19.html">Weeknotes No.19</a><br>
+                        <span class="page-meta">5 November 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/24/ego-or-self-esteem.html">Ego or Self Esteem?</a><br>
+                        <span class="page-meta">24 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/18/weeknotes-no18.html">Weeknotes No.18</a><br>
+                        <span class="page-meta">18 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/14/weeknotes-no17.html">Weeknotes No.17</a><br>
+                        <span class="page-meta">14 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/08/perfecting-the-pitch.html">Perfecting the pitch</a><br>
+                        <span class="page-meta">8 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/08/weeknotes-no16.html">Weeknotes No.16</a><br>
+                        <span class="page-meta">8 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/03/weeknotes-no15.html">Weeknotes No.15</a><br>
+                        <span class="page-meta">3 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/10/02/weeknotes-no14.html">Weeknotes No.14</a><br>
+                        <span class="page-meta">2 October 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/09/22/breaking-confidence.html">Breaking Confidence</a><br>
+                        <span class="page-meta">22 September 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/09/16/weeknotes-no13.html">Weeknotes No.13</a><br>
+                        <span class="page-meta">16 September 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/09/04/weeknotes-no11.html">Weeknotes No.12</a><br>
+                        <span class="page-meta">4 September 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/09/04/weeknotes-no12.html">Weeknotes No.12</a><br>
+                        <span class="page-meta">4 September 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/08/27/weeknotes-no10.html">Weeknotes No.10</a><br>
+                        <span class="page-meta">27 August 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/08/25/be-a-troublemaker.html">Be a troublemaker</a><br>
+                        <span class="page-meta">25 August 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/08/20/weeknotes-no9.html">Weeknotes No.9</a><br>
+                        <span class="page-meta">20 August 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/08/12/weeknotes-no8.html">Weeknotes No.8</a><br>
+                        <span class="page-meta">12 August 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/08/07/weeknotes-no7.html">Weeknotes No.7</a><br>
+                        <span class="page-meta">7 August 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/08/04/having-a-wobble.html">Having a wobble</a><br>
+                        <span class="page-meta">4 August 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/07/29/weeknotes-no6.html">Weeknotes No.6</a><br>
+                        <span class="page-meta">29 July 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/07/23/weeknotes-no5.html">Weeknotes No.5</a><br>
+                        <span class="page-meta">23 July 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/07/17/things-learned-in-first-month-atDWP.html">Things I’ve learned in my first month at DWP</a><br>
+                        <span class="page-meta">17 July 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/07/15/weeknotes-no4.html">Weeknotes No.4</a><br>
+                        <span class="page-meta">15 July 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/06/30/weeknotes-no3.html">Weeknotes No.3</a><br>
+                        <span class="page-meta">30 June 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/06/24/weeknotes-no2.html">Weeknotes No.2</a><br>
+                        <span class="page-meta">24 June 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/06/16/weeknotes-no1.html">Weeknotes No.1</a><br>
+                        <span class="page-meta">16 June 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2019/06/14/the-next-chapter.html">The Next Chapter</a><br>
+                        <span class="page-meta">14 June 2019</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2018/04/02/leaving-front-end-behind.html">Leaving front end behind</a><br>
+                        <span class="page-meta">2 April 2018</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2018/03/16/designishard.html">When Design is Design</a><br>
+                        <span class="page-meta">16 March 2018</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2017/01/22/hustling-no-thanks.html">Hustling, No Thanks</a><br>
+                        <span class="page-meta">22 January 2017</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2016/10/27/jobtitles.html">Job Titles – The Who, What And Why?</a><br>
+                        <span class="page-meta">27 October 2016</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2016/07/17/divide-between-frontend-backend.html">Fixing The Divide Between Front-End Developer And Back-End Developer</a><br>
+                        <span class="page-meta">17 July 2016</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2016/05/07/Do-You-Have-A-Snorkel.html">Do You Have A Snorkel?</a><br>
+                        <span class="page-meta">7 May 2016</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2016/04/18/im-a-workaholic.html">Im Often Told That I’m A Workaholic</a><br>
+                        <span class="page-meta">18 April 2016</span>
+                    </p>
+                </li>
+                
+                <li>
+                    <p>
+                        <a class="post-link" href="/2016/03/01/inspiration.html">Who, Over The Years Has Inspired/Inspires You?</a><br>
+                        <span class="page-meta">1 March 2016</span>
+                    </p>
+                </li>
+                
+            </ul>
 
-    
-    <p>
-      <div class="page-meta">25 January 2020</div>
-        <a href="/2020/01/25/weeknotes-no22.html">Weeknotes No.22</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">15 January 2020</div>
-        <a href="/2020/01/15/weeknotes-no21.html">Weeknotes No.21</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">9 January 2020</div>
-        <a href="/2020/01/09/weeknotes-no20-the-2019-review.html">Weeknotes No.20 - the 2019 review</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">5 November 2019</div>
-        <a href="/2019/11/05/weeknotes-no19.html">Weeknotes No.19</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">24 October 2019</div>
-        <a href="/2019/10/24/ego-or-self-esteem.html">Ego or Self Esteem?</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">18 October 2019</div>
-        <a href="/2019/10/18/weeknotes-no18.html">Weeknotes No.18</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">14 October 2019</div>
-        <a href="/2019/10/14/weeknotes-no17.html">Weeknotes No.17</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">8 October 2019</div>
-        <a href="/2019/10/08/perfecting-the-pitch.html">Perfecting the pitch</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">8 October 2019</div>
-        <a href="/2019/10/08/weeknotes-no16.html">Weeknotes No.16</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">3 October 2019</div>
-        <a href="/2019/10/03/weeknotes-no15.html">Weeknotes No.15</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">2 October 2019</div>
-        <a href="/2019/10/02/weeknotes-no14.html">Weeknotes No.14</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">22 September 2019</div>
-        <a href="/2019/09/22/breaking-confidence.html">Breaking Confidence</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">16 September 2019</div>
-        <a href="/2019/09/16/weeknotes-no13.html">Weeknotes No.13</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">4 September 2019</div>
-        <a href="/2019/09/04/weeknotes-no11.html">Weeknotes No.12</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">4 September 2019</div>
-        <a href="/2019/09/04/weeknotes-no12.html">Weeknotes No.12</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">27 August 2019</div>
-        <a href="/2019/08/27/weeknotes-no10.html">Weeknotes No.10</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">25 August 2019</div>
-        <a href="/2019/08/25/be-a-troublemaker.html">Be a troublemaker</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">20 August 2019</div>
-        <a href="/2019/08/20/weeknotes-no9.html">Weeknotes No.9</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">12 August 2019</div>
-        <a href="/2019/08/12/weeknotes-no8.html">Weeknotes No.8</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">7 August 2019</div>
-        <a href="/2019/08/07/weeknotes-no7.html">Weeknotes No.7</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">4 August 2019</div>
-        <a href="/2019/08/04/having-a-wobble.html">Having a wobble</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">29 July 2019</div>
-        <a href="/2019/07/29/weeknotes-no6.html">Weeknotes No.6</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">23 July 2019</div>
-        <a href="/2019/07/23/weeknotes-no5.html">Weeknotes No.5</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">17 July 2019</div>
-        <a href="/2019/07/17/things-learned-in-first-month-atDWP.html">Things I’ve learned in my first month at DWP</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">15 July 2019</div>
-        <a href="/2019/07/15/weeknotes-no4.html">Weeknotes No.4</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">30 June 2019</div>
-        <a href="/2019/06/30/weeknotes-no3.html">Weeknotes No.3</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">24 June 2019</div>
-        <a href="/2019/06/24/weeknotes-no2.html">Weeknotes No.2</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">16 June 2019</div>
-        <a href="/2019/06/16/weeknotes-no1.html">Weeknotes No.1</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">14 June 2019</div>
-        <a href="/2019/06/14/the-next-chapter.html">The Next Chapter</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">2 April 2018</div>
-        <a href="/2018/04/02/leaving-front-end-behind.html">Leaving front end behind</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">16 March 2018</div>
-        <a href="/2018/03/16/designishard.html">When Design is Design</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">22 January 2017</div>
-        <a href="/2017/01/22/hustling-no-thanks.html">Hustling, No Thanks</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">27 October 2016</div>
-        <a href="/2016/10/27/jobtitles.html">Job Titles – The Who, What And Why?</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">17 July 2016</div>
-        <a href="/2016/07/17/divide-between-frontend-backend.html">Fixing The Divide Between Front-End Developer And Back-End Developer</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">7 May 2016</div>
-        <a href="/2016/05/07/Do-You-Have-A-Snorkel.html">Do You Have A Snorkel?</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">18 April 2016</div>
-        <a href="/2016/04/18/im-a-workaholic.html">Im Often Told That I’m A Workaholic</a>
-    </p>
-
-    
-    <p>
-      <div class="page-meta">1 March 2016</div>
-        <a href="/2016/03/01/inspiration.html">Who, Over The Years Has Inspired/Inspires You?</a>
-    </p>
-
-    
    </div>
 </div>
 
+    
 
- 
 </article>
 
 
     <footer class="site-bookend site-footer">
 
     <div class="wrapper">
-        <div class="grid-third col">
-            <p><a href="">Up</a></p>
+        <div class="grid-third">
+            <p><a href="#top" title="take me to the top of the page">Wanna ride to the top?</a></p>
         </div>
-        <div class="grid-third col">
-            <p><a href="/">Home</a><br><a href="about.html">About</a><br><a href="work.html">Work</a><br><a href="contact.html">Contact</a></p>
+        <div class="grid-third">
+            <p><a href="/" title="take me to the home page">Home</a><br><a href="about.html" title="click here to read more about me">About</a><br><a href="work.html" title="click here to see my work">Work</a><br><a href="contact.html" title="want to get in touch? click here">Contact</a></p>
         </div>
-        <div class="grid-third col">
+        <div class="grid-third">
             <p> &copy; Michael Cattell. Providing web design, front-end development and laughter to the stars, small or large.</p>
         </div>                
         <div class="clearfix"></div>
     </div>
 
 </footer>
+
+<script type="text/javascript">
+    $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+
+</script>
 
 
   </body>

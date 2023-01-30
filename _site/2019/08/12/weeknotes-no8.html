@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,7 +21,11 @@
 
 
   <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
   <link rel="canonical" href="http://localhost:4000/2019/08/12/weeknotes-no8.html">
+  
   <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -44,36 +48,80 @@
 
   <body>
 
-    <header class="site-header">
+        <header class="site-header">
+        <div class="wrapper">
+            
+            <div class="grid-third">
+                <div class="site-logo clean" name="top"  style="font-size: 20px;">
+                    <a href="https://michaelcattell.com/" title="take me to the home page"><strong>Mikey Cattell</strong>
+                    <div style="display: inline-block" class="animate__animated animate__tada animate__ infinite">🤘</div></a>
+                    <p style="font-size: 20px;"><a href="www">hello@michaelcattell.com</a></p>
+                </div>
+            </div>
 
-    <div class="wrapper">
+            <!--<div class="grid-fourth">
+                <p style="font-size: 20px;">Currently Principal UX<br>at Hippo Digital</p>
+            </div>-->
 
-        <input id="main-menu-checkbox" type="checkbox">
+            <div class="grid-third">
+                <div class="hideformobile-nav">
+                    <nav class="main-menu clean">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/work.html">Work</a></li>
+                            <li><a href="/current-cv.html">CV</a></li>
+                            <li><a href="/all-posts.html">Blog</a></li>
+                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
-        <header>
-            <label for="main-menu-checkbox" class="menu-toggle">
-                <span class="sr-only">Open main menu</span>
-                <span class="fa fa-bars" aria-hidden="true"></span>
-            </label>
-            <div class="site-logo"><a href="/">&nbsp;Mikey Cattell</a></div>
+            <div class="grid-third">
+                <p style="text-align: right; font-size: 20px;"><a href="/contact.html">Get in touch</a></p>
 
-            <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
-                <label for="main-menu-checkbox" class="menu-close">
-                    <span class="sr-only">Close main menu</span>
-                    <span class="fas fa-times" aria-hidden="true"></span>
-                </label>
-                <ul>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/work.html">Work</a></li>
-                    <li><a href="/all-posts.html">Blog</a></li>
-                    <li><a href="/contact.html">Get in touch</a></li>
-                </ul>
-            </nav>
-            <label for="main-menu-checkbox" class="backdrop" tabindex="-1" aria-hidden="true" hidden></label>
-        </header>
-    </div>
+            </div>            
 
-</header>
+                <!--<div class="grid-half">
+                    <a class="getintouch" href="https://michaelcattell.com/" title="take me to the home page">Hello@michaelcattell.com</a>
+                    <div class="marginbottom--m"></div>
+                    <div class="header-socials">
+                        <a href="http://instagram.com/mikeycattell/">Instagram</a> | <a href="https://twitter.com/mikeycattell">Twitter</a> | <a href="https://mikeycattell.dribbble.com/">Dribbble</a> | <a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a>
+                    </div>  
+                -->                  
+
+                    <!-- mobile nav-->
+                    <div class="button_container hidefordesktop-nav" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                        <ul>
+                            <li><a class="noborder" href="/about.html">About</a></li>
+                            <li><a class="noborder" href="/work.html">Work</a></li>
+                            <li><a href="/current-cv.html">CV</a></li>
+                            <li><a class="noborder" href="/all-posts.html">Blog</a></li>
+                            <li><a class="noborder" href="/contact.html">Get in touch</a></li>
+                            <h3 class="mikey">RECENT POST</h3>
+                            <ul>
+                                
+                                <li>
+                                    <p class="font16"><a class="noborder post-link" href="/2023/01/25/weeknotes-no32.html">Weeknotes No.32</a></p>
+                                </li>
+                                
+
+                            </ul>                        
+                        </ul>
+
+                        </nav>
+                    
+                    </div>
+
+                    <!--<div class="grid-full">
+                        <p><span style="background: white; padding: 10px; font-size: 18px; color: black;">Currently on contract at <strong>Hippo Digital</strong> as Principal UX designer</span></p>
+                    </div>-->
+
+            </div>
+        </header>        
 
     <article itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -82,7 +130,7 @@
       <div class="page-header">
 
         <time datetime="2019-08-12T19:00:00+01:00" class="page-meta">12 August 2019</time>
-        <h1 >Weeknotes No.8</h1>
+        <h1 class="emma">Weeknotes No.8</h1>
 
       </div>
   
@@ -128,15 +176,6 @@ Even though, with all these meetings - it really feels now design is fully under
 
   <hr>
 
-  <p>
-    
-  Post tagged with: 
-  
-  
-</p>
-
- 
-
 
 
   <div class="CrossPageNavigation">
@@ -165,13 +204,28 @@ Even though, with all these meetings - it really feels now design is fully under
 
     <footer class="site-bookend site-footer">
 
-  <div class="wrapper">
-
-    <p><br>Senior Interaction Designer and Front-end Developer.<br>Based and working in and around Sheffield, Leeds, Manchester, Stockport and California.<br><br>
-    &copy; Michael Cattell. Providing web design, front-end development and support to all businesses, small or large.</p>
-  </div>
+    <div class="wrapper">
+        <div class="grid-third">
+            <p><a href="#top" title="take me to the top of the page">Wanna ride to the top?</a></p>
+        </div>
+        <div class="grid-third">
+            <p><a href="/" title="take me to the home page">Home</a><br><a href="about.html" title="click here to read more about me">About</a><br><a href="work.html" title="click here to see my work">Work</a><br><a href="contact.html" title="want to get in touch? click here">Contact</a></p>
+        </div>
+        <div class="grid-third">
+            <p> &copy; Michael Cattell. Providing web design, front-end development and laughter to the stars, small or large.</p>
+        </div>                
+        <div class="clearfix"></div>
+    </div>
 
 </footer>
+
+<script type="text/javascript">
+    $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+
+</script>
 
 
   </body>
