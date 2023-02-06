@@ -5,9 +5,47 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Jan 2023 10:31:07 +0000</pubDate>
-    <lastBuildDate>Mon, 30 Jan 2023 10:31:07 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Feb 2023 16:06:10 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2023 16:06:10 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>Weeknotes No.33</title>
+        <description>&lt;p&gt;I accidentally missed a couple of days’ updates, so let’s start fresh &lt;em&gt;insert smack head emoji here&lt;/em&gt;.&lt;br /&gt;
+This contract feels so different to the previous months, I don’t feel dread when 9 am or sometimes 8 am comes around, I feel a surge of excitement and challenge (in a good way) and am energised by the team. The challenges so far are usual run-of-the-mill expected things and I would describe the team as being in control of the problem space AND the solution space.  &lt;br /&gt;
+As a bonus, I’m sleeping better, nicer, having time to think and enjoying life instead of letting work ruin/run it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday:&lt;/strong&gt;&lt;br /&gt;
+Sun is shining, coffee is flowing (if you need recommendations, look no further than &lt;a href=&quot;https://www.taylorsofharrogate.co.uk/house-blends/lazy-sunday&quot; title=&quot;a link to taylors sunday blend coffee&quot;&gt;Taylor’s Sunday blend &lt;/a&gt;)
+Today, we met as a design and talked ONLY design tickets and the forthcoming work - this is so refreshing and it’s a welcome discussion when developers, BAs, and QAs discuss user needs and the design team just let it flow. I mentioned challenges in the header of this post, this 100% isn’t a challenge, it’s a breath of fresh air and I’m all for it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Working closely with the excellent design team (content designer and a User researcher) on part of the journey around verifying your ID (using phone, email or HMRC app) and updating the prototype. Busy morning, lots to take in and plenty of understanding and “ahh” moments coming from me, grateful I’m sat on my own!&lt;/p&gt;
+
+&lt;p&gt;Wrote a handful of LinkedIn recommendations for those nearest and dearest, suddenly a well-worth task that, in a time when people are job searching gives them a boost and knows that others out there are helping out (if you have any outstanding, please write one - including &lt;a href=&quot;https://www.linkedin.com/in/michaelcattell/&quot; title=&quot;link to my Linkedin profile&quot;&gt;one for me!&lt;/a&gt;).
+Also during my lunch hour, had another run at using ChatGPT, it’s such a powerful “thing”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+The set-up on this team is next level, this morning was refinement - where.. if I ever doubted that they trusted the interaction designer, today was the day it was wiped out - they asked me all the right questions, hung on my words of experience and listened and agreed to my points of view - LOVE IT!&lt;br /&gt;
+We also have a lot of DAC items in our backlog, that, due to my experience on the &lt;a href=&quot;https://michaelcattell.com/designsystem-2022.html&quot; title=&quot;linking to my DWP design system case study&quot;&gt;design system team&lt;/a&gt; I can easily work on (I know the backlog of the Gov design system like the back of my hand), I also know from previous experience that sometimes the DAC reports are always 100% correct - mostly around comments to the design system (one example would be making all labels for input boxes as bold and bigger, which varies between each service).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+Managed to work a ton of tickets yesterday, all centered around my bread and butter - accessibility.&lt;br /&gt;
+Feels like an interesting clash between what the design system is, and how the design system is being used and understood by its users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+Today is purely 100% reading the DAC report and working on those issues, as mentioned before - some of the reviews are quite interesting, they lean towards more what the design system says to do, in a “look and feel” manner than what’s happening on screen. Interestingly - it’s not correct either, I’ve had many DAC reports and they’ve always differed almost exclusively on one pattern, the &lt;a href=&quot;https://design-system.service.gov.uk/components/details/&quot; title=&quot;click here to see the GDS details pattern&quot;&gt;&amp;gt;details pattern&lt;/a&gt; not being able to be read correctly by Dragon (but.. many times it’s been found to be a false report).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful this week:&lt;/strong&gt;&lt;br /&gt;
+I really enjoyed the podcast with Ross Clark / Rylan on the fantastic &lt;a href=&quot;https://open.spotify.com/episode/6J4vrilAtR8wEzj9j4PFTu?si=a240f3513e0348df&quot; title=&quot;a spotify link to the High Performance Podcast&quot;&gt;High Performance podcast&lt;/a&gt;. It was really insightful into his life, but also interesting to see little snippets of coping mechanisms. &lt;br /&gt;
+“Don’t sweat the small stuff” really landed with me, it’s an old saying that has been used time after time, but I needed to hear this and actually HEAR this.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Feb 2023 09:20:00 +0000</pubDate>
+        <link>http://localhost:4000/2023/02/06/weeknotes-no33.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/06/weeknotes-no33.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.32</title>
@@ -441,51 +479,6 @@ Feeling relieved my workload has halved and now I have time to think, to recover
         <pubDate>Thu, 07 May 2020 11:33:00 +0100</pubDate>
         <link>http://localhost:4000/2020/05/07/weeknotes-no26.html</link>
         <guid isPermaLink="true">http://localhost:4000/2020/05/07/weeknotes-no26.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Living (and working) at home</title>
-        <description>&lt;p&gt;This is a post that’s been around my head for weeks, yet finding the motivation or even want to write it has been impossible.
-I’ve wanted to record how I feel, how, as a family, we are handling this situation but not really wanting to face my own feelings.&lt;br /&gt;
-I’m unsure why - those that know me I’m a very open book, happy to share my emotional state at a drop of a hat.&lt;/p&gt;
-
-&lt;p&gt;But, here we are - many weeks after being made to work from home and I’ve finally found the want to write.&lt;/p&gt;
-
-&lt;p&gt;From memory, it was a Wednesday that we found out we were to stop working from the office and start to do the 9 to 5 shift from home, from my office - well a room that is too small to be anything but an office.&lt;/p&gt;
-
-&lt;p&gt;It started out being incredibly exciting, working from home, right? I’ve done this before, in fact, I had almost 3 years of it – but this was totally different, it was remote working, not WFH.&lt;/p&gt;
-
-&lt;p&gt;It turned out to be the complete opposite of what I’d experienced – I didn’t have an adventurous 4-year-old daughter, we didn’t have “&lt;a href=&quot;https://www.bobbinandbumble.com/&quot; title=&quot;visit the family run business Bobbin and Bumble&quot;&gt;a family business&lt;/a&gt;” to run which has gone from strength to strength and before Covid, it was hitting heights we couldn’t dream of and, well people love the products so we can definitely say we have been busy.&lt;/p&gt;
-
-&lt;p&gt;Work has been tough to manage, it’s been meeting heavy – I’ve somehow morphed into a consultant for “how the design process should be done”, which is bloody amazing and something I’ve worked so hard on for the past 6 years, and noticed for this within a place like DWP is such a great thing, and to be noticed and recommended by other people is the best, but the challenge has been the meetings – video meetings have been a drain and quite a strain on sharing parental duties.&lt;/p&gt;
-
-&lt;p&gt;Whilst, we are here, let’s talk about my daughter – without her silliness, without her energy, without her innocence in all of this I think I would have been overwhelmed by all of this, I am incredibly lucky to have “locked-down” with my child, and even at her worst, she makes me my absolute best.&lt;/p&gt;
-
-&lt;p&gt;Also, it turns out she has my sense of humour, she is as a crazy as I am with her impressions, her random animal noises and ability to really find humour in the silliest of things and bring light to the room – but try telling that to my wife as a 37 year old man is chasing a 4 year old around the house shouting&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;“ARRR IMMA MAKE YOU WALK DA PLANK LADY/LAD CATTELL”&lt;/blockquote&gt;
-&lt;p&gt;with her on a horse and me riding a broomstick.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Just imagine living with that for a moment.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2&gt;The bad&lt;/h2&gt;
-&lt;p&gt;I have had a lot of conversations, supportive conversations with colleagues, friends, and my wife to help handle this pressure of having “spare time” that doesn’t really exist, the guilt of “home-schooling” and the general panic that spreads through a different schedule. Most find it tough to handle, I’ve struggled in the last couple of days and some have a situation that is tough to relate too, but being there is the most I can do for them and I know they feel supported.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BUT:&lt;/strong&gt;
-People telling me I should whip up another skill during this time, heck yeah let me learn to develop an app and read “the top 20 books all designers should read”, whilst teaching my child to spell her name using chalk, make dinner, walk the dog, shave my head and… oh shit yeah, do my day job.&lt;/p&gt;
-
-&lt;p&gt;Looking back at this phase in our lives, I am sure we shall see a time of change, a change of pace, a change of priorities, a time of panic, a time of valuing the importance of having good friends, a good family and the need to support others and ourselves through hurdles that appear out of no-where.&lt;/p&gt;
-
-&lt;p&gt;In all the darkness, I’ve found myself closer to friends, I’ve found a chance to refocus, I’ve found out I REALLY love helping and mentoring others, my family is as close as it’s ever been, I’ve been reminded that my wife is a &lt;em&gt;fucking superstar&lt;/em&gt; - not only is she running a business but she’s also running the house and enabling my child to be an absolute rockstar.&lt;/p&gt;
-
-&lt;p&gt;It’s been rough, it’s been annoying, it’s been safe for us all, it’s also been insightful and I’m actually thankful that I can learn something from what is a sad, terrible experience for us all.&lt;/p&gt;
-
-&lt;p&gt;Stay safe, it’s ok to be overwhelmed and it’s also ok to struggle or thrive.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Apr 2020 09:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/04/20/living-and-working-at-home.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/20/living-and-working-at-home.html</guid>
         
         
       </item>
