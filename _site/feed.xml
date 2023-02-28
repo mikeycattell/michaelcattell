@@ -5,9 +5,102 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Feb 2023 16:06:10 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Feb 2023 16:06:10 +0000</lastBuildDate>
+    <pubDate>Tue, 28 Feb 2023 10:30:44 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Feb 2023 10:30:44 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>Weeknotes No.36</title>
+        <description>&lt;p&gt;&lt;strong&gt;Monday:&lt;/strong&gt;&lt;br /&gt;
+Presented my findings to the team around design issues that I’m finding on the prototype that may come stuck later on, I made a very simple user journey map showing scenarios and outputs and, simply highlighted any issues around lack of consistency or breaking away from the design system. This is the kind of team where you can do this simply and openly without any pausing and as normal, I open the floor to team discussion where we highlight what to do next.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Pancake day - do I need to write anything more?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+One of my favourite days of the week, this day is saved for Replenishment, where we discuss what to work on next, this is an hour and 25-minute meeting, which works brilliantly. We discuss tickets (that are written out properly) and update quickly where we are etc, for example, I am working through some grade-A accessibility issues with the service at the moment (fed from the DAC report), and knowing we are doing the good work and the right work feels really good. As a side note, the service does not have many issues at all, so a lot of our fixes are “nice to haves” which is a one-off from my experience, as with anything accessible, everything should be a must-have.&lt;br /&gt;&lt;br /&gt;
+I also may have bought a Sega Mega Drive today…*&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+I am rebuilding the prototype to showcase the MVP, the actual thing we are realising in the wild soon - I know this is urgently needed as I am always wary of stakeholders seeing future work that we are in the process of playing with / seeing what fits, they might expect it all when we are only delivering 40% of it.&lt;br /&gt;
+This has been more of a challenge than expected, due to some inline styles and absolute links found, but luckily I’m old-hat at this and nothing surprises me with quickly built/throw-away prototypes, but I am adding hygienic factors to the prototype to ensure we can add and build at speed cleanly going forward.&lt;br /&gt;
+Also allows me to add more scenarios to the prototype for user research (we never user test, or test the user) if required.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+Why am I just finding out about &lt;a href=&quot;https://jamboard.google.com/&quot; title=&quot;use Google&apos;s digital whiteboard that lets you collaborate in real time&quot;&gt;jamboard&lt;/a&gt;? It’s great for a quick presentation (of which I do a lot) and allows people to add post-its on the page with little effort.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful this week:&lt;/strong&gt;&lt;br /&gt;
+I am unsure who shared this link, but it’s been saved in my tabs to read later, so I’m sharing to see if its useful for others:
+An article on &lt;a href=&quot;https://www.notion.so/How-to-test-a-prototype-with-users-dfdc55e5a5124c1aa21720989a582a60&quot; title=&quot;How to test a prototype with users&quot;&gt;How to test a prototype with users&lt;/a&gt;, whilst I know most of this, its a great reminder and something really powerful to share with any mentees - also the &lt;a href=&quot;https://wearecast.notion.site/Definition-Programme-8d1533f41dff45209f3685f4e364d483&quot; title=&quot;defination program with loads of useful learnings&quot;&gt;full program&lt;/a&gt; is pretty good too.&lt;/p&gt;
+
+&lt;p&gt;*Turns out the Mega Drive didnt come as it was broken unfortunately. GUTTED.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Feb 2023 09:20:00 +0000</pubDate>
+        <link>http://localhost:4000/2023/02/28/weeknotes-no36.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/28/weeknotes-no36.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weeknotes No.35</title>
+        <description>&lt;p&gt;Had a brilliant weekend, I’ve always promised myself when I had the time and the space I would start collecting retro consoles, one’s I loved from my youth (don’t ask my age) and this weekend, I decided it was time. I bought my first console - the beautiful Atari 2600 Woody edition. &lt;br /&gt;
+In mint condition from a brilliant seller, I couldn’t be happier to start with this one, and already building a great catalogue of games.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/atari-2600-wood.jpg&quot; alt=&quot;a photo of my lovely atari 2600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday:&lt;/strong&gt;&lt;br /&gt;
+Maybe this team has it right, every Monday we have an exclusive Design-the-week planning session, and all and everyone in the core team is invited - but design is the table, it’s a discussion about design tickets only which is accepted, controlled and never sways away from it. The developers, BAs, QAs etc all have a chance to discuss user needs, and it just damn works.&lt;br /&gt;
+Half term has begun as well, so I’m sharing my desk whilst Robyn plays an absolute banging game Stardew Valley, we both play this game as it’s local co-op. It’s one of our favourite games to play and both of us can get deep into the life of a farmer, whilst I’m growing parsnips, Robyn feeds the cows - this is exactly what I thought being 40 would be.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+The best day of the week, as it’s half term I went to Bradford’s Science and Media museum with the kids, whilst leaving Emma at work - unlucky! It was a great day with just me and the kids, we built spaceships, made space badges and ate sandwiches, it’s the best of the best. &lt;br /&gt;
+6 floors were a bit heavy though, unsure my legs could have taken a 7th.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+Started to do a design crit of the service, which was warmly welcomed by the team. Unfortunately, it turns out many pages are using inline styles, moving away from anything existing within the Design system, many reasons why this is usually a no-no, but the main one here is around accessibility and consistency, we need to start using tried and tested patterns due to the level of people that will be using this service and why they are using the service. With this in mind, my challenge now is to undo the current patterns in place and find suitable ones that are purposeful and relevant for the transaction.&lt;br /&gt;
+I also received feedback today, which was great - to know I’m working to a high level and it’s appreciated is the ego boast that I required after a tough 8 months, so very thankful for the feedback!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+Due to the above feedback, I noticed we have a page or two within the journey that catered more for business needs than user needs. I am a designer who is happy to work with and for both, and enjoy combining both needs into one happy tied-up solution - but this felt like it leaned far too much to the business. &lt;br /&gt;
+Presenting this back to the wider team is always the challenge that I love, and one I love to do to challenge the current thinking, it’s not about whether I’m right or they are right - it’s about what is best served the user and the business in that area.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+The change to contracting means I can do more at home, and this means I can take days off to look after my kids and surprise them on random day outs - today was taking my daughter to the cinema to watch Epic Tails and overdose us both on popcorn. Whilst the film wasn’t all that wonderful - we had fun, and I never want to see popcorn at least for a week, then that evening we went out and ate at Yo Sushi (goodbye savings) and it was epic, the kids love sushi and the randomness of whatever we’ve ordered coming to our table via a plate on a carousel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful this week:&lt;/strong&gt;&lt;br /&gt;
+If you are into the retro scene as much as I am, I couldn’t recommend the brilliant &lt;a href=&quot;https://twitter.com/slopesgameroom?lang=en&quot; title=&quot;follow slopes on twitter&quot;&gt;DJ Slopes&lt;/a&gt; documentary doing the rounds on youtube right now about the &lt;a href=&quot;https://www.youtube.com/watch?v=8BgAarlzVD4&quot; title=&quot;watch the entire history of the Amico product launch or no launch&quot;&gt;failed Amico launch&lt;/a&gt; and the drama surrounding it, it’s 4 hours of “what the fuck” moments and how to not do product launches.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Feb 2023 09:20:00 +0000</pubDate>
+        <link>http://localhost:4000/2023/02/17/weeknotes-no35.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/17/weeknotes-no35.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weeknotes No.34</title>
+        <description>&lt;p&gt;A new week, and I think I can say I’m officially onboarded now.
+I’ve spoken to so many recruiters over the past week or so, it’s been a great ego boost. Friends from the old days have also got in touch, and the support for my change into contracting has been amazing, and people like Gavin Elliott especially have been the nudge and cheerleading that I needed. Thanks Gav, you’re a good egg.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday:&lt;/strong&gt;&lt;br /&gt;
+Prototype day and design planning, the structure is still blowing my mind!
+Presented my work to a room of developers, QA’s, BA’s and designers for a crit, the first one since I joined and it went well, with lots of healthy questions and feedback.&lt;br /&gt;
+I mean.. this means work for me to do - but a room full of clever people is more effective than mine, and my job is to facilitate the best solution, in the shortest amount of time for the least money to give the user and the business what they need to do their daily tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Design catch-up with the team, I am starting to own the design direction regarding interaction design and the general design system components used and accessibility.&lt;br /&gt;
+On the side, I am also adding new content to Bobbin and Bumble which is so much fun, we have new products launching soon which I’m delighted with - Emma has worked her socks off to get these to launch!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful this week:&lt;/strong&gt;&lt;br /&gt;
+I am sure you are all aware, but have a go on &lt;a href=&quot;https://chat.openai.com/chat&quot; title=&quot;click to view chatGPT&quot;&gt;chatGPT&lt;/a&gt; and ask it a question, and try different scenarios - it’s such a powerful, interesting concept.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Feb 2023 09:20:00 +0000</pubDate>
+        <link>http://localhost:4000/2023/02/13/weeknotes-no34.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/13/weeknotes-no34.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.33</title>
@@ -325,160 +418,6 @@ Calling them out would ruin their confidence to ever-present work again (which i
         <pubDate>Sat, 02 Jan 2021 10:00:00 +0000</pubDate>
         <link>http://localhost:4000/2021/01/02/cheering-on-the-designer.html</link>
         <guid isPermaLink="true">http://localhost:4000/2021/01/02/cheering-on-the-designer.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.28</title>
-        <description>&lt;p&gt;The past week has been a great one - Robyn turned five, FIVE - how this happened is so crazy, it’s been an interesting journey being a father.&lt;br /&gt;
-I’ve learned so much from her, and my wife - learning to be patient, learning to coach my daughter to make her own way in life, giving her confidence, an opinion, and control… I’ve enjoyed it so much I’ve got a second one on the way! Keep an eye out for how tired I look in March…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-This morning I was welcomed by 16 emails from over the weekend, all with deadlines - not the best way to start your Monday morning but it’s becoming a habit. I’ve learned to start working out what is actually urgent and more of panic by the person writing it, of which I then discuss this with them and it becomes a lot easier and clearer and calmer to work on.&lt;/p&gt;
-
-&lt;p&gt;Home update: the house has become good, really good - we have done a complete empty of every room (and trust me… when you have a 5-year-old running around who is a toy tester (don’t ask), a self-employed business (bobbin and bumble) and working from home full time it suddenly starts to add up.
-BUT, we’ve done things over the past month to really make it homely again, and also ready for a baby in advance! Who’d of thought you can sort yourself out 3 months early and feel pretty ready for the baby?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-Morning stand up, so glad I write notes from the day before to discuss as mornings as sometimes a rush due to doing the school run.&lt;/p&gt;
-
-&lt;p&gt;Later on, we discussed a change in our working process, co-working with another team - I always find discussions around things like this interesting and incredibly valuable learning tools, hearing opinions from developers, BA’s to PM’s. It’s an interesting time for our team, and having this external help from another team is invaluable to deliver something even better.&lt;/p&gt;
-
-&lt;p&gt;The afternoon meeting was brilliant - regrouping with Leeds based Interaction designers for a catch-up, really good chance to moan, cheer, and share work which I love doing!
-A lot of us thrive on the communities we have, but also some slip through the gaps so it’s a timely reminder that often some designers do not have designers in their area of work due to (especially at current) the way it’s all set up. Time to support our colleagues and fix this!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-School day (every day but Monday), I still wonder why the school sometimes insists on masks and social spacing in the morning, then other mornings don’t.
-BUT I will say - Robyn’s school has been amazing, they have really changed Robyn in a good way, during lockdown she was fine and fun etc, but I know her learning was stalling - I can only do what I can do, but since school she now reads, writes, adds and now I know what to do from her telling me. Schools are possibly one of the most unappreciated and unspoken about heroes during this time.&lt;/p&gt;
-
-&lt;p&gt;Today we had an important ways of working meeting, I love these type of conversations as it leads to fixes but also airing of “why it doesnt feel so smooth” chats. We discussed design not getting in to the ticket early enough and why we need to be in these chats sooner.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
- After our ways of working chat, today was a new day, and starting to fix processes, we all attended the road mapping session. This is the first time I’ve seen the vision and future of the product I am on, whilst it looks heavy - it provides me with an overview of what’s coming, and also anything I can task myself or the design team with prep.&lt;/p&gt;
-
-&lt;p&gt;The ultimate moment happened… I realised this team is missing an updated user journey map and we need one pretty sharpish as it’s getting out of control to keep track. In my true style of anti-gatekeeper, I’m going to start it all off using Mural and motivate and engage the team to keep it a living project to show off when/if needed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-A strange day of catch-ups before everyone goes off on leave during Christmas time, on and off time to work but plenty of work to keep me busy during the week before the break.&lt;/p&gt;
-
-&lt;p&gt;A great way to end the week, a show and tell with the wider team of my “area of work”, with a huge show of thank you from those on the frontline of the “thing we’ve built”.&lt;/p&gt;
-
-&lt;p&gt;Well earned weekend again!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 21 Dec 2020 11:33:00 +0000</pubDate>
-        <link>http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/12/21/weeknotes-no28-copy.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.27</title>
-        <description>&lt;p&gt;This week might be the busiest week I’ve had ever at DWP, is it overwhelming, stressful, or a pleasurable workload? More than likely it’ll feel terrible in the moment, but incredibly positive in a week or two’s time due to “the thing I am doing”.
-&lt;br /&gt;
-It’s been an incredible couple of weeks, something I would not want to do again - but the outputs have been really good, some barriers on the way but what we have achieved in a short space of time has yet to be bettered in my career so far.&lt;br /&gt;&lt;br /&gt;
-BUT a huge highlight of the week is running a workshop for designers to assist in helping our communities come back together after a time of solo working and out-of-office.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-Started at 8:30, before meetings and requests come in to arrange and prioritise my workload for the day (and possibly week), early doors is meetings, meetings, and meetings!&lt;/p&gt;
-
-&lt;p&gt;My workload has ramped up over the past 3 weeks, due to holidays, people leaving, and just general needs for the country, it means a lot of context switching - but needs must at the moment, everyone s putting in a heck of a shift to make things better for people.
-The afternoon was a run-through of a new project, it’s early doors but totally mind-blowing due to, again the context switching.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-Today is the day I finally plan the (interaction designers only) workshop to discuss if/why/what and how we make community meet ups better. Working remotely can give the risk of the design community the excuse to not “get together” at the risk of us all feeling silo, lonely, and possibly feeling like are not being supported by fellow colleagues - which isn’t the case at all, but sometimes it’s just good to vent to a person “who gets it”(!).
-I am REALLY into aligning things as a design team, having a constant and similar vibe throughout the hubs, and the way we talk to each other is a good way to keep our values the same and also allow cross-team working and more importantly - sharing and learning.
-I have no idea what the answer is, but working remotely isn’t as easy as you read - it’s a lot of hard work to get communication good, honest, and often.&lt;/p&gt;
-
-&lt;p&gt;Let’s see how it goes!&lt;/p&gt;
-
-&lt;p&gt;Also, I decided against putting in a well-placed swear word in the deck, but… I cant promise this will always happen.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-First thing, stand up in the new team (I’m very popular at the moment - I’m collecting more teams than Robbie Keane - football reference FTW).
-I hinted at it on Tuesday, but the context switching is tiring, it’s also exhausting and one thing I can take away and won’t ever do again (unless a must) when possible.&lt;/p&gt;
-
-&lt;p&gt;1:1’s planned this afternoon, good to talk about progression, etc, and catching up with other designers - seeing how they are getting on and ready to be that ear.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
- The day I unleash a 30-40 workshop upon other designers in the wider team. Finding out about how valuable communities are, how we can (if needed) to improve them - PROPER excited as I love this stuff.&lt;/p&gt;
-
-&lt;p&gt;Also, huge day for one of my teams - first time a team outside of a certain location has commited a huge design change to a platform (sorry for talking in tongues… but ya know… somethings I cant talk about too much), it’s been a while to get work to this level - earning trust, respect and alignment but we are here and arrived to deliver something brilliant that will help A LOT of people.&lt;/p&gt;
-
-&lt;p&gt;Review of the workshop - went well, LOADS of great post its, really happy with how comfortable the team felt entering in their feelings, I hope I personally made them feel at ease.
-Now to do the write up… who doesn’t love a deck?!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-Morning 1:1 with Gavin (Head of Design), who else can I spend serious time with to talk about gaming?
-The rest of the day is to discuss some design changes to a team I’m working on (recently) about a very important project (possibly one of the most important one of my career) and updating a prototype that blows my mind (it’s not too complex, just been a heck of a lot of context switching and I think my brain is done for today).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bobbin and Bumble update:&lt;/strong&gt;
-Friday evening is to discuss the launch of a &lt;a href=&quot;https://www.bobbinandbumble.com/products/adjustable-ikea-highchair-footrest-bamboo-timber&quot; title=&quot;introducing bobbin and bumble&apos;s IKEA Highchair footrest&quot;&gt;wicked new product&lt;/a&gt; (that I can link now its live) for the IKEA highchair which helps your little one eat a lot better and be less wriggly - something I can promise you is a thing (hence the invention of the splash mat!).&lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Oct 2020 11:33:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/10/03/weeknotes-no27.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/10/03/weeknotes-no27.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.26</title>
-        <description>&lt;p&gt;I took a little time off doing weeknotes as it didn’t feel right sharing the work I was doing due to it being so fast, needed, and also so important right now for the country.&lt;br /&gt;
-Since my last update, I’ve worked in multiple workshops, made many service views, enjoyed some challenges, hated some challenges, and felt overwhelmed with life in general.&lt;br /&gt;
-It’s also worth noting that dealing with work demands, and family demands have also been a challenge - one that many has spoken about, and one &lt;a href=&quot;https://michaelcattell.com/2020/04/20/living-and-working-at-home.html&quot; title=&quot;my blog post on living and working at home&quot;&gt;I wrote about previously&lt;/a&gt; (to a lot of positive feedback too which I’m really grateful for).&lt;br /&gt;
-I have also started to post to &lt;a href=&quot;https://dribbble.com/mikeycattell&quot; title=&quot;click here to see my dribbble account&quot;&gt;@dribbble&lt;/a&gt; with timeboxed design exercises to push my visual skills and also keep me fresh, on trends and to put any creative need to output in action!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;br /&gt;
-In the past couple of weeks, I’ve really deep-dived into the Service Design role which I’ve really enjoyed and found it really helpful to one team in particular.&lt;br /&gt;
-I’ve also spent a lot of the last couple of weeks aligning the team to be User-centered and trying to remove barriers of discomfort not knowing the answer, it’s been a great challenge - helping me to really stretch my communication skills amongst many differing job-types and really selling the value of design and knowing it actually was effective is great feedback.&lt;/p&gt;
-
-&lt;p&gt;The first test of this was to educate to a team the value of design using a simple method I do that is along the lines of “process mapping”, so getting the team to split into two, getting them to “invent” the service journey from start to end - not a user journey but a service journey.&lt;br /&gt;
-Along the way, they MUST write down who does this task, how they do this task, any risks, and what questions do we have about it.&lt;/p&gt;
-
-&lt;p&gt;The output is always the same (so far) - the team on the same knowledge level, it’s a quick way to get the team co-design (and to show the value of co-design), and we have invented “discovery” backlog - the questions, the risks.&lt;/p&gt;
-
-&lt;p&gt;Easy peasy? Kinda.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
-Realising my workload of recent times has been far too much, I decided to step down from a service team I was on (thankfully we have just hired an additional designer, so I managed to on-board him whilst working alongside him).&lt;br /&gt;
-My last meeting with the team was to help direct them through their Discovery process - it’s a good feeling to know that people see you have a helper and (possible?) leader, we spoke through the point of discovery, what the (possible) point of their discovery is and what/how to deliver (thinking about presentations to stakeholders and what to share).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
-Today felt totally different, my workload has halved and my happiness, therefore, has doubled.&lt;br /&gt;
-This means more time to think, more time to reply to emails and more time to mentor a couple of people within DWP that I’ve had to park for a while.&lt;/p&gt;
-
-&lt;p&gt;But fortunately for them, I’m back with time - so they can expect plenty of direction!&lt;br /&gt;
-I’ve even had time and motivation to write weekly notes again - finally.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
- Back to my original (and in my opinion best obviously) team, working on decommissioning a service that we all worked hard to get up and running, but now it’s time to close it down due to completing its task. It’s been a great learning curve for the team to build it, and now to close it down is an even great one - thinking about all touchpoints, data storage, any user requirements and confirming the overall need to actually stop using the service.&lt;/p&gt;
-
-&lt;p&gt;Working alongside one of my favourite PM’s means this is an easy task to run through, and I also get to dust down my interaction design chops - which I’ve left to go a little rusty!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
-A quick catch up with the brilliant Content Designer whilst we discussing closing a service down, and how do we do it to actually help not hinder the end-user and inform them what to do next.&lt;/p&gt;
-
-&lt;p&gt;A presentation to one of the new starters about what we’ve been working on for the last year or so, and then early finish to go for a lovely walk with my &lt;a href=&quot;https://www.instagram.com/p/B_aRxcQpTiI/&quot; title=&quot;a link to my instagram account&quot;&gt;fluffy dog&lt;/a&gt; and chatterbox daughter!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Good things&lt;/strong&gt;&lt;br /&gt;
-Something I’ve missed a lot of the past year has been line-management duties or mentoring consistently.&lt;br /&gt;
-This is about to change as I was picked to be on the &lt;a href=&quot;https://www.outofofficehours.com/may-2020/volunteers&quot;&gt;Out of office hours month of mentors&lt;/a&gt;, and I’m so excited to start. I’ve already got a lot of requests to help new starters to the industry and also people just feeling in a rut.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Learned things&lt;/strong&gt;&lt;br /&gt;
-Mentioned previously, it’s just been a good learning curve to know when to step back, give tasks to others, and realise I have other priorities. I feel a lot calmer now the rush of work needed has gone (for now).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difficulties&lt;/strong&gt;&lt;br /&gt;
-The lack of control at the moment of my own life and work has me in a spin. I had feelings of anxiety, anger, caged in, boredom, and just general stress.&lt;br /&gt;
-The power of having GOOD people around you - whether to take work off you or people just having a normal conversation is brilliant and really not spoken about enough.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;&lt;br /&gt;
-Feeling relieved my workload has halved and now I have time to think, to recover, and spend time with my family in the sun!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 May 2020 11:33:00 +0100</pubDate>
-        <link>http://localhost:4000/2020/05/07/weeknotes-no26.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/05/07/weeknotes-no26.html</guid>
         
         
       </item>
