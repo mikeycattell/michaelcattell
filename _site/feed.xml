@@ -5,9 +5,47 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Feb 2023 10:30:44 +0000</pubDate>
-    <lastBuildDate>Tue, 28 Feb 2023 10:30:44 +0000</lastBuildDate>
+    <pubDate>Wed, 08 Mar 2023 13:47:47 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Mar 2023 13:47:47 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>Weeknotes No.37</title>
+        <description>&lt;p&gt;Realised I hadn’t told anyone that I was doing week-notes, that’s how rusty I am at this!&lt;/p&gt;
+
+&lt;p&gt;It’s been a good week, really enjoyed the week’s challenges around work, I even had time and permission to have a go at experiments, which is an amazing thing.&lt;br /&gt;
+On a personal level, it’s my sons birthday this week - he’s a brilliant, bright and funny “little Mikey”, unfortunately for his mother and sister.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday:&lt;/strong&gt;&lt;br /&gt;
+Best day of the week? &lt;br /&gt;
+Working through the alignment issues between live and prototype, this isn’t the developers have raced ahead, it’s more around we have made decisions but the prototype doesn’t align to these, which means I’m digging through a lot of brains, or confluence to match things up!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;br /&gt;
+Slogging through updating the prototype still, I decided to build the MVP solution, and remove any other noise or future ideas we have had, so we can send it out to stakeholders and know they are only seeing what we are delivering (we’ve all been here right?) and this is being appreciated by teams far and wide! But this also means going through the prototype from door to door, bits I’ve never seen before and bits I need to fix.. cue a design crit corner on Figma.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;br /&gt;
+People are still liking and reaching out to my post on LinkedIn about my leaving and starting at HMRC, which is cool and always feels great to be supported and asked if I’m available - never stop as one day I might be!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;br /&gt;
+This prototyping lark is a blast, earphones in and head-down - trying to make sense of some interesting decisions made in the past. Whilst I do not disagree with many - I am using this MVP build to showcase why decisions were made and challenge some of the more interesting ones.
+I forgot how much I use to do prototyping and my HTML/CSS experience, so it’s been fantastic to dust down my brain in this space and feel like I know what I’m doing, all whilst keeping the team in the loop of some issues I find and making design decisions on amongst the group.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;br /&gt;
+Started to plan and see what’s on the 3-6 month horizon for this project, I’m thinking around scale (always) and possible internal or external assessments and all the other fun stuff that comes with launching a service (especially one was important and big as this one) - I actually cannot wait for this, this project has ticked all the right boxes in regards following GDS standards, doing the right things and working for the user AND business correctly.&lt;/p&gt;
+
+&lt;p&gt;Also - this is the day before my son’s 2nd birthday party, never hoovered so much in my downtime ever.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful this week:&lt;/strong&gt;&lt;br /&gt;
+I found the&lt;a href=&quot;https://www.youtube.com/watch?v=he6Nq2lWLJ0&amp;amp;t=1s&quot; title=&quot;Jason Lee interviews David Baddiel&quot;&gt; conversation between Jason Lee (ex-Nottingham Forest football player) and David Baddiel (ex-host of Fantasy Football)&lt;/a&gt; a really interesting and insightful conversation, I recall the show and its sketches about Jason Lee and seeing Jason speaking to David on a normal, calm level when he could have reacted so differently was empowering and such impact.
+&lt;br /&gt;An insightful, intelligent discussion around race.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 03 Mar 2023 09:20:00 +0000</pubDate>
+        <link>http://localhost:4000/2023/03/03/weeknotes-no37.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/03/weeknotes-no37.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.36</title>
@@ -379,45 +417,6 @@ I want to provide and show there is value in these tools, these processes and I 
         <pubDate>Fri, 07 May 2021 10:00:00 +0100</pubDate>
         <link>http://localhost:4000/2021/05/07/life-update-2021.html</link>
         <guid isPermaLink="true">http://localhost:4000/2021/05/07/life-update-2021.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cheering the designer</title>
-        <description>&lt;p&gt;This past year was the year I started teaching, it was the year I learned more about myself than ever before and it was a time I learned more about others and their situations, their cultures, and their problems.&lt;/p&gt;
-
-&lt;p&gt;I’ve spoken to people from Dubai, to San Francisco to Leeds and more and the lessons I’ve learned have been one of the best in my career and personally.
-But this post isn’t about me, that’s for another time - what I wanted to share was my process of teaching and how I learned to talk to a room of designers and make everyone feel like they were the only one, or how I empowered them to feel at ease at feeling silly, asking that question without the preface “this is probably a silly question..” and feel confident in presenting work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I cheered for the designer.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It all started back in 2010, working in America - I was the lead designer of a company, and enjoying it - I had more work than I could handle, the work I was doing was interesting and helped companies and people provide a service. BUT I needed help, I was working on 3 companies all within a parent company - whilst they weren’t 100%, they needed some love and care.
-This is where it all changed for me, my line manager came up with the idea of hiring 1-2 students to work alongside me, as well as promote internally a person to work as a junior designer, this would serve two purposes - one to help work “get done”, and secondary - it would grow my skill set managing and the students.
-And it did!&lt;/p&gt;
-
-&lt;p&gt;Whilst I learned more than I could write in one blog post within those three years, I worked hard on giving these new designers confidence, we would work together on understanding briefs, working out how to get more out of the stakeholders to allow us to replay the vision and problem back - we worked harder on presenting back our findings and early completed work to gain more of an insight into if we were going in the right direction (user research, etc).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The one huge thing I did learn and have remembered from my own harsh experience is to never expose a designer.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Never call a designer (or anyone for that matter) out in front of the team, never ridicule, if the design or the presentation isn’t a smooth one, or a good one, as a design lead I must use this as a learning tool to help grow that missing skillset.
-Exposing a designer in front of a crowd can lead to many things - loss of confidence, embarrassment, loss of the support of a colleague/team member, and with that a potential issue with the team environment.&lt;/p&gt;
-
-&lt;p&gt;In the past, I have been exposed many times by self-titled design leaders, passing comments such as “No, don’t do that yet - you need to ask me first”, or “No, this isn’t any good, that’s not what we do here” or a personal favourite “What Mikey is trying to say but for some reason isn’t…” - I wish I had never experienced these moments, and I wish it never happened in public in front of my team, but to take these negatives and turn them into a positive is the only thing I can do and I will not allow anyone on my team to feel the way I did during those moments.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How do you stop exposing a designer?&lt;/strong&gt;&lt;br /&gt;
-Let’s pick a scenario, you are a design team manager, and one of your team is about to present their work back to the company - this, if it goes right makes your team look brilliant, makes the person look brilliant but also allows the design process to show its value.
-The presentation goes bad, the person loses their way, rushes through and doesn’t mention anything about the process, and shows work off in a bad light - what do you do?
-Calling them out would ruin their confidence to ever-present work again (which is in the top 3 skills I look for in a good designer), it would also cheapen the trust in the team - is there the possibility that you could ask questions that help open the conversation to allow the designer to “fill the gaps”, something along the lines of
-“can you share more about the design process at the start of the project as I know you did some really good work with the team?”.&lt;/p&gt;
-
-&lt;p&gt;This approach will completely change your team’s ways of working, it will bring a different way of critiquing the teams and completely build trust amongst the wider business, it also allows you to take the designer aside (1:1’s) and help grow their skills privately, whether as a manager or (even better) as a leader.&lt;/p&gt;
-
-&lt;p&gt;The more we empower other designers, the more they can pass it on and make our jobs a lot easier by making other designers around us better and feel more confident and safe to “just” design.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Jan 2021 10:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2021/01/02/cheering-on-the-designer.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/01/02/cheering-on-the-designer.html</guid>
         
         
       </item>
