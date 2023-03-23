@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Weeknotes No.38
-date: '2023-03-13 10:45:00'
+title: Weeknotes No.39
+date: '2023-03-20 10:45:00'
 ---
 It's been a great week, people have been in touch, commenting how my week-notes were useful and clearer which will do me.
 
 Leading meetings, design work and being in the thick of things have brought back my design-mojo, and mentoring again is such a fulfilling thing that I must insist we all do it, whatever level, whatever job - always pass it on.<br>
 We also had a midweek stop off in Manchester for some cocktails, pies and friends - yes please.
 
-Also, check out this week's podcast recommendation - it's a good'un!
+Also, check out this week's podcast recommendation - it's a good'un! 
 
 <strong>What did I enjoy:</strong><br>
 
