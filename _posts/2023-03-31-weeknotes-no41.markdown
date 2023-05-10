@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weeknotes No.41
-date: '2023-03-31 10:35:00'
+date: '2023-03-31 10:30:00'
 ---
 So it turns out my contract is in the midst of getting renewed or not, which I wasnt expecting, a different vibe, where im making sure things are working and left in great shape and hopefully a better service than when I found it!<br>
 If you are requiring an contract IxD, <a href="https://michaelcattell.com/contact.html" title="get in touch and see if we can work together">get in touch</a>!
