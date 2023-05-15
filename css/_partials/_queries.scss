@@ -17,7 +17,6 @@
 //over970
 @media screen and (min-width: 970px)  {
 	.hidefordesktop { display: none; }	
-
 }
 
 //under970
@@ -25,6 +24,7 @@
 	.hideformobile, .header-socials { display: none; }
 	.hidefordesktop { display: block; }
 	.leftpusher10  { margin-left: 0; }
+	.columns\:grid { display: block; }
 	
 	#warped {overflow: hidden; position: absolute; left: 1%; top: 25%; z-index: 10; display: block; width:350px; height:439px;}
 	.shapesone { padding-top: 0px; }
