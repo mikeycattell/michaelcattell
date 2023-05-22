@@ -27,5 +27,3 @@ I have a list of films that I want to watch (if you have any - <a href="/contact
 
 <strong>Tune of the week:</strong><br>
 Revisted a band I have long loved, but not listened to for a while - Incubus. Great memories of going to see them at gigs and it's still amazing that they are still going, handful of brilliant albums but <a href="https://open.spotify.com/album/1rQZbncicoXyB64DqoH7OY" title="Spotify link to Incubus Morning view album">Morning View</a> is an absolute banger.
-
-

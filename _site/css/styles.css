@@ -907,9 +907,9 @@ a .btn-secondary:active,
   line-height: normal; }
 
 .btn-block,
-input.btn-block[type="submit"],
-input.btn-block[type="reset"],
-input.btn-block[type="button"] {
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
   display: block;
   width: 100%;
   margin-right: 0;
