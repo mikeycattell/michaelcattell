@@ -3,22 +3,29 @@ layout: index-page
 title: Blog
 excerpt: Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds. 
 ---
-
+<article role="article"></article>
 <div class="wrapper">
 
-  <div class="grid-half">
-<h1 class="emma">Latest posts</h1>
+  <section>
+    <div class="wrapper">
+        <div class="marginbottom--xxxl"></div>
+        <div class="grid-four-fifths">
+            <h1 class="ralph">Latest posts</h1>
+        
+        <div class="marginbottom--xxxl"></div>
 
             <ul class="blogposts">
                 {% for post in site.posts %}
                 <li>
                     
-                        <span class="emma"><a class="post-link" href="{{ post.url | prepend: site.baseurl.blog }}">{{ post.title }}</a></span><br>
+                        <span class="workingheader"><a class="post-link" href="{{ post.url | prepend: site.baseurl.blog }}">{{ post.title }}</a></span><br>
                         <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
                     
                 </li>
                 {% endfor %}
             </ul>
+          </div>
+          </div>  
+        </section>            
 
-   </div>
-</div>
+</article>
