@@ -3,7 +3,7 @@ layout: post
 title: Weeknotes No.46
 date: '2023-06-09 0:30:00'
 ---
-This week has been workshop planning and doing, and I've bloody loved it. Put me in front of a team and let me facilitate the session and I'm the happiest. 
+This week has been workshop planning and doing, and I've bloody loved it. Put me in front of a team and let me facilitate the session and I'm the happiest. <br>
 Also, to top off a great week, my wife also appeared inside many newspapers these (and it's been a heck of a week for news), showcasing her fantastic business she has worked so hard to go, from scratch and on her own. Cue the proud feelings and look of awe. The article appeared in <a href="https://www.thesun.co.uk/money/22301224/savvy-mum-250000-5-sewing-machines/">The Sun</a>, the <a href="https://www.express.co.uk/finance/personalfinance/1768186/side-hustle-success-money-making-business">Daily Express</a> and <a href="https://www.leeds-live.co.uk/news/leeds-news/leeds-mum-two-grew-250000-26887972">Leeds Live</a>.
 
 
