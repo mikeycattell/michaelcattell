@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weeknotes No.48
-date: '2023-07-11 10:30:00'
+date: '2023-07-04 10:30:00'
 ---
 Trying out something new is tiring, exciting and nerve-wracking at the same time, and I honestly believe it's the best way to learn and push yourself.<br>
 This week was a week of firsts, whilst delivering and once again - leading direction and scope to help meet user needs and business needs (or requirements) slap bang in the middle. 

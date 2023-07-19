@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weeknotes No.50
-date: '2023-07-11 10:30:00'
+date: '2023-07-17 10:30:00'
 ---
 What a week, busy, long and tiring and ending in rubbish weather, but you didn't come here for the misery, you came here for the fun.
 
