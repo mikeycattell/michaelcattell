@@ -1,9 +1,9 @@
 /* Ui layout only */
 
-body { background: #F8F7F2;  }
+body { background: #F8F7F2; line-height: 35px; }
 
 .col { display: block; float: left; }
-.wrapper { max-width: 1330px; margin: 0 auto; padding: 0 10px; border: 1px white dashed;
+.wrapper { max-width: 1330px; margin: 0 auto; padding: 0 10px; 
 	@extend %clearfix;
 }
 section { z-index: 2; position: relative; }
@@ -23,7 +23,7 @@ ul.blogposts { list-style: none; margin-left: 0; }
 ul.blogposts li { margin-left: 0; padding-bottom: 20px; }
 
 ul.capabilities { list-style: none; margin-left: 0; }
-ul.capabilities li { margin-left: 0;  line-height: 30px; padding-bottom: 5px; }
+ul.capabilities li { margin-left: 0;  line-height: 36px; padding-bottom: 5px; }
 
 ul.worklists { list-style: none; margin-left: 0; }
 ul.worklists li { margin-left: 0; padding: 10px 0 0; font-size: 20px;}
@@ -41,12 +41,14 @@ em  {  }
 /*--- LINKS ---*/
 
 a,
-a:visited { font-family: Sen-bold; color: #dd3516; text-decoration: none; word-wrap: break-word; border-bottom: 2px solid #dd3516; }
+a:visited { font-family: Sen-bold; color: #005EB8; text-decoration: none; word-wrap: break-word; border-bottom: 2px solid #005EB8; }
 
 a:focus,
 a:active { color: $color-primary; text-decoration: none; }
 
-a:hover { text-decoration: none; color: #a52812; border-bottom:3px solid #a52812;}
+a:hover { text-decoration: none; color: #014d93; border-bottom:3px solid #014d93;}
+
+.highlighting { background:#373938; color: white; padding: 0px 10px; }
 
 a.cta-arrow {
   font-size: .95em;
@@ -109,9 +111,7 @@ header { padding: 64px 0 30px;
 .header-socials { float: right;  }
 .header-socials a { box-shadow: inset 0 0 0px 0 #F9CE21; border-bottom: 0; }
 
-footer { color: white; background: #242424; margin: 72px 0 0; padding: 48px 0 ; }
-footer { position: relative; }
-header.site-header {  }
+footer { position: relative; color: white; background: #000; margin: 72px 0 0; padding: 48px 0 ; }
 
 
 .leftpushno { padding-left: 0%; }
@@ -124,7 +124,88 @@ header.site-header {  }
 .paddingtop-60 { padding-top: 60px; }
 
  
+@media (min-width: 768px) {
+.home-container {
+    padding: 0 32px;
+}
+}
+
+.home-container {
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  overflow: hidden;
+}
+
 // my past clients logos //
+
+
+
+@media (min-width: 768px) {
+.intro__logos {
+    grid-auto-columns: -webkit-min-content;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+.intro__logo--mancity {
+    display: none;
+}
+.intro__logo--argos {
+  display: none;
+}
+}
+
+@media (max-width: 767px) {
+.intro__logos {
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 44px;
+    justify-items: center;
+    max-width: 340px;
+}
+.intro__trusted-by {
+  grid-column: span 2;
+}
+}
+
+@media (max-width: 767px) {
+.intro__logo--argos {
+    display: none;
+}
+}
+
+.intro__logos {
+  display: grid;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.intro__trusted-by {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+
+
 
 .client-logos {
     margin-bottom: .5rem;
@@ -166,7 +247,7 @@ header.site-header {  }
 }
 
 
-blockquote { margin: 0 auto; border-left: 3px solid #D091A4; padding-left: 30px; font-size: 17px; line-height: 27px; 
+blockquote { margin: 0 auto; border-left: 3px solid #D091A4; padding-left: 30px; 
   p { color: black; }
 }
 

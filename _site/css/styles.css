@@ -343,7 +343,7 @@ a:active {
 /* rem sizing function */
 /*--- HEADINGS ---*/
 .ralph {
-  font-size: 100px;
+  font-size: 70px;
   line-height: 112px;
   margin-bottom: 0;
   padding-left: 0%;
@@ -351,15 +351,12 @@ a:active {
   position: relative;
   top: 0px;
   padding-left: 0px; }
-  .ralph span {
-    font-size: 80px;
-    line-height: 9px !important; }
 
 .ralphpuppy {
   margin-top: 0;
   margin-left: 0;
   margin-bottom: 0px;
-  font-size: 54 18px rem;
+  font-size: 54 24px rem;
   font-size: 54px;
   line-height: 67px;
   font-family: 'Sen-bold'; }
@@ -369,7 +366,7 @@ a:active {
   margin-top: 20;
   margin-left: 0px;
   margin-bottom: 20px;
-  font-size: 63 18px rem;
+  font-size: 63 24px rem;
   font-size: 63px;
   line-height: 80px;
   font-family: 'Sen-bold'; }
@@ -378,7 +375,7 @@ a:active {
   margin-top: 0;
   margin-left: 0px;
   margin-bottom: 26px;
-  font-size: 20 18px rem;
+  font-size: 20 24px rem;
   font-size: 20px;
   line-height: 34px;
   font-family: 'Sen-bold'; }
@@ -387,7 +384,7 @@ a:active {
   margin-top: 0;
   margin-left: 0px;
   margin-bottom: 26px;
-  font-size: 63 18px rem;
+  font-size: 63 24px rem;
   font-size: 63px;
   line-height: 80px;
   font-family: 'Sen-bold'; }
@@ -396,7 +393,7 @@ a:active {
   margin-top: 20px;
   margin-left: 0px;
   margin-bottom: 16px;
-  font-size: 20 18px rem;
+  font-size: 20 24px rem;
   font-size: 20px;
   line-height: 30px;
   font-family: 'Sen-bold'; }
@@ -405,7 +402,7 @@ a:active {
   margin-top: 20px;
   margin-left: 0px;
   margin-bottom: 16px;
-  font-size: 20 18px rem;
+  font-size: 20 24px rem;
   font-size: 20px;
   line-height: 30px;
   font-family: 'objectsans-heavyslanted'; }
@@ -414,15 +411,15 @@ a:active {
   margin-top: 00px;
   margin-left: 0px;
   margin-bottom: 16px;
-  font-size: 20 18px rem;
+  font-size: 20 24px rem;
   font-size: 20px;
   line-height: 30px;
   font-family: 'Sen-bold'; }
 
 .intro-mikey {
   padding-top: 40px;
-  font-size: 32px;
-  line-height: 40px; }
+  font-size: 56px;
+  line-height: 74px; }
 
 .jelly {
   font-size: 46px;
@@ -430,8 +427,8 @@ a:active {
   font-weight: normal; }
 
 .intro {
-  font-size: 30px;
-  line-height: 46px;
+  font-size: 32px;
+  line-height: 48px;
   margin-top: 24px; }
 
 .workingheader {
@@ -486,38 +483,38 @@ h4,
   font-family: 'Sen-bold'; }
 
 .font16 {
-  font-size: 16 18px rem;
+  font-size: 16 24px rem;
   font-size: 16px; }
 
 .font18 {
-  font-size: 18 18px rem;
+  font-size: 18 24px rem;
   font-size: 18px; }
 
 .font20 {
-  font-size: 20 18px rem;
+  font-size: 20 24px rem;
   font-size: 20px;
   line-height: 28px; }
 
 .font24 {
-  font-size: 24 18px rem;
+  font-size: 24 24px rem;
   font-size: 24px;
   line-height: 40px; }
 
 .font32 {
-  font-size: 32 18px rem;
+  font-size: 32 24px rem;
   font-size: 32px; }
 
 .font30 {
-  font-size: 30 18px rem;
+  font-size: 30 24px rem;
   font-size: 30px;
   line-height: 38px; }
 
 .font24 {
-  font-size: 24 18px rem;
+  font-size: 24 24px rem;
   font-size: 24px; }
 
 .page-meta {
-  font-size: 18 18px rem;
+  font-size: 18 24px rem;
   font-size: 18px;
   color: #000; }
 
@@ -557,9 +554,9 @@ li > ol {
  */
 body {
   font-family: "Sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.7;
-  color: #242424;
+  color: #373938;
   height: 0;
   margin: 0; }
   @media (min-width: 40em) {
@@ -572,7 +569,7 @@ p {
  * Sizes for smaller and larger text
  */
 .text-small {
-  font-size: 24 18px rem;
+  font-size: 24 24px rem;
   font-size: 24px; }
 
 .text-tall {
@@ -759,7 +756,7 @@ select {
   border-radius: 0;
   font-weight: 300;
   border: none;
-  font-size: 14 18px rem;
+  font-size: 14 24px rem;
   font-size: 14px; }
   @media (min-width: 40em) {
     input,
@@ -822,7 +819,7 @@ select:focus {
 .btn {
   display: inline-block;
   font-family: "Sen-regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 18 18px rem;
+  font-size: 18 24px rem;
   font-size: 18px;
   padding: 18px 80px;
   line-height: 1.2;
@@ -874,7 +871,7 @@ a .btn-secondary:active,
   color: #ffffff !important; }
 
 .btn-small {
-  font-size: 20 18px rem;
+  font-size: 20 24px rem;
   font-size: 20px;
   padding: 12px 50px; }
 
@@ -935,7 +932,8 @@ input.btn {
 
 /* Ui layout only */
 body {
-  background: #F8F7F2; }
+  background: #F8F7F2;
+  line-height: 35px; }
 
 .col {
   display: block;
@@ -944,8 +942,7 @@ body {
 .wrapper {
   max-width: 1330px;
   margin: 0 auto;
-  padding: 0 10px;
-  border: 1px white dashed; }
+  padding: 0 10px; }
 
 section {
   z-index: 2;
@@ -986,7 +983,7 @@ ul.capabilities {
 
 ul.capabilities li {
   margin-left: 0;
-  line-height: 30px;
+  line-height: 36px;
   padding-bottom: 5px; }
 
 ul.worklists {
@@ -1019,10 +1016,10 @@ strong {
 a,
 a:visited {
   font-family: Sen-bold;
-  color: #dd3516;
+  color: #005EB8;
   text-decoration: none;
   word-wrap: break-word;
-  border-bottom: 2px solid #dd3516; }
+  border-bottom: 2px solid #005EB8; }
 
 a:focus,
 a:active {
@@ -1031,8 +1028,13 @@ a:active {
 
 a:hover {
   text-decoration: none;
-  color: #a52812;
-  border-bottom: 3px solid #a52812; }
+  color: #014d93;
+  border-bottom: 3px solid #014d93; }
+
+.highlighting {
+  background: #373938;
+  color: white;
+  padding: 0px 10px; }
 
 a.cta-arrow {
   font-size: .95em;
@@ -1112,13 +1114,11 @@ header {
   border-bottom: 0; }
 
 footer {
+  position: relative;
   color: white;
-  background: #242424;
+  background: #000;
   margin: 72px 0 0;
   padding: 48px 0; }
-
-footer {
-  position: relative; }
 
 .leftpushno {
   padding-left: 0%; }
@@ -1140,6 +1140,67 @@ footer {
 
 .paddingtop-60 {
   padding-top: 60px; }
+
+@media (min-width: 768px) {
+  .home-container {
+    padding: 0 32px; } }
+
+.home-container {
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  overflow: hidden; }
+
+@media (min-width: 768px) {
+  .intro__logos {
+    grid-auto-columns: -webkit-min-content;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .intro__logo--mancity {
+    display: none; }
+  .intro__logo--argos {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .intro__logos {
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 44px;
+    justify-items: center;
+    max-width: 340px; }
+  .intro__trusted-by {
+    grid-column: span 2; } }
+
+@media (max-width: 767px) {
+  .intro__logo--argos {
+    display: none; } }
+
+.intro__logos {
+  display: grid;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%; }
+
+.intro__trusted-by {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap; }
 
 .client-logos {
   margin-bottom: .5rem; }
@@ -1190,9 +1251,7 @@ footer {
 blockquote {
   margin: 0 auto;
   border-left: 3px solid #D091A4;
-  padding-left: 30px;
-  font-size: 17px;
-  line-height: 27px; }
+  padding-left: 30px; }
   blockquote p {
     color: black; }
 
@@ -1858,7 +1917,7 @@ blockquote {
     margin-top: 0px;
     margin-left: 0;
     margin-bottom: 0px;
-    font-size: 44 18px rem;
+    font-size: 44 24px rem;
     font-size: 44px;
     line-height: 58px;
     padding-left: 0;
@@ -1867,27 +1926,27 @@ blockquote {
     margin-top: 0px;
     margin-left: 0;
     margin-bottom: 0px;
-    font-size: 44 18px rem;
+    font-size: 44 24px rem;
     font-size: 44px;
     line-height: 53px; }
   .robyn {
     margin-top: 0;
     margin-left: 0px;
     margin-bottom: 60px;
-    font-size: 46 18px rem;
+    font-size: 46 24px rem;
     font-size: 46px;
     line-height: 60px; }
   .alpha {
-    font-size: 26 18px rem;
+    font-size: 26 24px rem;
     font-size: 26px;
     text-transform: none;
     padding-bottom: 0em; }
   .beta {
-    font-size: 30 18px rem;
+    font-size: 30 24px rem;
     font-size: 30px;
     font-weight: 300; }
   .gamma {
-    font-size: 30 18px rem;
+    font-size: 30 24px rem;
     font-size: 30px;
     font-weight: 700;
     margin: 0px 0 54px; }
@@ -1901,13 +1960,13 @@ blockquote {
     margin-bottom: 1em; }
   h1,
   .h1 {
-    font-size: 32 18px rem;
+    font-size: 32 24px rem;
     font-size: 32px;
     padding-top: .2em;
     margin-bottom: 58px; }
   h2,
   .h2 {
-    font-size: 26 18px rem;
+    font-size: 26 24px rem;
     font-size: 26px; }
   h3.biggerheader {
     font-size: 26px; }
@@ -1934,6 +1993,8 @@ blockquote {
     padding-top: 40px; } }
 
 @media screen and (max-width: 780px) {
+  .grid-four-fifths, .grid-three-fourths {
+    width: 100%; }
   header {
     padding: 34px 0 30px; }
   .work--topworkings {
@@ -1959,7 +2020,11 @@ blockquote {
   .about--me {
     margin-top: 0; }
   .text-right {
-    text-align: left; } }
+    text-align: left; }
+  .intro-mikey {
+    line-height: 60px;
+    padding-top: 40px;
+    font-size: 46px; } }
 
 @media screen and (max-width: 600px) {
   .grid .product-single {

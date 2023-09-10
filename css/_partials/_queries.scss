@@ -148,6 +148,8 @@
 }
 
 @media screen and (max-width: 780px) {
+	.grid-four-fifths, .grid-three-fourths { width: 100%; }
+
 	header { padding: 34px 0 30px; }
 	.work--topworkings { margin-top: 0; }
 
@@ -163,6 +165,8 @@
 	.about--me { margin-top: 0; }
 
 	.text-right { text-align: left; }
+
+	.intro-mikey {     line-height: 60px; padding-top: 40px; font-size: 46px; }
 }
 
 @media screen and (max-width: 600px) {
