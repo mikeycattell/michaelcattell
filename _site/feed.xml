@@ -5,9 +5,95 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Sep 2023 22:59:31 +0100</pubDate>
-    <lastBuildDate>Sun, 10 Sep 2023 22:59:31 +0100</lastBuildDate>
+    <pubDate>Fri, 29 Sep 2023 12:01:56 +0100</pubDate>
+    <lastBuildDate>Fri, 29 Sep 2023 12:01:56 +0100</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>Weeknotes No.53</title>
+        <description>&lt;p&gt;A fortnightly version of weeknotes, thinking this might be easier to maintain at the moment - this family lark is busy!
+All the kids are back to school, meaning I get to work in silence again - which, on reflection feels very much like working from home, unsure that is a good thing.&lt;br /&gt;
+We’ve covered a lot of ground over the past 2 weeks, While I felt like I wasn’t contributing much, I started to showcase the work covered and it’s a lot, and very much leading into our next phase (private beta) - which is just as exciting as alpha when you find out you need to change everything (jokes).&lt;br /&gt;
+Mentoring again this week, from various ex-colleagues or direct reports which is just brilliant, it’s not only a warm fuzzy feeling but also confirmation that maybe I’m okay at this thing.&lt;/p&gt;
+
+&lt;p&gt;The last two weeks have been nothing but busy at work, we have finalised (to a point) the prototype and all feel comfortable that it’s at the level we can say &lt;br /&gt;
+“yep.. this could be the thing, let’s go forward” &lt;br /&gt;
+And presenting this is no mean feat, questions arise as expected and hoped, and I then use these questions (which I always write down, group into themes and present back to the core team to showcase what we haven’t made clear as of yet or answered these over the past show and share’s), to help judge where we are in regards to stakeholder or users of the service (internally) acceptance and the general temperature of the project.&lt;/p&gt;
+
+&lt;p&gt;So far.. so good.&lt;/p&gt;
+
+&lt;p&gt;I attended an internal talk at the DEFRA community meet-up with &lt;a href=&quot;https://www.craigabbott.co.uk/&quot; title=&quot;visit craig&apos;s website to learn much more&quot;&gt;Craig Abbott&lt;/a&gt;, who is the master of all accessibility. He cleared up and educated the room on a lot of the mysteries and new requirements, and it was so good to see him. He has grown from our public speaking course many years ago, where we were both nervous little whispers, to now nervous loudspeakers, who I imagine are both quite comfortable presenting.. or we pretend to be.&lt;/p&gt;
+
+&lt;p&gt;I led a workshop (surprise!) around, again finalising the full journey, but future-planning - what the heck is the final thing going to look like (balcony level), including things like touchpoints, decision points, workflow(of course) risks etc. The normal run-of-the-mill, but essential - whilst we all know this, we have never had it written down in an easy-to-read flow.. so here we are!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What did I enjoy:&lt;/strong&gt;&lt;br /&gt;
+Listening to Craig’s talk, here is a link to his latest post:&lt;br /&gt;
+&lt;a href=&quot;https://www.craigabbott.co.uk/blog/making-microservices-accessible/&quot; title=&quot;read Craig&apos;s informational post about making microservices accessible&quot;&gt;Making microservices accessible&lt;/a&gt; on craigabbott.co.uk&lt;/p&gt;
+
+&lt;p&gt;Being much more hands-on doing the design-doing, whilst I’m the type of designer that isn’t all head-down-in-the-prototype, I love getting into the weeds of the work after all the talking, presenting, workshopping and trading of notes and post-its happens (ironically, led by myself…).&lt;/p&gt;
+
+&lt;p&gt;Seeing my daughter being written to personally, insisting that she join a Synconised Swimming class, as she is years above her expected ability - this isn’t a surprise, due to her insistence that she swims at least 2-4 times a week, but it’s amazing to see her grow and improve in the things she loves to do - amazing what happens when you do things that you enjoy.. schools and companies take note.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What challenged me:&lt;/strong&gt;&lt;br /&gt;
+Google bloody merchant centre! Fudge meeee that’s a minefield. It’s a skill set I didn’t know I needed, but one I love having.
+Being on top of this side of Bobbin and Bumble, means I get to see the results of our reach and add KPIs in for ourselves to measure against failure and success (hopefully the latter).&lt;/p&gt;
+
+&lt;p&gt;I am slowly coming to the end of this contract, and the unknown is starting to get near.. contracting is a murky world at the moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What am I looking forward to next week?&lt;/strong&gt;&lt;br /&gt;
+Finalising the future of the service, and concreting the roadmap with the P.O. It feels like this project is taking shape and becoming very clear in it’s next steps and that is down to the team cutting back on workload and nailing presentations, risks etc.&lt;/p&gt;
+
+&lt;p&gt;Being present in most of the user research sessions is enlightening and a stark reminder that this project has only just become in becoming the solution the business and the user wants. Exciting!&lt;/p&gt;
+
+&lt;p&gt;Attending an assumptions workshop, (which we should have done weeks or even months ago, but better late than never) will allow us to finally have measurements of success or failure. This will link nicely to our design and service assumptions, but we haven’t had business assumptions for a while - I feel this was a mature step in finalising this project and helping assure the stakeholders and sponsors of the service that we are thinking of everything going forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Podcast of the week:&lt;/strong&gt;&lt;br /&gt;
+I have not listened to this yet, but this podcast could be very interesting around Design Systems and their implementation of them, I’ve been there, done that and worn the very washed t-shirt, and always want to hear other people’s stories around this and how they succeed, but more importantly, where they failed (if there is such a thing in the world of iteration..).&lt;br /&gt;
+&lt;a href=&quot;https://open.spotify.com/episode/7hQgsv1QBRwFtMvITuipr0&quot;&gt;Getting buy-in for your design system - Design Systems WTF | Podcast on Spotify&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Sep 2023 10:30:00 +0100</pubDate>
+        <link>http://localhost:4000/2023/09/29/weeknotes-no53.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/29/weeknotes-no53.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weeknotes No.52</title>
+        <description>&lt;p&gt;A lonnnnng week. &lt;br /&gt;
+Work-wise I’m in the phase of being unsure what to work on, there are bigger things to look at, but immediate work to do - one of those weeks!
+News around schools in Leeds being threatened and having them put in a “lockdown”, was shit, the world my kids are growing up within needs to look long and hard at its-self and have a talk.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What did I enjoy:&lt;/strong&gt;&lt;br /&gt;
+I gathered all of the user journeys from our 1st week to this a week or so before the end of alpha - showing vast iterations powered by user research sessions, presentations to subject matter experts (SMEs) and wider team(s) input and we find ourselves at a good point.&lt;br /&gt;
+Seeing the above work laid on in Mural, and seeing the changes we have done from initial thoughts (we all need a starting point) to where we are now is great and reminds me of the shift we’ve all put in.&lt;/p&gt;
+
+&lt;p&gt;Listing all our assumptions, some we’ve found out, some still unanswered, and a handful we’ll look at during private beta - love this part where we start to measure against good vs. not good.&lt;/p&gt;
+
+&lt;p&gt;Being asked to present “how I settle into teams” is great, just need to remember what the heck I do and write a thing up.&lt;/p&gt;
+
+&lt;p&gt;Finally left the house and met a pal that I hadn’t seen for years, in fact he once hired me when he overheard me mention at a bar (whilst ordering a drink) that I just left a project styling out a Magento theme (remember those days?).. cue me walking into his office the next day on my first day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What challenged me:&lt;/strong&gt;&lt;br /&gt;
+My daughter’s school issued warnings about being held in lockdown due to some idiots putting threats into schools. The world is fucking mad when kids are under threat.&lt;/p&gt;
+
+&lt;p&gt;Working out what to work on first, it’s been tricky to prioritise, whilst it’s not a huge mass - it’s tough to work out what to do first and whether I need to do it at all. The difference between working as a consultant and a freelancer is the challenge here, as a consultant I would be expected to do everything, here I am expected to deliver high-end interaction outputs - which is much easier, but…I do not work slowly so I’m ahead of schedule!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What am I looking forward to next week?&lt;/strong&gt;&lt;br /&gt;
+I am presenting to the design community next week on how I settled in, and I’m looking forward to that, taking any questions and seeing if my process is right if there are places I could work, and gaps I could fill.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Podcast of the week:&lt;/strong&gt;&lt;br /&gt;
+Decided to reach into the vault and start to listen to one of my favourite speakers - Mike Monterio. And &lt;a href=&quot;https://www.intercom.com/blog/podcasts/mule-design-mike-monteiro/&quot;&gt;this episode&lt;/a&gt; is his usual hard-hitting, direct speaking way, which I’m a huge fan of.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tune of the week:&lt;/strong&gt;&lt;br /&gt;
+Found a band that screams, plays violin and is VERY good - Imminence, and &lt;a href=&quot;https://www.youtube.com/watch?v=HNAD360Op_8&quot;&gt;this track&lt;/a&gt; is a complete banger.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Sep 2023 10:30:00 +0100</pubDate>
+        <link>http://localhost:4000/2023/09/19/weeknotes-no52.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/19/weeknotes-no52.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.51</title>
@@ -331,100 +417,6 @@ I am always on the ear-out for new things to listen to, learn and binge - my des
         <pubDate>Mon, 22 May 2023 08:30:00 +0100</pubDate>
         <link>http://localhost:4000/2023/05/22/weeknotes-no44.html</link>
         <guid isPermaLink="true">http://localhost:4000/2023/05/22/weeknotes-no44.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.43</title>
-        <description>&lt;p&gt;A short week, but plenty of learning to happen still whilst I wait for my other designers to on board and get their accounts all set up.&lt;br /&gt;
-Shaping work is my priority this week, digesting the project from its inception to its current position and listening to everyone who is linked to the project to gain as much information as possible as quickly as possible.
-My notes look like I’ve drank far too much coffee (I maybe have) but I always break the project down into chewable sections like:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Project breakdown&lt;/li&gt;
-&lt;li&gt;Problem / What do we know&lt;/li&gt;
-&lt;li&gt;Vision&lt;/li&gt;
-&lt;li&gt;Goals:&lt;br /&gt;
-- For digital&lt;br /&gt;
-- For alpha&lt;/li&gt;
-&lt;li&gt;Vision&lt;/li&gt;
-&lt;li&gt;Findings from the discovery report&lt;/li&gt;
-&lt;li&gt;User needs&lt;/li&gt;
-&lt;li&gt;Key Functionality Requirements&lt;/li&gt;
-&lt;li&gt;Testing ideas (ideas feed from the discovery outputs)&lt;/li&gt;
-&lt;li&gt;Risks&lt;/li&gt;
-&lt;li&gt;Questions for the wider team&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Anyways, let’s get onto what the week was like.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What did I enjoy:&lt;/strong&gt;&lt;br /&gt;
-The support from my line manager - Chris Hawker is great. The fact I can talk openly and not feel worried, and ask for help at any time at all is amazing, feeling really happy, settled and excited to be here.&lt;br /&gt;
-I’ve started to shape a mural board, that I probably won’t share - but it has scribbles from a mad IxD who is trying to gather as much data as possible from all the docs and make sense, I love the investigation part and understanding the why, when and how we tackle(d) the problem.&lt;br /&gt;
-A show and tell showing what has happened and what is coming for my project was a great highlight, the project has plans, and it has a timeline that feels realistic and do-able, whilst I’m sure it will hit bumps in the road and possibly change and be challenged it is certainly on the right track.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Writing case studies for my past 2 projects (HMRC and NHS), I am so happy I kept notes during the project and screen grabs of things I can share, so keep an eye out for these!&lt;/p&gt;
-
-&lt;p&gt;I managed to land myself 3 games for my dusty PS3:&lt;br /&gt;
-Alien Colonial Marines (nowhere near as bad as people say, Assassins Creed - Blag Flag and the ultimate time robber - Red Dead Redemption, a really strong line-up and only cost about 4 quid overall!&lt;br /&gt;
-#CES-FTW&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What challenged me:&lt;/strong&gt;&lt;br /&gt;
-Writing case studies is tough, providing information whilst not making the project sound as tough/toxic as it was. I do not want to alienate the place of work to provide a bad reputation which could lead to good designers not joining, it’s a toss-up between honest reporting and just keeping the case study purposely concentrated on the project. If people want to ask me about my experience with my places of work - please get in touch, more than happy to chat.&lt;/p&gt;
-
-&lt;p&gt;One thing that isn’t discussed much is sorting out how to get paid when contracting, the spaghetti junction of dealing with your recruitment agency and umbrella company can be a minefield, but… I think I’m all settled. My tip: speak directly to your umbrella company and if possible, stick to the same one (I have recommendations)!&lt;/p&gt;
-
-&lt;p&gt;Speaking to ex-colleagues from previous places of work is a little unsettling at the moment, people are having tough times out there, and whilst I am not their line manager, I still keep in touch and try to coach as much as possible, reminding people that “they are not their job” is an educational piece, and also “you do not control the output of the team” when you are pushing upstream.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What am I looking forward to next week?&lt;/strong&gt;&lt;br /&gt;
-Launching a case study (I hope), I want to share the work we did at HMRC, I am so proud of what we ended up with and how, as a team, we worked together and got to a strong solution.&lt;/p&gt;
-
-&lt;p&gt;Did I mention it’s my birthday on Saturday? Strangely, I forgot you keep adding a 1 on after you reached 40, I just want to keep pretending I’m a 40-year-old man who collects retro games and consoles, plays games and listens to Screamo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Watch of the week:&lt;/strong&gt;&lt;br /&gt;
-For a while, I’ve been looking to eat better food and have been cooking things from scratch. Cooking is my go-to, to get away from digital and burn a couple of things (including fingers), but I found &lt;a href=&quot;https://www.youtube.com/@EthanChlebowski&quot; title=&quot;watch Ethan on youtube&quot;&gt;Ethan Chlebowski&lt;/a&gt; a great help when shaping meals like salads, lunches etc, and he tends to cook on a budget too.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Podcast of the week:&lt;/strong&gt;&lt;br /&gt;
-This week is retro heaven, but also retro gaming hell. I stumbled across a podcast that revisits old spectrum games (and by the looks of other platforms more recently), and the episode I’m linking to is &lt;a href=&quot;https://open.spotify.com/episode/2TX7qxaVmLd14gNfDCIUny?si=ddfe6ed8d0d74d54&quot;&gt;Horace Goes Skiing&lt;/a&gt;, it turns out.. as in most cases when talking about the wonderful Spectrum - the game isn’t as great as my memory serves up. Damn it! If you remember the Spectrum and loved it (why the hell wouldn’t you love it), this podcast is a beauty!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 May 2023 08:30:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/05/15/weeknotes-no43.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/05/15/weeknotes-no43.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.42</title>
-        <description>&lt;p&gt;It’s been a heck of a rollercoaster over the past 4 weeks, I went on leave (&lt;a href=&quot;https://www.instagram.com/p/Crs0k9qIel4/&quot; title=&quot;a link to my one photo of us in cape verde in Instagram&quot;&gt;hi Cape Verde&lt;/a&gt;) being informed my contract was 100% going to be renewed (spoiler.. nope), I then returned to find no renewal and suddenly contractless!&lt;/p&gt;
-
-&lt;p&gt;Matthew Solle, out of the blue suddenly got in touch and upon returning from holiday, I found myself in a great chat and signing up for a really exciting opportunity with &lt;a href=&quot;https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs&quot; title=&quot;a link to the GOV.UK page showing DEFRA&quot;&gt;Defra&lt;/a&gt; in a whirlwind!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What did I enjoy:&lt;/strong&gt;&lt;br /&gt;
-The onboarding at Defra is next level, it is completely stress-free. I have found myself with time to look around the intranet, and the project notes, all whilst setting up my accounts using “the other” (if you have worked within public sector.. you’ll know this adventure only too well) computer provided.&lt;/p&gt;
-
-&lt;p&gt;Learning about the new project I am on, it’s a really interesting assignment where I am leading the interaction design solution(s) within the alpha phase, and personally already learning about the climate effect and how that impacts investigations and reporting things like floods.&lt;/p&gt;
-
-&lt;p&gt;The welcome at Defra was amazing, the community feels healthy and supportive and… it helps I’ve managed to work with a handful of them before!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What challenged me:&lt;/strong&gt;&lt;br /&gt;
-Usual things, nerves joining a new team, finding my place etc, slowly getting used to it though!&lt;/p&gt;
-
-&lt;p&gt;After not working for 4 weeks, managing my coffee intake.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What am I looking forward to next week?&lt;/strong&gt;&lt;br /&gt;
-Getting deep into the discovery findings and working out what was found, what we could look at and start planning and prepping (even this early) a possible story for the user needs in regards to the alpha assessments that always seem to catch teams out (from my past experience).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Watch of the week:&lt;/strong&gt;&lt;br /&gt;
-I have a list of films that I want to watch (if you have any - &lt;a href=&quot;/contact.html&quot; title=&quot;link to my contact page to send me film recommendations&quot;&gt;get in touch&lt;/a&gt;!), all provided by my most film-obsessed friends who I know only deal in good 8/10 at least films. This week’s big one was &lt;a href=&quot;https://www.imdb.com/title/tt0042041/&quot; title=&quot;IMDB link to the film White Heat&quot;&gt;White Heat (1949)&lt;/a&gt;, James Cagney at his best, and his character at his worst. Worth a watch for sure.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tune of the week:&lt;/strong&gt;&lt;br /&gt;
-Revisted a band I have long loved, but not listened to for a while - Incubus. Great memories of going to see them at gigs and it’s still amazing that they are still going, handful of brilliant albums but &lt;a href=&quot;https://open.spotify.com/album/1rQZbncicoXyB64DqoH7OY&quot; title=&quot;Spotify link to Incubus Morning view album&quot;&gt;Morning View&lt;/a&gt; is an absolute banger.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 09 May 2023 08:30:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/05/09/weeknotes-no42.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/05/09/weeknotes-no42.html</guid>
         
         
       </item>
