@@ -5,9 +5,39 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Sep 2023 12:01:56 +0100</pubDate>
-    <lastBuildDate>Fri, 29 Sep 2023 12:01:56 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Dec 2023 17:01:19 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Dec 2023 17:01:19 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>Weeknotes No.54</title>
+        <description>&lt;p&gt;Wow, so it’s been a while hasn’t it?&lt;br /&gt;
+Nevertheless, it’s lovely to see you again.&lt;/p&gt;
+
+&lt;p&gt;So in the space of not writing weeknotes, I have changed roles from working within DEFRA (which I loved) to working on Bobbin and Bumble for a month(ish) to now, leading the design charge at FCA (Financial Conduct Authority) and implementing their first ever Design System AND Prototyping kit.&lt;/p&gt;
+
+&lt;p&gt;If I touch on my time at DEFRA, it was lovely, I enjoyed it there, and will forever remember the support and the friends I made (I still speak to them now even when I left so you know it’s the real deal!). It was fun, challenging and all the right stuff that I love when working on projects, I even managed to squeeze in presenting and passing an Alpha assessment(!), but I felt it was the right time to leave, especially when there was a need back home, working on the family business that I have not touched since going back to freelance/contracting.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bobbinandbumble.com/&quot; title=&quot;click here to view bobbin and bumble&quot;&gt;Bobbin and Bumble is the family business&lt;/a&gt; in case this is new to you, it’s a real living fixture in our lives, my wife started it from our dining room table with a £5 sewing machine, and it’s now a fully breathing and living thing, and knowing her products are in people’s houses (and sometimes, the people are colleagues that do not realise I’m the owners husband!). My workload varies, from building emailers to content reviewing - tracking keywords (long and short tail) and just doing general website updates, all measurable, all enjoyable and all worthwhile!&lt;/p&gt;
+
+&lt;p&gt;And to now, &lt;a href=&quot;https://www.fca.org.uk/&quot; title=&quot;click to see FCA website&quot;&gt;Financial Conduct Authority&lt;/a&gt;, what a change of pace from working for myself to having deliverables, stakeholders (that isn’t my wife) and working from scratch. It’s the challenge I have been searching for a while, and it’s so enjoyable. From stakeholder meetings to presentations of the work done and what’s up and coming to writing code and shaping the future of the design within a huge organisation and taking along as many people and supporters as possible (and there are many cheerleaders here). It’s a great fit, and it keeps me and my brain busy, which is certainly what I wanted.&lt;/p&gt;
+
+&lt;p&gt;Also, in the past week, we went to see a pantomime at the &lt;a href=&quot;https://bradfordplayhouse.org.uk/&quot; title=&quot;visit bradord playhouse&quot;&gt;Bradford Playhouse&lt;/a&gt; and it was so funny, Peter Pan has never been as funny and the cast were brilliant, my kids loved it and there was a slight smothering of naughty jokes (which the cast told me off for laughing A LOT at).&lt;/p&gt;
+
+&lt;p&gt;We seemed to have obtained a kitten, which was a shock to me and the children but I’ve been assured that it will support me in my mission to rid of any farm mice that seem to think it’s okay to camp out in the house.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Watch of the week:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=2xvq7CLlEkw&quot;&gt;Amy Hupe: Your design system contribution practice is doomed to fail&lt;/a&gt;.&lt;br /&gt;
+I watched this before starting at FCA, and I just thought it was a great reminder of what to do or not in this case in and around contribution to a design system. It’s one of the toughest parts of implementing a design system, and something that we are parking upon launch, and working with pilot teams closely for their direct feedback.&lt;/p&gt;
+
+&lt;p&gt;Upon launch, I see contribution as just getting the users to use the thing, getting buy-in and also growing the list of pilot teams, which seems so easy when you clumsy write it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Dec 2023 10:30:00 +0000</pubDate>
+        <link>http://localhost:4000/2023/12/20/weeknotes-no54.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/12/20/weeknotes-no54.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Weeknotes No.53</title>
@@ -376,47 +406,6 @@ Kickstarting the workshops, owning the problem and facilitating the team to be t
         <pubDate>Wed, 31 May 2023 08:30:00 +0100</pubDate>
         <link>http://localhost:4000/2023/05/31/weeknotes-no45.html</link>
         <guid isPermaLink="true">http://localhost:4000/2023/05/31/weeknotes-no45.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weeknotes No.44</title>
-        <description>&lt;p&gt;Alpha has officially arrived for the team, what does this look like as an interaction designer?&lt;br /&gt; 
-It means a lot of conversations with SMEs and my besties - the BA. Chewing their ear off, asking and asking and asking, and sometimes (all the time) listening.&lt;br /&gt;
-Working closely with the design team (and wider), we are shaping something pretty special which should allow us to breeze through alpha with answers, solutions, experiments, failures and successes!&lt;/p&gt;
-
-&lt;p&gt;Anyways, let’s get onto what the week was like, sharpies and Post it’s at the ready.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What did I enjoy:&lt;/strong&gt;&lt;br /&gt;
-The design team arrived! Working with my old pal Tom Adams (content designer) and the equally brilliant Zoe Popperwell (user researcher).&lt;/p&gt;
-
-&lt;p&gt;The work starts this week, the project officially started Alpha and mural boards a-plenty have kicked off.&lt;/p&gt;
-
-&lt;p&gt;I love this phase, I am leading the User Experience board, showcasing the journey from start to end (and what’s outside of this), including points of feelings, touchpoints and risks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What challenged me:&lt;/strong&gt;&lt;br /&gt;
-Finding my place has been interesting, I am always the quiet one when I first join (which if you have worked with me, you know doesn’t last) - but I find this time to understand, sit back and see the lay of the land and work out who I need to talk to.&lt;/p&gt;
-
-&lt;p&gt;Getting things in order, I know what needs to be done for the GDS assessment and using that as fuel to help shape what answers we need to find out, and finding the correct avenue of output to showcase this, again - it’s about finding out what stakeholders and team need to get things moving in the direction that is needed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What am I looking forward to next week?&lt;/strong&gt;&lt;br /&gt;
-Showcasing outputs, I love it when the team sees the value of work done and can see why I am quiet (for now).
-Structure, it’s always a bit wonky at the start - finding correct times for stand up and ensuring all attendance on meetings etc.&lt;/p&gt;
-
-&lt;p&gt;Allowing my voice to be heard more, now I understand my place, reason and work needed, there ain’t no stopping me!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Watch of the week:&lt;/strong&gt;&lt;br /&gt;
-I’m a huge Doom fan, the game is one of the best things I’ve ever played, and still is playable after all these 105 years it’s been around.&lt;br /&gt;
-This documentary “&lt;a href=&quot;https://www.youtube.com/watch?v=5wAo54DHDY0&amp;amp;t=4824s&quot;&gt;MyHouse.WAD - Inside Doom’s Most Terrifying Mod&lt;/a&gt;” was an incredible insight into a mad mad, game-breaking mod. &lt;br /&gt;
-Watch it, it’s longgggg, but worth it if you did this kind of stuff.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Podcast of the week:&lt;/strong&gt;&lt;br /&gt;
-I am always on the ear-out for new things to listen to, learn and binge - my design collection of podcasts is extremely low - in fact, it’s almost zero. Please help me, I’ll take interviews, hot topics, hot takes etc.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 22 May 2023 08:30:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/05/22/weeknotes-no44.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/05/22/weeknotes-no44.html</guid>
         
         
       </item>
