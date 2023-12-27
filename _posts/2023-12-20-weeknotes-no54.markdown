@@ -14,7 +14,7 @@ If I touch on my time at DEFRA, it was lovely, I enjoyed it there, and will fore
 
 And to now, <a href="https://www.fca.org.uk/" title="click to see FCA website">Financial Conduct Authority</a>, what a change of pace from working for myself to having deliverables, stakeholders (that isn't my wife) and working from scratch. It's the challenge I have been searching for a while, and it's so enjoyable. From stakeholder meetings to presentations of the work done and what's up and coming to writing code and shaping the future of the design within a huge organisation and taking along as many people and supporters as possible (and there are many cheerleaders here). It's a great fit, and it keeps me and my brain busy, which is certainly what I wanted.
 
-Also, in the past week, we went to see a pantomime at the <a href="https://bradfordplayhouse.org.uk/" title="visit bradord playhouse">Bradford Playhouse</a> and it was so funny, Peter Pan has never been as funny and the cast were brilliant, my kids loved it and there was a slight smothering of naughty jokes (which the cast told me off for laughing A LOT at).
+Also, in the past week, we went to see a pantomime at the <a href="https://bradfordplayhouse.org.uk/" title="visit bradford playhouse">Bradford Playhouse</a> and it was so funny, Peter Pan has never been as funny and the cast were brilliant, my kids loved it and there was a slight smothering of naughty jokes (which the cast told me off for laughing A LOT at).
 
 We seemed to have obtained a kitten, which was a shock to me and the children but I've been assured that it will support me in my mission to rid of any farm mice that seem to think it's okay to camp out in the house.
 
