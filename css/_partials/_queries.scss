@@ -5,12 +5,30 @@
 
 //1280px
 @media screen and (min-width: $bp-xlarge)  {
+	#warped {position: absolute; left: 40%; }
 
 }
 
-//1080px
-@media screen and (max-width: 1080px)  {
+@media screen and (max-width: 1165px)  {
+	.hideformobile-nav { display: none; }
+	.hidefordesktop-nav	 { display: block; }
+}
 
+//over970
+@media screen and (min-width: 970px)  {
+	.hidefordesktop { display: none; }	
+
+}
+
+//under970
+@media screen and (max-width: 970px)  {
+	.hideformobile, .header-socials { display: none; }
+	.hidefordesktop { display: block; }
+	.leftpusher10  { margin-left: 0; }
+	
+	#warped {overflow: hidden; position: absolute; left: 1%; top: 25%; z-index: 10; display: block; width:350px; height:439px;}
+	.shapesone { padding-top: 0px; }
+.shapestwo { padding-top: 0px; }
 }
 
 //960px
@@ -19,68 +37,156 @@
 	    display: inline-block;
 	    float: none;
 	}
+	.workingpizza { padding-top: 20px; }
 }
 
-
-// custom sizes to fix mobiles
-
-
-//750px iphone 6+ landscape
 @media screen and (max-width: 1000px) {
 .wrapper { padding: 0 10px; }
-header { margin: 34px 0 64px; }
 
 .cs--logo { padding-top: 50px; }
 }
 
 //600px
 @media screen and (max-width: 600px) {
-.wrapper { padding: 0 10px; }
-header.site-header { margin: 0 0 0px; }
+
+	body { font-size: 20px; }
+
+	.wrapper { padding: 0 10px; }
+	header.site-header { margin: 0 0 0px; }
+
+	.leftpusher { padding-left: 1.4%; }
+	
+
+	.home--openingpara { font-size: 26px; padding: 40px 0 0;}
+	.home--secondpara { padding: 0 0px; }
+
+	header .getintouch { float: left; }
+
+	.ralph {
+		margin-top: 0px;
+		margin-left: 0;
+		margin-bottom: 0px;
+		@include font-rempx(44);
+		line-height: 58px;
+		padding-left: 0; 
+		position: relative;
+	}
+
+	.ralphpuppy {
+		margin-top: 0px;
+		margin-left: 0;
+		margin-bottom: 0px;
+		@include font-rempx(44);
+		line-height: 53px;
+	}
+	.robyn {
+		margin-top: 0;
+		margin-left: 0px;
+		margin-bottom: 60px;
+		@include font-rempx(46);
+		line-height: 60px;
+
+	}
+	.alpha {
+		@include font-rempx(26);
+	    text-transform: none;
+	    padding-bottom: calc-em(0);
+	}
+	.beta{
+		@include font-rempx(30);
+		font-weight: 300;
+	}
+
+	.gamma{
+		@include font-rempx(30);
+		font-weight: 700;
+		margin: 0px 0 54px;
+	}
+
+.jelly {
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.font30 { 
+	line-height: 38px; 
+}
+
+	.subheader--home
+	 {font-size: 32px; margin-bottom: 1em;}
+
+	 h1,
+	 .h1 {
+	 	@include font-rempx(32);
+	 	padding-top: .2em;
+	 	margin-bottom: 58px;
+	 }
+
+	 h2,
+	 .h2 {
+	 	@include font-rempx(26);
+	 }	 
+
+	 h3.biggerheader { 
+	 	font-size: 26px;
+	  }
+
+	  .work--showcase h3 {
+	  	font-size: 34px; line-height: 48px;
+	  }
+
+	  .testimonials p { font-size: 20px; }
+	  
+	  .subheading--home { text-align: left; font-size: 14px; text-transform: uppercase; padding-top: 6px;  }
+	  .subheading--home-alt { text-align: left; font-size: 14px; text-transform: uppercase; padding-top: 6px;  }
+
+	  .leftpusher30 { padding-left: 0px;  }
+	  .leftpusherhalf { padding-left: 0px;  }
+	  .paddingtop-80 { padding-top: 40px; }
+
+ 
+}
+
+@media screen and (max-width: 780px) {
+	header { padding: 34px 0 30px; }
+	.work--topworkings { margin-top: 0; }
+
+	.testimonials { padding: 30px; }
+	.workingpizza { width: 25%; }
+	.myworld { margin-bottom: 20px; }
+	.hideformobile { display: none; }
+	.bigtosmall { font-size: 30px; line-height: 40px; }
+	.home--openingpara { position: relative; text-align: left; width: 100%; }
+
+	.workingheader { font-size: 36px; line-height: 58px; }
+
+	.about--me { margin-top: 0; }
+
+	.text-right { text-align: left; }
+}
+
+@media screen and (max-width: 600px) {
+    .grid .product-single { margin-top: 83px; }
+
+    .client-logo {
+    float: left;
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.hidefor640 { display: block; }
+	.showfor640 { display: none; }
+}
+
+@media screen and (max-width: 640px) {
+	.hidefor640 { display: none; }
+	.showfor640 { display: block; }
+	.paddingleft100 { padding-left: 0px; }
+}
 
 
-.ralph {
-	margin-top: -50px;
-	margin-left: 0;
-	margin-bottom: 60px;
-	@include font-rempx(46);
-}
-.robyn {
-	margin-top: 0;
-	margin-left: 0px;
-	margin-bottom: 60px;
-	@include font-rempx(46);
-}
-.alpha {
-	@include font-rempx(26);
-    text-transform: none;
-    padding-bottom: calc-em(0);
-}
-.beta{
-	@include font-rempx(30);
-	font-weight: 300;
-}
-
-.gamma{
-	@include font-rempx(30);
-	font-weight: 700;
-	margin: 0px 0 54px;
-}
-
- h1,
- .h1 {
- 	@include font-rempx(32);
- 	padding-top: .2em;
- 	font-weight: 700;
- 	margin-bottom: 58px;
- }
- h3,
- .h3 {
- 	@include font-rempx(24);
- 	font-weight: 700;
- 	text-transform: uppercase;
- 	margin-bottom: 30px;
- }
-
-
-}

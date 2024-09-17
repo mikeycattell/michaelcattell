@@ -13,12 +13,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.url == "/" %}Mikey Cattell - Senior Interaction Designer, product designer, and front-end developer{% else %}{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} - Mikey Cattell{% endif %}</title>
+  <title>{% if page.url == "/" %}Mikey Cattell - Lead Interaction Designer, product designer, and front-end developer{% else %}{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} - Mikey Cattell{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 
   <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 

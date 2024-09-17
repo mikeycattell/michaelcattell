@@ -10,9 +10,9 @@ title: Michael Cattell
 email: hello@michaelcattell.com
 description: > # this means to ignore newlines until "baseurl:"
   Mikey Cattell - A highly experienced Senior interaction designer, UI developer, and team player based in Leeds, UK.
-baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /:title
-permalink: /:title/
+baseurl: "https://michaelcattell.com/" # the subpath of your site, e.g. /blog
+permalink: https://michaelcattell.com/:title
+permalink: https://michaelcattell.com/:title/
 
 url: "https://www.michaelcattell.com/" # the base hostname & protocol for your site
 

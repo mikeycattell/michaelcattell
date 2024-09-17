@@ -1,0 +1,16 @@
+<div class="grid-six-tenths">
+    <div class="wrapper">
+    <p>My recent blog posts, where I like to share things I’ve learned, talk about my past week, or talk about food.</p>
+    <ul class="blogposts">
+        {% for post in site.posts limit: 5 %}
+        <li>
+            <p>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+                <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+    <p><a href="/all-posts.html" class="more-link">View all blog posts &rarr;</a></p>
+    </div>
+</div>

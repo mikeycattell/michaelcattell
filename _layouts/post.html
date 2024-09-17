@@ -1,6 +1,7 @@
 ---
 layout: default-post
 ---
+
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="wrapper">
@@ -8,7 +9,7 @@ layout: default-post
       <div class="page-header">
 
         <time datetime="{{ page.date | date_to_xmlschema }}" class="page-meta">{{ page.date | date_to_long_string }}</time>
-        <h1 >{{ page.title }}</h1>
+        <h1 class="emma">{{ page.title }}</h1>
 
       </div>
   
@@ -16,17 +17,6 @@ layout: default-post
   {{ content }}
 
   <hr>
-
-  <p>
-    {% if page.tags %}
-  Post tagged with: 
-  {% for tag in page.tags %} <a href="tags.html/#{{ tag }}">{{ tag }}</a>
-      <br><br>
-  {% endfor %}
-  {% endif %}
-</p>
-
- 
 
 
 
