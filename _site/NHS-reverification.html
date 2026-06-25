@@ -16,10 +16,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Lead Interaction Designer, a case study for NHS tool to improve data accuracy -
+  <title>Improving patient contact accuracy across NHS services -
     Mikey Cattell</title>
   <meta name="description"
-    content="">
+    content="Leading design for a national NHS service helping citizens review and update their contact details.">
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -33,15 +33,15 @@
   <meta property="og:site_name" content="Mikey Cattell" />
   <meta property="og:type" content="website" />
   <meta property="og:title"
-    content="Lead Interaction Designer, a case study for NHS tool to improve data accuracy" />
-  <meta property="og:description" content="
+    content="Improving patient contact accuracy across NHS services" />
+  <meta property="og:description" content="Leading design for a national NHS service helping citizens review and update their contact details.
 " />
   <meta name="og:image" content="http://www.michaelcattell.com/mikeycattell.jpg" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title"
-    content="Lead Interaction Designer, a case study for NHS tool to improve data accuracy" />
-  <meta name="twitter:description" content="
+    content="Improving patient contact accuracy across NHS services" />
+  <meta name="twitter:description" content="Leading design for a national NHS service helping citizens review and update their contact details.
 " />
   <meta name="twitter:image" content="http://www.michaelcattell.com/mikeycattell.jpg"" />
 
@@ -51,227 +51,283 @@
 
   <body>
 
-        <header class="site-header">
-        <div class="wrapper">
-            
-            <div class="grid-fourth">
-                <div class="site-logo" name="top">
-                    <a href="https://michaelcattell.com/" title="take me to the home page" style="top: 27px; left: 0px; position: absolute; vertical-align: middle;"><img alt="Michael Cattell logo" class="float-left" style="padding-right: 0;" src="assets/mc-logo.png" height="51" width="67">
-                   </a>
-                </div>
-            </div>
+    <header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="site-logo" href="/" aria-label="Michael Cattell home">Mikey</a>
 
-            <div class="grid-half">
-                <div class="hideformobile-nav">
-                    <nav class="main-menu">
-                        <ul>
-                            <li><a href="/" title="return to the home page">Home</a></li>
-                            <li><a href="/about.html" title="Read more about me">About</a></li>
-                            <li><a href="/work.html" title="See my previous work for both public and private sector">Work</a></li>
-                            <!--<li><a href="/current-cv.html" title="Read about my work experience">CV</a></li>-->
-                            <li><a href="/current.html" title="See all my blog posts">Current</a></li>
-                            <li><a href="/past.html" title="See all my blog posts">Past</a></li>
-                            <li><a href="/all-posts.html" title="See all my blog posts">Blog</a></li>
-                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
-                        </ul>
-                    </nav>
-                </div>
-            </div>            
+    <a class="site-header__email" href="mailto:hello@michaelcattell.com">
+      hello@michaelcattell.com
+    </a>
 
-            <div class="grid-fourth">
-                <p style="font-size: 20px; padding-top: 20px;"><a href="mailto:hello@michaelcattell.com" title="email me at hello@michaelcattell.com">hello@michaelcattell.com</a>
-                </p>
-            </div>                           
-
-                    <!-- mobile nav-->
-                    <div class="button_container hidefordesktop-nav" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
-                    <div class="overlay" id="overlay">
-                        <nav class="overlay-menu">
-                        <ul>
-                            <li><a class="noborder" href="/" title="return to the home page">Home</a></li>
-                            <li><a class="noborder" href="/about.html" title="Read more about me">About</a></li>
-                            <li><a class="noborder" href="/work.html" title="See my previous work for both public and private sector">Work</a></li>
-                            <!--<li><a href="/current-cv.html" title="Read about my work experience">CV</a></li>-->
-                            <li><a class="noborder" href="/current.html" title="See what im up to right now">Current</a></li>
-                            <li><a class="noborder" href="/past.html" title="What I have done in the past">Past</a></li>
-                            <li><a class="noborder" href="/all-posts.html" title="See all my blog posts">Blog</a></li>
-                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
-                                                
-                        </ul>
-
-                        </nav>
-                    
-                    </div>
-
-                    <!--<div class="grid-full">
-                        <p><span style="background: white; padding: 10px; font-size: 18px; color: black;">Currently on contract at <strong>Hippo Digital</strong> as Principal UX designer</span></p>
-                    </div>-->
-
-            </div>
-        </header>   
-        
-        <div class="marginbottom--xxxl hidefor640"></div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/work.html">Work</a></li>
+        <li><a href="/all-posts.html">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <article class="post">
 
   
     
-      <article>
-<section>
-    <div class="wrapper">
-        <div class="grid-full">
+      <main id="main-content" class="case-study-page case-study-page--nhs">
 
-<h1 class="ralph">Designing national tooling to improve patient data accuracy for over 10 million users</h1>
-</div>
-<div class="marginbottom--m"></div>
+  <section class="case-hero" aria-labelledby="case-title">
+    <div class="case-container case-hero__inner">
 
-<div class="grid-full" style="max-width: 1100px;">
-    <img src="assets/nhs-rv-1.png">
-</div>
-<div class="marginbottom--l"></div>
+      <p class="case-hero__eyebrow">
+        NHS Digital
+      </p>
 
+      <h1 id="case-title">
+        Improving patient contact accuracy across NHS services.
+      </h1>
 
-<div class="grid-full leftpusher10" style="max-width: 794px;">
-  <p><a href="https://www.nhs.uk/nhs-services/online-services/add-correct-contact-details/" title="">See the NHS service</a></p>
-<h3 class="intro">Introduction</h3>
-<p>NHS Digital serves as the central authority for information, data, and IT systems across England's health and social care network. With the NHS receiving over 1.3 million patients daily, maintaining accurate patient contact details is critical for effective healthcare delivery.</p>
-<p>It identified a significant data quality problem: patient records contained missing or incorrectly formatted mobile numbers and email addresses. This meant patients weren't receiving vital health communications, appointment reminders, or test results. To tackle this, NHS Digital launched an initiative to contact patients directly via text and email, asking them to review and update their information.</p>
-<p>However, the project faced a critical challenge. Despite having a dedicated delivery team—including a Delivery Manager, Product Manager, and four developers—there was no user-centred design expertise. This absence was flagged as a significant risk across NHS teams, particularly given the national scale and sensitivity of patient data.</p>
-</div>
-    <div class="grid-full">
-      <img src="assets/nhs-rv-4.png">
-    </div> 
-<div class="grid-full leftpusher10" style="max-width: 794px;">
-    <h3 class="intro">The goal</h3>
-<p>The initial brief was to "inject UCD into the project," but this lacked the strategic direction the team desperately needed. My role evolved to become much more comprehensive:</p>
+      <p class="case-hero__lead">
+        Leading design for a national NHS service helping citizens review and update their contact details, supporting more accurate patient records across healthcare services.
+      </p>
 
-<p><strong>Build credibility and trust</strong> with the delivery team while establishing design as a core function rather than an afterthought. Transform a team that had never worked with designers into a user-centred delivery machine.</p>
-<p><strong>Establish a complete product vision</strong> considering the vast NHS ecosystem, including how this service would integrate with GP systems, hospital networks, and other NHS Digital services used by millions of patients.</p>
-<p><strong>Navigate complex governance</strong> by taking the service through CDDO (Central Digital and Data Office) assessments, ensuring we passed Discovery and Alpha phases and secured approval for Private Beta and the following six months of development.</p>
-<p><strong>Scale rapidly</strong> from a pilot affecting 100 users to a national service impacting over 10 million patients across England.</p>
+    </div>
+  </section>
 
-</div>
-  <div class="grid-full">
-    <img src="assets/nhs-rv-2.png">
-  </div>
+  <section class="case-hero-image" aria-label="Project image">
+    <div class="case-container">
+      <img
+        src="/assets/nhs-rv-1.png"
+        alt="Screenshot of the NHS service allowing users to add or correct their contact details"
+        width="1100"
+        height="620"
+        loading="eager">
+    </div>
+  </section>
 
-</div>
-<div class="wrapper">
+  <section class="case-facts" aria-label="Project facts">
+    <div class="case-container case-facts__grid">
 
-  <div class="grid-full leftpusher10" style="max-width: 794px;">
-    <h3 class="intro">What do we know?</h3>
-<p>Research revealed that business requirements had completely overshadowed user needs. While valid business needs existed, there was no understanding of patient experiences or healthcare worker frustrations.</p>
-
-<p><strong>Patient confusion was rampant.</strong> People were constantly asked to update their details at every healthcare touchpoint—dentists, doctors, opticians—yet their records never seemed current. Many patients were unclear about how their data was handled or shared across the NHS.</p>
-<p><strong>Healthcare workers were pressured</strong> to maintain accurate patient data without having the authority, time, or proper tools to do so effectively.</p>
-<p><strong>The service was already in development</strong> before any design input, with stakeholders pushing for a launch to 100 pilot users despite having no user research or design validation.</p>
-<p><strong>Data showed the scale of the problem:</strong> Millions of patient records contained outdated contact information, directly impacting patient care and NHS operational efficiency.</p>
-</div>
-    <div class="grid-full">
-      <img src="assets/nhs-rv-3.png">
-    </div> 
-<div class="wrapper">
-
-  <div class="grid-full leftpusher10" style="max-width: 794px;">
-    <h3 class="intro">What I did</h3>
-    <p>I moved at pace to establish design leadership across multiple fronts simultaneously.</p>
-    <p><strong>Strategic foundation building:</strong> I defined the product strategy, vision, and OKRs through intensive stakeholder workshops and weekly alignment sessions. This wasn't just about the immediate service—I had to map how this fitted into the broader NHS ecosystem that the organisation didn't fully understand.</p>
-<p><strong>Team transformation:</strong> Starting from zero design maturity, I created roadmaps, product backlogs, and weekly goals that aligned design and development. I had to prove that design could move at the speed of development without slowing delivery.</p>
-<p><strong>NHS community engagement:</strong> I embedded myself in the wider NHS design community, running design crits, mentoring junior designers (sometimes acting as line manager), and delivering regular show-and-tells. This prevented duplicated work across teams and ensured we followed NHS design standards.</p>
-<p><strong>Hands-on design and research:</strong> As the lead interaction designer, I built and iterated prototypes weekly, conducted user research sessions with limited patient access, and worked closely with our content designer to develop messaging standards that would eventually update the NHS Design System.</p>
-<p><strong>Cross-functional collaboration:</strong> I worked directly with developers to ensure technical feasibility, created component specifications, and established a unified delivery roadmap that treated design and development as integrated rather than sequential.</p>
-<p><strong>Governance and compliance:</strong> I prepared the service for Digital and Technology Assurance (DTA) assessments, ensuring we met the rigorous standards for national NHS services handling sensitive patient data.</p>
-
-
-    <h3 class="intro">Outcomes</h3>
-    <p>The transformation was remarkable. Within 10 months, we evolved from a team with no design capability to a user-centred delivery powerhouse that became a model for other NHS projects.</p>
-<ul>
-  <li><strong>Scale achieved:</strong> The service rapidly scaled from 100 pilot users to over 10 million patients across England, with the infrastructure supporting national rollout.</li>
-<li><strong>Design maturity established:</strong> We delivered the team's first fully working prototype, implemented regular design critiques with developers and stakeholders, and created a sustainable design practice that continued beyond my involvement.
-<li><strong>Governance success:</strong> We passed both the Discovery and Alpha phases of the DTA assessment, a significant achievement for a team that had never worked with designers before.</li>
-<li><strong>Ecosystem understanding:</strong> We created a comprehensive blueprint of NHS patient data systems that the organisation hadn't previously mapped, providing strategic value beyond the immediate project.</li>
-Knowledge sharing: Our learnings were shared across NHS teams, preventing duplicated effort and saving significant time and budget on related projects.</li>
-<li><strong>Accessibility compliance:</strong> All designs met WCAG 2.2 standards, ensuring the service was accessible to all patients regardless of their abilities.</li>
-<li><strong>Team capability:</strong> I mentored junior designers and coached internal product owners, leaving a more capable and confident team behind.</li>
-  </ul>  
-    
-</div>
-
-<div class="grid-full leftpusher10" style="max-width: 794px;">
-  
-    <h3 class="font30"><strong>What did I learn</strong></h3>
-<p>This project marked my evolution into service design at scale. Working within the NHS taught me that successful design isn't just about interfaces—it's about understanding and improving entire systems that affect millions of lives.</p>
-
-<ul>
-  <li><strong>Research foundations matter:</strong> Understanding what's genuinely broken in a service, combined with quantitative data, provides the foundation for meaningful design decisions. I learned to communicate complex issues clearly and concisely to diverse stakeholders.</li>
-<li><strong>Implementation focus:</strong> I stopped trying to emulate large consultancy approaches and instead focused on practical, realistic solutions that could be implemented effectively. The most brilliant design is worthless if it can't be built or maintained.</li>
-<li><strong>Speed and quality aren't opposites:</strong> By establishing clear fundamentals—what people actually need and what solves real pain points—I could maintain quality while working at the pace required for national healthcare services.</li>
-<li><strong>Community building accelerates impact:</strong> My investment in the NHS design community paid dividends for this project and the broader transformation of how NHS approaches user-centred design.</li>
-</ul>
-
-<p>The project reinforced that design leadership isn't just about making things look good—building capability, transforming teams and creating sustainable practices that continue delivering value long after individual projects end.</p>
-
-</div>
- 
-
-<div class="marginbottom--xl"></div>
-
-<div class="grid-full col">
-  <div class="CrossPageNavigation">
-    <div class="grid-full">
-      <div class="CrossPageNavigationPrevious">
-        <strong>Go to the next case study</strong><br />
-          <a href="designsystem-2022.html">DWP's design system</a>
+      <div class="case-fact">
+        <p>Role</p>
+        <h2>Lead Interaction &amp; Service Designer</h2>
       </div>
-    </div>
-  </div>
-</div>
 
-</div>
-</div>
-</section>
-</article>
+      <div class="case-fact">
+        <p>Organisation</p>
+        <h2>NHS Digital</h2>
+      </div>
+
+      <div class="case-fact">
+        <p>Stage</p>
+        <h2>Discovery → Alpha</h2>
+      </div>
+
+      <div class="case-fact">
+        <p>Scale</p>
+        <h2>10+ million citizens</h2>
+      </div>
+
+      <div class="case-fact case-fact--team">
+        <p>Team I led</p>
+        <h2>Content design, service design and 2 user researchers</h2>
+      </div>
+
+      <div class="case-fact">
+        <p>Collaboration</p>
+        <h2>NHS Login identity &amp; verification teams</h2>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="case-container case-section__grid">
+
+      <div class="case-section__heading">
+        <h2>The challenge.</h2>
+      </div>
+
+      <div class="case-section__copy">
+        <p>NHS Digital identified a major issue with the accuracy of patient contact information. Millions of records contained outdated or missing email addresses and phone numbers, affecting how services communicate with patients.</p>
+
+        <p>The programme aimed to create a national service allowing citizens to securely review and update their details, but delivery had already begun before the service had a clear user-centred design foundation.</p>
+
+        <p>At the point I joined, discovery work had progressed without strong user validation, two consultancies were working together with different scopes of work and stakeholders were focused heavily on deadlines and delivery momentum.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="case-image">
+    <div class="case-container">
+      <img
+        src="/assets/nhs-rv-4.png"
+        alt="Service mapping and project planning work for the NHS contact details service"
+        width="1100"
+        height="620"
+        loading="lazy">
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="case-container case-section__grid">
+
+      <div class="case-section__heading">
+        <h2>Leading the programme.</h2>
+      </div>
+
+      <div class="case-section__copy">
+        <p>I was brought in through Hippo Digital to lead interaction and service design across the programme.</p>
+
+        <p>While my official title was Lead Interaction Designer, the role involved guiding the overall design approach, supporting the wider design team and rebuilding stakeholder confidence in the programme direction.</p>
+
+        <p>I introduced a structured approach to identifying assumptions and risks, linking them directly to user needs and delivery decisions. This helped move conversations away from opinion-driven decisions and towards evidence-based discussions.</p>
+
+        <ul>
+          <li>Led interaction and service design across Discovery and Alpha.</li>
+          <li>Managed and supported a small multidisciplinary design team.</li>
+          <li>Facilitated alignment workshops across delivery teams.</li>
+          <li>Created a shared roadmap connecting design work and delivery milestones.</li>
+          <li>Worked closely with NHS Login identity and verification teams.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="case-image">
+    <div class="case-container">
+      <img
+        src="/assets/nhs-rv-2.png"
+        alt="Journey mapping and service design work for the NHS contact details service"
+        width="1100"
+        height="620"
+        loading="lazy">
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="case-container case-section__grid">
+
+      <div class="case-section__heading">
+        <h2>Designing the service.</h2>
+      </div>
+
+      <div class="case-section__copy">
+        <p>Alongside stabilising the programme, I led the design of the citizen experience.</p>
+
+        <p>The goal was to create a simple and accessible journey allowing patients to review and update their contact details with confidence.</p>
+
+        <ul>
+          <li>Mapped the end-to-end service journey.</li>
+          <li>Simplified fragmented workflows across NHS systems.</li>
+          <li>Designed accessible user flows for a wide range of users.</li>
+          <li>Developed prototypes for testing and stakeholder decision-making.</li>
+          <li>Aligned the service with NHS design patterns and identity flows.</li>
+        </ul>
+
+        <p>Prototypes became an important tool for helping stakeholders understand the service and support informed decisions about product direction.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="case-image">
+    <div class="case-container">
+      <img
+        src="/assets/nhs-rv-3.png"
+        alt="Prototype flow showing the NHS contact details service journey"
+        width="1100"
+        height="620"
+        loading="lazy">
+    </div>
+  </section>
+
+  <section class="case-section case-section--outcomes">
+    <div class="case-container case-section__grid">
+
+      <div class="case-section__heading">
+        <h2>Outcomes.</h2>
+      </div>
+
+      <div class="case-section__copy">
+        <p>The programme successfully passed Discovery and Alpha service assessments, establishing a clear path for continued delivery.</p>
+
+        <ul>
+          <li>A validated service design addressing a major patient data challenge.</li>
+          <li>A working prototype demonstrating the service end-to-end.</li>
+          <li>Improved collaboration between design, delivery and policy teams.</li>
+          <li>Increased stakeholder confidence in the programme direction.</li>
+          <li>A roadmap supporting continued development of the service.</li>
+        </ul>
+
+        <p>The work helped move the programme from an unstable early phase to a stronger foundation for delivery.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="case-section case-section--reflection">
+    <div class="case-container case-section__grid">
+
+      <div class="case-section__heading">
+        <h2>Looking back.</h2>
+      </div>
+
+      <div class="case-section__copy">
+        <p>This project reinforced how important design leadership can be within complex delivery environments.</p>
+
+        <p>When delivery pressure is high and teams are misaligned, design can play a critical role in connecting user needs with operational realities.</p>
+
+        <p>In this programme, the role extended beyond designing interfaces. A large part of the work involved stabilising the team, rebuilding trust in design and helping the programme move forward with greater clarity and confidence.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
     
 
 </article>
 
 
-    <footer class="site-bookend site-footer">
+    <footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__contact">
+      <p>
+        Email address<br>
+        <a href="mailto:hello@michaelcattell.com">hello@michaelcattell.com</a>
+      </p>
 
-    <div class="wrapper">
-        <div class="grid-half">
-            <p><a href="#top" title="take me to the top of the page">Wanna ride to the top?</a></p>
-            <h4 class="intro">Let’s work together
-                on your next project.</h4>
-            <p style="font-size: 18px;"><strong>Currently unavailable.</strong><br>
-                Lead Interaction Designer at AstraZeneca <strong>till July 2024</strong></p>
+      <p>
+        Phone number<br>
+        <a href="tel:+447463966691">+44 (0)7463966691</a>
+      </p>
 
-            <ul class="capabilities">
-                <li>Email address<br><a href="mailto:hello@michaelcattell.com"
-                        title="email me at hello@michaelcattell.com">hello@michaelcattell.com</a></li>
-                <li>Phone number<br>+44 (0)7463966691</li>
-            </ul>
+      <p>
+        Copyright © 2016 Michael Cattell Ltd. All rights reserved.<br>
+        Registered in England &amp; Wales.
+      </p>
 
-            <p> &copy; Copyright © 2016 Michael Cattell Limited 15212122. All rights reserved.<br>Registered in England
-                & Wales.
-            </p>
-            <p><a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a> / <a href="https://twitter.com/home"
-                    title="follow me on twitter">Twitter</a> / <a href="https://dribbble.com/mikeycattell">Dribbble</a>
-            </p>
-        </div>
-
-        <div class="clearfix"></div>
+      <p>
+        <a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a>
+      </p>
     </div>
 
+    <div class="site-footer__currently">
+      <p><strong>Currently</strong></p>
+      <p>
+        Building: Bobbin &amp; Bumble<br>
+        Listening: Spotify<br>
+        Playing: Skyrim (Nintendo Switch 2)
+      </p>
+    </div>
+
+    <p class="site-footer__strapline">
+      Providing web design, front-end development and support to all businesses, small or large — all designed &amp; built by <a href="/">Michael Cattell Limited</a>.
+    </p>
+  </div>
 </footer>
-
-<script type="text/javascript">
-    $('#toggle').click(function () {
-        $(this).toggleClass('active');
-        $('#overlay').toggleClass('open');
-    });
-
-</script>
     
   </body>
 

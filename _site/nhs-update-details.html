@@ -51,66 +51,23 @@
 
   <body>
 
-        <header class="site-header">
-        <div class="wrapper">
-            
-            <div class="grid-fourth">
-                <div class="site-logo" name="top">
-                    <a href="https://michaelcattell.com/" title="take me to the home page" style="top: 27px; left: 0px; position: absolute; vertical-align: middle;"><img alt="Michael Cattell logo" class="float-left" style="padding-right: 0;" src="assets/mc-logo.png" height="51" width="67">
-                   </a>
-                </div>
-            </div>
+    <header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="site-logo" href="/" aria-label="Michael Cattell home">Mikey</a>
 
-            <div class="grid-half">
-                <div class="hideformobile-nav">
-                    <nav class="main-menu">
-                        <ul>
-                            <li><a href="/" title="return to the home page">Home</a></li>
-                            <li><a href="/about.html" title="Read more about me">About</a></li>
-                            <li><a href="/work.html" title="See my previous work for both public and private sector">Work</a></li>
-                            <!--<li><a href="/current-cv.html" title="Read about my work experience">CV</a></li>-->
-                            <li><a href="/current.html" title="See all my blog posts">Current</a></li>
-                            <li><a href="/past.html" title="See all my blog posts">Past</a></li>
-                            <li><a href="/all-posts.html" title="See all my blog posts">Blog</a></li>
-                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
-                        </ul>
-                    </nav>
-                </div>
-            </div>            
+    <a class="site-header__email" href="mailto:hello@michaelcattell.com">
+      hello@michaelcattell.com
+    </a>
 
-            <div class="grid-fourth">
-                <p style="font-size: 20px; padding-top: 20px;"><a href="mailto:hello@michaelcattell.com" title="email me at hello@michaelcattell.com">hello@michaelcattell.com</a>
-                </p>
-            </div>                           
-
-                    <!-- mobile nav-->
-                    <div class="button_container hidefordesktop-nav" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
-                    <div class="overlay" id="overlay">
-                        <nav class="overlay-menu">
-                        <ul>
-                            <li><a class="noborder" href="/" title="return to the home page">Home</a></li>
-                            <li><a class="noborder" href="/about.html" title="Read more about me">About</a></li>
-                            <li><a class="noborder" href="/work.html" title="See my previous work for both public and private sector">Work</a></li>
-                            <!--<li><a href="/current-cv.html" title="Read about my work experience">CV</a></li>-->
-                            <li><a class="noborder" href="/current.html" title="See what im up to right now">Current</a></li>
-                            <li><a class="noborder" href="/past.html" title="What I have done in the past">Past</a></li>
-                            <li><a class="noborder" href="/all-posts.html" title="See all my blog posts">Blog</a></li>
-                            <!--<li><a href="/contact.html">Get in touch</a></li>-->
-                                                
-                        </ul>
-
-                        </nav>
-                    
-                    </div>
-
-                    <!--<div class="grid-full">
-                        <p><span style="background: white; padding: 10px; font-size: 18px; color: black;">Currently on contract at <strong>Hippo Digital</strong> as Principal UX designer</span></p>
-                    </div>-->
-
-            </div>
-        </header>   
-        
-        <div class="marginbottom--xxxl hidefor640"></div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/work.html">Work</a></li>
+        <li><a href="/all-posts.html">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <article class="post">
 
@@ -248,42 +205,43 @@ It can also be the difference between getting funding and support to “doing it
 </article>
 
 
-    <footer class="site-bookend site-footer">
+    <footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__contact">
+      <p>
+        Email address<br>
+        <a href="mailto:hello@michaelcattell.com">hello@michaelcattell.com</a>
+      </p>
 
-    <div class="wrapper">
-        <div class="grid-half">
-            <p><a href="#top" title="take me to the top of the page">Wanna ride to the top?</a></p>
-            <h4 class="intro">Let’s work together
-                on your next project.</h4>
-            <p style="font-size: 18px;"><strong>Currently unavailable.</strong><br>
-                Lead Interaction Designer at AstraZeneca <strong>till July 2024</strong></p>
+      <p>
+        Phone number<br>
+        <a href="tel:+447463966691">+44 (0)7463966691</a>
+      </p>
 
-            <ul class="capabilities">
-                <li>Email address<br><a href="mailto:hello@michaelcattell.com"
-                        title="email me at hello@michaelcattell.com">hello@michaelcattell.com</a></li>
-                <li>Phone number<br>+44 (0)7463966691</li>
-            </ul>
+      <p>
+        Copyright © 2016 Michael Cattell Ltd. All rights reserved.<br>
+        Registered in England &amp; Wales.
+      </p>
 
-            <p> &copy; Copyright © 2016 Michael Cattell Limited 15212122. All rights reserved.<br>Registered in England
-                & Wales.
-            </p>
-            <p><a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a> / <a href="https://twitter.com/home"
-                    title="follow me on twitter">Twitter</a> / <a href="https://dribbble.com/mikeycattell">Dribbble</a>
-            </p>
-        </div>
-
-        <div class="clearfix"></div>
+      <p>
+        <a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a>
+      </p>
     </div>
 
+    <div class="site-footer__currently">
+      <p><strong>Currently</strong></p>
+      <p>
+        Building: Bobbin &amp; Bumble<br>
+        Listening: Spotify<br>
+        Playing: Skyrim (Nintendo Switch 2)
+      </p>
+    </div>
+
+    <p class="site-footer__strapline">
+      Providing web design, front-end development and support to all businesses, small or large — all designed &amp; built by <a href="/">Michael Cattell Limited</a>.
+    </p>
+  </div>
 </footer>
-
-<script type="text/javascript">
-    $('#toggle').click(function () {
-        $(this).toggleClass('active');
-        $('#overlay').toggleClass('open');
-    });
-
-</script>
     
   </body>
 
