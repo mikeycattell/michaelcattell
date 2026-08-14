@@ -2,51 +2,138 @@
 <html lang="en">
 
   <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15536515-1"></script>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW00TW1WQH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-15536515-1');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-YW00TW1WQH');
   </script>
 
+
+  <!-- Basic page setup -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Blog -
-    Mikey Cattell</title>
-  <meta name="description"
-    content="Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds.">
 
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Page title -->
+  <title>Writing on Product Design, Leadership &amp; Digital Delivery - Mikey Cattell</title>
 
-  <link rel="canonical" href="http://localhost:4000/all-posts.html">
 
-  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000 /feed.xml">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- Meta description -->
+  <meta
+    name="description"
+    content="Notes on product design, leadership, research, systems and the realities of making digital services work."
+  >
 
-  <meta property="og:site_name" content="Mikey Cattell" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title"
-    content="Blog" />
-  <meta property="og:description" content="Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds.
-" />
-  <meta name="og:image" content="http://www.michaelcattell.com/mikeycattell.jpg" />
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title"
-    content="Blog" />
-  <meta name="twitter:description" content="Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds.
-" />
-  <meta name="twitter:image" content="http://www.michaelcattell.com/mikeycattell.jpg"" />
+  <!-- Styles -->
+  <link
+    rel="stylesheet"
+    href="/css/styles.css"
+  >
 
-  <link rel=" stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  >
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+  <!-- Canonical URL -->
+  <link
+    rel="canonical"
+    href="http://localhost:4000/all-posts.html"
+  >
+
+
+  <!-- RSS -->
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title=""
+    href="http://localhost:4000/feed.xml"
+  >
+
+
+  <!-- Favicon -->
+  <link
+    rel="shortcut icon"
+    href="/favicon.ico"
+    type="image/x-icon"
+  >
+
+
+  <!-- Open Graph -->
+  <meta
+    property="og:site_name"
+    content="Mikey Cattell"
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:title"
+    content="Writing on Product Design, Leadership &amp; Digital Delivery"
+  >
+
+  <meta
+    property="og:description"
+    content="Notes on product design, leadership, research, systems and the realities of making digital services work."
+  >
+
+  <meta
+    property="og:url"
+    content="http://localhost:4000/all-posts.html"
+  >
+
+  <meta
+    property="og:image"
+    content="http://localhost:4000/mikeycattell.jpg"
+  >
+
+
+  <!-- Twitter / social sharing -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="Writing on Product Design, Leadership &amp; Digital Delivery"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Notes on product design, leadership, research, systems and the realities of making digital services work."
+  >
+
+  <meta
+    name="twitter:image"
+    content="http://localhost:4000/mikeycattell.jpg"
+  >
+
 </head>
 
   <body>
@@ -61,9 +148,33 @@
 
     <nav class="site-nav" aria-label="Main navigation">
       <ul>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/all-posts.html">Blog</a></li>
+        <li>
+          <a href="/about.html"
+             >
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="/work.html"
+             >
+            Work
+          </a>
+        </li>
+
+        <li>
+          <a href="/all-posts.html"
+             class="is-active" aria-current="page">
+            Blog
+          </a>
+        </li>
+
+        <li>
+          <a href="/contact.html"
+             >
+            Contact
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -73,829 +184,2549 @@
 
   
     
-      <article role="article"></article>
-<div class="wrapper">
+      <main id="main-content" class="blog-page">
 
-  <section>
-    <div class="wrapper">
-        <div class="marginbottom--xxxl"></div>
-        <div class="grid-four-fifths">
-            <h1 class="ralph">Latest posts</h1>
+  <section class="blog-hero" aria-labelledby="blog-title">
+    <div class="blog-container blog-hero__inner">
+
+      <h1 id="blog-title">
+        Writing.
+      </h1>
+
+      <p class="blog-hero__lead">
+        Notes on product design, leadership, research, systems and the realities of making digital services work.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="blog-list" aria-labelledby="latest-posts-title">
+    <div class="blog-container">
+
+      <div class="blog-list__intro">
+        <h2 id="latest-posts-title">
+          Latest posts.
+        </h2>
+      </div>
+
+      <ul class="blog-posts">
+
         
-        <div class="marginbottom--xxxl"></div>
 
-            <ul class="blogposts">
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2026/04/10/weeknotes-no88.html">Weeknotes No.88</a></span><br>
-                        <span class="page-meta">10 April 2026</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2026/03/03/weeknotes-no87.html">Weeknotes No.87</a></span><br>
-                        <span class="page-meta">3 March 2026</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2026/01/30/weeknotes-no86.html">Weeknotes No.86</a></span><br>
-                        <span class="page-meta">30 January 2026</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/10/14/weeknotes-no85.html">Weeknotes No.85</a></span><br>
-                        <span class="page-meta">14 October 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/07/07/weeknotes-no84.html">Weeknotes No.84</a></span><br>
-                        <span class="page-meta">7 July 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/06/27/weeknotes-no83.html">Weeknotes No.83</a></span><br>
-                        <span class="page-meta">27 June 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/06/23/weeknotes-no82.html">Weeknotes No.82</a></span><br>
-                        <span class="page-meta">23 June 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/06/13/weeknotes-no81.html">Weeknotes No.81</a></span><br>
-                        <span class="page-meta">13 June 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/06/09/weeknotes-no80.html">Weeknotes No.80</a></span><br>
-                        <span class="page-meta">9 June 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/04/28/weeknotes-no79.html">Weeknotes No.79</a></span><br>
-                        <span class="page-meta">28 April 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/04/09/weeknotes-no78.html">Weeknotes No.78</a></span><br>
-                        <span class="page-meta">9 April 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/03/25/weeknotes-no77.html">Weeknotes No.77</a></span><br>
-                        <span class="page-meta">25 March 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/03/06/weeknotes-no76.html">Weeknotes No.76</a></span><br>
-                        <span class="page-meta">6 March 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/02/06/weeknotes-no75.html">Weeknotes No.75</a></span><br>
-                        <span class="page-meta">6 February 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2025/01/10/weeknotes-no74.html">Weeknotes No.74</a></span><br>
-                        <span class="page-meta">10 January 2025</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/11/07/weeknotes-no73.html">Weeknotes No.73</a></span><br>
-                        <span class="page-meta">7 November 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/10/27/weeknotes-no72.html">Weeknotes No.72</a></span><br>
-                        <span class="page-meta">27 October 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/10/15/weeknotes-no71.html">Weeknotes No.71</a></span><br>
-                        <span class="page-meta">15 October 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/09/27/weeknotes-no70.html">Weeknotes No.70</a></span><br>
-                        <span class="page-meta">27 September 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/09/17/weeknotes-no69.html">Weeknotes No.69</a></span><br>
-                        <span class="page-meta">17 September 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/09/06/weeknotes-no68.html">Weeknotes No.68</a></span><br>
-                        <span class="page-meta">6 September 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/08/30/weeknotes-no67.html">Weeknotes No.67</a></span><br>
-                        <span class="page-meta">30 August 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/08/03/weeknotes-no66.html">Weeknotes No.66</a></span><br>
-                        <span class="page-meta">3 August 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/07/10/weeknotes-no65.html">Weeknotes No.65</a></span><br>
-                        <span class="page-meta">10 July 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/06/21/weeknotes-no64.html">Weeknotes No.64</a></span><br>
-                        <span class="page-meta">21 June 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/06/11/weeknotes-no63.html">Weeknotes No.63</a></span><br>
-                        <span class="page-meta">11 June 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/06/01/weeknotes-no62.html">Weeknotes No.62</a></span><br>
-                        <span class="page-meta">1 June 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/05/15/weeknotes-no61.html">Weeknotes No.61</a></span><br>
-                        <span class="page-meta">15 May 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/04/24/weeknotes-no60.html">Weeknotes No.60</a></span><br>
-                        <span class="page-meta">24 April 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/03/22/weeknotes-no59.html">Weeknotes No.59</a></span><br>
-                        <span class="page-meta">22 March 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/03/01/weeknotes-no58.html">Weeknotes No.58</a></span><br>
-                        <span class="page-meta">1 March 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/02/16/weeknotes-no57.html">Weeknotes No.57</a></span><br>
-                        <span class="page-meta">16 February 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/02/03/weeknotes-no56.html">Weeknotes No.56</a></span><br>
-                        <span class="page-meta">3 February 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2024/01/17/weeknotes-no55.html">Weeknotes No.55</a></span><br>
-                        <span class="page-meta">17 January 2024</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/12/20/weeknotes-no54.html">Weeknotes No.54</a></span><br>
-                        <span class="page-meta">20 December 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/09/29/weeknotes-no53.html">Weeknotes No.53</a></span><br>
-                        <span class="page-meta">29 September 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/09/19/weeknotes-no52.html">Weeknotes No.52</a></span><br>
-                        <span class="page-meta">19 September 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/09/10/weeknotes-no51.html">Weeknotes No.51</a></span><br>
-                        <span class="page-meta">10 September 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/07/17/weeknotes-no50.html">Weeknotes No.50</a></span><br>
-                        <span class="page-meta">17 July 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/07/11/weeknotes-no49.html">Weeknotes No.49</a></span><br>
-                        <span class="page-meta">11 July 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/07/04/weeknotes-no48.html">Weeknotes No.48</a></span><br>
-                        <span class="page-meta">4 July 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/06/21/weeknotes-no47.html">Weeknotes No.47</a></span><br>
-                        <span class="page-meta">21 June 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/06/09/weeknotes-no46.html">Weeknotes No.46</a></span><br>
-                        <span class="page-meta">9 June 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/05/31/weeknotes-no45.html">Weeknotes No.45</a></span><br>
-                        <span class="page-meta">31 May 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/05/22/weeknotes-no44.html">Weeknotes No.44</a></span><br>
-                        <span class="page-meta">22 May 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/05/15/weeknotes-no43.html">Weeknotes No.43</a></span><br>
-                        <span class="page-meta">15 May 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/05/09/weeknotes-no42.html">Weeknotes No.42</a></span><br>
-                        <span class="page-meta">9 May 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/03/31/weeknotes-no41.html">Weeknotes No.41</a></span><br>
-                        <span class="page-meta">31 March 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/03/27/weeknotes-no40.html">Weeknotes No.40</a></span><br>
-                        <span class="page-meta">27 March 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/03/20/weeknotes-no39.html">Weeknotes No.39</a></span><br>
-                        <span class="page-meta">20 March 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/03/13/weeknotes-no38.html">Weeknotes No.38</a></span><br>
-                        <span class="page-meta">13 March 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/03/03/weeknotes-no37.html">Weeknotes No.37</a></span><br>
-                        <span class="page-meta">3 March 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/02/28/weeknotes-no36.html">Weeknotes No.36</a></span><br>
-                        <span class="page-meta">28 February 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/02/17/weeknotes-no35.html">Weeknotes No.35</a></span><br>
-                        <span class="page-meta">17 February 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/02/13/weeknotes-no34.html">Weeknotes No.34</a></span><br>
-                        <span class="page-meta">13 February 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/02/06/weeknotes-no33.html">Weeknotes No.33</a></span><br>
-                        <span class="page-meta">6 February 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2023/01/25/weeknotes-no32.html">Weeknotes No.32</a></span><br>
-                        <span class="page-meta">25 January 2023</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2021/09/08/weeknotes-no31.html">Weeknotes No.31</a></span><br>
-                        <span class="page-meta">8 September 2021</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2021/09/02/weeknotes-no30.html">Weeknotes No.30</a></span><br>
-                        <span class="page-meta">2 September 2021</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2021/08/02/weeknotes-no29.html">Weeknotes No.29</a></span><br>
-                        <span class="page-meta">2 August 2021</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2021/05/07/life-update-2021.html">Life update 2021</a></span><br>
-                        <span class="page-meta">7 May 2021</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2021/01/02/cheering-on-the-designer.html">Cheering the designer</a></span><br>
-                        <span class="page-meta">2 January 2021</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/12/21/weeknotes-no28-copy.html">Weeknotes No.28</a></span><br>
-                        <span class="page-meta">21 December 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/10/03/weeknotes-no27.html">Weeknotes No.27</a></span><br>
-                        <span class="page-meta">3 October 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/05/07/weeknotes-no26.html">Weeknotes No.26</a></span><br>
-                        <span class="page-meta">7 May 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/04/20/living-and-working-at-home.html">Living (and working) at home</a></span><br>
-                        <span class="page-meta">20 April 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/03/19/what-to-look-for-in-a-mentor.html">What to look for in a mentor</a></span><br>
-                        <span class="page-meta">19 March 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/03/09/weeknotes-no25.html">Weeknotes No.25</a></span><br>
-                        <span class="page-meta">9 March 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/03/02/weeknotes-no24.html">Weeknotes No.24</a></span><br>
-                        <span class="page-meta">2 March 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/02/25/giving-the-power-back.html">Giving the power back</a></span><br>
-                        <span class="page-meta">25 February 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/02/04/celebrating-the-wins.html">Celebrating the wins</a></span><br>
-                        <span class="page-meta">4 February 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/01/29/weeknotes-no23.html">Weeknotes No.23</a></span><br>
-                        <span class="page-meta">29 January 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/01/25/weeknotes-no22.html">Weeknotes No.22</a></span><br>
-                        <span class="page-meta">25 January 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/01/15/weeknotes-no21.html">Weeknotes No.21</a></span><br>
-                        <span class="page-meta">15 January 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2020/01/09/weeknotes-no20-the-2019-review.html">Weeknotes No.20 - the 2019 review</a></span><br>
-                        <span class="page-meta">9 January 2020</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/11/05/weeknotes-no19.html">Weeknotes No.19</a></span><br>
-                        <span class="page-meta">5 November 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/24/ego-or-self-esteem.html">Ego or Self Esteem?</a></span><br>
-                        <span class="page-meta">24 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/18/weeknotes-no18.html">Weeknotes No.18</a></span><br>
-                        <span class="page-meta">18 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/14/weeknotes-no17.html">Weeknotes No.17</a></span><br>
-                        <span class="page-meta">14 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/08/perfecting-the-pitch.html">Perfecting the pitch</a></span><br>
-                        <span class="page-meta">8 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/08/weeknotes-no16.html">Weeknotes No.16</a></span><br>
-                        <span class="page-meta">8 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/03/weeknotes-no15.html">Weeknotes No.15</a></span><br>
-                        <span class="page-meta">3 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/10/02/weeknotes-no14.html">Weeknotes No.14</a></span><br>
-                        <span class="page-meta">2 October 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/09/22/breaking-confidence.html">Breaking Confidence</a></span><br>
-                        <span class="page-meta">22 September 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/09/16/weeknotes-no13.html">Weeknotes No.13</a></span><br>
-                        <span class="page-meta">16 September 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/09/04/weeknotes-no11.html">Weeknotes No.12</a></span><br>
-                        <span class="page-meta">4 September 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/09/04/weeknotes-no12.html">Weeknotes No.12</a></span><br>
-                        <span class="page-meta">4 September 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/08/27/weeknotes-no10.html">Weeknotes No.10</a></span><br>
-                        <span class="page-meta">27 August 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/08/25/be-a-troublemaker.html">Be a troublemaker</a></span><br>
-                        <span class="page-meta">25 August 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/08/20/weeknotes-no9.html">Weeknotes No.9</a></span><br>
-                        <span class="page-meta">20 August 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/08/12/weeknotes-no8.html">Weeknotes No.8</a></span><br>
-                        <span class="page-meta">12 August 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/08/07/weeknotes-no7.html">Weeknotes No.7</a></span><br>
-                        <span class="page-meta">7 August 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/08/04/having-a-wobble.html">Having a wobble</a></span><br>
-                        <span class="page-meta">4 August 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/07/29/weeknotes-no6.html">Weeknotes No.6</a></span><br>
-                        <span class="page-meta">29 July 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/07/23/weeknotes-no5.html">Weeknotes No.5</a></span><br>
-                        <span class="page-meta">23 July 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/07/17/things-learned-in-first-month-atDWP.html">Things I’ve learned in my first month at DWP</a></span><br>
-                        <span class="page-meta">17 July 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/07/15/weeknotes-no4.html">Weeknotes No.4</a></span><br>
-                        <span class="page-meta">15 July 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/06/30/weeknotes-no3.html">Weeknotes No.3</a></span><br>
-                        <span class="page-meta">30 June 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/06/24/weeknotes-no2.html">Weeknotes No.2</a></span><br>
-                        <span class="page-meta">24 June 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/06/16/weeknotes-no1.html">Weeknotes No.1</a></span><br>
-                        <span class="page-meta">16 June 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2019/06/14/the-next-chapter.html">The Next Chapter</a></span><br>
-                        <span class="page-meta">14 June 2019</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2018/04/02/leaving-front-end-behind.html">Leaving front end behind</a></span><br>
-                        <span class="page-meta">2 April 2018</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2018/03/16/designishard.html">When Design is Design</a></span><br>
-                        <span class="page-meta">16 March 2018</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2017/01/22/hustling-no-thanks.html">Hustling, No Thanks</a></span><br>
-                        <span class="page-meta">22 January 2017</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2016/10/27/jobtitles.html">Job Titles – The Who, What And Why?</a></span><br>
-                        <span class="page-meta">27 October 2016</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2016/07/17/divide-between-frontend-backend.html">Fixing The Divide Between Front-End Developer And Back-End Developer</a></span><br>
-                        <span class="page-meta">17 July 2016</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2016/05/07/Do-You-Have-A-Snorkel.html">Do You Have A Snorkel?</a></span><br>
-                        <span class="page-meta">7 May 2016</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2016/04/18/im-a-workaholic.html">Im Often Told That I’m A Workaholic</a></span><br>
-                        <span class="page-meta">18 April 2016</span>
-                    
-                </li>
-                
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="/2016/03/01/inspiration.html">Who, Over The Years Has Inspired/Inspires You?</a></span><br>
-                        <span class="page-meta">1 March 2016</span>
-                    
-                </li>
-                
-            </ul>
-          </div>
-          </div>  
-        </section>            
+          <li class="blog-post">
 
-</article>
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2026/04/10/weeknotes-no88.html" class="blog-post__link">
+                  Weeknotes No.88
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2026-04-10T07:30:00+01:00">
+                  10 April 2026
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2026/03/03/weeknotes-no87.html" class="blog-post__link">
+                  Weeknotes No.87
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2026-03-03T07:30:00+00:00">
+                  3 March 2026
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2026/01/30/weeknotes-no86.html" class="blog-post__link">
+                  Weeknotes No.86
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2026-01-30T07:30:00+00:00">
+                  30 January 2026
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/10/14/weeknotes-no85.html" class="blog-post__link">
+                  Weeknotes No.85
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-10-14T07:30:00+01:00">
+                  14 October 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/07/07/weeknotes-no84.html" class="blog-post__link">
+                  Weeknotes No.84
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-07-07T07:30:00+01:00">
+                  7 July 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/06/27/weeknotes-no83.html" class="blog-post__link">
+                  Weeknotes No.83
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-06-27T07:30:00+01:00">
+                  27 June 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/06/23/weeknotes-no82.html" class="blog-post__link">
+                  Weeknotes No.82
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-06-23T07:30:00+01:00">
+                  23 June 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/06/13/weeknotes-no81.html" class="blog-post__link">
+                  Weeknotes No.81
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-06-13T07:30:00+01:00">
+                  13 June 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/06/09/weeknotes-no80.html" class="blog-post__link">
+                  Weeknotes No.80
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-06-09T07:30:00+01:00">
+                  9 June 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/04/28/weeknotes-no79.html" class="blog-post__link">
+                  Weeknotes No.79
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-04-28T07:30:00+01:00">
+                  28 April 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/04/09/weeknotes-no78.html" class="blog-post__link">
+                  Weeknotes No.78
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-04-09T07:30:00+01:00">
+                  9 April 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/03/25/weeknotes-no77.html" class="blog-post__link">
+                  Weeknotes No.77
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-03-25T07:30:00+00:00">
+                  25 March 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/03/06/weeknotes-no76.html" class="blog-post__link">
+                  Weeknotes No.76
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-03-06T07:30:00+00:00">
+                  6 March 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/02/06/weeknotes-no75.html" class="blog-post__link">
+                  Weeknotes No.75
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-02-06T07:30:00+00:00">
+                  6 February 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2025/01/10/weeknotes-no74.html" class="blog-post__link">
+                  Weeknotes No.74
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2025-01-10T07:30:00+00:00">
+                  10 January 2025
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/11/07/weeknotes-no73.html" class="blog-post__link">
+                  Weeknotes No.73
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-11-07T07:30:00+00:00">
+                  7 November 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/10/27/weeknotes-no72.html" class="blog-post__link">
+                  Weeknotes No.72
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-10-27T07:30:00+00:00">
+                  27 October 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/10/15/weeknotes-no71.html" class="blog-post__link">
+                  Weeknotes No.71
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-10-15T07:30:00+01:00">
+                  15 October 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/09/27/weeknotes-no70.html" class="blog-post__link">
+                  Weeknotes No.70
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-09-27T07:30:00+01:00">
+                  27 September 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/09/17/weeknotes-no69.html" class="blog-post__link">
+                  Weeknotes No.69
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-09-17T07:30:00+01:00">
+                  17 September 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/09/06/weeknotes-no68.html" class="blog-post__link">
+                  Weeknotes No.68
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-09-06T07:30:00+01:00">
+                  6 September 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/08/30/weeknotes-no67.html" class="blog-post__link">
+                  Weeknotes No.67
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-08-30T07:30:00+01:00">
+                  30 August 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/08/03/weeknotes-no66.html" class="blog-post__link">
+                  Weeknotes No.66
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-08-03T07:30:00+01:00">
+                  3 August 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/07/10/weeknotes-no65.html" class="blog-post__link">
+                  Weeknotes No.65
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-07-10T07:30:00+01:00">
+                  10 July 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/06/21/weeknotes-no64.html" class="blog-post__link">
+                  Weeknotes No.64
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-06-21T07:30:00+01:00">
+                  21 June 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/06/11/weeknotes-no63.html" class="blog-post__link">
+                  Weeknotes No.63
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-06-11T07:30:00+01:00">
+                  11 June 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/06/01/weeknotes-no62.html" class="blog-post__link">
+                  Weeknotes No.62
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-06-01T07:30:00+01:00">
+                  1 June 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/05/15/weeknotes-no61.html" class="blog-post__link">
+                  Weeknotes No.61
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-05-15T07:30:00+01:00">
+                  15 May 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/04/24/weeknotes-no60.html" class="blog-post__link">
+                  Weeknotes No.60
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-04-24T07:30:00+01:00">
+                  24 April 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/03/22/weeknotes-no59.html" class="blog-post__link">
+                  Weeknotes No.59
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-03-22T07:30:00+00:00">
+                  22 March 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/03/01/weeknotes-no58.html" class="blog-post__link">
+                  Weeknotes No.58
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-03-01T07:30:00+00:00">
+                  1 March 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/02/16/weeknotes-no57.html" class="blog-post__link">
+                  Weeknotes No.57
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-02-16T07:30:00+00:00">
+                  16 February 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/02/03/weeknotes-no56.html" class="blog-post__link">
+                  Weeknotes No.56
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-02-03T07:30:00+00:00">
+                  3 February 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2024/01/17/weeknotes-no55.html" class="blog-post__link">
+                  Weeknotes No.55
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2024-01-17T10:30:00+00:00">
+                  17 January 2024
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/12/20/weeknotes-no54.html" class="blog-post__link">
+                  Weeknotes No.54
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-12-20T10:30:00+00:00">
+                  20 December 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/09/29/weeknotes-no53.html" class="blog-post__link">
+                  Weeknotes No.53
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-09-29T10:30:00+01:00">
+                  29 September 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/09/19/weeknotes-no52.html" class="blog-post__link">
+                  Weeknotes No.52
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-09-19T10:30:00+01:00">
+                  19 September 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/09/10/weeknotes-no51.html" class="blog-post__link">
+                  Weeknotes No.51
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-09-10T10:30:00+01:00">
+                  10 September 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/07/17/weeknotes-no50.html" class="blog-post__link">
+                  Weeknotes No.50
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-07-17T10:30:00+01:00">
+                  17 July 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/07/11/weeknotes-no49.html" class="blog-post__link">
+                  Weeknotes No.49
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-07-11T10:30:00+01:00">
+                  11 July 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/07/04/weeknotes-no48.html" class="blog-post__link">
+                  Weeknotes No.48
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-07-04T10:30:00+01:00">
+                  4 July 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/06/21/weeknotes-no47.html" class="blog-post__link">
+                  Weeknotes No.47
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-06-21T10:30:00+01:00">
+                  21 June 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/06/09/weeknotes-no46.html" class="blog-post__link">
+                  Weeknotes No.46
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-06-09T00:30:00+01:00">
+                  9 June 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/05/31/weeknotes-no45.html" class="blog-post__link">
+                  Weeknotes No.45
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-05-31T08:30:00+01:00">
+                  31 May 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/05/22/weeknotes-no44.html" class="blog-post__link">
+                  Weeknotes No.44
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-05-22T08:30:00+01:00">
+                  22 May 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/05/15/weeknotes-no43.html" class="blog-post__link">
+                  Weeknotes No.43
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-05-15T08:30:00+01:00">
+                  15 May 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/05/09/weeknotes-no42.html" class="blog-post__link">
+                  Weeknotes No.42
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-05-09T08:30:00+01:00">
+                  9 May 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/03/31/weeknotes-no41.html" class="blog-post__link">
+                  Weeknotes No.41
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-03-31T10:30:00+01:00">
+                  31 March 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/03/27/weeknotes-no40.html" class="blog-post__link">
+                  Weeknotes No.40
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-03-27T10:35:00+01:00">
+                  27 March 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/03/20/weeknotes-no39.html" class="blog-post__link">
+                  Weeknotes No.39
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-03-20T10:45:00+00:00">
+                  20 March 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/03/13/weeknotes-no38.html" class="blog-post__link">
+                  Weeknotes No.38
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-03-13T10:45:00+00:00">
+                  13 March 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/03/03/weeknotes-no37.html" class="blog-post__link">
+                  Weeknotes No.37
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-03-03T09:20:00+00:00">
+                  3 March 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/02/28/weeknotes-no36.html" class="blog-post__link">
+                  Weeknotes No.36
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-02-28T09:20:00+00:00">
+                  28 February 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/02/17/weeknotes-no35.html" class="blog-post__link">
+                  Weeknotes No.35
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-02-17T09:20:00+00:00">
+                  17 February 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/02/13/weeknotes-no34.html" class="blog-post__link">
+                  Weeknotes No.34
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-02-13T09:20:00+00:00">
+                  13 February 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/02/06/weeknotes-no33.html" class="blog-post__link">
+                  Weeknotes No.33
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-02-06T09:20:00+00:00">
+                  6 February 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2023/01/25/weeknotes-no32.html" class="blog-post__link">
+                  Weeknotes No.32
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2023-01-25T09:20:00+00:00">
+                  25 January 2023
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2021/09/08/weeknotes-no31.html" class="blog-post__link">
+                  Weeknotes No.31
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2021-09-08T09:20:00+01:00">
+                  8 September 2021
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2021/09/02/weeknotes-no30.html" class="blog-post__link">
+                  Weeknotes No.30
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2021-09-02T09:20:00+01:00">
+                  2 September 2021
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2021/08/02/weeknotes-no29.html" class="blog-post__link">
+                  Weeknotes No.29
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2021-08-02T11:33:00+01:00">
+                  2 August 2021
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2021/05/07/life-update-2021.html" class="blog-post__link">
+                  Life update 2021
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2021-05-07T10:00:00+01:00">
+                  7 May 2021
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2021/01/02/cheering-on-the-designer.html" class="blog-post__link">
+                  Cheering the designer
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2021-01-02T10:00:00+00:00">
+                  2 January 2021
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/12/21/weeknotes-no28-copy.html" class="blog-post__link">
+                  Weeknotes No.28
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-12-21T11:33:00+00:00">
+                  21 December 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/10/03/weeknotes-no27.html" class="blog-post__link">
+                  Weeknotes No.27
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-10-03T11:33:00+01:00">
+                  3 October 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/05/07/weeknotes-no26.html" class="blog-post__link">
+                  Weeknotes No.26
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-05-07T11:33:00+01:00">
+                  7 May 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/04/20/living-and-working-at-home.html" class="blog-post__link">
+                  Living (and working) at home
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-04-20T09:00:00+01:00">
+                  20 April 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/03/19/what-to-look-for-in-a-mentor.html" class="blog-post__link">
+                  What to look for in a mentor
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-03-19T10:00:00+00:00">
+                  19 March 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/03/09/weeknotes-no25.html" class="blog-post__link">
+                  Weeknotes No.25
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-03-09T19:00:00+00:00">
+                  9 March 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/03/02/weeknotes-no24.html" class="blog-post__link">
+                  Weeknotes No.24
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-03-02T21:00:00+00:00">
+                  2 March 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/02/25/giving-the-power-back.html" class="blog-post__link">
+                  Giving the power back
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-02-25T21:00:00+00:00">
+                  25 February 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/02/04/celebrating-the-wins.html" class="blog-post__link">
+                  Celebrating the wins
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-02-04T21:00:00+00:00">
+                  4 February 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/01/29/weeknotes-no23.html" class="blog-post__link">
+                  Weeknotes No.23
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-01-29T21:23:00+00:00">
+                  29 January 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/01/25/weeknotes-no22.html" class="blog-post__link">
+                  Weeknotes No.22
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-01-25T10:00:00+00:00">
+                  25 January 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/01/15/weeknotes-no21.html" class="blog-post__link">
+                  Weeknotes No.21
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-01-15T21:00:00+00:00">
+                  15 January 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2020/01/09/weeknotes-no20-the-2019-review.html" class="blog-post__link">
+                  Weeknotes No.20 - the 2019 review
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2020-01-09T21:00:00+00:00">
+                  9 January 2020
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/11/05/weeknotes-no19.html" class="blog-post__link">
+                  Weeknotes No.19
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-11-05T21:00:00+00:00">
+                  5 November 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/24/ego-or-self-esteem.html" class="blog-post__link">
+                  Ego or Self Esteem?
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-24T21:20:00+01:00">
+                  24 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/18/weeknotes-no18.html" class="blog-post__link">
+                  Weeknotes No.18
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-18T09:56:00+01:00">
+                  18 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/14/weeknotes-no17.html" class="blog-post__link">
+                  Weeknotes No.17
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-14T19:56:00+01:00">
+                  14 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/08/perfecting-the-pitch.html" class="blog-post__link">
+                  Perfecting the pitch
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-08T22:41:00+01:00">
+                  8 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/08/weeknotes-no16.html" class="blog-post__link">
+                  Weeknotes No.16
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-08T21:08:00+01:00">
+                  8 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/03/weeknotes-no15.html" class="blog-post__link">
+                  Weeknotes No.15
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-03T21:08:00+01:00">
+                  3 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/10/02/weeknotes-no14.html" class="blog-post__link">
+                  Weeknotes No.14
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-10-02T21:14:00+01:00">
+                  2 October 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/09/22/breaking-confidence.html" class="blog-post__link">
+                  Breaking Confidence
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-09-22T12:04:00+01:00">
+                  22 September 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/09/16/weeknotes-no13.html" class="blog-post__link">
+                  Weeknotes No.13
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-09-16T21:08:00+01:00">
+                  16 September 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/09/04/weeknotes-no11.html" class="blog-post__link">
+                  Weeknotes No.12
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-09-04T20:32:00+01:00">
+                  4 September 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/09/04/weeknotes-no12.html" class="blog-post__link">
+                  Weeknotes No.12
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-09-04T18:00:00+01:00">
+                  4 September 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/08/27/weeknotes-no10.html" class="blog-post__link">
+                  Weeknotes No.10
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-08-27T18:00:00+01:00">
+                  27 August 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/08/25/be-a-troublemaker.html" class="blog-post__link">
+                  Be a troublemaker
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-08-25T08:22:00+01:00">
+                  25 August 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/08/20/weeknotes-no9.html" class="blog-post__link">
+                  Weeknotes No.9
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-08-20T18:00:00+01:00">
+                  20 August 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/08/12/weeknotes-no8.html" class="blog-post__link">
+                  Weeknotes No.8
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-08-12T19:00:00+01:00">
+                  12 August 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/08/07/weeknotes-no7.html" class="blog-post__link">
+                  Weeknotes No.7
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-08-07T19:00:00+01:00">
+                  7 August 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/08/04/having-a-wobble.html" class="blog-post__link">
+                  Having a wobble
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-08-04T20:05:00+01:00">
+                  4 August 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/07/29/weeknotes-no6.html" class="blog-post__link">
+                  Weeknotes No.6
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-07-29T19:00:00+01:00">
+                  29 July 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/07/23/weeknotes-no5.html" class="blog-post__link">
+                  Weeknotes No.5
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-07-23T11:10:00+01:00">
+                  23 July 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/07/17/things-learned-in-first-month-atDWP.html" class="blog-post__link">
+                  Things I’ve learned in my first month at DWP
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-07-17T10:30:00+01:00">
+                  17 July 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/07/15/weeknotes-no4.html" class="blog-post__link">
+                  Weeknotes No.4
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-07-15T11:10:00+01:00">
+                  15 July 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/06/30/weeknotes-no3.html" class="blog-post__link">
+                  Weeknotes No.3
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-06-30T18:38:00+01:00">
+                  30 June 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/06/24/weeknotes-no2.html" class="blog-post__link">
+                  Weeknotes No.2
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-06-24T21:02:00+01:00">
+                  24 June 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/06/16/weeknotes-no1.html" class="blog-post__link">
+                  Weeknotes No.1
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-06-16T11:10:00+01:00">
+                  16 June 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2019/06/14/the-next-chapter.html" class="blog-post__link">
+                  The Next Chapter
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2019-06-14T10:30:00+01:00">
+                  14 June 2019
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2018/04/02/leaving-front-end-behind.html" class="blog-post__link">
+                  Leaving front end behind
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2018-04-02T10:30:00+01:00">
+                  2 April 2018
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2018/03/16/designishard.html" class="blog-post__link">
+                  When Design is Design
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2018-03-16T20:58:00+00:00">
+                  16 March 2018
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2017/01/22/hustling-no-thanks.html" class="blog-post__link">
+                  Hustling, No Thanks
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2017-01-22T09:30:00+00:00">
+                  22 January 2017
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2016/10/27/jobtitles.html" class="blog-post__link">
+                  Job Titles – The Who, What And Why?
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2016-10-27T10:30:00+01:00">
+                  27 October 2016
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2016/07/17/divide-between-frontend-backend.html" class="blog-post__link">
+                  Fixing The Divide Between Front-End Developer And Back-End Developer
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2016-07-17T10:30:00+01:00">
+                  17 July 2016
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2016/05/07/Do-You-Have-A-Snorkel.html" class="blog-post__link">
+                  Do You Have A Snorkel?
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2016-05-07T10:30:00+01:00">
+                  7 May 2016
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2016/04/18/im-a-workaholic.html" class="blog-post__link">
+                  Im Often Told That I’m A Workaholic
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2016-04-18T13:30:00+01:00">
+                  18 April 2016
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="/2016/03/01/inspiration.html" class="blog-post__link">
+                  Who, Over The Years Has Inspired/Inspires You?
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="2016-03-01T10:30:00+00:00">
+                  1 March 2016
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        
+
+      </ul>
+
+    </div>
+  </section>
+
+</main>
     
 
 </article>
 
 
     <footer class="site-footer">
+
   <div class="site-footer__inner">
-    <div class="site-footer__contact">
-      <p>
-        Email address<br>
-        <a href="mailto:hello@michaelcattell.com">hello@michaelcattell.com</a>
-      </p>
 
-      <p>
-        Phone number<br>
-        <a href="tel:+447463966691">+44 (0)7463966691</a>
-      </p>
+    <!-- FOOTER INTRO -->
+    <div class="site-footer__intro">
 
-      <p>
-        Copyright © 2016 Michael Cattell Ltd. All rights reserved.<br>
-        Registered in England &amp; Wales.
-      </p>
+      <h2>
+        Got a messy digital problem?<br>
+        I like those.
+      </h2>
 
-      <p>
-        <a href="https://www.linkedin.com/in/michaelcattell/">LinkedIn</a>
-      </p>
+      <a
+        class="site-footer__email"
+        href="mailto:hello@michaelcattell.com">
+        hello@michaelcattell.com →
+      </a>
+
     </div>
 
-    <div class="site-footer__currently">
-      <p><strong>Currently</strong></p>
-      <p>
-        Building: Bobbin &amp; Bumble<br>
-        Listening: Spotify<br>
-        Playing: Skyrim (Nintendo Switch 2)
-      </p>
-    </div>
 
-    <p class="site-footer__strapline">
-      Providing web design, front-end development and support to all businesses, small or large — all designed &amp; built by <a href="/">Michael Cattell Limited</a>.
+    <!-- FOOTER LINKS -->
+    <div class="site-footer__grid">
+
+      <div class="site-footer__column">
+        <p class="site-footer__label">Find me</p>
+
+        <ul>
+          <li>
+            <a href="mailto:hello@michaelcattell.com">Email</a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/michaelcattell/"
+              target="_blank"
+              rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </li>
+
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="site-footer__column">
+        <p class="site-footer__label">More Mikey</p>
+
+        <ul>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+
+          <li>
+            <a href="/all-posts.html">Writing</a>
+          </li>
+
+          <li>
+            <a
+              href="https://open.spotify.com/show/3MUWTT4LPvt8xFaQdWTT4l?si=836ba51135f8495d"
+              target="_blank"
+              rel="noopener noreferrer">
+              1 Pixel Out
+            </a>
+          </li>
+        </ul>
+      </div>
+
+  <div class="site-footer__column site-footer__currently">
+    <p class="site-footer__label">Currently</p>
+
+    <p>
+      Designing complicated government things.<br>
+      Helping grow Bobbin &amp; Bumble.<br>
+      Talking design on 1 Pixel Out.<br>
+      Collecting far too many retro games.<br>
+      Probably drinking Pepsi Max.
     </p>
   </div>
+
+    </div>
+
+
+    <!-- FOOTER BOTTOM -->
+    <div class="site-footer__bottom">
+
+      <p>
+        © 2026 Michael Cattell Ltd.
+      </p>
+
+      <p>
+        Yorkshire, UK
+      </p>
+
+    </div>
+
+  </div>
+
 </footer>
     
   </body>

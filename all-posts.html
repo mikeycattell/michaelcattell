@@ -1,31 +1,63 @@
 ---
 layout: index-page
-title: Blog
-excerpt: Mikey Cattell is a multi-disciplinary product and interaction designer based in Leeds. 
+title: Writing on Product Design, Leadership & Digital Delivery
+description: Notes on product design, leadership, research, systems and the realities of making digital services work.
 ---
-<article role="article"></article>
-<div class="wrapper">
 
-  <section>
-    <div class="wrapper">
-        <div class="marginbottom--xxxl"></div>
-        <div class="grid-four-fifths">
-            <h1 class="ralph">Latest posts</h1>
-        
-        <div class="marginbottom--xxxl"></div>
+<main id="main-content" class="blog-page">
 
-            <ul class="blogposts">
-                {% for post in site.posts %}
-                <li>
-                    
-                        <span class="workingheader"><a class="post-link" href="{{ post.url | prepend: site.baseurl.blog }}">{{ post.title }}</a></span><br>
-                        <span class="page-meta">{{ post.date | date: "%-d %B %Y" }}</span>
-                    
-                </li>
-                {% endfor %}
-            </ul>
-          </div>
-          </div>  
-        </section>            
+  <section class="blog-hero" aria-labelledby="blog-title">
+    <div class="blog-container blog-hero__inner">
 
-</article>
+      <h1 id="blog-title">
+        Writing.
+      </h1>
+
+      <p class="blog-hero__lead">
+        Notes on product design, leadership, research, systems and the realities of making digital services work.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="blog-list" aria-labelledby="latest-posts-title">
+    <div class="blog-container">
+
+      <div class="blog-list__intro">
+        <h2 id="latest-posts-title">
+          Latest posts.
+        </h2>
+      </div>
+
+      <ul class="blog-posts">
+
+        {% for post in site.posts %}
+
+          <li class="blog-post">
+
+            <article class="blog-post__item">
+
+              <h3 class="blog-post__title">
+                <a href="{{ post.url | relative_url }}" class="blog-post__link">
+                  {{ post.title }}
+                </a>
+              </h3>
+
+              <p class="blog-post__date">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                  {{ post.date | date: "%-d %B %Y" }}
+                </time>
+              </p>
+
+            </article>
+
+          </li>
+
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </section>
+
+</main>

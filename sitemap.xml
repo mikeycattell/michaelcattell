@@ -1,0 +1,77 @@
+---
+layout: null
+---
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main pages -->
+  <url>
+    <loc>https://michaelcattell.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/work.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/all-posts.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/contact.html</loc>
+  </url>
+
+
+  <!-- Featured work -->
+  <url>
+    <loc>https://michaelcattell.com/hmrc-security-gateway.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/fca-digital-delivery-foundations.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/astrazeneca-enterprise-ai.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/bobbin-and-bumble-growth.html</loc>
+  </url>
+
+
+  <!-- More case studies -->
+  <url>
+    <loc>https://michaelcattell.com/sky-super-6.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/nhs-reverification.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/dwp-benefitfraud.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/dwp-designsystem.html</loc>
+  </url>
+
+  <url>
+    <loc>https://michaelcattell.com/sky-fantasy-football.html</loc>
+  </url>
+
+
+  <!-- Blog posts -->
+  {% for post in site.posts %}
+  <url>
+    <loc>https://michaelcattell.com{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+  {% endfor %}
+
+</urlset>

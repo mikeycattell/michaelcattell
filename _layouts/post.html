@@ -1,44 +1,63 @@
 ---
-layout: default-post
+layout: index-page
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<main id="main-content" class="post-page">
 
-  <div class="wrapper">
-    <div class="page-content">
-      <div class="page-header">
+  <article
+    class="post"
+    itemscope
+    itemtype="https://schema.org/BlogPosting"
+  >
 
-        <time datetime="{{ page.date | date_to_xmlschema }}" class="page-meta">{{ page.date | date_to_long_string }}</time>
-        <h1 class="ralph">{{ page.title }}</h1>
+    <header class="post-header">
+      <div class="post-container">
+
+        <time
+          datetime="{{ page.date | date_to_xmlschema }}"
+          class="post-meta"
+          itemprop="datePublished"
+        >
+          {{ page.date | date: "%-d %B %Y" }}
+        </time>
+
+        <h1 class="post-title" itemprop="headline">
+          {{ page.title }}
+        </h1>
 
       </div>
-  
- 
-  {{ content }}
+    </header>
 
-  <hr>
+    <div class="post-container">
 
-
-
-  <div class="CrossPageNavigation">
-    <div class="grid-half col">
-      <div class="CrossPageNavigationPrevious">
-        {% if page.previous.url %}
-        <strong>&larr; Previous post</strong><br />
-          <a href="{{page.previous.url}}">{{page.previous.title}}</a>
-        {% endif %}
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
       </div>
+
+      <nav class="post-navigation" aria-label="Blog post navigation">
+
+        <div class="post-navigation__previous">
+          {% if page.previous.url %}
+            <span>← Previous post</span>
+            <a href="{{ page.previous.url | relative_url }}">
+              {{ page.previous.title }}
+            </a>
+          {% endif %}
+        </div>
+
+        <div class="post-navigation__next">
+          {% if page.next.url %}
+            <span>Next post →</span>
+            <a href="{{ page.next.url | relative_url }}">
+              {{ page.next.title }}
+            </a>
+          {% endif %}
+        </div>
+
+      </nav>
+
     </div>
-    <div class="grid-half">
-      <div class="CrossPageNavigationNext">
-        {% if page.next.url %}
-        <strong>Next post &rarr;</strong><br />
-          <a href="{{page.next.url}}">{{page.next.title}}</a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
 
-</div>
-</div>
-</article>
+  </article>
+
+</main>
